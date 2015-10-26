@@ -17,7 +17,7 @@ outset of the annotation project and iteratively refined throughout
 the construction of the treebank.  . For more information, see the
 references below.
 
-# DATA SPLITS
+## DATA SPLITS
 
 In creating the data splits, care has been taken to preserve
 contiguous texts in the different splits and also to keep a fair
@@ -63,7 +63,7 @@ Test data (1939 sentences, 26 individual files):
 - st005\_0003 -- st005\_0004 (2 files)
 
 
-# BASIC STATISTICS
+## BASIC STATISTICS
 
 Tree count:  20045
 
@@ -83,14 +83,14 @@ Category=value feature pairs: 31
 
 # SYNTAX
 
-# REFERENCES
+## REFERENCES
 
 Solberg, P.E., Skjærholt, A., Øvrelid, L., Hagen, K. and Johannessen,
 J.B. 2014."The Norwegian Dependency Treebank", Proceedings of LREC 2014,
 Reykjavik
 
 
-Documentation status: stub
+Documentation status: incomplete
 Data source: automatic
 Data available since: UD v1.2
 License: CC BY-SA
