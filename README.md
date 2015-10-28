@@ -90,7 +90,7 @@ J.B. 2014."The Norwegian Dependency Treebank", Proceedings of LREC 2014,
 Reykjavik
 
 
-Documentation status: incomplete
+Documentation status: partial
 Data source: automatic
 Data available since: UD v1.2
 License: CC BY-SA
