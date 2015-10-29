@@ -1531,7 +1531,7 @@
 4	på	på	ADP	_	_	10	case	_	_
 5	hvilket	hvilken	DET	_	Gender=Neut|Number=Sing|PronType=Int	6	det	_	_
 6	tidspunkt	tidspunkt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	nsubj	_	_
-7	som	som	PRON	_	_	10	dobj	_	_
+7	som	som	PRON	_	_	10	nmod	_	_
 8	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	_
 9	mest	mye	ADJ	_	Definite=Ind|Degree=Sup	10	nmod	_	_
 10	gunstig	gunstig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	advcl	_	_
@@ -2254,7 +2254,7 @@
 4	jakten	jakt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	_
 5	på	på	ADP	_	_	9	case	_	_
 6	hva	hva	PRON	_	PronType=Int	9	nsubj	_	_
-7	som	som	PRON	_	_	9	dobj	_	_
+7	som	som	PRON	_	_	9	nmod	_	_
 8	egentlig	egentlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	nmod	_	_
 9	skjedde	skje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
 10	i	i	ADP	_	_	11	case	_	_
@@ -2823,7 +2823,7 @@
 15	for	for	ADP	_	_	16	case	_	_
 16	eksempel	eksempel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	19	nmod	_	_
 17	hva	hva	PRON	_	PronType=Int	19	nsubj	_	_
-18	som	som	PRON	_	_	19	dobj	_	_
+18	som	som	PRON	_	_	19	nmod	_	_
 19	skjedde	skje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	appos	_	_
 20	rett	rett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	21	nmod	_	_
 21	før	før	ADP	_	_	19	compound:prt	_	_
@@ -3795,7 +3795,7 @@
 4	teorier	teori	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	nsubj	_	_
 5	om	om	ADP	_	_	10	case	_	_
 6	hva	hva	PRON	_	PronType=Int	10	nsubj	_	_
-7	som	som	PRON	_	_	10	dobj	_	_
+7	som	som	PRON	_	_	10	nmod	_	_
 8	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	_
 9	ha	ha	AUX	_	VerbForm=Inf	10	aux	_	_
 10	skjedd	skje	VERB	_	VerbForm=Part	4	acl:relcl	_	_
@@ -6137,7 +6137,7 @@
 
 1	Han	han	PRON	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubjpass	_	_
 2	,	$,	PUNCT	_	_	1	punct	_	_
-3	som	som	PRON	_	_	7	dobj	_	_
+3	som	som	PRON	_	_	7	nmod	_	_
 4	barna	barn	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	7	nsubj	_	_
 5	alltid	alltid	ADV	_	_	7	advmod	_	_
 6	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	_
@@ -7961,7 +7961,7 @@
 13	en	en	DET	_	Gender=Masc|Number=Sing	14	det	_	_
 14	boks	boks	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	det	_	_
 15	Fortodol	Fortodol	PROPN	_	_	12	dobj	_	_
-16	som	som	PRON	_	_	19	dobj	_	_
+16	som	som	PRON	_	_	19	nmod	_	_
 17	Sverre	Sverre	PROPN	_	Gender=Masc	19	nsubj	_	_
 18	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	_
 19	spist	spise	VERB	_	VerbForm=Part	15	acl:relcl	_	_
@@ -9646,7 +9646,7 @@
 11	et	en	DET	_	Gender=Neut|Number=Sing	13	det	_	_
 12	uutforsket	uutforsket	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
 13	område	område	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	_
-14	som	som	PRON	_	_	16	dobj	_	_
+14	som	som	PRON	_	_	16	nmod	_	_
 15	vi	vi	PRON	_	Animacy=Anim|Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	_
 16	vet	vite	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
 17	lite	lite	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	16	nmod	_	_
@@ -13534,7 +13534,7 @@
 11	sidene	side	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	7	dobj	_	_
 12	med	med	ADP	_	_	13	case	_	_
 13	informasjon	informasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	nmod	_	_
-14	som	som	PRON	_	_	17	iobj	_	_
+14	som	som	PRON	_	_	17	nmod	_	_
 15	han	han	PRON	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
 16	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	17	aux	_	_
 17	gått	gå	VERB	_	VerbForm=Part	11	acl:relcl	_	_
@@ -19201,7 +19201,7 @@
 15	opptatt	opptatt	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	conj	_	_
 16	av	av	ADP	_	_	19	case	_	_
 17	hva	hva	PRON	_	PronType=Int	19	nsubj	_	_
-18	som	som	PRON	_	_	19	dobj	_	_
+18	som	som	PRON	_	_	19	nmod	_	_
 19	skjer	skje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	advcl	_	_
 20	på	på	ADP	_	_	21	case	_	_
 21	catwalken	catwalk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	19	nmod	_	_
@@ -20564,7 +20564,7 @@
 15	.	$.	PUNCT	_	_	3	punct	_	_
 
 1	Hva	hva	PRON	_	PronType=Int	4	nsubj	_	_
-2	som	som	PRON	_	_	4	dobj	_	_
+2	som	som	PRON	_	_	4	nmod	_	_
 3	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	inni	inni	ADP	_	_	10	acl:relcl	_	_
 5	,	$,	PUNCT	_	_	4	punct	_	_
@@ -23996,7 +23996,7 @@
 1	Usikkerheten	usikkerhet	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	nsubj	_	_
 2	rundt	rundt	ADP	_	_	6	case	_	_
 3	hva	hva	PRON	_	PronType=Int	6	nsubj	_	_
-4	som	som	PRON	_	_	6	dobj	_	_
+4	som	som	PRON	_	_	6	nmod	_	_
 5	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
 6	bli	bli	VERB	_	VerbForm=Inf	1	acl:relcl	_	_
 7	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
@@ -26276,7 +26276,7 @@
 19	bestemmelser	bestemmelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	24	nsubj	_	_
 20	i	i	ADP	_	_	21	case	_	_
 21	fastlandslovgivningen	fastlandslovgivning	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	19	nmod	_	_
-22	som	som	PRON	_	_	24	dobj	_	_
+22	som	som	PRON	_	_	24	nmod	_	_
 23	ikke	ikke	ADV	_	_	24	neg	_	_
 24	skal	skulle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
 25	eller	eller	CONJ	_	_	24	cc	_	_
@@ -28813,7 +28813,7 @@
 11	styringsrett	styringsrett	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	dobj	_	_
 12	over	over	ADP	_	_	16	case	_	_
 13	hvem	hvem	PRON	_	Animacy=Anim|PronType=Int	16	nsubj	_	_
-14	som	som	PRON	_	_	16	iobj	_	_
+14	som	som	PRON	_	_	16	nmod	_	_
 15	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	_
 16	ha	ha	VERB	_	VerbForm=Inf	11	acl:relcl	_	_
 17	fiskekvotene	fiskekvote	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	16	dobj	_	_
