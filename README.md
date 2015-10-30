@@ -93,6 +93,6 @@ Reykjavik
 Documentation status: partial
 Data source: automatic
 Data available since: UD v1.2
-License: CC BY-SA
+License: CC BY-NC-SA
 Genre: news blog nonfiction 
 Contributors: Øvrelid, Lilja
