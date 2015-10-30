@@ -10,14 +10,14 @@ scheme by Lilja Øvrelid at the University of Oslo.
 NDT contains around 300,000 tokens taken from a variety of genres.
 The treebank texts have been manually annotated for morphosyntactic
 information. The morphological annotation mainly follows mainly
-Oslo-Bergen Tagger (http://tekstlab.uio.no/obt-ny/).  The syntactic
+the [Oslo-Bergen Tagger](http://tekstlab.uio.no/obt-ny/).  The syntactic
 annotation follows, to a large extent, the Norwegian Reference
 Grammar, as well as a dependency annotation scheme formulated at the
 outset of the annotation project and iteratively refined throughout
-the construction of the treebank.  . For more information, see the
+the construction of the treebank. For more information, see the
 references below.
 
-## DATA SPLITS
+### DATA SPLITS
 
 In creating the data splits, care has been taken to preserve
 contiguous texts in the different splits and also to keep a fair
@@ -63,7 +63,7 @@ Test data (1939 sentences, 26 individual files):
 - st005\_0003 -- st005\_0004 (2 files)
 
 
-## BASIC STATISTICS
+### BASIC STATISTICS
 
 Tree count:  20045
 
@@ -77,13 +77,22 @@ POS tags: 17
 
 Category=value feature pairs: 31
 
-# TOKENIZATION
+### TOKENIZATION
+White space always indicates a token boundary and punctuation constitute separate tokens, except:
 
-# MORPHOLOGY
+* numbers with periods, commas or colons, e.g. *1.3*, *0,6*, *10:13*
+* abbreviations, e.g. *f.eks.*, *Carl J. Hambro*
+* URLs, e.g. *http://www.ifi.uio.no*
+The treebank does not contain multiword tokens, but opts for a syntactic analysis of MWEs.
 
-# SYNTAX
+### MORPHOLOGY
 
-## REFERENCES
+### SYNTAX
+
+### REFERENCES
+
+Kinn, Kari, Solberg, P.E. and Pål Kristian Eriksen: "NDT Guidelines
+for Morphological Annotation". National Library Tech Report.
 
 Solberg, P.E., Skjærholt, A., Øvrelid, L., Hagen, K. and Johannessen,
 J.B. 2014."The Norwegian Dependency Treebank", Proceedings of LREC 2014,
