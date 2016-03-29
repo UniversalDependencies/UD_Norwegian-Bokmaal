@@ -4285,7 +4285,7 @@
 23	tok	ta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	acl:relcl	_	_
 24	livet	liv	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	23	dobj	_	_
 25	av	av	ADP	_	_	27	case	_	_
-26	de	de	X	_	_	27	foreign	_	_
+26	de	de	X	_	_	27	name	_	_
 27	Anderer	Anderer	PROPN	_	_	23	nmod	_	_
 28	,	$,	PUNCT	_	_	27	punct	_	_
 29	«	$"	PUNCT	_	_	31	punct	_	_
@@ -9020,7 +9020,7 @@
 27	og	og	CONJ	_	_	24	cc	_	_
 28	Naturli	Naturli	PROPN	_	_	24	conj	_	_
 29	'	$"	PUNCT	_	_	28	name	_	_
-30	vis	vis	X	_	_	28	foreign	_	_
+30	vis	vis	X	_	_	28	name	_	_
 31	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	32	cop	_	_
 32	medlem	medlem	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	12	acl:relcl	_	_
 33	.	$.	PUNCT	_	_	3	punct	_	_
@@ -11264,14 +11264,14 @@
 3	artikkelen	artikkel	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	appos	_	_
 4	Why	Why	PROPN	_	_	1	dobj	_	_
 5	I	I	PROPN	_	_	4	name	_	_
-6	will	will	X	_	_	4	foreign	_	_
-7	never	never	X	_	_	4	foreign	_	_
-8	tell	tell	X	_	_	4	foreign	_	_
-9	my	my	X	_	_	4	foreign	_	_
-10	niece	niece	X	_	_	4	foreign	_	_
-11	she	she	X	_	_	4	foreign	_	_
-12	is	is	X	_	_	4	foreign	_	_
-13	pretty	pretty	X	_	_	4	foreign	_	_
+6	will	will	X	_	_	4	name	_	_
+7	never	never	X	_	_	4	name	_	_
+8	tell	tell	X	_	_	4	name	_	_
+9	my	my	X	_	_	4	name	_	_
+10	niece	niece	X	_	_	4	name	_	_
+11	she	she	X	_	_	4	name	_	_
+12	is	is	X	_	_	4	name	_	_
+13	pretty	pretty	X	_	_	4	name	_	_
 14	hos	hos	ADP	_	_	15	case	_	_
 15	MamaMia	MamaMia	PROPN	_	_	4	nmod	_	_
 16	)	$)	PUNCT	_	_	4	punct	_	_
@@ -12914,7 +12914,7 @@
 5	samtalar	samtalar	X	_	_	2	foreign	_	_
 6	med	med	X	_	_	2	foreign	_	_
 7	barnet	barnet	X	_	_	2	foreign	_	_
-8	,	$,	PUNCT	_	_	2	name	_	_
+8	,	$,	PUNCT	_	_	2	punct	_	_
 9	jf.	jf.	X	_	_	2	foreign	_	_
 10	paragraf	paragraf	X	_	_	2	foreign	_	_
 11	32	32	X	_	_	2	foreign	_	_
@@ -12933,7 +12933,7 @@
 11	å	å	X	_	_	1	foreign	_	_
 12	hjelpe	hjelpe	X	_	_	1	foreign	_	_
 13	seg	seg	X	_	_	1	foreign	_	_
-14	,	$,	PUNCT	_	_	1	name	_	_
+14	,	$,	PUNCT	_	_	1	punct	_	_
 15	eller	eller	X	_	_	1	foreign	_	_
 16	la	la	X	_	_	1	foreign	_	_
 17	ein	ein	X	_	_	1	foreign	_	_
@@ -18468,7 +18468,7 @@
 2	I'm	I'm	X	_	_	0	root	_	_
 3	pushing	pushing	X	_	_	2	foreign	_	_
 4	fifty	fifty	X	_	_	2	foreign	_	_
-5	,	$,	PUNCT	_	_	2	name	_	_
+5	,	$,	PUNCT	_	_	2	punct	_	_
 6	honey	honey	X	_	_	2	foreign	_	_
 7	»	$"	PUNCT	_	_	2	punct	_	_
 8	.	$.	PUNCT	_	_	2	punct	_	_
@@ -19875,7 +19875,7 @@
 9	hovedkontoret	hovedkontor	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	8	dobj	_	_
 10	til	til	ADP	_	_	11	case	_	_
 11	Marks	Marks	PROPN	_	_	9	nmod	_	_
-12	and	and	X	_	_	11	foreign	_	_
+12	and	and	X	_	_	11	name	_	_
 13	Spencer	Spencer	PROPN	_	_	11	name	_	_
 14	.	$.	PUNCT	_	_	4	punct	_	_
 
@@ -20384,11 +20384,11 @@
 1	Elsa	Elsa	PROPN	_	Gender=Fem	2	nsubj	_	_
 2	bytter	bytte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	ut	ut	ADP	_	_	2	compound:prt	_	_
-4	«	$"	PUNCT	_	_	9	name	_	_
-5	I	I	X	_	_	9	foreign	_	_
-6	love	love	X	_	_	9	foreign	_	_
+4	«	$"	PUNCT	_	_	9	punct	_	_
+5	I	I	X	_	_	9	name	_	_
+6	love	love	X	_	_	9	name	_	_
 7	N.Y.	N.Y.	PROPN	_	_	9	name	_	_
-8	»	$"	PUNCT	_	_	9	name	_	_
+8	»	$"	PUNCT	_	_	9	punct	_	_
 9	-T-skjorta	-T-skjorte	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	2	dobj	_	_
 10	med	med	ADP	_	_	11	case	_	_
 11	prinsessekjole	prinsessekjole	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	_
@@ -24532,7 +24532,7 @@
 10	ved	ved	X	_	_	2	foreign	_	_
 11	førre	førre	X	_	_	2	foreign	_	_
 12	val	val	X	_	_	2	foreign	_	_
-13	,	$,	PUNCT	_	_	2	name	_	_
+13	,	$,	PUNCT	_	_	2	punct	_	_
 14	og	og	X	_	_	2	foreign	_	_
 15	eg	eg	X	_	_	2	foreign	_	_
 16	har	har	X	_	_	2	foreign	_	_
@@ -24563,7 +24563,7 @@
 5	røyste	røyste	X	_	_	1	foreign	_	_
 6	på	på	X	_	_	1	foreign	_	_
 7	nett	nett	X	_	_	1	foreign	_	_
-8	,	$,	PUNCT	_	_	1	name	_	_
+8	,	$,	PUNCT	_	_	1	punct	_	_
 9	senkar	senkar	X	_	_	1	foreign	_	_
 10	vonleg	vonleg	X	_	_	1	foreign	_	_
 11	terskelen	terskelen	X	_	_	1	foreign	_	_
@@ -31917,9 +31917,9 @@
 10	og	og	CONJ	_	_	8	cc	_	_
 11	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	16	det	_	_
 12	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	16	amod	_	_
-13	"	$"	PUNCT	_	_	16	name	_	_
+13	"	$"	PUNCT	_	_	16	punct	_	_
 14	Norvegia	Norvegia	PROPN	_	_	16	name	_	_
-15	"	$"	PUNCT	_	_	16	name	_	_
+15	"	$"	PUNCT	_	_	16	punct	_	_
 16	-ekspedisjonen	-ekspedisjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	conj	_	_
 17	plantet	plante	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	csubj	_	_
 18	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	20	det	_	_

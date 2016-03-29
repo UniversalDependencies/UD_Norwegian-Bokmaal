@@ -7450,7 +7450,7 @@
 
 1	Lukten	lukt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	0	root	_	_
 2	av	av	ADP	_	_	4	case	_	_
-3	Irish	Irish	PROPN	_	_	4	name	_	_
+3	Irish	Irish	PROPN	_	_	4	foreign	_	_
 4	stew	stew	X	_	_	1	nmod	_	_
 5	,	$,	PUNCT	_	_	4	punct	_	_
 6	grovt	grov	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
@@ -9372,7 +9372,7 @@
 2	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	til	til	ADP	_	_	4	case	_	_
 4	Museo	Museo	PROPN	_	_	2	nmod	_	_
-5	del	del	X	_	_	4	foreign	_	_
+5	del	del	X	_	_	4	name	_	_
 6	Castello	Castello	PROPN	_	_	4	name	_	_
 7	Sforzesco	Sforzesco	PROPN	_	_	4	name	_	_
 8	i	i	ADP	_	_	9	case	_	_
@@ -14714,7 +14714,7 @@
 1	What	What	X	_	_	0	root	_	_
 2	lies	lies	X	_	_	1	foreign	_	_
 3	beyond	beyond	X	_	_	1	foreign	_	_
-4	,	$,	PUNCT	_	_	1	name	_	_
+4	,	$,	PUNCT	_	_	1	punct	_	_
 5	and	and	X	_	_	1	foreign	_	_
 6	what	what	X	_	_	1	foreign	_	_
 7	lay	lay	X	_	_	1	foreign	_	_
@@ -14733,9 +14733,9 @@
 2	heter	hete	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	«	$"	PUNCT	_	_	4	punct	_	_
 4	The	The	PROPN	_	_	2	xcomp	_	_
-5	spirit	spirit	X	_	_	4	foreign	_	_
-6	carries	carries	X	_	_	4	foreign	_	_
-7	on	on	X	_	_	4	foreign	_	_
+5	spirit	spirit	X	_	_	4	name	_	_
+6	carries	carries	X	_	_	4	name	_	_
+7	on	on	X	_	_	4	name	_	_
 8	»	$"	PUNCT	_	_	4	punct	_	_
 9	.	$.	PUNCT	_	_	2	punct	_	_
 
@@ -15844,10 +15844,10 @@
 2	...	$...	PUNCT	_	_	3	parataxis	_	_
 3	born	born	X	_	_	0	root	_	_
 4	again	again	X	_	_	3	foreign	_	_
-5	,	$,	PUNCT	_	_	3	name	_	_
+5	,	$,	PUNCT	_	_	3	punct	_	_
 6	born	born	X	_	_	3	foreign	_	_
 7	again	again	X	_	_	3	foreign	_	_
-8	,	$,	PUNCT	_	_	3	name	_	_
+8	,	$,	PUNCT	_	_	3	punct	_	_
 9	one	one	X	_	_	3	foreign	_	_
 10	day	day	X	_	_	3	foreign	_	_
 11	I	I	X	_	_	3	foreign	_	_
@@ -19762,7 +19762,7 @@
 4	«	$"	PUNCT	_	_	11	punct	_	_
 5	Gjærbägst	Gjærbägst	PROPN	_	_	11	name	_	_
 6	and	and	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	11	name	_	_
-7	the	the	X	_	_	11	foreign	_	_
+7	the	the	X	_	_	11	name	_	_
 8	Homöcidal	Homöcidal	PROPN	_	_	11	name	_	_
 9	Sirupsnipps	Sirupsnipps	PROPN	_	_	11	name	_	_
 10	»	$"	PUNCT	_	_	11	punct	_	_
@@ -20267,9 +20267,9 @@
 3	med	med	ADP	_	_	5	case	_	_
 4	«	$"	PUNCT	_	_	5	punct	_	_
 5	On	On	PROPN	_	_	1	nmod	_	_
-6	the	the	X	_	_	5	foreign	_	_
-7	road	road	X	_	_	5	foreign	_	_
-8	again	again	X	_	_	5	foreign	_	_
+6	the	the	X	_	_	5	name	_	_
+7	road	road	X	_	_	5	name	_	_
+8	again	again	X	_	_	5	name	_	_
 9	»	$"	PUNCT	_	_	5	punct	_	_
 10	?	$?	PUNCT	_	_	1	punct	_	_
 
@@ -20438,8 +20438,8 @@
 6	Blue	Blue	PROPN	_	_	4	dobj	_	_
 7	Eyes	Eyes	PROPN	_	_	6	name	_	_
 8	Crying	Crying	PROPN	_	_	6	name	_	_
-9	in	in	X	_	_	6	foreign	_	_
-10	the	the	X	_	_	6	foreign	_	_
+9	in	in	X	_	_	6	name	_	_
+10	the	the	X	_	_	6	name	_	_
 11	Rain	Rain	PROPN	_	_	6	name	_	_
 12	»	$"	PUNCT	_	_	6	punct	_	_
 13	...	$...	PUNCT	_	_	4	punct	_	_
@@ -21052,8 +21052,8 @@
 31	utforløypa	utforløype	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	33	appos	_	_
 32	«	$"	PUNCT	_	_	33	punct	_	_
 33	Birds	Birds	PROPN	_	_	29	nmod	_	_
-34	of	of	X	_	_	33	foreign	_	_
-35	prey	prey	X	_	_	33	foreign	_	_
+34	of	of	X	_	_	33	name	_	_
+35	prey	prey	X	_	_	33	name	_	_
 36	»	$"	PUNCT	_	_	33	punct	_	_
 37	fredag	fredag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	29	nmod	_	_
 38	.	$.	PUNCT	_	_	7	punct	_	_
@@ -22597,10 +22597,10 @@
 19	anledninger	anledning	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	12	nmod	_	_
 20	.	$.	PUNCT	_	_	3	punct	_	_
 
-1	«	$"	PUNCT	_	_	5	name	_	_
+1	«	$"	PUNCT	_	_	5	punct	_	_
 2	Storm	storme	VERB	_	Mood=Imp|VerbForm=Fin	5	name	_	_
 3	ut	ut	ADP	_	_	5	name	_	_
-4	»	$"	PUNCT	_	_	5	name	_	_
+4	»	$"	PUNCT	_	_	5	punct	_	_
 5	-funksjonen	-funksjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	nsubj	_	_
 6	på	på	ADP	_	_	7	case	_	_
 7	pressekonferansen	pressekonferanse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	_
@@ -22661,9 +22661,9 @@
 1	Som	som	ADP	_	_	7	case	_	_
 2	i	i	ADP	_	_	7	case	_	_
 3	tidligere	tidlig	ADJ	_	Degree=Cmp	7	amod	_	_
-4	«	$"	PUNCT	_	_	7	name	_	_
+4	«	$"	PUNCT	_	_	7	punct	_	_
 5	FM	FM	PROPN	_	_	7	name	_	_
-6	»	$"	PUNCT	_	_	7	name	_	_
+6	»	$"	PUNCT	_	_	7	punct	_	_
 7	-spill	-spill	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	8	nmod	_	_
 8	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	_
@@ -27481,10 +27481,10 @@
 2	En	en	DET	_	Gender=Masc|Number=Sing	3	det	_	_
 3	del	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	nsubj	_	_
 4	av	av	ADP	_	_	10	case	_	_
-5	«	$"	PUNCT	_	_	9	name	_	_
+5	«	$"	PUNCT	_	_	9	punct	_	_
 6	min	min	DET	_	Gender=Masc|Number=Sing|Poss=Yes	9	name	_	_
 7	kamp	kamp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	name	_	_
-8	»	$"	PUNCT	_	_	9	name	_	_
+8	»	$"	PUNCT	_	_	9	punct	_	_
 9	-bøkenes	-bok	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	10	det	_	_
 10	provokasjonsverdi	provokasjonsverdi	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	_
 11	ligger	ligge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -28503,7 +28503,7 @@
 18	fagforening	fagforening	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	19	appos	_	_
 19	Central	Central	PROPN	_	_	14	nmod	_	_
 20	Única	Única	PROPN	_	_	19	name	_	_
-21	de	de	X	_	_	19	foreign	_	_
+21	de	de	X	_	_	19	name	_	_
 22	Trabajadores	Trabajadores	PROPN	_	_	19	name	_	_
 23	(	$(	PUNCT	_	_	24	punct	_	_
 24	CUT	CUT	PROPN	_	_	19	appos	_	_
