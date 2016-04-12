@@ -284,7 +284,7 @@
 18	.	$.	PUNCT	_	_	9	punct	_	_
 
 1	I	i	ADP	_	_	4	case	_	_
-2	diktet	dikt	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	appos	_	_
+2	diktet	dikt	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	nmod	_	_
 3	"	$"	PUNCT	_	_	4	punct	_	_
 4	Om	Om	PROPN	_	_	9	nmod	_	_
 5	å	å	PART	_	_	4	name	_	_
@@ -1070,7 +1070,7 @@
 9	25	25	NUM	_	Number=Plur	10	nummod	_	_
 10	uker	uke	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	6	nmod	_	_
 11	i	i	ADP	_	_	16	case	_	_
-12	mamma	mamma	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	appos	_	_
+12	mamma	mamma	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	nmod	_	_
 13	Therese	Therese	PROPN	_	_	16	det	_	_
 14	Fosholt	Fosholt	PROPN	_	_	13	name	_	_
 15	Moes	Moe	PROPN	_	Case=Gen	13	name	_	_
@@ -1212,7 +1212,7 @@
 21	oss	vi	PRON	_	Animacy=Anim|Case=Acc|Number=Plur|Person=1|PronType=Prs	19	nmod	_	_
 22	,	$,	PUNCT	_	_	3	punct	_	_
 23	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
-24	spesialsykepleier	spesialsykepleier	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	28	appos	_	_
+24	spesialsykepleier	spesialsykepleier	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	28	nmod	_	_
 25	for	for	ADP	_	_	26	case	_	_
 26	barn	barn	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	24	nmod	_	_
 27	,	$,	PUNCT	_	_	26	punct	_	_
@@ -1225,7 +1225,7 @@
 
 1	Sammen	sammen	ADV	_	_	4	advmod	_	_
 2	med	med	ADP	_	_	4	case	_	_
-3	intensivsykepleier	intensivsykepleier	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	appos	_	_
+3	intensivsykepleier	intensivsykepleier	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	_
 4	Solfrid	Solfrid	PROPN	_	_	8	nmod	_	_
 5	Steinnes	Steinnes	PROPN	_	_	4	name	_	_
 6	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	_
@@ -1575,7 +1575,7 @@
 16	for	for	ADP	_	_	15	compound:prt	_	_
 17	.	$.	PUNCT	_	_	3	punct	_	_
 
-1	Mamma	mamma	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	appos	_	_
+1	Mamma	mamma	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	_
 2	Therese	Therese	PROPN	_	_	6	nsubj	_	_
 3	Fosholt	Fosholt	PROPN	_	_	2	name	_	_
 4	Moe	Moe	PROPN	_	_	2	name	_	_
@@ -1818,7 +1818,7 @@
 24	metoden	metode	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	20	dobj	_	_
 25	,	$,	PUNCT	_	_	2	punct	_	_
 26	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
-27	avdelingssjef	avdelingssjef	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	28	appos	_	_
+27	avdelingssjef	avdelingssjef	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	28	nmod	_	_
 28	Kari	Kari	PROPN	_	Gender=Fem	26	nsubj	_	_
 29	Lysaker	Lysaker	PROPN	_	_	28	name	_	_
 30	ved	ved	ADP	_	_	31	case	_	_
@@ -2183,7 +2183,7 @@
 33	dagen	dag	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	31	nmod	_	_
 34	.	$.	PUNCT	_	_	2	punct	_	_
 
-1	Reiser	reise	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	9	appos	_	_
+1	Reiser	reise	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	9	nmod	_	_
 2	,	$,	PUNCT	_	_	1	punct	_	_
 3	hans	hans	DET	_	Gender=Fem|Number=Sing|Poss=Yes	5	nmod	_	_
 4	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	5	amod	_	_
@@ -2231,7 +2231,7 @@
 1	20.	20.	ADJ	_	Number=Plur	2	amod	_	_
 2	februar	februar	NOUN	_	Gender=Masc	3	nmod	_	_
 3	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	filmen	film	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	appos	_	_
+4	filmen	film	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	_
 5	Jakten	Jakten	PROPN	_	_	3	nsubj	_	_
 6	på	på	ADP	_	_	5	name	_	_
 7	hukommelsen	hukommelse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	name	_	_
@@ -2758,7 +2758,7 @@
 8	ferdigheter	ferdighet	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	5	conj	_	_
 9	.	$.	PUNCT	_	_	4	punct	_	_
 
-1	Forsker	forsker	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	appos	_	_
+1	Forsker	forsker	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	_
 2	i	i	ADP	_	_	3	case	_	_
 3	psykolog	psykolog	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	_
 4	Pål	Pål	PROPN	_	Gender=Masc	7	nsubj	_	_
@@ -3115,7 +3115,7 @@
 20	til	til	ADP	_	_	24	case	_	_
 21	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	23	det	_	_
 22	lille	liten	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	23	amod	_	_
-23	landsbyen	landsby	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	24	appos	_	_
+23	landsbyen	landsby	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	24	nmod	_	_
 24	Zhang	Zhang	PROPN	_	_	18	appos	_	_
 25	Jia	Jia	PROPN	_	_	24	name	_	_
 26	Jie	Jie	PROPN	_	_	24	name	_	_
@@ -3707,10 +3707,10 @@
 4	å	å	PART	_	_	5	mark	_	_
 5	byge	bygge	VERB	_	VerbForm=Inf	2	xcomp	_	_
 6	opp	opp	ADP	_	_	5	compound:prt	_	_
-7	kulturhuset	kulturhus	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	8	appos	_	_
+7	kulturhuset	kulturhus	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	8	nmod	_	_
 8	eVohjemme	eVohjeMme	PROPN	_	_	5	dobj	_	_
 9	og	og	CONJ	_	_	8	cc	_	_
-10	kulturorganisasjonen	kulturorganisasjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	appos	_	_
+10	kulturorganisasjonen	kulturorganisasjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	_
 11	Cosmic	Cosmic	PROPN	_	_	8	conj	_	_
 12	Wind	Wind	PROPN	_	_	11	name	_	_
 13	Cultural	Cultural	PROPN	_	_	11	name	_	_
@@ -3841,7 +3841,7 @@
 7	årsaksforklaring	årsaksforklaring	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	dobj	_	_
 8	selv	selv	ADV	_	_	9	advmod	_	_
 9	om	om	SCONJ	_	_	15	mark	_	_
-10	regissør	regissør	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	appos	_	_
+10	regissør	regissør	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	nmod	_	_
 11	Thomas	Thomas	PROPN	_	Gender=Masc	15	nsubj	_	_
 12	Lien	Lien	PROPN	_	_	11	name	_	_
 13	med	med	ADP	_	_	14	case	_	_
@@ -4075,7 +4075,7 @@
 7	over	over	ADP	_	_	12	case	_	_
 8	våre	vår	DET	_	Number=Plur|Poss=Yes	10	nmod	_	_
 9	fremste	fremre	ADJ	_	Definite=Def|Degree=Sup	10	amod	_	_
-10	oversettere	oversetter	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	appos	_	_
+10	oversettere	oversetter	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	nmod	_	_
 11	,	$,	PUNCT	_	_	10	punct	_	_
 12	Kari	Kari	PROPN	_	Gender=Fem	6	nmod	_	_
 13	og	og	CONJ	_	_	12	cc	_	_
@@ -4125,7 +4125,7 @@
 15	holocaustmarerittet	holocaustmareritt	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	nmod	_	_
 16	.	$.	PUNCT	_	_	11	punct	_	_
 
-1	Gatedemonstranten	gatedemonstrant	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	appos	_	_
+1	Gatedemonstranten	gatedemonstrant	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	_
 2	Wighert	Wighert	PROPN	_	_	10	nsubj	_	_
 3	Ruppach	Ruppach	PROPN	_	_	2	name	_	_
 4	som	som	PRON	_	_	5	nsubj	_	_
@@ -4136,7 +4136,7 @@
 9	,	$,	PUNCT	_	_	5	punct	_	_
 10	minner	minne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	om	om	ADP	_	_	15	case	_	_
-12	SA-mannen	SA-mann	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	appos	_	_
+12	SA-mannen	SA-mann	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	_
 13	Horst	Horst	PROPN	_	_	15	det	_	_
 14	Wessels	Wessel	PROPN	_	Case=Gen	13	name	_	_
 15	skjebne	skjebne	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	nmod	_	_
@@ -4711,7 +4711,7 @@
 23	trusselmeldingen	trusselmelding	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	21	dobj	_	_
 24	,	$,	PUNCT	_	_	4	punct	_	_
 25	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
-26	visepolitimester	visepolitimester	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	27	appos	_	_
+26	visepolitimester	visepolitimester	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	27	nmod	_	_
 27	Thor	Thor	PROPN	_	Gender=Masc	25	nsubj	_	_
 28	Kleppen	Kleppen	PROPN	_	_	27	name	_	_
 29	til	til	ADP	_	_	30	case	_	_
@@ -4849,7 +4849,7 @@
 11	skolen	skole	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	dobj	_	_
 12	,	$,	PUNCT	_	_	2	punct	_	_
 13	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
-14	politiinspektør	politiinspektør	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	appos	_	_
+14	politiinspektør	politiinspektør	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	nmod	_	_
 15	Heidi	Heidi	PROPN	_	Gender=Fem	13	nsubj	_	_
 16	L.	L.	PROPN	_	_	15	name	_	_
 17	Arneberg	Arneberg	PROPN	_	_	15	name	_	_
@@ -4982,7 +4982,7 @@
 17	minutter	minutt	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	12	nmod	_	_
 18	,	$,	PUNCT	_	_	3	punct	_	_
 19	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
-20	rektor	rektor	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	23	appos	_	_
+20	rektor	rektor	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	23	nmod	_	_
 21	ved	ved	ADP	_	_	22	case	_	_
 22	skolen	skole	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	20	nmod	_	_
 23	John	John	PROPN	_	Gender=Masc	19	nsubj	_	_
@@ -5088,7 +5088,7 @@
 17	Aftenposten.no	Aftenposten.no	PROPN	_	_	14	nmod	_	_
 18	|	$|	SYM	_	_	4	punct	_	_
 
-1	Elevrådsleder	elevrådsleder	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	appos	_	_
+1	Elevrådsleder	elevrådsleder	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	_
 2	Christian	Christian	PROPN	_	Gender=Masc	5	nsubj	_	_
 3	Fredrik	Fredrik	PROPN	_	Gender=Masc	2	name	_	_
 4	Leknes-Kilmork	Leknes-Kilmork	PROPN	_	_	2	name	_	_
@@ -5185,7 +5185,7 @@
 5	også	også	ADV	_	_	12	nmod	_	_
 6	en	en	DET	_	Gender=Masc|Number=Sing	8	det	_	_
 7	annen	annen	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
-8	skole	skole	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	appos	_	_
+8	skole	skole	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	nmod	_	_
 9	i	i	ADP	_	_	10	case	_	_
 10	byen	by	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	_
 11	,	$,	PUNCT	_	_	10	punct	_	_
@@ -5552,7 +5552,7 @@
 15	Os	Os	PROPN	_	_	13	nmod	_	_
 16	,	$,	PUNCT	_	_	3	punct	_	_
 17	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
-18	politiførstebetjent	politiførstebetjent	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	19	appos	_	_
+18	politiførstebetjent	politiførstebetjent	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	19	nmod	_	_
 19	Audun	Audun	PROPN	_	Gender=Masc	17	nsubj	_	_
 20	Hadler-Olsen	Hadler-Olsen	PROPN	_	_	19	name	_	_
 21	ved	ved	ADP	_	_	22	case	_	_
@@ -5808,7 +5808,7 @@
 8	GHB	GHB	PROPN	_	_	4	nmod	_	_
 9	.	$.	PUNCT	_	_	2	punct	_	_
 
-1	Kunststudent	kunststudent	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	appos	_	_
+1	Kunststudent	kunststudent	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	_
 2	Endresen	Endresen	PROPN	_	_	3	nsubj	_	_
 3	tror	tro	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	overdosene	overdose	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	5	nsubj	_	_
@@ -6339,7 +6339,7 @@
 13	en	en	DET	_	Gender=Masc|Number=Sing	14	det	_	_
 14	boks	boks	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	dobj	_	_
 15	med	med	ADP	_	_	17	case	_	_
-16	kosttilskuddet	kosttilskudd	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	17	appos	_	_
+16	kosttilskuddet	kosttilskudd	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	17	nmod	_	_
 17	Fortodol	Fortodol	PROPN	_	_	14	nmod	_	_
 18	.	$.	PUNCT	_	_	9	punct	_	_
 
@@ -6423,7 +6423,7 @@
 
 1	Men	men	CONJ	_	_	14	cc	_	_
 2	da	da	SCONJ	_	_	5	mark	_	_
-3	datteren	datter	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	appos	_	_
+3	datteren	datter	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	_
 4	Hanne	Hanne	PROPN	_	Gender=Fem	5	nsubj	_	_
 5	ser	se	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	advcl	_	_
 6	igjen	igjen	ADV	_	_	5	advmod	_	_
@@ -7073,7 +7073,7 @@
 7	analyse	analyse	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	dobj	_	_
 8	,	$,	PUNCT	_	_	5	punct	_	_
 9	sa	si	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	_
-10	rådgiver	rådgiver	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	appos	_	_
+10	rådgiver	rådgiver	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	nmod	_	_
 11	Anne	Anne	PROPN	_	Gender=Fem	9	nsubj	_	_
 12	Kristi	Kristi	PROPN	_	_	11	name	_	_
 13	Sommer	Sommer	PROPN	_	_	11	name	_	_
@@ -7315,7 +7315,7 @@
 6	selv	selv	ADV	_	_	7	advmod	_	_
 7	om	om	SCONJ	_	_	9	mark	_	_
 8	du	du	PRON	_	Animacy=Anim|Case=Nom|Number=Sing|Person=2|PronType=Prs	9	nsubj	_	_
-9	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	appos	_	_
+9	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	nmod	_	_
 10	et	en	DET	_	Gender=Neut|Number=Sing	11	det	_	_
 11	kontrollapparat	kontrollapparat	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	dobj	_	_
 12	,	$,	PUNCT	_	_	9	punct	_	_
@@ -7826,7 +7826,7 @@
 16	på	på	ADP	_	_	17	case	_	_
 17	befaring	befaring	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	15	nmod	_	_
 18	til	til	ADP	_	_	21	case	_	_
-19	leverandøren	leverandør	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	21	appos	_	_
+19	leverandøren	leverandør	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	21	nmod	_	_
 20	,	$,	PUNCT	_	_	19	punct	_	_
 21	Bringwell	Bringwell	PROPN	_	_	15	nmod	_	_
 22	Norge	Norge	PROPN	_	_	21	name	_	_
@@ -7850,7 +7850,7 @@
 1	Mattilsynet	Mattilsynet	PROPN	_	_	2	nsubj	_	_
 2	oversender	oversende	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	en	en	DET	_	Gender=Masc|Number=Sing	4	det	_	_
-4	boks	boks	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	appos	_	_
+4	boks	boks	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	_
 5	Fortodol	Fortodol	PROPN	_	_	2	dobj	_	_
 6	til	til	ADP	_	_	7	case	_	_
 7	legemiddelmyndighetene	legemiddelmyndighet	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	2	nmod	_	_
@@ -7919,7 +7919,7 @@
 2	Sverres	Sverre	PROPN	_	Case=Gen|Gender=Masc	3	det	_	_
 3	død	død	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	_
 4	føler	føle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	familien	familie	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	appos	_	_
+5	familien	familie	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	_
 6	Murud	Murud	PROPN	_	_	4	nsubj	_	_
 7	at	at	SCONJ	_	_	11	mark	_	_
 8	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
@@ -8203,7 +8203,7 @@
 27	kreft	kreft	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	26	dobj	_	_
 28	.	$.	PUNCT	_	_	2	punct	_	_
 
-1	Dr.	dr.	NOUN	_	_	2	appos	_	_
+1	Dr.	dr.	NOUN	_	_	2	nmod	_	_
 2	Donsbach	Donsbach	PROPN	_	_	7	nsubj	_	_
 3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	_
 4	i	i	ADP	_	_	6	case	_	_
@@ -8259,7 +8259,7 @@
 6	:	$:	PUNCT	_	_	4	punct	_	_
 
 1	Hvis	hvis	SCONJ	_	_	6	mark	_	_
-2	Dr.	dr.	NOUN	_	_	3	appos	_	_
+2	Dr.	dr.	NOUN	_	_	3	nmod	_	_
 3	Donsbach	Donsbach	PROPN	_	_	6	nsubj	_	_
 4	først	først	ADV	_	_	6	advmod	_	_
 5	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	_
@@ -8354,7 +8354,7 @@
 11	Furuseth	Furuseth	PROPN	_	_	10	nsubj	_	_
 12	.	$.	PUNCT	_	_	8	punct	_	_
 
-1	Familien	familie	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	appos	_	_
+1	Familien	familie	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	_
 2	Murud	Murud	PROPN	_	_	3	nsubj	_	_
 3	vet	vite	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	hva	hva	PRON	_	PronType=Int	6	dobj	_	_
@@ -8389,7 +8389,7 @@
 3	et	en	DET	_	Gender=Neut|Number=Sing	4	det	_	_
 4	utsagn	utsagn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	_
 5	daglig	daglig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	_
-6	leder	leder	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	appos	_	_
+6	leder	leder	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	nmod	_	_
 7	i	i	ADP	_	_	8	case	_	_
 8	Bringwell	Bringwell	PROPN	_	_	6	nmod	_	_
 9	Norge	Norge	PROPN	_	_	8	name	_	_
@@ -8515,7 +8515,7 @@
 8	en	en	DET	_	Gender=Masc|Number=Sing	9	det	_	_
 9	produsent	produsent	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	_
 10	som	som	ADP	_	_	12	case	_	_
-11	Dr.	dr.	NOUN	_	_	12	appos	_	_
+11	Dr.	dr.	NOUN	_	_	12	nmod	_	_
 12	Donsbach	Donsbach	PROPN	_	_	9	nmod	_	_
 13	?	$?	PUNCT	_	_	3	punct	_	_
 
@@ -8578,7 +8578,7 @@
 6	direkte	direkte	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
 7	samarbeid	samarbeid	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	dobj	_	_
 8	med	med	ADP	_	_	10	case	_	_
-9	Dr.	dr.	NOUN	_	_	10	appos	_	_
+9	Dr.	dr.	NOUN	_	_	10	nmod	_	_
 10	Donsbach	Donsbach	PROPN	_	_	7	nmod	_	_
 11	.	$.	PUNCT	_	_	2	punct	_	_
 
@@ -8588,7 +8588,7 @@
 4	bare	bare	ADV	_	_	2	advmod	_	_
 5	til	til	ADP	_	_	9	case	_	_
 6	sin	sin	DET	_	Gender=Masc|Number=Sing|Poss=Yes	7	nmod	_	_
-7	leverandør	leverandør	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	appos	_	_
+7	leverandør	leverandør	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	_
 8	-	$-	PUNCT	_	_	7	punct	_	_
 9	Hela	Hela	PROPN	_	_	2	nmod	_	_
 10	Pharma	Pharma	PROPN	_	_	9	name	_	_
@@ -8632,7 +8632,7 @@
 8	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	_
 9	samarbeidet	samarbeide	VERB	_	VerbForm=Part	3	advcl	_	_
 10	med	med	ADP	_	_	12	case	_	_
-11	Dr.	dr.	NOUN	_	_	12	appos	_	_
+11	Dr.	dr.	NOUN	_	_	12	nmod	_	_
 12	Donsbach	Donsbach	PROPN	_	_	9	nmod	_	_
 13	i	i	ADP	_	_	15	case	_	_
 14	20	20	NUM	_	Number=Plur	15	nummod	_	_
@@ -8674,7 +8674,7 @@
 12	noteres	notere	VERB	_	VerbForm=Inf|Voice=Pass	2	conj	_	_
 13	,	$,	PUNCT	_	_	12	punct	_	_
 14	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
-15	salgssjef	salgssjef	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	appos	_	_
+15	salgssjef	salgssjef	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	nmod	_	_
 16	Per-Åke	Per-Åke	PROPN	_	_	14	nsubj	_	_
 17	Claesson	Claesson	PROPN	_	_	16	name	_	_
 18	.	$.	PUNCT	_	_	2	punct	_	_
@@ -8687,7 +8687,7 @@
 6	regner	regne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	med	med	ADP	_	_	11	case	_	_
 8	at	at	SCONJ	_	_	11	mark	_	_
-9	Dr.	dr.	NOUN	_	_	10	appos	_	_
+9	Dr.	dr.	NOUN	_	_	10	nmod	_	_
 10	Donsbach	Donsbach	PROPN	_	_	11	nsubj	_	_
 11	dekker	dekke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	advcl	_	_
 12	tapet	tap	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	dobj	_	_
@@ -8998,7 +8998,7 @@
 5	,	$,	PUNCT	_	_	3	punct	_	_
 6	mener	mene	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
 7	daglig	daglig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	_
-8	leder	leder	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	appos	_	_
+8	leder	leder	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	_
 9	Turid	Turid	PROPN	_	Gender=Fem	6	nsubj	_	_
 10	Backer	Backer	PROPN	_	_	9	name	_	_
 11	i	i	ADP	_	_	12	case	_	_
@@ -9013,7 +9013,7 @@
 20	og	og	CONJ	_	_	19	cc	_	_
 21	de	de	DET	_	Number=Plur|PronType=Dem	23	det	_	_
 22	store	stor	ADJ	_	Degree=Pos|Number=Plur	23	amod	_	_
-23	butikkjedene	butikkjede	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	24	appos	_	_
+23	butikkjedene	butikkjede	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	24	nmod	_	_
 24	Life	Life	PROPN	_	_	19	conj	_	_
 25	,	$,	PUNCT	_	_	24	punct	_	_
 26	Sunkost	Sunkost	PROPN	_	_	24	conj	_	_
@@ -9573,7 +9573,7 @@
 
 1	Ekspertene	ekspert	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	10	nsubj	_	_
 2	på	på	ADP	_	_	7	case	_	_
-3	informasjonssenteret	informasjonssenter	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	appos	_	_
+3	informasjonssenteret	informasjonssenter	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	nmod	_	_
 4	for	for	ADP	_	_	5	case	_	_
 5	legemidler	legemiddel	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	nmod	_	_
 6	,	$,	PUNCT	_	_	3	punct	_	_
@@ -9693,7 +9693,7 @@
 16	,	$,	PUNCT	_	_	6	punct	_	_
 17	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
 18	Sverres	Sverre	PROPN	_	Case=Gen|Gender=Masc	19	det	_	_
-19	lege	lege	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	21	appos	_	_
+19	lege	lege	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	21	nmod	_	_
 20	,	$,	PUNCT	_	_	19	punct	_	_
 21	Kristian	Kristian	PROPN	_	Gender=Masc	17	nsubj	_	_
 22	Furuseth	Furuseth	PROPN	_	_	21	name	_	_
@@ -10005,7 +10005,7 @@
 9	.	$.	PUNCT	_	_	1	punct	_	_
 
 1	Alle	all	DET	_	Number=Plur	2	det	_	_
-2	unnskyldninger	unnskyldning	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	6	appos	_	_
+2	unnskyldninger	unnskyldning	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	6	nmod	_	_
 3	til	til	ADP	_	_	4	case	_	_
 4	side	side	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	nmod	_	_
 5	,	$,	PUNCT	_	_	2	punct	_	_
@@ -10998,7 +10998,7 @@
 4	jeg	jeg	PRON	_	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubjpass	_	_
 5	kontaktet	kontakte	VERB	_	VerbForm=Part	0	root	_	_
 6	av	av	ADP	_	_	8	case	_	_
-7	journalist	journalist	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	appos	_	_
+7	journalist	journalist	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	_
 8	Ida	Ida	PROPN	_	_	5	nmod	_	_
 9	Jevne	Jevne	PROPN	_	_	8	name	_	_
 10	fra	fra	ADP	_	_	11	case	_	_
@@ -11261,7 +11261,7 @@
 
 1	Anbefaler	anbefale	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	også	også	ADV	_	_	1	advmod	_	_
-3	artikkelen	artikkel	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	appos	_	_
+3	artikkelen	artikkel	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	_
 4	Why	Why	PROPN	_	_	1	dobj	_	_
 5	I	I	PROPN	_	_	4	name	_	_
 6	will	will	X	_	_	4	name	_	_
@@ -12331,7 +12331,7 @@
 8	,	$,	PUNCT	_	_	6	punct	_	_
 9	skriver	skrive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	daværende	daværende	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	11	amod	_	_
-11	byrettsjustitiarius	byrettsjustitiarius	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	appos	_	_
+11	byrettsjustitiarius	byrettsjustitiarius	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	nmod	_	_
 12	Erik	Erik	PROPN	_	Gender=Masc	9	nsubj	_	_
 13	Elstad	Elstad	PROPN	_	_	12	name	_	_
 14	til	til	ADP	_	_	15	case	_	_
@@ -12436,7 +12436,7 @@
 11	rettssaken	rettssak	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	_
 12	.	$.	PUNCT	_	_	3	punct	_	_
 
-1	Dommer	dommer	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	appos	_	_
+1	Dommer	dommer	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	_
 2	Bertelsen	Bertelsen	PROPN	_	_	3	nsubj	_	_
 3	finner	finne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	ikke	ikke	ADV	_	_	3	neg	_	_
@@ -12697,7 +12697,7 @@
 22	.	$.	PUNCT	_	_	2	punct	_	_
 
 1	Bertelsens	Bertelsen	PROPN	_	Case=Gen	2	det	_	_
-2	advokat	advokat	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	appos	_	_
+2	advokat	advokat	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	_
 3	,	$,	PUNCT	_	_	2	punct	_	_
 4	Georg	Georg	PROPN	_	Gender=Masc	7	nsubj	_	_
 5	Kvande	Kvande	PROPN	_	_	4	name	_	_
@@ -12786,7 +12786,7 @@
 1	Sommeren	sommer	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	_
 2	2009	2009	NUM	_	Number=Plur	1	nmod	_	_
 3	ble	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-4	avdelingsleder	avdelingsleder	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	appos	_	_
+4	avdelingsleder	avdelingsleder	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	_
 5	Ove	Ove	PROPN	_	Gender=Masc	3	nsubj	_	_
 6	Kjell	Kjell	PROPN	_	Gender=Masc	5	name	_	_
 7	Hole	Hole	PROPN	_	_	5	name	_	_
@@ -12995,7 +12995,7 @@
 3	2010	2010	NUM	_	Number=Plur	2	nmod	_	_
 4	møtte	møte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 5	Bertelsen	Bertelsen	PROPN	_	_	4	nsubj	_	_
-6	avdelingsdirektør	avdelingsdirektør	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	appos	_	_
+6	avdelingsdirektør	avdelingsdirektør	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	_
 7	Willy	Willy	PROPN	_	Gender=Masc	4	dobj	_	_
 8	Nesset	Nesset	PROPN	_	_	7	name	_	_
 9	i	i	ADP	_	_	10	case	_	_
@@ -13007,13 +13007,13 @@
 3	med	med	ADP	_	_	4	case	_	_
 4	seg	seg	PRON	_	Case=Acc|Reflex=Yes	2	nmod	_	_
 5	sin	sin	DET	_	Gender=Masc|Number=Sing|Poss=Yes	6	nmod	_	_
-6	advokat	advokat	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	appos	_	_
+6	advokat	advokat	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	_
 7	,	$,	PUNCT	_	_	6	punct	_	_
 8	Georg	Georg	PROPN	_	Gender=Masc	2	dobj	_	_
 9	Kvande	Kvande	PROPN	_	_	8	name	_	_
 10	.	$.	PUNCT	_	_	2	punct	_	_
 
-1	Sorenskriver	sorenskriver	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	appos	_	_
+1	Sorenskriver	sorenskriver	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	_
 2	Kari	Kari	PROPN	_	Gender=Fem	5	nsubj	_	_
 3	Johanne	Johanne	PROPN	_	Gender=Fem	2	name	_	_
 4	Bjørnøy	Bjørnøy	PROPN	_	_	2	name	_	_
@@ -13338,7 +13338,7 @@
 5	positivt	positiv	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
 6	,	$,	PUNCT	_	_	5	punct	_	_
 7	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
-8	advokat	advokat	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	appos	_	_
+8	advokat	advokat	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	_
 9	Trygve	Trygve	PROPN	_	Gender=Masc	7	nsubj	_	_
 10	Langeland	Langeland	PROPN	_	_	9	name	_	_
 11	Matre	Matre	PROPN	_	_	9	name	_	_
@@ -13349,7 +13349,7 @@
 3	daglig	daglig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	4	amod	_	_
 4	leder	leder	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	_
 5	i	i	ADP	_	_	7	case	_	_
-6	firmaet	firma	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	appos	_	_
+6	firmaet	firma	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	nmod	_	_
 7	1-2-3	1-2-3	PROPN	_	_	4	nmod	_	_
 8	Advokaten	Advokaten	PROPN	_	_	7	name	_	_
 9	,	$,	PUNCT	_	_	7	punct	_	_
@@ -13427,7 +13427,7 @@
 9	bistand	bistand	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	dobj	_	_
 10	.	$.	PUNCT	_	_	3	punct	_	_
 
-1	Advokat	advokat	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	appos	_	_
+1	Advokat	advokat	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	_
 2	Georg	Georg	PROPN	_	Gender=Masc	12	nsubjpass	_	_
 3	Kvande	Kvande	PROPN	_	_	2	name	_	_
 4	,	$,	PUNCT	_	_	2	punct	_	_
@@ -13444,7 +13444,7 @@
 1	Kvande	Kvande	PROPN	_	_	2	nsubj	_	_
 2	ringte	ringe	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	så	så	ADV	_	_	2	advmod	_	_
-4	sorenskriver	sorenskriver	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	appos	_	_
+4	sorenskriver	sorenskriver	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	_
 5	Kari	Kari	PROPN	_	Gender=Fem	2	dobj	_	_
 6	Johanne	Johanne	PROPN	_	Gender=Fem	5	name	_	_
 7	Bjørnøy	Bjørnøy	PROPN	_	_	5	name	_	_
@@ -13751,7 +13751,7 @@
 12	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	dobj	_	_
 13	,	$,	PUNCT	_	_	3	punct	_	_
 14	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
-15	advokat	advokat	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	appos	_	_
+15	advokat	advokat	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	nmod	_	_
 16	Georg	Georg	PROPN	_	Gender=Masc	14	nsubj	_	_
 17	Kvande	Kvande	PROPN	_	_	16	name	_	_
 18	.	$.	PUNCT	_	_	3	punct	_	_
@@ -13982,7 +13982,7 @@
 10	en	en	DET	_	Gender=Masc|Number=Sing	11	det	_	_
 11	e-post	e-post	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	dobj	_	_
 12	fra	fra	ADP	_	_	14	case	_	_
-13	avdelingsleder	avdelingsleder	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	appos	_	_
+13	avdelingsleder	avdelingsleder	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	nmod	_	_
 14	Ove	Ove	PROPN	_	Gender=Masc	8	nmod	_	_
 15	Kjell	Kjell	PROPN	_	Gender=Masc	14	name	_	_
 16	Hole	Hole	PROPN	_	_	14	name	_	_
@@ -14105,7 +14105,7 @@
 6	,	$,	PUNCT	_	_	3	punct	_	_
 7	mener	mene	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
 8	Bertelsens	Bertelsen	PROPN	_	Case=Gen	9	det	_	_
-9	advokat	advokat	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	appos	_	_
+9	advokat	advokat	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	nmod	_	_
 10	,	$,	PUNCT	_	_	9	punct	_	_
 11	Georg	Georg	PROPN	_	Gender=Masc	7	nsubj	_	_
 12	Kvande	Kvande	PROPN	_	_	11	name	_	_
@@ -14475,7 +14475,7 @@
 26	Kvande	Kvande	PROPN	_	_	25	nsubj	_	_
 27	.	$.	PUNCT	_	_	2	punct	_	_
 
-1	Advokat	advokat	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	appos	_	_
+1	Advokat	advokat	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	_
 2	Kvande	Kvande	PROPN	_	_	3	nsubj	_	_
 3	reagerer	reagere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	på	på	ADP	_	_	5	case	_	_
@@ -14609,7 +14609,7 @@
 6	skjedde	skje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
 7	?	$?	PUNCT	_	_	4	punct	_	_
 
-1	Arbeidsgiveren	arbeidsgiver	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	appos	_	_
+1	Arbeidsgiveren	arbeidsgiver	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	_
 2	hans	hans	DET	_	Gender=Masc|Number=Sing|Poss=Yes	1	nmod	_	_
 3	,	$,	PUNCT	_	_	1	punct	_	_
 4	Domstoladministrasjonen	Domstoladministrasjonen	PROPN	_	_	6	nsubj	_	_
@@ -14736,7 +14736,7 @@
 30	,	$,	PUNCT	_	_	4	punct	_	_
 31	skriver	skrive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
 32	daværende	daværende	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	33	amod	_	_
-33	politimester	politimester	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	34	appos	_	_
+33	politimester	politimester	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	34	nmod	_	_
 34	Wegner	Wegner	PROPN	_	_	31	nsubj	_	_
 35	i	i	ADP	_	_	37	case	_	_
 36	et	en	DET	_	Gender=Neut|Number=Sing	37	det	_	_
@@ -14982,7 +14982,7 @@
 2	fortsette	fortsette	VERB	_	VerbForm=Inf	0	root	_	_
 3	.	$.	PUNCT	_	_	2	punct	_	_
 
-1	Dommer	dommer	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	appos	_	_
+1	Dommer	dommer	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	_
 2	Tor	Tor	PROPN	_	Gender=Masc	5	nsubj	_	_
 3	Bertelsen	Bertelsen	PROPN	_	_	2	name	_	_
 4	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -15211,7 +15211,7 @@
 4	med	med	ADP	_	_	5	case	_	_
 5	drosje	drosje	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	nmod	_	_
 6	fra	fra	ADP	_	_	8	case	_	_
-7	jordmor	jordmor	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	8	appos	_	_
+7	jordmor	jordmor	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	8	nmod	_	_
 8	Johanne	Johanne	PROPN	_	Gender=Fem	3	nmod	_	_
 9	Marie	Marie	PROPN	_	Gender=Fem	8	name	_	_
 10	Nygaard	Nygaard	PROPN	_	_	8	name	_	_
@@ -15274,7 +15274,7 @@
 3	«	$"	PUNCT	_	_	4	punct	_	_
 4	Grete	Grete	PROPN	_	_	2	nsubj	_	_
 5	»	$"	PUNCT	_	_	4	punct	_	_
-6	helsesøster	helsesøster	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	appos	_	_
+6	helsesøster	helsesøster	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	nmod	_	_
 7	Hjørdis	Hjørdis	PROPN	_	Gender=Fem	2	dobj	_	_
 8	Djuvik	Djuvik	PROPN	_	_	7	name	_	_
 9	ved	ved	ADP	_	_	10	case	_	_
@@ -15297,7 +15297,7 @@
 13	sitt	sin	DET	_	Gender=Neut|Number=Sing|Poss=Yes	12	nmod	_	_
 14	.	$.	PUNCT	_	_	3	punct	_	_
 
-1	Søster	søster	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	appos	_	_
+1	Søster	søster	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	nmod	_	_
 2	Hjørdis	Hjørdis	PROPN	_	Gender=Fem	10	nsubj	_	_
 3	på	på	ADP	_	_	5	case	_	_
 4	Helserådets	Helserådet	PROPN	_	Case=Gen	5	det	_	_
@@ -15315,15 +15315,15 @@
 
 1	Sammen	sammen	ADV	_	_	4	advmod	_	_
 2	med	med	ADP	_	_	4	case	_	_
-3	gynekolog	gynekolog	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	appos	_	_
+3	gynekolog	gynekolog	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	_
 4	Inger	Inger	PROPN	_	Gender=Fem	16	nmod	_	_
 5	Haldorsen	Haldorsen	PROPN	_	_	4	name	_	_
 6	,	$,	PUNCT	_	_	4	punct	_	_
-7	sosialkurator	sosialkurator	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	appos	_	_
+7	sosialkurator	sosialkurator	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	_
 8	Solveig	Solveig	PROPN	_	Gender=Fem	4	conj	_	_
 9	Garnæs	Garnæs	PROPN	_	_	8	name	_	_
 10	og	og	CONJ	_	_	4	cc	_	_
-11	barnevernsekretær	barnevernsekretær	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	appos	_	_
+11	barnevernsekretær	barnevernsekretær	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	nmod	_	_
 12	Martha	Martha	PROPN	_	Gender=Fem	4	conj	_	_
 13	Johnsen	Johnsen	PROPN	_	_	12	name	_	_
 14	var	være	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	16	cop	_	_
@@ -15551,14 +15551,14 @@
 41	Johnsen	Johnsen	PROPN	_	_	40	name	_	_
 42	.	$.	PUNCT	_	_	3	punct	_	_
 
-1	Dekknavn	dekknavn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	appos	_	_
+1	Dekknavn	dekknavn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	nmod	_	_
 2	«	$"	PUNCT	_	_	3	punct	_	_
 3	Reidun	Reidun	PROPN	_	Gender=Fem	0	root	_	_
 4	»	$"	PUNCT	_	_	3	punct	_	_
 5	:	$:	PUNCT	_	_	3	punct	_	_
 
 1	Da	da	SCONJ	_	_	6	mark	_	_
-2	søster	søster	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	appos	_	_
+2	søster	søster	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	nmod	_	_
 3	Hjørdis	Hjørdis	PROPN	_	Gender=Fem	6	nsubj	_	_
 4	i	i	ADP	_	_	5	case	_	_
 5	1966	1966	NUM	_	Number=Plur	6	nmod	_	_
@@ -15615,7 +15615,7 @@
 6	Bergen	Bergen	PROPN	_	_	4	nmod	_	_
 7	helseråd	helseråd	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	name	_	_
 8	i	i	ADP	_	_	10	case	_	_
-9	årene	år	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	10	appos	_	_
+9	årene	år	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	10	nmod	_	_
 10	1952	1952	NUM	_	Number=Plur	4	nmod	_	_
 11	-	$-	PUNCT	_	_	10	punct	_	_
 12	66	66	NUM	_	Number=Plur	10	conj	_	_
@@ -15728,7 +15728,7 @@
 11	dem	de	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	9	nmod	_	_
 12	.	$.	PUNCT	_	_	9	punct	_	_
 
-1	Søster	søster	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	appos	_	_
+1	Søster	søster	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	nmod	_	_
 2	Hjørdis	Hjørdis	PROPN	_	Gender=Fem	4	nsubjpass	_	_
 3	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	auxpass	_	_
 4	intervjuet	intervjue	VERB	_	VerbForm=Part	0	root	_	_
@@ -15828,7 +15828,7 @@
 27	på	på	ADP	_	_	28	case	_	_
 28	Spebarnshjemmet	Spebarnshjemmet	PROPN	_	_	24	nmod	_	_
 29	under	under	ADP	_	_	32	case	_	_
-30	dekknavnet	dekknavn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	32	appos	_	_
+30	dekknavnet	dekknavn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	32	nmod	_	_
 31	«	$"	PUNCT	_	_	32	punct	_	_
 32	Reidun	Reidun	PROPN	_	Gender=Fem	24	nmod	_	_
 33	»	$"	PUNCT	_	_	32	punct	_	_
@@ -15940,7 +15940,7 @@
 20	saken	sak	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	_
 21	,	$,	PUNCT	_	_	4	punct	_	_
 22	forteller	fortelle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
-23	datter	datter	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	24	appos	_	_
+23	datter	datter	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	24	nmod	_	_
 24	Brita	Brita	PROPN	_	Gender=Fem	22	nsubj	_	_
 25	Djuvik	Djuvik	PROPN	_	_	24	name	_	_
 26	Næss	Næss	PROPN	_	_	24	name	_	_
@@ -15974,7 +15974,7 @@
 3	snakket	snakke	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 4	lenge	lenge	ADJ	_	Degree=Pos	3	advmod	_	_
 5	med	med	ADP	_	_	8	case	_	_
-6	frk.	frk.	NOUN	_	_	8	appos	_	_
+6	frk.	frk.	NOUN	_	_	8	nmod	_	_
 7	(	$(	PUNCT	_	_	8	punct	_	_
 8	navn	navn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	nmod	_	_
 9	)	$)	PUNCT	_	_	8	punct	_	_
@@ -16331,13 +16331,13 @@
 37	.	$.	PUNCT	_	_	22	punct	_	_
 38	»	$"	PUNCT	_	_	22	punct	_	_
 
-1	Historiker	historiker	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	appos	_	_
+1	Historiker	historiker	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	_
 2	Astri	Astri	PROPN	_	Gender=Fem	4	nsubj	_	_
 3	Andresen	Andresen	PROPN	_	_	2	name	_	_
 4	konkluderer	konkludere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	i	i	ADP	_	_	9	case	_	_
 6	sin	sin	DET	_	Gender=Masc|Number=Sing|Poss=Yes	7	nmod	_	_
-7	bok	bok	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	appos	_	_
+7	bok	bok	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	_
 8	«	$"	PUNCT	_	_	9	punct	_	_
 9	Hender	Hender	PROPN	_	_	4	nmod	_	_
 10	små	liten	ADJ	_	Degree=Pos|Number=Plur	9	name	_	_
@@ -16467,7 +16467,7 @@
 19	Os	Os	PROPN	_	_	14	nmod	_	_
 20	.	$.	PUNCT	_	_	7	punct	_	_
 
-1	Dr.	dr.	NOUN	_	_	2	appos	_	_
+1	Dr.	dr.	NOUN	_	_	2	nmod	_	_
 2	Inger	Inger	PROPN	_	Gender=Fem	13	nsubj	_	_
 3	Haldorsen	Haldorsen	PROPN	_	_	2	name	_	_
 4	og	og	CONJ	_	_	2	cc	_	_
@@ -16602,7 +16602,7 @@
 17	.	$.	PUNCT	_	_	14	punct	_	_
 
 1	I	i	ADP	_	_	3	case	_	_
-2	årene	år	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	3	appos	_	_
+2	årene	år	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	3	nmod	_	_
 3	1951	1951	NUM	_	Number=Plur	19	nmod	_	_
 4	til	til	ADP	_	_	5	case	_	_
 5	-63	-63	NUM	_	Number=Plur	3	nmod	_	_
@@ -17097,7 +17097,7 @@
 15	barna	barn	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	11	nmod	_	_
 16	.	$.	PUNCT	_	_	3	punct	_	_
 
-1	Søster	søster	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	appos	_	_
+1	Søster	søster	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	nmod	_	_
 2	Solveig	Solveig	PROPN	_	Gender=Fem	3	nsubj	_	_
 3	fortalte	fortelle	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 4	min	min	DET	_	Gender=Masc|Number=Sing|Poss=Yes	5	nmod	_	_
@@ -17386,7 +17386,7 @@
 3	møtte	møte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 4	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
 5	nyansatte	nyansatt	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	6	amod	_	_
-6	barnevernssekretæren	barnevernssekretær	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	appos	_	_
+6	barnevernssekretæren	barnevernssekretær	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	_
 7	Martha	Martha	PROPN	_	Gender=Fem	3	nsubj	_	_
 8	Johnsen	Johnsen	PROPN	_	_	7	name	_	_
 9	for	for	ADP	_	_	11	case	_	_
@@ -17459,7 +17459,7 @@
 
 1	Johnsen	Johnsen	PROPN	_	_	6	nsubj	_	_
 2	og	og	CONJ	_	_	1	cc	_	_
-3	tilsynslege	tilsynslege	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	appos	_	_
+3	tilsynslege	tilsynslege	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	_
 4	Inger	Inger	PROPN	_	Gender=Fem	1	conj	_	_
 5	Haldorsen	Haldorsen	PROPN	_	_	4	name	_	_
 6	la	legge	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -17877,7 +17877,7 @@
 6	BT	BT	PROPN	_	_	2	nmod	_	_
 7	23.10.90	23.10.90	NOUN	_	_	2	nmod	_	_
 8	skrev	skrive	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-9	signaturen	signatur	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	appos	_	_
+9	signaturen	signatur	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	_
 10	Eli	Eli	PROPN	_	_	8	nsubj	_	_
 11	H.S.	H.S.	PROPN	_	_	10	name	_	_
 12	:	$:	PUNCT	_	_	8	punct	_	_
@@ -18779,7 +18779,7 @@
 6	var	være	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	cop	_	_
 7	nåværende	nåværende	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	9	amod	_	_
 8	politisk	politisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	9	amod	_	_
-9	redaktør	redaktør	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	appos	_	_
+9	redaktør	redaktør	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	nmod	_	_
 10	i	i	ADP	_	_	11	case	_	_
 11	Dagbladet	Dagbladet	PROPN	_	Gender=Neut	9	nmod	_	_
 12	,	$,	PUNCT	_	_	9	punct	_	_
@@ -18820,7 +18820,7 @@
 10	oppe	oppe	ADP	_	_	5	acl:relcl	_	_
 11	.	$.	PUNCT	_	_	5	punct	_	_
 
-1	Fotograf	fotograf	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	appos	_	_
+1	Fotograf	fotograf	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	_
 2	Morten	Morten	PROPN	_	Gender=Masc	5	nsubj	_	_
 3	Krogvold	Krogvold	PROPN	_	_	2	name	_	_
 4	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
@@ -19083,7 +19083,7 @@
 9	Fardal	Fardal	PROPN	_	_	7	nmod	_	_
 10	.	$.	PUNCT	_	_	4	punct	_	_
 
-1	Samboeren	samboer	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	appos	_	_
+1	Samboeren	samboer	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	_
 2	og	og	CONJ	_	_	1	cc	_	_
 3	møbeldesigneren	møbeldesigner	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	1	conj	_	_
 4	Tor	Tor	PROPN	_	Gender=Masc	7	nsubj	_	_
@@ -19655,7 +19655,7 @@
 1	Ved	ved	ADP	_	_	2	case	_	_
 2	bordet	bord	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nmod	_	_
 3	sitter	sitte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	datteren	datter	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	appos	_	_
+4	datteren	datter	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	_
 5	Elsa	Elsa	PROPN	_	Gender=Fem	3	nsubj	_	_
 6	Aarokol	Aarokol	PROPN	_	_	5	name	_	_
 7	Lofthus	Lofthus	PROPN	_	_	5	name	_	_
@@ -19663,7 +19663,7 @@
 9	5	5	NUM	_	Number=Plur	5	nmod	_	_
 10	)	$)	PUNCT	_	_	9	punct	_	_
 11	og	og	CONJ	_	_	5	cc	_	_
-12	venninnen	venninne	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	appos	_	_
+12	venninnen	venninne	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	_
 13	Elisabeth	Elisabeth	PROPN	_	Gender=Fem	5	conj	_	_
 14	Logan	Logan	PROPN	_	_	13	name	_	_
 15	(	$(	PUNCT	_	_	16	punct	_	_
@@ -19899,7 +19899,7 @@
 4	industristilen	industristil	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	dobj	_	_
 5	og	og	CONJ	_	_	4	cc	_	_
 6	klassisk	klassisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	_
-7	design	design	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	appos	_	_
+7	design	design	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	nmod	_	_
 8	,	$,	PUNCT	_	_	7	punct	_	_
 9	for	for	ADP	_	_	10	case	_	_
 10	eksempel	eksempel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	nmod	_	_
@@ -20037,7 +20037,7 @@
 16	California	California	PROPN	_	_	12	nmod	_	_
 17	og	og	CONJ	_	_	12	cc	_	_
 18	hos	hos	ADP	_	_	20	case	_	_
-19	konditormesteren	konditormester	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	20	appos	_	_
+19	konditormesteren	konditormester	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	20	nmod	_	_
 20	Jørgen	Jørgen	PROPN	_	Gender=Masc	12	conj	_	_
 21	Sørgaard	Sørgaard	PROPN	_	_	20	name	_	_
 22	i	i	ADP	_	_	23	case	_	_
@@ -20095,7 +20095,7 @@
 11	han	han	PRON	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 12	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
 13	franske	fransk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	14	amod	_	_
-14	bakeren	baker	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	appos	_	_
+14	bakeren	baker	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	_
 15	Emmanuel	Emmanuel	PROPN	_	_	10	dobj	_	_
 16	Rang	Rang	PROPN	_	_	15	name	_	_
 17	.	$.	PUNCT	_	_	2	punct	_	_
@@ -20345,7 +20345,7 @@
 15	hjemme	hjemme	ADP	_	_	14	compound:prt	_	_
 16	.	$.	PUNCT	_	_	11	punct	_	_
 
-1	Venninnen	venninne	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	appos	_	_
+1	Venninnen	venninne	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	_
 2	Elisabeth	Elisabeth	PROPN	_	Gender=Fem	6	nsubj	_	_
 3	,	$,	PUNCT	_	_	2	punct	_	_
 4	derimot	derimot	ADV	_	_	2	nmod	_	_
@@ -21401,7 +21401,7 @@
 9	sjetteplass	sjetteplass	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	_
 10	.	$.	PUNCT	_	_	3	punct	_	_
 
-1	Verdenscupleder	verdenscupleder	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	appos	_	_
+1	Verdenscupleder	verdenscupleder	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	_
 2	Koivuranta	Koivuranta	PROPN	_	_	4	nsubj	_	_
 3	var	være	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	cop	_	_
 4	best	god	ADJ	_	Definite=Ind|Degree=Sup	0	root	_	_
@@ -21950,7 +21950,7 @@
 1	Skryter	skryte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	:	$:	PUNCT	_	_	1	punct	_	_
 
-1	Sportssjef	sportssjef	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	appos	_	_
+1	Sportssjef	sportssjef	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	_
 2	Clas	Clas	PROPN	_	_	5	nsubj	_	_
 3	Brede	Brede	PROPN	_	Gender=Masc	2	name	_	_
 4	Bråthen	Bråthen	PROPN	_	_	2	name	_	_
@@ -21963,7 +21963,7 @@
 11	best	god	ADJ	_	Definite=Ind|Degree=Sup	10	xcomp	_	_
 12	.	$.	PUNCT	_	_	5	punct	_	_
 
-1	Sportssjef	sportssjef	NOUN	_	Definite=Ind|Number=Sing	2	appos	_	_
+1	Sportssjef	sportssjef	NOUN	_	Definite=Ind|Number=Sing	2	nmod	_	_
 2	Clas	Clas	PROPN	_	_	6	nsubj	_	_
 3	Brede	Brede	PROPN	_	Gender=Masc	2	name	_	_
 4	Bråthen	Bråthen	PROPN	_	_	2	name	_	_
@@ -22183,7 +22183,7 @@
 11	han	han	PRON	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 12	.	$.	PUNCT	_	_	5	punct	_	_
 
-1	Lagkamerat	lagkamerat	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	appos	_	_
+1	Lagkamerat	lagkamerat	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	_
 2	Anders	Anders	PROPN	_	Gender=Masc	11	nsubj	_	_
 3	Bardal	Bardal	PROPN	_	_	2	name	_	_
 4	,	$,	PUNCT	_	_	2	punct	_	_
@@ -22429,7 +22429,7 @@
 2	på	på	ADP	_	_	6	case	_	_
 3	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	5	det	_	_
 4	internasjonale	internasjonal	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	5	amod	_	_
-5	auksjonsnettstedet	auksjonsnettsted	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	appos	_	_
+5	auksjonsnettstedet	auksjonsnettsted	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	nmod	_	_
 6	eBay	eBay	PROPN	_	_	1	nmod	_	_
 7	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	auxpass	_	_
 8	avsluttet	avslutte	VERB	_	VerbForm=Part	0	root	_	_
@@ -22515,11 +22515,11 @@
 15	tidene	tid	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	12	nmod	_	_
 16	.	$.	PUNCT	_	_	3	punct	_	_
 
-1	Selgeren	selger	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	appos	_	_
+1	Selgeren	selger	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	_
 2	,	$,	PUNCT	_	_	1	punct	_	_
 3	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	5	det	_	_
 4	danske	dansk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	5	amod	_	_
-5	entreprenørselskapet	entreprenørselskap	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	appos	_	_
+5	entreprenørselskapet	entreprenørselskap	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	nmod	_	_
 6	NKR	NKR	PROPN	_	_	9	nsubj	_	_
 7	Riving	Riving	PROPN	_	_	6	name	_	_
 8	,	$,	PUNCT	_	_	6	punct	_	_
@@ -22577,7 +22577,7 @@
 16	»	$"	PUNCT	_	_	15	punct	_	_
 17	i	i	ADP	_	_	20	case	_	_
 18	Oslos	Oslo	PROPN	_	Case=Gen	19	det	_	_
-19	kongekrone	kongekrone	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	20	appos	_	_
+19	kongekrone	kongekrone	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	20	nmod	_	_
 20	Holmenkollen	Holmenkollen	PROPN	_	Gender=Masc	15	nmod	_	_
 21	,	$,	PUNCT	_	_	12	punct	_	_
 22	het	hete	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	_
@@ -23003,7 +23003,7 @@
 2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 3	overrasker	overraske	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	ikke	ikke	ADV	_	_	3	neg	_	_
-5	alpinsjef	alpinsjef	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	appos	_	_
+5	alpinsjef	alpinsjef	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	_
 6	Marius	Marius	PROPN	_	Gender=Masc	3	dobj	_	_
 7	Arnesen	Arnesen	PROPN	_	_	6	name	_	_
 8	.	$.	PUNCT	_	_	3	punct	_	_
@@ -23169,7 +23169,7 @@
 4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
 5	klart	klar	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	xcomp	_	_
 6	at	at	SCONJ	_	_	11	mark	_	_
-7	VIF-keeper	VIF-keeper	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	appos	_	_
+7	VIF-keeper	VIF-keeper	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	_
 8	Patrick	Patrick	PROPN	_	_	11	nsubj	_	_
 9	DesRochers	DesRochers	PROPN	_	_	8	name	_	_
 10	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	_
@@ -23364,7 +23364,7 @@
 26	,	$,	PUNCT	_	_	12	punct	_	_
 27	sa	si	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
 28	Norges	Norge	PROPN	_	Case=Gen	29	det	_	_
-29	stjernespiller	stjernespiller	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	30	appos	_	_
+29	stjernespiller	stjernespiller	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	30	nmod	_	_
 30	Ketil	Ketil	PROPN	_	_	27	nsubj	_	_
 31	Kronberg	Kronberg	PROPN	_	_	30	name	_	_
 32	.	$.	PUNCT	_	_	3	punct	_	_
@@ -24015,7 +24015,7 @@
 20	dagens	dag	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	21	det	_	_
 21	avis	avis	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	22	nmod	_	_
 22	heller	helle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	conj	_	_
-23	statssekretær	statssekretær	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	26	appos	_	_
+23	statssekretær	statssekretær	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	26	nmod	_	_
 24	i	i	ADP	_	_	25	case	_	_
 25	Forsvarsdepartementet	Forsvarsdepartementet	PROPN	_	_	23	nmod	_	_
 26	Roger	Roger	PROPN	_	Gender=Masc	22	nsubj	_	_
@@ -24328,7 +24328,7 @@
 2	melder	melde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	at	at	SCONJ	_	_	9	mark	_	_
 4	selv	selv	ADV	_	_	6	nmod	_	_
-5	F-35-tilhenger	F-35-tilhenger	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	appos	_	_
+5	F-35-tilhenger	F-35-tilhenger	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	_
 6	Robert	Robert	PROPN	_	Gender=Masc	9	nsubj	_	_
 7	Gates	Gates	PROPN	_	_	6	name	_	_
 8	nå	nå	ADV	_	_	9	advmod	_	_
@@ -24479,7 +24479,7 @@
 34	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	27	nmod	_	_
 35	.	$.	PUNCT	_	_	14	punct	_	_
 
-1	Ordfører	ordfører	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	appos	_	_
+1	Ordfører	ordfører	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	_
 2	i	i	ADP	_	_	3	case	_	_
 3	Hammerfest	Hammerfest	PROPN	_	_	1	nmod	_	_
 4	,	$,	PUNCT	_	_	1	punct	_	_
@@ -24824,7 +24824,7 @@
 7	Tripoli	Tripoli	PROPN	_	_	2	nmod	_	_
 8	.	$.	PUNCT	_	_	2	punct	_	_
 
-1	Midtøsten-ekspert	Midtøsten-ekspert	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	appos	_	_
+1	Midtøsten-ekspert	Midtøsten-ekspert	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	_
 2	Knut	Knut	PROPN	_	Gender=Masc	5	nsubj	_	_
 3	S.	S.	PROPN	_	_	2	name	_	_
 4	Vikør	Vikør	PROPN	_	_	2	name	_	_
@@ -24884,7 +24884,7 @@
 8	fredsviljen	fredsvilje	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	conj	_	_
 9	,	$,	PUNCT	_	_	4	punct	_	_
 10	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
-11	midtøstenekspert	midtøstenekspert	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	appos	_	_
+11	midtøstenekspert	midtøstenekspert	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	nmod	_	_
 12	og	og	CONJ	_	_	11	cc	_	_
 13	professor	professor	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	conj	_	_
 14	Knut	Knut	PROPN	_	Gender=Masc	10	nsubj	_	_
@@ -24898,13 +24898,13 @@
 
 1	Libyas	Libya	PROPN	_	Case=Gen	3	det	_	_
 2	falne	fallen	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	_
-3	diktator	diktator	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	appos	_	_
+3	diktator	diktator	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	_
 4	Muammar	Muammar	PROPN	_	_	6	nsubj	_	_
 5	al-Gaddafi	al-Gaddafi	PROPN	_	_	4	name	_	_
 6	ymtet	ymte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 7	gjennom	gjennom	ADP	_	_	10	case	_	_
 8	sin	sin	DET	_	Gender=Masc|Number=Sing|Poss=Yes	9	nmod	_	_
-9	talsmann	talsmann	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	appos	_	_
+9	talsmann	talsmann	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	nmod	_	_
 10	Moussa	Moussa	PROPN	_	_	6	nmod	_	_
 11	Ibrahim	Ibrahim	PROPN	_	_	10	name	_	_
 12	,	$,	PUNCT	_	_	6	punct	_	_
@@ -24922,7 +24922,7 @@
 
 1	Det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	3	det	_	_
 2	libyske	libysk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	_
-3	overgangsrådet	overgangsråd	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	appos	_	_
+3	overgangsrådet	overgangsråd	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	nmod	_	_
 4	(	$(	PUNCT	_	_	5	punct	_	_
 5	NTC	NTC	PROPN	_	_	7	nsubj	_	_
 6	)	$)	PUNCT	_	_	5	punct	_	_
@@ -24937,7 +24937,7 @@
 2	Hvis	hvis	SCONJ	_	_	5	mark	_	_
 3	han	han	PRON	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 4	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
-5	overgi	overgi	VERB	_	VerbForm=Inf	7	appos	_	_
+5	overgi	overgi	VERB	_	VerbForm=Inf	7	nmod	_	_
 6	seg	seg	PRON	_	Case=Acc|Reflex=Yes	5	dobj	_	_
 7	så	så	ADV	_	_	10	advmod	_	_
 8	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	_
@@ -25153,7 +25153,7 @@
 4	fortsatt	fortsatt	ADV	_	_	2	advmod	_	_
 5	mål	mål	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	2	dobj	_	_
 6	i	i	ADP	_	_	8	case	_	_
-7	byen	by	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	appos	_	_
+7	byen	by	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	_
 8	Sirte	Sirte	PROPN	_	_	2	nmod	_	_
 9	,	$,	PUNCT	_	_	8	punct	_	_
 10	55	55	NUM	_	Number=Plur	11	nummod	_	_
@@ -26030,7 +26030,7 @@
 14	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
 15	gamle	gammel	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	17	amod	_	_
 16	meteorologiske	meteorologisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	17	amod	_	_
-17	stasjonen	stasjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	19	appos	_	_
+17	stasjonen	stasjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	19	nmod	_	_
 18	(	$(	PUNCT	_	_	19	punct	_	_
 19	Gamle	Gamle	PROPN	_	_	12	nmod	_	_
 20	Metten	Metten	PROPN	_	_	19	name	_	_
@@ -26751,7 +26751,7 @@
 27	retning	retning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	22	nmod	_	_
 28	.	$.	PUNCT	_	_	4	punct	_	_
 
-1	Dessuten	dessuten	ADV	_	_	3	appos	_	_
+1	Dessuten	dessuten	ADV	_	_	3	nmod	_	_
 2	,	$,	PUNCT	_	_	1	punct	_	_
 3	så	så	ADV	_	_	4	advmod	_	_
 4	mener	mene	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -26905,7 +26905,7 @@
 4	dersom	dersom	SCONJ	_	_	7	mark	_	_
 5	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
 6	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	_
-7	konkurrere	konkurrere	VERB	_	VerbForm=Inf	17	appos	_	_
+7	konkurrere	konkurrere	VERB	_	VerbForm=Inf	17	nmod	_	_
 8	med	med	ADP	_	_	11	case	_	_
 9	enda	enda	ADV	_	_	10	advmod	_	_
 10	flere	mange	ADJ	_	Degree=Cmp	11	amod	_	_
@@ -26963,7 +26963,7 @@
 
 1	For	for	ADP	_	_	3	case	_	_
 2	kort	kort	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	3	amod	_	_
-3	tid	tid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	appos	_	_
+3	tid	tid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	nmod	_	_
 4	siden	siden	ADV	_	_	3	nmod	_	_
 5	,	$,	PUNCT	_	_	3	punct	_	_
 6	så	så	ADV	_	_	7	advmod	_	_
@@ -27075,7 +27075,7 @@
 1	I	i	ADP	_	_	4	case	_	_
 2	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	4	det	_	_
 3	samme	samme	DET	_	Definite=Def|PronType=Dem	4	det	_	_
-4	intervjuet	intervju	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	appos	_	_
+4	intervjuet	intervju	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	nmod	_	_
 5	så	så	ADV	_	_	6	advmod	_	_
 6	sa	si	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 7	også	også	ADV	_	_	6	advmod	_	_
@@ -27084,7 +27084,7 @@
 10	dersom	dersom	SCONJ	_	_	13	mark	_	_
 11	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	_
 12	ikke	ikke	ADV	_	_	13	neg	_	_
-13	fikk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	22	appos	_	_
+13	fikk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	22	nmod	_	_
 14	overskudd	overskudd	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	13	dobj	_	_
 15	på	på	ADP	_	_	18	case	_	_
 16	sine	sin	DET	_	Number=Plur|Poss=Yes	18	nmod	_	_
@@ -27102,7 +27102,7 @@
 
 1	Dersom	dersom	SCONJ	_	_	3	mark	_	_
 2	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-3	skjer	skje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	appos	_	_
+3	skjer	skje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	nmod	_	_
 4	,	$,	PUNCT	_	_	3	punct	_	_
 5	så	så	ADV	_	_	16	advmod	_	_
 6	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	_
@@ -27872,7 +27872,7 @@
 3	realistisk	realistisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
 4	.	$.	PUNCT	_	_	3	punct	_	_
 
-1	Landbruksminister	landbruksminister	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	appos	_	_
+1	Landbruksminister	landbruksminister	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	_
 2	Sponheim	Sponheim	PROPN	_	_	3	nsubj	_	_
 3	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	at	at	SCONJ	_	_	11	mark	_	_
@@ -28034,7 +28034,7 @@
 16	at	at	SCONJ	_	_	29	mark	_	_
 17	når	når	SCONJ	_	_	19	mark	_	_
 18	en	en	PRON	_	Animacy=Anim|Number=Sing|PronType=Prs	19	nsubj	_	_
-19	bygger	bygge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	26	appos	_	_
+19	bygger	bygge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	26	nmod	_	_
 20	nytt	ny	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	19	dobj	_	_
 21	eller	eller	CONJ	_	_	19	cc	_	_
 22	bygger	bygge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	conj	_	_
@@ -28325,14 +28325,14 @@
 13	.	$.	PUNCT	_	_	4	punct	_	_
 
 1	Nåværende	nåværende	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	amod	_	_
-2	fiskeriminister	fiskeriminister	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	appos	_	_
+2	fiskeriminister	fiskeriminister	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	_
 3	Svein	Svein	PROPN	_	Gender=Masc	16	nsubj	_	_
 4	Ludvigsen	Ludvigsen	PROPN	_	_	3	name	_	_
 5	og	og	CONJ	_	_	3	cc	_	_
 6	hans	hans	DET	_	Gender=Masc|Number=Sing|Poss=Yes	9	nmod	_	_
 7	kanskje	kanskje	ADV	_	_	8	advmod	_	_
 8	fremste	fremre	ADJ	_	Definite=Def|Degree=Sup	9	amod	_	_
-9	utfordrer	utfordrer	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	appos	_	_
+9	utfordrer	utfordrer	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	nmod	_	_
 10	,	$,	PUNCT	_	_	9	punct	_	_
 11	Senterpartiets	Senterpartiet	PROPN	_	Case=Gen|Gender=Neut	12	det	_	_
 12	Lars	Lars	PROPN	_	Gender=Masc	3	conj	_	_
@@ -28421,7 +28421,7 @@
 2	enkelte	enkelt	ADJ	_	Degree=Pos|Number=Plur	3	amod	_	_
 3	parti	parti	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	5	nsubj	_	_
 4	nå	nå	ADV	_	_	5	advmod	_	_
-5	tar	ta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	appos	_	_
+5	tar	ta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	nmod	_	_
 6	til	til	ADP	_	_	7	case	_	_
 7	orde	orde	NOUN	_	_	5	nmod	_	_
 8	for	for	ADP	_	_	10	case	_	_
@@ -29417,7 +29417,7 @@
 4	til	til	ADP	_	_	5	case	_	_
 5	skade	skade	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	_
 6	da	da	SCONJ	_	_	14	mark	_	_
-7	lasteskipet	lasteskip	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	appos	_	_
+7	lasteskipet	lasteskip	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	nmod	_	_
 8	"	$"	PUNCT	_	_	9	punct	_	_
 9	Ålfjord	Ålfjord	PROPN	_	_	14	nsubj	_	_
 10	"	$"	PUNCT	_	_	9	punct	_	_
@@ -29454,7 +29454,7 @@
 11	bunns	bunn	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	_
 12	,	$,	PUNCT	_	_	9	punct	_	_
 13	opplyser	opplyse	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
-14	redningsleder	redningsleder	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	appos	_	_
+14	redningsleder	redningsleder	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	nmod	_	_
 15	Eric	Eric	PROPN	_	_	13	nsubj	_	_
 16	Willassen	Willassen	PROPN	_	_	15	name	_	_
 17	ved	ved	ADP	_	_	18	case	_	_
@@ -29474,7 +29474,7 @@
 5	om	om	ADP	_	_	6	case	_	_
 6	bord	bord	NOUN	_	_	2	nmod	_	_
 7	i	i	ADP	_	_	10	case	_	_
-8	lasteskipet	lasteskip	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	10	appos	_	_
+8	lasteskipet	lasteskip	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	10	nmod	_	_
 9	«	$"	PUNCT	_	_	10	punct	_	_
 10	Ålfjord	Ålfjord	PROPN	_	_	6	nmod	_	_
 11	»	$"	PUNCT	_	_	10	punct	_	_
@@ -29761,7 +29761,7 @@
 14	,	$,	PUNCT	_	_	4	punct	_	_
 15	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
 16	administrerende	administrere	ADJ	_	_	17	amod	_	_
-17	direktør	direktør	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	appos	_	_
+17	direktør	direktør	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	nmod	_	_
 18	Paul	Paul	PROPN	_	Gender=Masc	15	nsubj	_	_
 19	Hellandsvik	Hellandsvik	PROPN	_	_	18	name	_	_
 20	i	i	ADP	_	_	21	case	_	_
@@ -29831,7 +29831,7 @@
 20	regionen	region	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	_
 21	,	$,	PUNCT	_	_	14	punct	_	_
 22	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
-23	fylkesordfører	fylkesordfører	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	27	appos	_	_
+23	fylkesordfører	fylkesordfører	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	27	nmod	_	_
 24	i	i	ADP	_	_	25	case	_	_
 25	Sør-Trøndelag	Sør-Trøndelag	PROPN	_	_	23	nmod	_	_
 26	,	$,	PUNCT	_	_	23	punct	_	_
@@ -31967,7 +31967,7 @@
 13	en	en	DET	_	Gender=Masc|Number=Sing	14	det	_	_
 14	del	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	advcl	_	_
 15	av	av	ADP	_	_	17	case	_	_
-16	kongeriket	kongerike	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	17	appos	_	_
+16	kongeriket	kongerike	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	17	nmod	_	_
 17	Norge	Norge	PROPN	_	_	14	nmod	_	_
 18	.	$.	PUNCT	_	_	2	punct	_	_
 
