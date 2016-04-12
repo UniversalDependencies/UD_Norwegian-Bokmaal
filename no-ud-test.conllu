@@ -205,8 +205,8 @@
 6	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	auxpass	_	_
 7	slike	slik	DET	_	Number=Plur|PronType=Dem	8	det	_	_
 8	avvik	avvik	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	10	nsubjpass	_	_
-9	forsøkt	forsøke	AUX	_	VerbForm=Part	10	aux	_	_
-10	bannlyst	bannlyse	VERB	_	VerbForm=Part	0	root	_	_
+9	forsøkt	forsøke	VERB	_	VerbForm=Part	0	root	_	_
+10	bannlyst	bannlyse	VERB	_	VerbForm=Part	9	xcomp	_	_
 11	,	$,	PUNCT	_	_	10	punct	_	_
 12	gjerne	gjerne	ADV	_	_	15	advmod	_	_
 13	med	med	ADP	_	_	15	case	_	_
@@ -10520,9 +10520,9 @@
 
 1	Når	når	SCONJ	_	_	5	mark	_	_
 2	jeg	jeg	PRON	_	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
-3	sier	si	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	advcl	_	_
 4	"	$"	PUNCT	_	_	5	punct	_	_
-5	stå	stå	VERB	_	VerbForm=Inf	9	advcl	_	_
+5	stå	stå	VERB	_	VerbForm=Inf	3	ccomp	_	_
 6	i	i	ADP	_	_	7	case	_	_
 7	fred	fred	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	_
 8	"	$"	PUNCT	_	_	5	punct	_	_
@@ -17236,8 +17236,8 @@
 
 1	Dr.	dr.	NOUN	_	_	4	nsubj	_	_
 2	Haldorsen	Haldorsen	PROPN	_	_	1	name	_	_
-3	ber	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
-4	hilse	hilse	VERB	_	VerbForm=Inf	0	root	_	_
+3	ber	be	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	hilse	hilse	VERB	_	VerbForm=Inf	3	ccomp	_	_
 5	hjertelig	hjertelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	_
 6	,	$,	PUNCT	_	_	4	punct	_	_
 7	vi	vi	PRON	_	Animacy=Anim|Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
@@ -31675,8 +31675,8 @@
 
 1	-	$-	PUNCT	_	_	4	punct	_	_
 2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
-3	anses	anse	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	4	aux	_	_
-4	vedtatt	vedta	VERB	_	VerbForm=Part	0	root	_	_
+3	anses	anse	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	vedtatt	vedta	VERB	_	VerbForm=Part	3	ccomp	_	_
 5	.	$.	PUNCT	_	_	4	punct	_	_
 
 1	For	for	ADP	_	_	3	case	_	_

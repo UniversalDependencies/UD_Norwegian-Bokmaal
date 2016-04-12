@@ -17609,8 +17609,8 @@
 3	også	også	ADV	_	_	5	advmod	_	_
 4	i	i	ADP	_	_	5	case	_	_
 5	2010	2010	NUM	_	Number=Plur	7	nmod	_	_
-6	forsøkt	forsøke	AUX	_	VerbForm=Part	7	aux	_	_
-7	fjernet	fjerne	VERB	_	VerbForm=Part	0	root	_	_
+6	forsøkt	forsøke	VERB	_	VerbForm=Part	0	root	_	_
+7	fjernet	fjerne	VERB	_	VerbForm=Part	6	xcomp	_	_
 8	av	av	ADP	_	_	9	case	_	_
 9	Bergen	Bergen	PROPN	_	_	7	nmod	_	_
 10	tingrett	tingrett	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	name	_	_
@@ -21211,12 +21211,12 @@
 8	av	av	ADP	_	_	9	case	_	_
 9	løypa	løype	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	_
 10	og	og	CONJ	_	_	3	cc	_	_
-11	så	se	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	16	aux	_	_
+11	så	se	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
 12	nærmeste	nær	ADJ	_	Definite=Def|Degree=Sup	13	amod	_	_
 13	konkurrent	konkurrent	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	nmod	_	_
 14	Hermann	Hermann	PROPN	_	_	16	nsubj	_	_
 15	Maier	Maier	PROPN	_	_	14	name	_	_
-16	tape	tape	VERB	_	VerbForm=Inf	3	conj	_	_
+16	tape	tape	VERB	_	VerbForm=Inf	11	ccomp	_	_
 17	halvsekundet	halvsekund	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	16	dobj	_	_
 18	fra	fra	ADP	_	_	20	case	_	_
 19	siste	sist	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	20	amod	_	_
@@ -29428,8 +29428,8 @@
 28	og	og	CONJ	_	_	3	cc	_	_
 29	planene	plan	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	32	nsubj	_	_
 30	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	32	aux	_	_
-31	påbys	påby	AUX	_	VerbForm=Inf|Voice=Pass	32	aux	_	_
-32	endret	endre	VERB	_	VerbForm=Part	3	conj	_	_
+31	påbys	påby	VERB	_	VerbForm=Inf|Voice=Pass	3	conj	_	_
+32	endret	endre	VERB	_	VerbForm=Part	31	ccomp	_	_
 33	(	$(	PUNCT	_	_	34	punct	_	_
 34	§	§	NOUN	_	_	3	parataxis	_	_
 35	3	3	NUM	_	Number=Plur	34	nmod	_	_
@@ -35320,8 +35320,8 @@
 
 1	Regjeringens	regjering	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	det	_	_
 2	erklæring	erklæring	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	nsubj	_	_
-3	foreslås	foreslå	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	4	aux	_	_
-4	utlagt	utlegge	VERB	_	VerbForm=Part	0	root	_	_
+3	foreslås	foreslå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	utlagt	utlegge	VERB	_	VerbForm=Part	3	ccomp	_	_
 5	for	for	ADP	_	_	6	case	_	_
 6	behandling	behandling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	nmod	_	_
 7	i	i	ADP	_	_	10	case	_	_
@@ -35332,8 +35332,8 @@
 
 1	-	$-	PUNCT	_	_	4	punct	_	_
 2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
-3	anses	anse	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	4	aux	_	_
-4	vedtatt	vedta	VERB	_	VerbForm=Part	0	root	_	_
+3	anses	anse	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	vedtatt	vedta	VERB	_	VerbForm=Part	3	ccomp	_	_
 5	.	$.	PUNCT	_	_	4	punct	_	_
 
 1	Presidenten	president	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	0	root	_	_
