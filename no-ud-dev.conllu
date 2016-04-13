@@ -8237,7 +8237,7 @@
 1	Er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	expl	_	_
 3	virkelig	virkelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	1	advmod	_	_
-4	noen	noen	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
+4	noen	noen	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	1	dislocated	_	_
 5	som	som	PRON	_	_	6	nsubj	_	_
 6	tror	tro	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
 7	at	at	SCONJ	_	_	10	mark	_	_
@@ -8564,7 +8564,7 @@
 16	en	en	DET	_	Gender=Masc|Number=Sing	17	det	_	_
 17	håndfull	håndfull	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	19	det	_	_
 18	utstilte	utstille	ADJ	_	Number=Plur	19	amod	_	_
-19	gjenstander	gjenstand	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	14	nsubj	_	_
+19	gjenstander	gjenstand	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	14	dislocated	_	_
 20	jeg	jeg	PRON	_	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
 21	husker	huske	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
 22	.	$.	PUNCT	_	_	2	punct	_	_
@@ -12583,7 +12583,7 @@
 7	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	_
 8	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	_
 9	mange	mange	ADJ	_	Degree=Pos|Number=Plur	10	amod	_	_
-10	ting	ting	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	nsubj	_	_
+10	ting	ting	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	dislocated	_	_
 11	vi	vi	PRON	_	Animacy=Anim|Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	_
 12	trenger	trenge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
 13	før	før	SCONJ	_	_	19	mark	_	_
@@ -19101,7 +19101,7 @@
 14	være	være	VERB	_	VerbForm=Inf	0	root	_	_
 15	omtrent	omtrent	ADV	_	_	16	advmod	_	_
 16	50	50	NUM	_	Number=Plur	17	nummod	_	_
-17	spillere	spiller	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	14	nsubj	_	_
+17	spillere	spiller	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	14	dislocated	_	_
 18	som	som	PRON	_	_	21	nsubj	_	_
 19	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	21	cop	_	_
 20	hemmelig	hemmelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	21	advmod	_	_
@@ -26699,7 +26699,7 @@
 1	-	$-	PUNCT	_	_	3	punct	_	_
 2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
 3	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	mye	mye	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	nsubj	_	_
+4	mye	mye	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	dislocated	_	_
 5	man	man	PRON	_	Animacy=Anim|Case=Nom|Number=Sing|PronType=Prs	7	nsubj	_	_
 6	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	_
 7	gjøre	gjøre	VERB	_	VerbForm=Inf	4	acl:relcl	_	_
@@ -31706,7 +31706,7 @@
 4	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
 6	ca	ca.	ADV	_	_	7	advmod	_	_
-7	80	80	NUM	_	Number=Plur	4	nsubj	_	_
+7	80	80	NUM	_	Number=Plur	4	dislocated	_	_
 8	som	som	PRON	_	_	9	nsubj	_	_
 9	bor	bo	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
 10	i	i	ADP	_	_	11	case	_	_
@@ -31734,7 +31734,7 @@
 2	fremdeles	fremdeles	ADV	_	_	3	advmod	_	_
 3	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
-5	noen	noen	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+5	noen	noen	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	3	dislocated	_	_
 6	som	som	PRON	_	_	7	nsubj	_	_
 7	ønsker	ønske	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
 8	å	å	PART	_	_	9	mark	_	_
@@ -33998,7 +33998,7 @@
 2	fortsatt	fortsatt	ADV	_	_	3	advmod	_	_
 3	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
-5	ingen	ingen	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+5	ingen	ingen	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	3	dislocated	_	_
 6	som	som	PRON	_	_	7	nsubj	_	_
 7	vet	vite	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
 8	hva	hva	PRON	_	PronType=Int	11	dobj	_	_
@@ -37914,7 +37914,7 @@
 7	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	_
 8	rundt	rundt	ADP	_	_	9	case	_	_
 9	20	20	NUM	_	Number=Plur	10	nummod	_	_
-10	soldater	soldat	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	nsubj	_	_
+10	soldater	soldat	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	dislocated	_	_
 11	som	som	PRON	_	_	13	nsubj	_	_
 12	mandag	mandag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	nmod	_	_
 13	kom	komme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	acl:relcl	_	_
