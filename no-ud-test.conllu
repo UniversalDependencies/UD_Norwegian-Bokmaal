@@ -1135,7 +1135,7 @@
 8	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	_
 9	bodd	bo	VERB	_	VerbForm=Part	6	acl:relcl	_	_
 10	på	på	ADP	_	_	12	case	_	_
-11	nyfødt	nyfødt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	name	_	_
+11	nyfødt	nyfødt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	compound	_	_
 12	intensiv-avdelingen	intensiv-avdeling	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	_
 13	ved	ved	ADP	_	_	14	case	_	_
 14	Ullevål	Ullevål	PROPN	_	_	12	nmod	_	_
@@ -1752,7 +1752,7 @@
 
 1	Ved	ved	ADP	_	_	4	case	_	_
 2	Rikshospitalets	Rikshospitalet	PROPN	_	Case=Gen	4	det	_	_
-3	nyfødt	nyfødt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	name	_	_
+3	nyfødt	nyfødt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	compound	_	_
 4	intensiv-avdeling	intensiv-avdeling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	12	nmod	_	_
 5	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	_
 6	målet	mål	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	12	nsubj	_	_
@@ -2292,7 +2292,7 @@
 4	vennene	venn	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	3	dobj	_	_
 5	sine	sin	DET	_	Number=Plur|Poss=Yes	4	nmod	_	_
 6	på	på	ADP	_	_	8	case	_	_
-7	jorda	jord	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	8	name	_	_
+7	jorda	jord	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	8	compound	_	_
 8	rundt-turen	rundt-tur	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	_
 9	og	og	CONJ	_	_	3	cc	_	_
 10	var	være	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	cop	_	_
@@ -2406,7 +2406,7 @@
 7	på	på	ADP	_	_	8	case	_	_
 8	jobben	jobb	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	_
 9	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
-10	fredags	fredag	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	11	name	_	_
+10	fredags	fredag	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	11	compound	_	_
 11	morgenen	morgen	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	_
 12	ser	se	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	hun	hun	PRON	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
@@ -3858,7 +3858,7 @@
 3	selv	selv	ADV	_	_	4	advmod	_	_
 4	med	med	ADP	_	_	0	root	_	_
 5	på	på	ADP	_	_	7	case	_	_
-6	jorden	jord	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	name	_	_
+6	jorden	jord	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	compound	_	_
 7	rundt-reisen	rundt-reise	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	_
 8	før	før	SCONJ	_	_	10	mark	_	_
 9	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
@@ -4285,7 +4285,7 @@
 23	tok	ta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	acl:relcl	_	_
 24	livet	liv	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	23	dobj	_	_
 25	av	av	ADP	_	_	27	case	_	_
-26	de	de	X	_	_	27	name	_	_
+26	de	de	X	_	_	27	compound	_	_
 27	Anderer	Anderer	PROPN	_	_	23	nmod	_	_
 28	,	$,	PUNCT	_	_	27	punct	_	_
 29	«	$"	PUNCT	_	_	31	punct	_	_
@@ -9459,7 +9459,7 @@
 6	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	_
 7	koste	koste	VERB	_	VerbForm=Inf	3	xcomp	_	_
 8	opptil	opptil	ADP	_	_	10	case	_	_
-9	600	600	NUM	_	Number=Plur	10	name	_	_
+9	600	600	NUM	_	Number=Plur	10	compound	_	_
 10	000	000	NUM	_	Number=Plur	11	nummod	_	_
 11	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	7	dobj	_	_
 12	å	å	PART	_	_	13	mark	_	_
@@ -9977,7 +9977,7 @@
 5	en	en	DET	_	Gender=Masc|Number=Sing	10	det	_	_
 6	33,3	33,3	NUM	_	Number=Plur	7	nummod	_	_
 7	%	%	NOUN	_	_	9	nmod	_	_
-8	Paradise	Paradise	PROPN	_	_	9	name	_	_
+8	Paradise	Paradise	PROPN	_	_	9	compound	_	_
 9	Hotel-infiltrert	Hotel-infiltrere	ADJ	_	Definite=Ind|Number=Sing	10	amod	_	_
 10	trio	trio	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	_
 11	.	$.	PUNCT	_	_	10	punct	_	_
@@ -10213,8 +10213,8 @@
 
 1	Eller	eller	CONJ	_	_	5	cc	_	_
 2	"	$"	PUNCT	_	_	5	punct	_	_
-3	holde	holde	VERB	_	VerbForm=Inf	5	name	_	_
-4	seg	seg	PRON	_	Case=Acc|Reflex=Yes	5	name	_	_
+3	holde	holde	VERB	_	VerbForm=Inf	5	compound	_	_
+4	seg	seg	PRON	_	Case=Acc|Reflex=Yes	5	compound	_	_
 5	hjemme-dager	hjemme-dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	_
 6	"	$"	PUNCT	_	_	5	punct	_	_
 7	som	som	PRON	_	_	9	iobj	_	_
@@ -18024,7 +18024,7 @@
 4	ikke	ikke	ADV	_	_	3	neg	_	_
 5	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
 6	Chanelveska	Chanelveska	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	_
-7	15	15	NUM	_	Number=Plur	8	name	_	_
+7	15	15	NUM	_	Number=Plur	8	compound	_	_
 8	000	000	NUM	_	Number=Plur	3	dobj	_	_
 9	?	$?	PUNCT	_	_	3	punct	_	_
 
@@ -19570,7 +19570,7 @@
 5	med	med	ADP	_	_	6	case	_	_
 6	konjakk	konjakk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	_
 7	eller	eller	CONJ	_	_	6	cc	_	_
-8	foie	foie	NOUN	_	_	9	name	_	_
+8	foie	foie	NOUN	_	_	9	compound	_	_
 9	gras	gras	NOUN	_	_	6	conj	_	_
 10	,	$,	PUNCT	_	_	1	punct	_	_
 11	mener	mene	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
@@ -20385,9 +20385,9 @@
 2	bytter	bytte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	ut	ut	ADP	_	_	2	compound:prt	_	_
 4	«	$"	PUNCT	_	_	9	punct	_	_
-5	I	I	X	_	_	9	name	_	_
-6	love	love	X	_	_	9	name	_	_
-7	N.Y.	N.Y.	PROPN	_	_	9	name	_	_
+5	I	I	X	_	_	9	compound	_	_
+6	love	love	X	_	_	9	compound	_	_
+7	N.Y.	N.Y.	PROPN	_	_	9	compound	_	_
 8	»	$"	PUNCT	_	_	9	punct	_	_
 9	-T-skjorta	-T-skjorte	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	2	dobj	_	_
 10	med	med	ADP	_	_	11	case	_	_
@@ -20655,7 +20655,7 @@
 
 1	For	for	ADP	_	_	2	case	_	_
 2	eksempel	eksempel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	nmod	_	_
-3	Heli	Heli	PROPN	_	_	4	name	_	_
+3	Heli	Heli	PROPN	_	_	4	compound	_	_
 4	Rekula-bildet	Rekula-bilde	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	0	root	_	_
 5	av	av	ADP	_	_	6	case	_	_
 6	jenta	jente	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	_
@@ -25272,7 +25272,7 @@
 7	frykte	frykte	VERB	_	VerbForm=Inf	2	advcl	_	_
 8	hevntokter	hevntokt	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	7	dobj	_	_
 9	mot	mot	ADP	_	_	11	case	_	_
-10	Gaddafi	Gaddafi	PROPN	_	_	11	name	_	_
+10	Gaddafi	Gaddafi	PROPN	_	_	11	compound	_	_
 11	lojalister	lojalist	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	8	nmod	_	_
 12	i	i	ADP	_	_	13	case	_	_
 13	Sirte	Sirte	PROPN	_	_	8	nmod	_	_
@@ -25897,7 +25897,7 @@
 20	naturinngrepsforskriften	naturinngrepsforskrift	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	_
 21	.	$.	PUNCT	_	_	6	punct	_	_
 
-1	Føre	føre	ADP	_	_	2	name	_	_
+1	Føre	føre	ADP	_	_	2	compound	_	_
 2	vàr-prinsippet	vàr-prinsipp	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	_
 3	tilsier	tilsi	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	at	at	SCONJ	_	_	20	mark	_	_
@@ -26129,7 +26129,7 @@
 31	i	i	ADP	_	_	32	case	_	_
 32	medhold	medhold	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	30	nmod	_	_
 33	av	av	ADP	_	_	35	case	_	_
-34	Jan	Jan	PROPN	_	Gender=Masc	35	name	_	_
+34	Jan	Jan	PROPN	_	Gender=Masc	35	compound	_	_
 35	Mayen-loven	Mayen-lov	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	32	nmod	_	_
 36	.	$.	PUNCT	_	_	2	punct	_	_
 
@@ -26413,7 +26413,7 @@
 22	miljøforskrift	miljøforskrift	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	nmod	_	_
 23	og	og	CONJ	_	_	18	cc	_	_
 24	at	at	SCONJ	_	_	27	mark	_	_
-25	Jan	Jan	PROPN	_	Gender=Masc	26	name	_	_
+25	Jan	Jan	PROPN	_	Gender=Masc	26	compound	_	_
 26	Mayen-loven	Mayen-lov	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	27	nsubj	_	_
 27	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	conj	_	_
 28	en	en	DET	_	Gender=Masc|Number=Sing	30	det	_	_
@@ -26676,7 +26676,7 @@
 14	utvalget	utvalg	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	15	nsubj	_	_
 15	foreslår	foreslå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
 16	i	i	ADP	_	_	18	case	_	_
-17	Jan	Jan	PROPN	_	Gender=Masc	18	name	_	_
+17	Jan	Jan	PROPN	_	Gender=Masc	18	compound	_	_
 18	Mayen-loven	Mayen-lov	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	_
 19	§	§	NOUN	_	_	18	nmod	_	_
 20	2	2	NUM	_	Number=Plur	19	nmod	_	_
@@ -29989,7 +29989,7 @@
 1	Vårt	vår	DET	_	Gender=Neut|Number=Sing|Poss=Yes	2	nmod	_	_
 2	mål	mål	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	nsubj	_	_
 3	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	_
-4	10	10	NUM	_	Number=Plur	5	name	_	_
+4	10	10	NUM	_	Number=Plur	5	compound	_	_
 5	000	000	NUM	_	Number=Plur	6	nmod	_	_
 6	flere	mange	ADJ	_	Degree=Cmp	7	amod	_	_
 7	ansatte	ansatt	ADJ	_	Degree=Pos|Number=Plur	0	root	_	_
@@ -30168,7 +30168,7 @@
 8	ned	ned	ADP	_	_	13	case	_	_
 9	prisen	pris	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	dobj	_	_
 10	til	til	ADP	_	_	13	case	_	_
-11	2	2	NUM	_	Number=Plur	12	name	_	_
+11	2	2	NUM	_	Number=Plur	12	compound	_	_
 12	250	250	NUM	_	Number=Plur	13	nummod	_	_
 13	kr	kr	NOUN	_	_	7	nmod	_	_
 14	fra	fra	ADP	_	_	16	case	_	_
@@ -31918,7 +31918,7 @@
 11	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	16	det	_	_
 12	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	16	amod	_	_
 13	"	$"	PUNCT	_	_	16	punct	_	_
-14	Norvegia	Norvegia	PROPN	_	_	16	name	_	_
+14	Norvegia	Norvegia	PROPN	_	_	16	compound	_	_
 15	"	$"	PUNCT	_	_	16	punct	_	_
 16	-ekspedisjonen	-ekspedisjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	conj	_	_
 17	plantet	plante	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	csubj	_	_

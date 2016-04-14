@@ -4812,8 +4812,8 @@
 14	storebror	storebror	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	advcl	_	_
 15	i	i	ADP	_	_	19	case	_	_
 16	en	en	DET	_	Gender=Masc|Number=Sing	19	det	_	_
-17	høyre	høyre	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	19	name	_	_
-18	/	$/	SYM	_	_	19	name	_	_
+17	høyre	høyre	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	19	compound	_	_
+18	/	$/	SYM	_	_	19	compound	_	_
 19	sentrumskoalisjon	sentrumskoalisjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	nmod	_	_
 20	.	$.	PUNCT	_	_	10	punct	_	_
 
@@ -11013,7 +11013,7 @@
 14	eller	eller	CONJ	_	_	13	cc	_	_
 15	trusler	trussel	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	13	conj	_	_
 16	:	$:	PUNCT	_	_	15	punct	_	_
-17	90	90	NUM	_	Number=Plur	18	name	_	_
+17	90	90	NUM	_	Number=Plur	18	compound	_	_
 18	000	000	NUM	_	Number=Plur	19	nummod	_	_
 19	kvadratmeter	kvadratmeter	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	15	appos	_	_
 20	til	til	ADP	_	_	23	case	_	_
@@ -12958,7 +12958,7 @@
 16	og	og	CONJ	_	_	11	cc	_	_
 17	knasket	knaske	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	conj	_	_
 18	tørre	tørr	ADJ	_	Degree=Pos|Number=Plur	20	amod	_	_
-19	pommes	pommes	NOUN	_	_	20	name	_	_
+19	pommes	pommes	NOUN	_	_	20	compound	_	_
 20	frites	frites	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	dobj	_	_
 21	.	$.	PUNCT	_	_	3	punct	_	_
 
@@ -15862,7 +15862,7 @@
 1	Læreren	lærer	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	spiller	spille	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	en	en	DET	_	Gender=Masc|Number=Sing	5	det	_	_
-4	Michael	Michael	PROPN	_	Gender=Masc	5	name	_	_
+4	Michael	Michael	PROPN	_	Gender=Masc	5	compound	_	_
 5	Kiwanuka-låt	Kiwanuka-låt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	dobj	_	_
 6	og	og	CONJ	_	_	2	cc	_	_
 7	spør	spørre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
@@ -18933,7 +18933,7 @@
 11	alle	all	DET	_	Number=Plur	15	det	_	_
 12	de	de	DET	_	Number=Plur|PronType=Dem	15	det	_	_
 13	homofile	homofil	ADJ	_	Degree=Pos|Number=Plur	15	amod	_	_
-14	Premier	Premier	PROPN	_	_	15	name	_	_
+14	Premier	Premier	PROPN	_	_	15	compound	_	_
 15	League-spillerne	League-spiller	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	9	nsubj	_	_
 16	?	$?	PUNCT	_	_	9	punct	_	_
 
@@ -19760,11 +19760,11 @@
 2	et	en	DET	_	Gender=Neut|Number=Sing	11	det	_	_
 3	utvidet	utvide	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing	11	amod	_	_
 4	«	$"	PUNCT	_	_	11	punct	_	_
-5	Gjærbägst	Gjærbägst	PROPN	_	_	11	name	_	_
-6	and	and	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	11	name	_	_
-7	the	the	X	_	_	11	name	_	_
-8	Homöcidal	Homöcidal	PROPN	_	_	11	name	_	_
-9	Sirupsnipps	Sirupsnipps	PROPN	_	_	11	name	_	_
+5	Gjærbägst	Gjærbägst	PROPN	_	_	11	compound	_	_
+6	and	and	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	11	compound	_	_
+7	the	the	X	_	_	11	compound	_	_
+8	Homöcidal	Homöcidal	PROPN	_	_	11	compound	_	_
+9	Sirupsnipps	Sirupsnipps	PROPN	_	_	11	compound	_	_
 10	»	$"	PUNCT	_	_	11	punct	_	_
 11	-konsept	-konsept	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	20	nmod	_	_
 12	og	og	CONJ	_	_	11	cc	_	_
@@ -19816,8 +19816,8 @@
 16	de	de	DET	_	Number=Plur|PronType=Dem	22	det	_	_
 17	tidligere	tidlig	ADJ	_	Degree=Cmp	22	amod	_	_
 18	«	$"	PUNCT	_	_	22	punct	_	_
-19	Guitar	Guitar	PROPN	_	_	22	name	_	_
-20	Hero	Hero	PROPN	_	_	22	name	_	_
+19	Guitar	Guitar	PROPN	_	_	22	compound	_	_
+20	Hero	Hero	PROPN	_	_	22	compound	_	_
 21	»	$"	PUNCT	_	_	22	punct	_	_
 22	spillene	spill	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	14	nmod	_	_
 23	.	$.	PUNCT	_	_	13	punct	_	_
@@ -19978,8 +19978,8 @@
 4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	expl	_	_
 5	imidlertid	imidlertid	ADV	_	_	10	advmod	_	_
 6	«	$"	PUNCT	_	_	10	punct	_	_
-7	Guitar	Guitar	PROPN	_	_	10	name	_	_
-8	Hero	Hero	PROPN	_	_	10	name	_	_
+7	Guitar	Guitar	PROPN	_	_	10	compound	_	_
+8	Hero	Hero	PROPN	_	_	10	compound	_	_
 9	»	$"	PUNCT	_	_	10	punct	_	_
 10	-trommene	-tromme	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	0	root	_	_
 11	som	som	PRON	_	_	15	nsubj	_	_
@@ -20109,7 +20109,7 @@
 23	manko	manko	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	20	dobj	_	_
 24	på	på	ADP	_	_	28	case	_	_
 25	«	$"	PUNCT	_	_	28	punct	_	_
-26	Singstar	Singstar	PROPN	_	_	28	name	_	_
+26	Singstar	Singstar	PROPN	_	_	28	compound	_	_
 27	»	$"	PUNCT	_	_	28	punct	_	_
 28	-fantaster	-fantast	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	23	nmod	_	_
 29	og	og	CONJ	_	_	28	cc	_	_
@@ -20200,8 +20200,8 @@
 2	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	8	det	_	_
 3	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	8	amod	_	_
 4	«	$"	PUNCT	_	_	8	punct	_	_
-5	Guitar	Guitar	PROPN	_	_	8	name	_	_
-6	Hero	Hero	PROPN	_	_	8	name	_	_
+5	Guitar	Guitar	PROPN	_	_	8	compound	_	_
+6	Hero	Hero	PROPN	_	_	8	compound	_	_
 7	»	$"	PUNCT	_	_	8	punct	_	_
 8	-spillet	-spill	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	12	nmod	_	_
 9	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	aux	_	_
@@ -20292,7 +20292,7 @@
 13	musikalske	musikalsk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	14	amod	_	_
 14	fossilen	fossil	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	_
 15	fra	fra	ADP	_	_	17	case	_	_
-16	kambrium	kambrium	NOUN	_	_	17	name	_	_
+16	kambrium	kambrium	NOUN	_	_	17	compound	_	_
 17	silur-tiden	silur-tid	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	_
 18	noe	noe	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	dobj	_	_
 19	som	som	ADP	_	_	20	case	_	_
@@ -20300,8 +20300,8 @@
 21	i	i	ADP	_	_	27	case	_	_
 22	et	en	DET	_	Gender=Neut|Number=Sing	27	det	_	_
 23	«	$"	PUNCT	_	_	27	punct	_	_
-24	Guitar	Guitar	PROPN	_	_	27	name	_	_
-25	Hero	Hero	PROPN	_	_	27	name	_	_
+24	Guitar	Guitar	PROPN	_	_	27	compound	_	_
+25	Hero	Hero	PROPN	_	_	27	compound	_	_
 26	»	$"	PUNCT	_	_	27	punct	_	_
 27	-spill	-spill	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	29	nmod	_	_
 28	å	å	PART	_	_	29	mark	_	_
@@ -20320,7 +20320,7 @@
 41	musikkpreferansene	musikkpreferanse	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	39	nmod	_	_
 42	våre	vår	DET	_	Number=Plur|Poss=Yes	41	nmod	_	_
 43	,	$,	PUNCT	_	_	7	punct	_	_
-44	Snorre	Snorre	PROPN	_	Gender=Masc	45	name	_	_
+44	Snorre	Snorre	PROPN	_	Gender=Masc	45	compound	_	_
 45	anm.	anm.	NOUN	_	Gender=Fem	7	parataxis	_	_
 46	)	$)	PUNCT	_	_	45	punct	_	_
 47	.	$.	PUNCT	_	_	7	punct	_	_
@@ -22598,8 +22598,8 @@
 20	.	$.	PUNCT	_	_	3	punct	_	_
 
 1	«	$"	PUNCT	_	_	5	punct	_	_
-2	Storm	storme	VERB	_	Mood=Imp|VerbForm=Fin	5	name	_	_
-3	ut	ut	ADP	_	_	5	name	_	_
+2	Storm	storme	VERB	_	Mood=Imp|VerbForm=Fin	5	compound	_	_
+3	ut	ut	ADP	_	_	5	compound	_	_
 4	»	$"	PUNCT	_	_	5	punct	_	_
 5	-funksjonen	-funksjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	nsubj	_	_
 6	på	på	ADP	_	_	7	case	_	_
@@ -22637,7 +22637,7 @@
 10	å	å	PART	_	_	11	mark	_	_
 11	be	be	VERB	_	VerbForm=Inf	9	csubj	_	_
 12	en	en	DET	_	Gender=Masc|Number=Sing	14	det	_	_
-13	Daily	Daily	PROPN	_	_	14	name	_	_
+13	Daily	Daily	PROPN	_	_	14	compound	_	_
 14	Mirror-journalist	Mirror-journalist	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	iobj	_	_
 15	«	$"	PUNCT	_	_	16	punct	_	_
 16	dra	dra	VERB	_	VerbForm=Inf	11	xcomp	_	_
@@ -22662,7 +22662,7 @@
 2	i	i	ADP	_	_	7	case	_	_
 3	tidligere	tidlig	ADJ	_	Degree=Cmp	7	amod	_	_
 4	«	$"	PUNCT	_	_	7	punct	_	_
-5	FM	FM	PROPN	_	_	7	name	_	_
+5	FM	FM	PROPN	_	_	7	compound	_	_
 6	»	$"	PUNCT	_	_	7	punct	_	_
 7	-spill	-spill	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	8	nmod	_	_
 8	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -22729,7 +22729,7 @@
 5	tid	tid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	dobj	_	_
 6	å	å	PART	_	_	7	mark	_	_
 7	overbevise	overbevise	VERB	_	VerbForm=Inf	3	csubj	_	_
-8	Premier	Premier	PROPN	_	_	9	name	_	_
+8	Premier	Premier	PROPN	_	_	9	compound	_	_
 9	League-spillere	League-spiller	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	7	dobj	_	_
 10	med	med	ADP	_	_	11	case	_	_
 11	primadonnanykker	primadonnanykke	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	9	nmod	_	_
@@ -23119,7 +23119,7 @@
 9	en	en	DET	_	Gender=Masc|Number=Sing	10	det	_	_
 10	gang	gang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	nmod	_	_
 11	et	en	DET	_	Gender=Neut|Number=Sing	13	det	_	_
-12	Premier	Premier	PROPN	_	_	13	name	_	_
+12	Premier	Premier	PROPN	_	_	13	compound	_	_
 13	League-lag	League-lag	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	conj	_	_
 14	med	med	ADP	_	_	16	case	_	_
 15	minst	liten	ADJ	_	Definite=Ind|Degree=Sup	16	amod	_	_
@@ -23951,7 +23951,7 @@
 4	kjøpe	kjøpe	VERB	_	VerbForm=Inf	2	csubj	_	_
 5	veske	veske	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	dobj	_	_
 6	til	til	ADP	_	_	8	case	_	_
-7	33	33	NUM	_	Number=Plur	8	name	_	_
+7	33	33	NUM	_	Number=Plur	8	compound	_	_
 8	000	000	NUM	_	Number=Plur	5	nmod	_	_
 9	enn	enn	ADP	_	_	10	case	_	_
 10	aksjer	aksje	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	nmod	_	_
@@ -25730,7 +25730,7 @@
 9	en	en	DET	_	Gender=Masc|Number=Sing	10	det	_	_
 10	Birkin-bag	Birkin-bag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	_
 11	til	til	ADP	_	_	14	case	_	_
-12	33	33	NUM	_	Number=Plur	13	name	_	_
+12	33	33	NUM	_	Number=Plur	13	compound	_	_
 13	200	200	NUM	_	Number=Plur	14	nummod	_	_
 14	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	10	nmod	_	_
 15	.	$.	PUNCT	_	_	10	punct	_	_
@@ -25751,7 +25751,7 @@
 2	Hvis	hvis	SCONJ	_	_	4	mark	_	_
 3	du	du	PRON	_	Animacy=Anim|Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
 4	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	nmod	_	_
-5	33	33	NUM	_	Number=Plur	6	name	_	_
+5	33	33	NUM	_	Number=Plur	6	compound	_	_
 6	000	000	NUM	_	Number=Plur	7	nummod	_	_
 7	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	4	dobj	_	_
 8	,	$,	PUNCT	_	_	4	punct	_	_
@@ -26378,7 +26378,7 @@
 6	fra	fra	ADP	_	_	7	case	_	_
 7	Lanvin	Lanvin	PROPN	_	_	5	nmod	_	_
 8	til	til	ADP	_	_	10	case	_	_
-9	11	11	NUM	_	Number=Plur	10	name	_	_
+9	11	11	NUM	_	Number=Plur	10	compound	_	_
 10	000	000	NUM	_	Number=Plur	5	nmod	_	_
 11	.	$.	PUNCT	_	_	3	punct	_	_
 
@@ -27482,8 +27482,8 @@
 3	del	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	nsubj	_	_
 4	av	av	ADP	_	_	10	case	_	_
 5	«	$"	PUNCT	_	_	9	punct	_	_
-6	min	min	DET	_	Gender=Masc|Number=Sing|Poss=Yes	9	name	_	_
-7	kamp	kamp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	name	_	_
+6	min	min	DET	_	Gender=Masc|Number=Sing|Poss=Yes	9	compound	_	_
+7	kamp	kamp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	compound	_	_
 8	»	$"	PUNCT	_	_	9	punct	_	_
 9	-bøkenes	-bok	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	10	det	_	_
 10	provokasjonsverdi	provokasjonsverdi	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	_
@@ -28653,7 +28653,7 @@
 15	fiskerisonen	fiskerisone	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	_
 16	.	$.	PUNCT	_	_	3	punct	_	_
 
-1	Jan	Jan	PROPN	_	Gender=Masc	2	name	_	_
+1	Jan	Jan	PROPN	_	Gender=Masc	2	compound	_	_
 2	Mayen-lovens	Mayen-lov	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	3	det	_	_
 3	regler	regel	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	nsubj	_	_
 4	gjelder	gjelde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -28671,7 +28671,7 @@
 5	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	_
 6	derfor	derfor	ADV	_	_	15	advmod	_	_
 7	både	både	CONJ	_	_	9	cc	_	_
-8	Jan	Jan	PROPN	_	Gender=Masc	9	name	_	_
+8	Jan	Jan	PROPN	_	Gender=Masc	9	compound	_	_
 9	Mayen-loven	Mayen-lov	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	nsubj	_	_
 10	og	og	CONJ	_	_	9	cc	_	_
 11	lov	lov	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	conj	_	_
@@ -28800,7 +28800,7 @@
 12	.	$.	PUNCT	_	_	3	punct	_	_
 
 1	Ved	ved	ADP	_	_	3	case	_	_
-2	kgl	kgl.	NOUN	_	_	3	name	_	_
+2	kgl	kgl.	NOUN	_	_	3	compound	_	_
 3	res	res.	NOUN	_	_	20	nmod	_	_
 4	25	25	NUM	_	Number=Plur	5	nmod	_	_
 5	august	august	NOUN	_	Gender=Masc	3	nmod	_	_
@@ -28910,7 +28910,7 @@
 2	alminnelige	alminnelig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	_
 3	forskriftshjemmelen	forskriftshjemmel	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	_
 4	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
-5	Jan	Jan	PROPN	_	Gender=Masc	6	name	_	_
+5	Jan	Jan	PROPN	_	Gender=Masc	6	compound	_	_
 6	Mayen-loven	Mayen-lov	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	0	root	_	_
 7	§	§	NOUN	_	_	6	nmod	_	_
 8	2	2	NUM	_	Number=Plur	7	nmod	_	_
@@ -28991,7 +28991,7 @@
 14	som	som	ADP	_	_	15	case	_	_
 15	følge	følge	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	_
 16	av	av	ADP	_	_	18	case	_	_
-17	Jan	Jan	PROPN	_	Gender=Masc	18	name	_	_
+17	Jan	Jan	PROPN	_	Gender=Masc	18	compound	_	_
 18	Mayen-loven	Mayen-lov	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	_
 19	§	§	NOUN	_	_	18	nmod	_	_
 20	2	2	NUM	_	Number=Plur	19	nmod	_	_
@@ -32476,7 +32476,7 @@
 38	ble	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	30	advcl	_	_
 39	ilandføringssted	ilandføringssted	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	38	xcomp	_	_
 40	for	for	ADP	_	_	42	case	_	_
-41	Ormen	Ormen	PROPN	_	_	42	name	_	_
+41	Ormen	Ormen	PROPN	_	_	42	compound	_	_
 42	Lange-gassen	Lange-gass	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	39	nmod	_	_
 43	.	$.	PUNCT	_	_	6	punct	_	_
 
@@ -36082,7 +36082,7 @@
 14	.	$.	PUNCT	_	_	3	punct	_	_
 
 1	Da	da	SCONJ	_	_	4	mark	_	_
-2	Kings	Kings	PROPN	_	_	3	name	_	_
+2	Kings	Kings	PROPN	_	_	3	compound	_	_
 3	Bay-saken	Bay-sak	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	_
 4	kom	komme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	advcl	_	_
 5	opp	opp	ADP	_	_	4	compound:prt	_	_
