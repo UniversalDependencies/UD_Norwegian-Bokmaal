@@ -9019,7 +9019,7 @@
 26	Sunkost	Sunkost	PROPN	_	_	24	conj	_	_
 27	og	og	CONJ	_	_	24	cc	_	_
 28	Naturli	Naturli	PROPN	_	_	24	conj	_	_
-29	'	$"	PUNCT	_	_	28	name	_	_
+29	'	$"	PUNCT	_	_	28	punct	_	_
 30	vis	vis	X	_	_	28	name	_	_
 31	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	32	cop	_	_
 32	medlem	medlem	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	12	acl:relcl	_	_
@@ -14730,7 +14730,7 @@
 24	var	være	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	25	cop	_	_
 25	uniformert	uniformere	ADJ	_	Definite=Ind|Number=Sing	21	appos	_	_
 26	(	$(	PUNCT	_	_	27	punct	_	_
-27	...	$...	PUNCT	_	_	4	parataxis	_	_
+27	...	$...	PUNCT	_	_	4	punct	_	_
 28	)	$)	PUNCT	_	_	27	punct	_	_
 29	»	$"	PUNCT	_	_	4	punct	_	_
 30	,	$,	PUNCT	_	_	4	punct	_	_
@@ -16460,7 +16460,7 @@
 12	Bergen	Bergen	PROPN	_	_	10	nmod	_	_
 13	og	og	CONJ	_	_	10	cc	_	_
 14	Chr	Chr	PROPN	_	_	10	conj	_	_
-15	.	$.	PUNCT	_	_	14	name	_	_
+15	.	$.	PUNCT	_	_	14	punct	_	_
 16	Michelsens	Michelsens	PROPN	_	_	14	name	_	_
 17	barnehjem	barnehjem	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	14	name	_	_
 18	i	i	ADP	_	_	19	case	_	_
@@ -16512,7 +16512,7 @@
 6	styret	styre	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nmod	_	_
 7	for	for	ADP	_	_	8	case	_	_
 8	Chr	Chr	PROPN	_	_	6	nmod	_	_
-9	.	$.	PUNCT	_	_	8	name	_	_
+9	.	$.	PUNCT	_	_	8	punct	_	_
 10	Michelsens	Michelsens	PROPN	_	_	8	name	_	_
 11	barnehjem	barnehjem	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	name	_	_
 12	i	i	ADP	_	_	13	case	_	_
@@ -16616,7 +16616,7 @@
 13	spedbarn	spedbarn	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	19	nsubjpass	_	_
 14	fra	fra	ADP	_	_	15	case	_	_
 15	Chr	Chr	PROPN	_	_	13	nmod	_	_
-16	.	$.	PUNCT	_	_	15	name	_	_
+16	.	$.	PUNCT	_	_	15	punct	_	_
 17	Michelsens	Michelsens	PROPN	_	_	15	name	_	_
 18	barnehjem	barnehjem	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	15	name	_	_
 19	bortadoptert	bortadoptere	VERB	_	VerbForm=Part	0	root	_	_
@@ -16858,7 +16858,7 @@
 7	barn	barn	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	4	nmod	_	_
 8	på	på	ADP	_	_	9	case	_	_
 9	Chr	Chr	PROPN	_	_	4	nmod	_	_
-10	.	$.	PUNCT	_	_	9	name	_	_
+10	.	$.	PUNCT	_	_	9	punct	_	_
 11	Michelsens	Michelsens	PROPN	_	_	9	name	_	_
 12	barnehjem	barnehjem	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	name	_	_
 13	.	$.	PUNCT	_	_	2	punct	_	_
@@ -17266,7 +17266,7 @@
 3	adoptivbarn	adoptivbarn	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	1	nmod	_	_
 4	på	på	ADP	_	_	5	case	_	_
 5	Chr	Chr	PROPN	_	_	3	nmod	_	_
-6	.	$.	PUNCT	_	_	5	name	_	_
+6	.	$.	PUNCT	_	_	5	punct	_	_
 7	Michelsens	Michelsens	PROPN	_	_	5	name	_	_
 8	barnehjem	barnehjem	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	name	_	_
 9	foregikk	foregå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -17358,7 +17358,7 @@
 19	.	$.	PUNCT	_	_	3	punct	_	_
 
 1	Chr	Chr	PROPN	_	_	7	nsubjpass	_	_
-2	.	$.	PUNCT	_	_	1	name	_	_
+2	.	$.	PUNCT	_	_	1	punct	_	_
 3	Michelsens	Michelsens	PROPN	_	_	1	name	_	_
 4	barnehjem	barnehjem	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	1	name	_	_
 5	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	auxpass	_	_
@@ -17396,7 +17396,7 @@
 13	styret	styre	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nmod	_	_
 14	for	for	ADP	_	_	15	case	_	_
 15	Chr	Chr	PROPN	_	_	13	nmod	_	_
-16	.	$.	PUNCT	_	_	15	name	_	_
+16	.	$.	PUNCT	_	_	15	punct	_	_
 17	Michelsens	Michelsens	PROPN	_	_	15	name	_	_
 18	barnehjem	barnehjem	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	15	name	_	_
 19	:	$:	PUNCT	_	_	3	punct	_	_
@@ -17609,7 +17609,7 @@
 9	barn	barn	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	8	dobj	_	_
 10	på	på	ADP	_	_	11	case	_	_
 11	Chr	Chr	PROPN	_	_	8	nmod	_	_
-12	.	$.	PUNCT	_	_	11	name	_	_
+12	.	$.	PUNCT	_	_	11	punct	_	_
 13	Michelsens	Michelsens	PROPN	_	_	11	name	_	_
 14	barnehjem	barnehjem	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	name	_	_
 15	,	$,	PUNCT	_	_	2	punct	_	_
@@ -23129,9 +23129,9 @@
 8	1	1	NUM	_	Number=Plur	6	conj	_	_
 9	til	til	ADP	_	_	15	case	_	_
 10	Espen	Espen	PROPN	_	Gender=Masc	15	det	_	_
-11	«	$"	PUNCT	_	_	10	name	_	_
+11	«	$"	PUNCT	_	_	10	punct	_	_
 12	Shampo	Shampo	PROPN	_	_	10	name	_	_
-13	»	$"	PUNCT	_	_	10	name	_	_
+13	»	$"	PUNCT	_	_	10	punct	_	_
 14	Knutsens	Knutsen	PROPN	_	Case=Gen	10	name	_	_
 15	elever	elev	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	nmod	_	_
 16	,	$,	PUNCT	_	_	4	punct	_	_
@@ -29511,7 +29511,7 @@
 4	dem	de	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	nmod	_	_
 5	,	$,	PUNCT	_	_	2	punct	_	_
 6	RS	RS	PROPN	_	_	2	appos	_	_
-7	«	$"	PUNCT	_	_	6	name	_	_
+7	«	$"	PUNCT	_	_	6	punct	_	_
 8	Platou	Platou	PROPN	_	_	6	name	_	_
 9	»	$"	PUNCT	_	_	6	punct	_	_
 10	,	$,	PUNCT	_	_	6	punct	_	_

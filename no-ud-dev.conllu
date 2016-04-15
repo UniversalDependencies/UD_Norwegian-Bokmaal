@@ -412,7 +412,7 @@
 14	:	$:	PUNCT	_	_	6	punct	_	_
 
 1	«	$"	PUNCT	_	_	4	punct	_	_
-2	...	$...	PUNCT	_	_	4	parataxis	_	_
+2	...	$...	PUNCT	_	_	4	punct	_	_
 3	han	han	PRON	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 4	behandler	behandle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	menneskene	menneske	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	4	dobj	_	_
@@ -529,7 +529,7 @@
 31	som	som	PRON	_	_	35	nsubj	_	_
 32	:	$:	PUNCT	_	_	35	punct	_	_
 33	«	$"	PUNCT	_	_	35	punct	_	_
-34	...	$...	PUNCT	_	_	4	parataxis	_	_
+34	...	$...	PUNCT	_	_	4	punct	_	_
 35	ønsket	ønske	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	30	acl:relcl	_	_
 36	å	å	PART	_	_	37	mark	_	_
 37	tro	tro	VERB	_	VerbForm=Inf	35	xcomp	_	_
@@ -545,7 +545,7 @@
 47	gang	gang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	49	nmod	_	_
 48	«	$"	PUNCT	_	_	49	punct	_	_
 49	leste	lese	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	43	acl:relcl	_	_
-50	...	$...	PUNCT	_	_	4	parataxis	_	_
+50	...	$...	PUNCT	_	_	4	punct	_	_
 51	om	om	ADP	_	_	52	case	_	_
 52	saken	sak	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	49	nmod	_	_
 53	i	i	ADP	_	_	54	case	_	_
@@ -13568,7 +13568,7 @@
 22	Hotell	Hotell	PROPN	_	_	21	name	_	_
 23	Rosenkrantz	Rosenkrantz	PROPN	_	_	21	name	_	_
 24	(	$(	PUNCT	_	_	25	punct	_	_
-25	...	$...	PUNCT	_	_	4	parataxis	_	_
+25	...	$...	PUNCT	_	_	4	punct	_	_
 26	)	$)	PUNCT	_	_	25	punct	_	_
 27	ambulansepersonalet	ambulansepersonale	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	28	nsubj	_	_
 28	jobbet	jobbe	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
@@ -14701,7 +14701,7 @@
 9	:	$:	PUNCT	_	_	2	punct	_	_
 
 1	«	$"	PUNCT	_	_	3	punct	_	_
-2	...	$...	PUNCT	_	_	3	parataxis	_	_
+2	...	$...	PUNCT	_	_	3	punct	_	_
 3	where	where	X	_	_	0	root	_	_
 4	do	do	X	_	_	3	foreign	_	_
 5	we	we	X	_	_	3	foreign	_	_
@@ -15510,7 +15510,7 @@
 2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	stoppe	stoppe	VERB	_	VerbForm=Inf	0	root	_	_
 4	deg	du	PRON	_	Animacy=Anim|Case=Acc|Number=Sing|Person=2|PronType=Prs	3	dobj	_	_
-5	...	$...	PUNCT	_	_	3	parataxis	_	_
+5	...	$...	PUNCT	_	_	3	punct	_	_
 6	når	når	SCONJ	_	_	8	mark	_	_
 7	vi	vi	PRON	_	Animacy=Anim|Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
 8	spør	spørre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	advcl	_	_
@@ -15841,7 +15841,7 @@
 11	:	$:	PUNCT	_	_	7	punct	_	_
 
 1	«	$"	PUNCT	_	_	3	punct	_	_
-2	...	$...	PUNCT	_	_	3	parataxis	_	_
+2	...	$...	PUNCT	_	_	3	punct	_	_
 3	born	born	X	_	_	0	root	_	_
 4	again	again	X	_	_	3	foreign	_	_
 5	,	$,	PUNCT	_	_	3	punct	_	_
@@ -16026,7 +16026,7 @@
 2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	stoppe	stoppe	VERB	_	VerbForm=Inf	0	root	_	_
 4	deg	du	PRON	_	Animacy=Anim|Case=Acc|Number=Sing|Person=2|PronType=Prs	3	dobj	_	_
-5	...	$...	PUNCT	_	_	3	parataxis	_	_
+5	...	$...	PUNCT	_	_	3	punct	_	_
 6	når	når	SCONJ	_	_	8	mark	_	_
 7	vi	vi	PRON	_	Animacy=Anim|Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
 8	spør	spørre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	advcl	_	_
@@ -19430,7 +19430,7 @@
 7	«	$"	PUNCT	_	_	8	punct	_	_
 8	Guitar	Guitar	PROPN	_	_	2	conj	_	_
 9	Hero	Hero	PROPN	_	_	8	name	_	_
-10	:	$:	PUNCT	_	_	8	name	_	_
+10	:	$:	PUNCT	_	_	8	punct	_	_
 11	World	World	PROPN	_	_	8	name	_	_
 12	Tour	Tour	PROPN	_	_	8	name	_	_
 13	»	$"	PUNCT	_	_	8	punct	_	_
@@ -19478,7 +19478,7 @@
 5	«	$"	PUNCT	_	_	6	punct	_	_
 6	Guitar	Guitar	PROPN	_	_	3	nmod	_	_
 7	Hero	Hero	PROPN	_	_	6	name	_	_
-8	:	$:	PUNCT	_	_	6	name	_	_
+8	:	$:	PUNCT	_	_	6	punct	_	_
 9	World	World	PROPN	_	_	6	name	_	_
 10	Tour	Tour	PROPN	_	_	6	name	_	_
 11	»	$"	PUNCT	_	_	6	punct	_	_
@@ -19557,7 +19557,7 @@
 18	«	$"	PUNCT	_	_	19	punct	_	_
 19	Guitar	Guitar	PROPN	_	_	13	conj	_	_
 20	Hero	Hero	PROPN	_	_	19	name	_	_
-21	:	$:	PUNCT	_	_	19	name	_	_
+21	:	$:	PUNCT	_	_	19	punct	_	_
 22	World	World	PROPN	_	_	19	name	_	_
 23	Tour	Tour	PROPN	_	_	19	name	_	_
 24	»	$"	PUNCT	_	_	19	punct	_	_
@@ -19627,7 +19627,7 @@
 10	«	$"	PUNCT	_	_	11	punct	_	_
 11	Guitar	Guitar	PROPN	_	_	7	nmod	_	_
 12	Hero	Hero	PROPN	_	_	11	name	_	_
-13	:	$:	PUNCT	_	_	11	name	_	_
+13	:	$:	PUNCT	_	_	11	punct	_	_
 14	World	World	PROPN	_	_	11	name	_	_
 15	Tour	Tour	PROPN	_	_	11	name	_	_
 16	»	$"	PUNCT	_	_	11	punct	_	_
@@ -19714,7 +19714,7 @@
 10	«	$"	PUNCT	_	_	11	punct	_	_
 11	Guitar	Guitar	PROPN	_	_	5	conj	_	_
 12	Hero	Hero	PROPN	_	_	11	name	_	_
-13	:	$:	PUNCT	_	_	11	name	_	_
+13	:	$:	PUNCT	_	_	11	punct	_	_
 14	World	World	PROPN	_	_	11	name	_	_
 15	Tour	Tour	PROPN	_	_	11	name	_	_
 16	»	$"	PUNCT	_	_	11	punct	_	_
@@ -20061,7 +20061,7 @@
 21	«	$"	PUNCT	_	_	22	punct	_	_
 22	Guitar	Guitar	PROPN	_	_	28	nsubj	_	_
 23	Hero	Hero	PROPN	_	_	22	name	_	_
-24	:	$:	PUNCT	_	_	22	name	_	_
+24	:	$:	PUNCT	_	_	22	punct	_	_
 25	World	World	PROPN	_	_	22	name	_	_
 26	Tour	Tour	PROPN	_	_	22	name	_	_
 27	»	$"	PUNCT	_	_	22	punct	_	_
@@ -20165,7 +20165,7 @@
 5	«	$"	PUNCT	_	_	6	punct	_	_
 6	Guitar	Guitar	PROPN	_	_	3	nmod	_	_
 7	Hero	Hero	PROPN	_	_	6	name	_	_
-8	:	$:	PUNCT	_	_	6	name	_	_
+8	:	$:	PUNCT	_	_	6	punct	_	_
 9	World	World	PROPN	_	_	6	name	_	_
 10	Tour	Tour	PROPN	_	_	6	name	_	_
 11	»	$"	PUNCT	_	_	6	punct	_	_
@@ -20334,7 +20334,7 @@
 7	«	$"	PUNCT	_	_	8	punct	_	_
 8	Guitar	Guitar	PROPN	_	_	15	nsubj	_	_
 9	Hero	Hero	PROPN	_	_	8	name	_	_
-10	:	$:	PUNCT	_	_	8	name	_	_
+10	:	$:	PUNCT	_	_	8	punct	_	_
 11	World	World	PROPN	_	_	8	name	_	_
 12	Tour	Tour	PROPN	_	_	8	name	_	_
 13	»	$"	PUNCT	_	_	8	punct	_	_
@@ -20804,7 +20804,7 @@
 7	«	$"	PUNCT	_	_	8	punct	_	_
 8	Guitar	Guitar	PROPN	_	_	14	nsubj	_	_
 9	Hero	Hero	PROPN	_	_	8	name	_	_
-10	:	$:	PUNCT	_	_	8	name	_	_
+10	:	$:	PUNCT	_	_	8	punct	_	_
 11	World	World	PROPN	_	_	8	name	_	_
 12	Tour	Tour	PROPN	_	_	8	name	_	_
 13	»	$"	PUNCT	_	_	8	punct	_	_
@@ -20983,7 +20983,7 @@
 17	«	$"	PUNCT	_	_	18	punct	_	_
 18	Guitar	Guitar	PROPN	_	_	15	nmod	_	_
 19	Hero	Hero	PROPN	_	_	18	name	_	_
-20	:	$:	PUNCT	_	_	18	name	_	_
+20	:	$:	PUNCT	_	_	18	punct	_	_
 21	World	World	PROPN	_	_	18	name	_	_
 22	Tour	Tour	PROPN	_	_	18	name	_	_
 23	»	$"	PUNCT	_	_	18	punct	_	_
@@ -21849,7 +21849,7 @@
 15	What	What	PROPN	_	_	12	dobj	_	_
 16	Are	Are	PROPN	_	_	15	name	_	_
 17	Humans	Humans	PROPN	_	_	15	name	_	_
-18	?	$?	PUNCT	_	_	15	name	_	_
+18	?	$?	PUNCT	_	_	15	punct	_	_
 19	»	$"	PUNCT	_	_	15	punct	_	_
 20	på	på	ADP	_	_	22	case	_	_
 21	spillets	spill	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	22	det	_	_
