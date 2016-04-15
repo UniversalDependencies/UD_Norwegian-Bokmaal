@@ -1136,14 +1136,14 @@
 11	:	$:	PUNCT	_	_	7	punct	_	_
 
 1	Gjennom	gjennom	ADP	_	_	4	case	_	_
-2	halvannet	halvannen	NUM	_	Gender=Neut|Number=Sing	3	det	_	_
+2	halvannet	halvannen	NUM	_	Gender=Neut|Number=Sing	3	nummod	_	_
 3	års	år	NOUN	_	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	4	det	_	_
 4	kontakt	kontakt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	nmod	_	_
 5	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	_
 6	jeg	jeg	PRON	_	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
 7	ikke	ikke	ADV	_	_	11	neg	_	_
 8	en	en	DET	_	Gender=Masc|Number=Sing	10	det	_	_
-9	eneste	eneste	NUM	_	Definite=Def	10	det	_	_
+9	eneste	eneste	NUM	_	Definite=Def	10	nummod	_	_
 10	gang	gang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	nmod	_	_
 11	sett	se	VERB	_	VerbForm=Part	0	root	_	_
 12	rovdyret	rovdyr	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	dobj	_	_
@@ -2675,7 +2675,7 @@
 30	,	$,	PUNCT	_	_	28	punct	_	_
 31	og	og	CONJ	_	_	28	cc	_	_
 32	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	34	det	_	_
-33	eneste	eneste	NUM	_	Definite=Def	34	det	_	_
+33	eneste	eneste	NUM	_	Definite=Def	34	nummod	_	_
 34	alternativet	alternativ	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	39	nsubj	_	_
 35	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	39	cop	_	_
 36	at	at	SCONJ	_	_	39	mark	_	_
@@ -3447,7 +3447,7 @@
 26	juni	juni	NOUN	_	Gender=Masc	27	nmod	_	_
 27	dømt	dømme	VERB	_	VerbForm=Part	16	conj	_	_
 28	til	til	ADP	_	_	31	case	_	_
-29	tolv	tolv	NUM	_	Number=Plur	30	det	_	_
+29	tolv	tolv	NUM	_	Number=Plur	30	nummod	_	_
 30	års	år	NOUN	_	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur	31	det	_	_
 31	straffarbeid	straffarbeid	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	27	nmod	_	_
 32	i	i	ADP	_	_	34	case	_	_
@@ -4827,7 +4827,7 @@
 8	på	på	ADP	_	_	12	case	_	_
 9	å	å	PART	_	_	12	mark	_	_
 10	være	være	VERB	_	VerbForm=Inf	12	cop	_	_
-11	eneste	eneste	NUM	_	Definite=Def	12	det	_	_
+11	eneste	eneste	NUM	_	Definite=Def	12	nummod	_	_
 12	parti	parti	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	advcl	_	_
 13	som	som	PRON	_	_	15	nsubj	_	_
 14	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	_
@@ -7232,7 +7232,7 @@
 17	.	$.	PUNCT	_	_	5	punct	_	_
 
 1	Den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
-2	eneste	eneste	NUM	_	Definite=Def	3	det	_	_
+2	eneste	eneste	NUM	_	Definite=Def	3	nummod	_	_
 3	trøsten	trøst	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	_
 4	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	_
 5	at	at	SCONJ	_	_	7	mark	_	_
@@ -7911,7 +7911,7 @@
 6	.	$.	PUNCT	_	_	2	punct	_	_
 
 1	Hver	hver	DET	_	Gender=Fem|Number=Sing	3	det	_	_
-2	eneste	eneste	NUM	_	Definite=Def	3	det	_	_
+2	eneste	eneste	NUM	_	Definite=Def	3	nummod	_	_
 3	uke	uke	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	_
 4	,	$,	PUNCT	_	_	3	punct	_	_
 5	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
@@ -8963,7 +8963,7 @@
 2	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
 3	også	også	ADV	_	_	6	advmod	_	_
 4	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
-5	eneste	eneste	NUM	_	Definite=Def	6	det	_	_
+5	eneste	eneste	NUM	_	Definite=Def	6	nummod	_	_
 6	kraft	kraft	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	_
 7	på	på	ADP	_	_	8	case	_	_
 8	kloden	klode	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	_
@@ -13197,7 +13197,7 @@
 2	trett	trett	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	_
 3	,	$,	PUNCT	_	_	2	punct	_	_
 4	etter	etter	ADP	_	_	6	case	_	_
-5	null	null	NUM	_	Number=Plur	6	det	_	_
+5	null	null	NUM	_	Number=Plur	6	nummod	_	_
 6	søvn	søvn	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	_
 7	natten	natt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	_
 8	før	før	ADP	_	_	7	case	_	_
@@ -13611,7 +13611,7 @@
 9	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	expl	_	_
 10	var	være	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	cop	_	_
 11	ca.	ca.	ADV	_	_	12	advmod	_	_
-12	null	null	NUM	_	Number=Plur	13	det	_	_
+12	null	null	NUM	_	Number=Plur	13	nummod	_	_
 13	grader	grad	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	conj	_	_
 14	.	$.	PUNCT	_	_	2	punct	_	_
 15	»	$"	PUNCT	_	_	2	punct	_	_
@@ -19125,7 +19125,7 @@
 6	jeg	jeg	PRON	_	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 7	og	og	CONJ	_	_	6	cc	_	_
 8	Justin	Justin	PROPN	_	_	6	conj	_	_
-9	tolv	tolv	NUM	_	Number=Plur	10	det	_	_
+9	tolv	tolv	NUM	_	Number=Plur	10	nummod	_	_
 10	toppspillere	toppspiller	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	dobj	_	_
 11	i	i	ADP	_	_	12	case	_	_
 12	England	England	PROPN	_	_	10	nmod	_	_
@@ -19399,7 +19399,7 @@
 14	,	$,	PUNCT	_	_	13	punct	_	_
 15	som	som	ADP	_	_	19	case	_	_
 16	et	en	DET	_	Gender=Neut|Number=Sing	19	det	_	_
-17	eneste	eneste	NUM	_	Definite=Def	19	det	_	_
+17	eneste	eneste	NUM	_	Definite=Def	19	nummod	_	_
 18	vondt	vond	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
 19	vitnesbyrd	vitnesbyrd	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	nmod	_	_
 20	om	om	ADP	_	_	25	case	_	_
@@ -23908,7 +23908,7 @@
 14	en	en	DET	_	Gender=Masc|Number=Sing	15	det	_	_
 15	transplantasjon	transplantasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	nsubj	_	_
 16	var	være	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	18	cop	_	_
-17	eneste	eneste	NUM	_	Definite=Def	18	det	_	_
+17	eneste	eneste	NUM	_	Definite=Def	18	nummod	_	_
 18	utvei	utvei	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	acl	_	_
 19	,	$,	PUNCT	_	_	9	punct	_	_
 20	ifølge	ifølge	ADP	_	_	21	case	_	_
@@ -25201,7 +25201,7 @@
 10	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux	_	_
 11	bli	bli	VERB	_	VerbForm=Inf	5	acl	_	_
 12	i	i	ADP	_	_	14	case	_	_
-13	tolv	tolv	NUM	_	Number=Plur	14	det	_	_
+13	tolv	tolv	NUM	_	Number=Plur	14	nummod	_	_
 14	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	11	nmod	_	_
 15	,	$,	PUNCT	_	_	11	punct	_	_
 16	fikk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -25534,7 +25534,7 @@
 10	fått	få	VERB	_	VerbForm=Part	6	conj	_	_
 11	mat	mat	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	dobj	_	_
 12	på	på	ADP	_	_	14	case	_	_
-13	fjorten	fjorten	NUM	_	Number=Plur	14	det	_	_
+13	fjorten	fjorten	NUM	_	Number=Plur	14	nummod	_	_
 14	dager	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	10	nmod	_	_
 15	.	$.	PUNCT	_	_	6	punct	_	_
 
@@ -28883,7 +28883,7 @@
 13	1976	1976	NUM	_	Number=Plur	12	nmod	_	_
 14	.	$.	PUNCT	_	_	3	punct	_	_
 
-1	11.3.2	11.3.2	NUM	_	_	2	punct	_	_
+1	11.3.2	11.3.2	NUM	_	_	2	nummod	_	_
 2	Grunnlaget	grunnlag	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	0	root	_	_
 3	for	for	ADP	_	_	4	case	_	_
 4	miljøvernreglene	miljøvernregel	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	nmod	_	_
@@ -29122,7 +29122,7 @@
 18	Nord-Norge	Nord-Norge	PROPN	_	_	16	nmod	_	_
 19	.	$.	PUNCT	_	_	8	punct	_	_
 
-1	11.3.3	11.3.3	NUM	_	_	2	punct	_	_
+1	11.3.3	11.3.3	NUM	_	_	2	nummod	_	_
 2	Oversikt	oversikt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	_
 3	over	over	ADP	_	_	4	case	_	_
 4	miljøvernreglene	miljøvernregel	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	nmod	_	_
@@ -30395,7 +30395,7 @@
 22	)	$)	PUNCT	_	_	18	punct	_	_
 23	.	$.	PUNCT	_	_	6	punct	_	_
 
-1	5	5	NUM	_	Number=Plur	14	punct	_	_
+1	5	5	NUM	_	Number=Plur	14	nummod	_	_
 2	Saltvannsfiskeloven	saltvannsfiskelov	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	nsubj	_	_
 3	(	$(	PUNCT	_	_	4	punct	_	_
 4	lov	lov	NOUN	_	Gender=Masc	2	appos	_	_
@@ -30689,12 +30689,12 @@
 32	der	der	ADV	_	_	31	nmod	_	_
 33	.	$.	PUNCT	_	_	16	punct	_	_
 
-1	11.4	11.4	NUM	_	_	3	punct	_	_
+1	11.4	11.4	NUM	_	_	3	nummod	_	_
 2	Utvalgets	utvalg	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	3	det	_	_
 3	vurderinger	vurdering	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	0	root	_	_
 4	|	$|	PUNCT	_	_	3	punct	_	_
 
-1	11.4.1	11.4.1	NUM	_	_	2	punct	_	_
+1	11.4.1	11.4.1	NUM	_	_	2	nummod	_	_
 2	Behovet	behov	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	0	root	_	_
 3	for	for	ADP	_	_	4	case	_	_
 4	regler	regel	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	nmod	_	_
@@ -31628,7 +31628,7 @@
 4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
 5	opp	opp	ADP	_	_	3	compound:prt	_	_
 6	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
-7	ene	ene	NUM	_	Definite=Def|Number=Sing	8	det	_	_
+7	ene	ene	NUM	_	Definite=Def|Number=Sing	8	nummod	_	_
 8	forståsegpåeren	forståsegpåer	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	_
 9	etter	etter	ADP	_	_	11	case	_	_
 10	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
@@ -31665,7 +31665,7 @@
 12	.	$.	PUNCT	_	_	2	punct	_	_
 
 1	Den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
-2	ene	ene	NUM	_	Definite=Def|Number=Sing	3	det	_	_
+2	ene	ene	NUM	_	Definite=Def|Number=Sing	3	nummod	_	_
 3	familien	familie	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	_
 4	etter	etter	ADP	_	_	6	case	_	_
 5	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
@@ -31761,7 +31761,7 @@
 
 1	Og	og	CONJ	_	_	5	cc	_	_
 2	hver	hver	DET	_	Gender=Masc|Number=Sing	4	det	_	_
-3	eneste	eneste	NUM	_	Definite=Def	4	det	_	_
+3	eneste	eneste	NUM	_	Definite=Def	4	nummod	_	_
 4	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	_
 5	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	vi	vi	PRON	_	Animacy=Anim|Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
@@ -35402,7 +35402,7 @@
 12	parlamentarisk	parlamentarisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	13	amod	_	_
 13	leder	leder	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	remnant	_	_
 14	i	i	ADP	_	_	16	case	_	_
-15	tolv	tolv	NUM	_	Number=Plur	16	det	_	_
+15	tolv	tolv	NUM	_	Number=Plur	16	nummod	_	_
 16	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	13	nmod	_	_
 17	fra	fra	ADP	_	_	18	case	_	_
 18	1977	1977	NUM	_	Number=Plur	13	nmod	_	_
@@ -35431,7 +35431,7 @@
 7	Norske	Norske	PROPN	_	_	6	name	_	_
 8	Nobelkomite	Nobelkomite	PROPN	_	_	6	name	_	_
 9	i	i	ADP	_	_	11	case	_	_
-10	tolv	tolv	NUM	_	Number=Plur	11	det	_	_
+10	tolv	tolv	NUM	_	Number=Plur	11	nummod	_	_
 11	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	4	nmod	_	_
 12	.	$.	PUNCT	_	_	4	punct	_	_
 
@@ -38635,7 +38635,7 @@
 27	.	$.	PUNCT	_	_	4	punct	_	_
 
 1	Det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	3	det	_	_
-2	eneste	eneste	NUM	_	Definite=Def	3	det	_	_
+2	eneste	eneste	NUM	_	Definite=Def	3	nummod	_	_
 3	stedet	sted	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	15	nsubj	_	_
 4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
 5	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
@@ -38799,7 +38799,7 @@
 4	på	på	ADP	_	_	5	case	_	_
 5	pilarer	pilar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	nmod	_	_
 6	,	$,	PUNCT	_	_	3	punct	_	_
-7	halvannen	halvannen	NUM	_	Gender=Masc|Number=Sing	8	det	_	_
+7	halvannen	halvannen	NUM	_	Gender=Masc|Number=Sing	8	nummod	_	_
 8	meter	meter	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	nmod	_	_
 9	over	over	ADP	_	_	10	case	_	_
 10	bakken	bakke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	_

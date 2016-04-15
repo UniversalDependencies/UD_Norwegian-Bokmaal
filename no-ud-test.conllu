@@ -1940,7 +1940,7 @@
 
 1	Slalåmskiene	slalåmski	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	5	nsubj	_	_
 2	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
-3	halvannen	halvannen	NUM	_	Gender=Masc|Number=Sing	4	det	_	_
+3	halvannen	halvannen	NUM	_	Gender=Masc|Number=Sing	4	nummod	_	_
 4	meter	meter	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	_
 5	lange	lang	ADJ	_	Degree=Pos|Number=Plur	0	root	_	_
 6	og	og	CONJ	_	_	5	cc	_	_
@@ -3131,7 +3131,7 @@
 3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	dobj	_	_
 4	som	som	ADP	_	_	8	case	_	_
 5	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
-6	eneste	eneste	NUM	_	Definite=Def	8	det	_	_
+6	eneste	eneste	NUM	_	Definite=Def	8	nummod	_	_
 7	vanskeligste	vanskelig	ADJ	_	Definite=Def|Degree=Sup	8	amod	_	_
 8	situasjonen	situasjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	xcomp	_	_
 9	han	han	PRON	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
@@ -8169,7 +8169,7 @@
 9	,	$,	PUNCT	_	_	8	punct	_	_
 10	tiltalt	tiltale	ADJ	_	Definite=Ind|Number=Sing	7	acl	_	_
 11	for	for	ADP	_	_	14	case	_	_
-12	elleve	elleve	NUM	_	Number=Plur	14	det	_	_
+12	elleve	elleve	NUM	_	Number=Plur	14	nummod	_	_
 13	grove	grov	ADJ	_	Degree=Pos|Number=Plur	14	amod	_	_
 14	forbrytelser	forbrytelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	10	nmod	_	_
 15	.	$.	PUNCT	_	_	8	punct	_	_
@@ -8826,7 +8826,7 @@
 14	legemidler	legemiddel	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	12	nmod	_	_
 15	som	som	PRON	_	_	19	nsubj	_	_
 16	hvert	hver	DET	_	Gender=Neut|Number=Sing	18	det	_	_
-17	eneste	eneste	NUM	_	Definite=Def	18	det	_	_
+17	eneste	eneste	NUM	_	Definite=Def	18	nummod	_	_
 18	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	19	nmod	_	_
 19	gir	gi	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
 20	dødelige	dødelig	ADJ	_	Degree=Pos|Number=Plur	21	amod	_	_
@@ -10578,7 +10578,7 @@
 21	med	med	ADP	_	_	27	case	_	_
 22	en	en	DET	_	Gender=Masc|Number=Sing	27	det	_	_
 23	konstant	konstant	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	27	amod	_	_
-24	tjue	tjue	NUM	_	Number=Plur	25	det	_	_
+24	tjue	tjue	NUM	_	Number=Plur	25	nummod	_	_
 25	meter	meter	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	26	nmod	_	_
 26	lang	lang	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	27	amod	_	_
 27	kø	kø	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	28	nmod	_	_
@@ -12448,7 +12448,7 @@
 10	gir	gi	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	_
 11	faren	far	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	iobj	_	_
 12	samvær	samvær	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	dobj	_	_
-13	annenhver	annenhver	NUM	_	Gender=Fem|Number=Sing	14	det	_	_
+13	annenhver	annenhver	NUM	_	Gender=Fem|Number=Sing	14	nummod	_	_
 14	helg	helg	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	10	nmod	_	_
 15	.	$.	PUNCT	_	_	3	punct	_	_
 
@@ -13358,7 +13358,7 @@
 12	sammen	sammen	ADV	_	_	14	advmod	_	_
 13	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	_
 14	hatt	ha	VERB	_	VerbForm=Part	7	acl:relcl	_	_
-15	fem-seks	fem-seks	NUM	_	Number=Plur	16	det	_	_
+15	fem-seks	fem-seks	NUM	_	Number=Plur	16	nummod	_	_
 16	saker	sak	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	14	dobj	_	_
 17	med	med	ADP	_	_	18	case	_	_
 18	Bertelsen	Bertelsen	PROPN	_	_	16	nmod	_	_
@@ -18690,7 +18690,7 @@
 6	der	der	SCONJ	_	_	11	mark	_	_
 7	alle	alle	PRON	_	Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
 8	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	_
-9	femten	femten	NUM	_	Number=Plur	10	det	_	_
+9	femten	femten	NUM	_	Number=Plur	10	nummod	_	_
 10	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	11	nmod	_	_
 11	yngre	ung	ADJ	_	Degree=Cmp	5	amod	_	_
 12	enn	enn	ADP	_	_	13	case	_	_
@@ -18846,7 +18846,7 @@
 4	deg	du	PRON	_	Animacy=Anim|Case=Acc|Number=Sing|Person=2|PronType=Prs	2	dobj	_	_
 5	ikke	ikke	ADV	_	_	2	neg	_	_
 6	Norges	Norge	PROPN	_	Case=Gen	8	det	_	_
-7	eneste	eneste	NUM	_	Definite=Def	8	det	_	_
+7	eneste	eneste	NUM	_	Definite=Def	8	nummod	_	_
 8	sexsymbol	sexsymbol	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	xcomp	_	_
 9	?	$?	PUNCT	_	_	2	punct	_	_
 
@@ -18972,7 +18972,7 @@
 3	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	_
 4	faktisk	faktisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	advmod	_	_
 5	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
-6	eneste	eneste	NUM	_	Definite=Def	7	det	_	_
+6	eneste	eneste	NUM	_	Definite=Def	7	nummod	_	_
 7	gangen	gang	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	0	root	_	_
 8	jeg	jeg	PRON	_	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
 9	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	_
@@ -20682,7 +20682,7 @@
 1	Bildet	bilde	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	_
 2	dekker	dekke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
-4	ene	ene	NUM	_	Definite=Def|Number=Sing	5	det	_	_
+4	ene	ene	NUM	_	Definite=Def|Number=Sing	5	nummod	_	_
 5	kjøkkenveggen	kjøkkenvegg	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	dobj	_	_
 6	.	$.	PUNCT	_	_	2	punct	_	_
 
@@ -21677,7 +21677,7 @@
 4	ble	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 5	Solveig	Solveig	PROPN	_	Gender=Fem	4	nsubj	_	_
 6	Rogstad	Rogstad	PROPN	_	_	5	name	_	_
-7	eneste	eneste	NUM	_	Definite=Def	9	det	_	_
+7	eneste	eneste	NUM	_	Definite=Def	9	nummod	_	_
 8	norske	norsk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	9	amod	_	_
 9	jente	jente	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	xcomp	_	_
 10	blant	blant	ADP	_	_	13	case	_	_
@@ -25765,7 +25765,7 @@
 39	saltvannsfiskeloven	saltvannsfiskelov	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	37	nmod	_	_
 40	.	$.	PUNCT	_	_	5	punct	_	_
 
-1	11.4.2	11.4.2	NUM	_	_	2	punct	_	_
+1	11.4.2	11.4.2	NUM	_	_	2	nummod	_	_
 2	Svakheter	svakhet	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	0	root	_	_
 3	ved	ved	ADP	_	_	5	case	_	_
 4	gjeldende	gjeldende	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
@@ -26073,7 +26073,7 @@
 26	1957	1957	NUM	_	Number=Plur	24	nmod	_	_
 27	.	$.	PUNCT	_	_	7	punct	_	_
 
-1	11.4.3	11.4.3	NUM	_	_	2	punct	_	_
+1	11.4.3	11.4.3	NUM	_	_	2	nummod	_	_
 2	Utformingen	utforming	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	0	root	_	_
 3	av	av	ADP	_	_	5	case	_	_
 4	nytt	ny	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
@@ -26427,7 +26427,7 @@
 36	forskrift	forskrift	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	33	dobj	_	_
 37	.	$.	PUNCT	_	_	8	punct	_	_
 
-1	11.4.4	11.4.4	NUM	_	_	2	punct	_	_
+1	11.4.4	11.4.4	NUM	_	_	2	nummod	_	_
 2	Innholdet	innhold	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	0	root	_	_
 3	i	i	ADP	_	_	4	case	_	_
 4	miljøforskriften	miljøforskrift	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	_
