@@ -5190,7 +5190,7 @@
 10	byen	by	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	_
 11	,	$,	PUNCT	_	_	10	punct	_	_
 12	Frederik	Frederik	PROPN	_	_	18	nsubjpass	_	_
-13	II	II	DET	_	_	12	name	_	_
+13	II	II	NUM	_	NumType=Card	12	name	_	_
 14	videregående	videregående	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	12	name	_	_
 15	skole	skole	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	name	_	_
 16	,	$,	PUNCT	_	_	12	punct	_	_
@@ -23303,7 +23303,7 @@
 2	kamp	kamp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	dobj	_	_
 3	to	to	NUM	_	Number=Plur|NumType=Card	2	nmod	_	_
 4	i	i	ADP	_	_	5	case	_	_
-5	VM	VM	DET	_	_	1	nmod	_	_
+5	VM	VM	NUM	_	NumType=Card	1	nmod	_	_
 6	.	$.	PUNCT	_	_	1	punct	_	_
 
 1	Norge	Norge	PROPN	_	_	2	nsubj	_	_
@@ -30521,7 +30521,7 @@
 
 1	I	i	ADP	_	_	2	case	_	_
 2	Nordland	Nordland	PROPN	_	_	7	nmod	_	_
-3	IV	IV	DET	_	_	2	name	_	_
+3	IV	IV	NUM	_	NumType=Card	2	name	_	_
 4	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	_
 5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	_
 6	ikke	ikke	ADV	_	_	7	neg	_	_
@@ -31948,7 +31948,7 @@
 13	Land	Land	PROPN	_	_	11	name	_	_
 14	og	og	CONJ	_	_	11	cc	_	_
 15	Peter	Peter	PROPN	_	Gender=Masc	11	conj	_	_
-16	I	I	DET	_	_	15	name	_	_
+16	I	I	NUM	_	NumType=Card	15	name	_	_
 17	Øy	Øy	PROPN	_	_	15	name	_	_
 18	.	$.	PUNCT	_	_	2	punct	_	_
 
