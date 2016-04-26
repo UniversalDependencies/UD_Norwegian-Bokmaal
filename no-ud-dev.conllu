@@ -7449,9 +7449,9 @@
 8	.	$.	PUNCT	_	_	2	punct	_	_
 
 1	Lukten	lukt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	0	root	_	_
-2	av	av	ADP	_	_	4	case	_	_
-3	Irish	Irish	PROPN	_	_	4	foreign	_	_
-4	stew	stew	X	_	_	1	nmod	_	_
+2	av	av	ADP	_	_	3	case	_	_
+3	Irish	Irish	X	_	_	1	nmod	_	_
+4	stew	stew	X	_	_	3	foreign	_	_
 5	,	$,	PUNCT	_	_	4	punct	_	_
 6	grovt	grov	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
 7	brød	brød	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	conj	_	_
@@ -19857,9 +19857,9 @@
 5	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	kjekk	kjekk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	_
 7	knapp	knapp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	dobj	_	_
-8	for	for	ADP	_	_	10	case	_	_
-9	star	star	X	_	_	10	foreign	_	_
-10	power	power	X	_	_	7	nmod	_	_
+8	for	for	ADP	_	_	9	case	_	_
+9	star	star	X	_	_	7	nmod	_	_
+10	power	power	X	_	_	9	foreign	_	_
 11	.	$.	PUNCT	_	_	3	punct	_	_
 
 1	Om	om	SCONJ	_	_	4	mark	_	_
