@@ -4620,7 +4620,7 @@
 3	også	også	ADV	_	_	4	advmod	_	_
 4	sende	sende	VERB	_	VerbForm=Inf	0	root	_	_
 5	SMS	SMS	PROPN	_	_	4	dobj	_	_
-6	/	$/	PUNCT	_	_	5	punct	_	_
+6	/	$/	SYM	_	_	5	punct	_	_
 7	MMS	MMS	PROPN	_	_	5	conj	_	_
 8	til	til	ADP	_	_	9	case	_	_
 9	2286	2286	NUM	_	Number=Plur|NumType=Card	4	nmod	_	_
@@ -5286,7 +5286,7 @@
 
 1	Rune	Rune	PROPN	_	Gender=Masc	0	root	_	_
 2	Stølås	Stølås	PROPN	_	_	1	name	_	_
-3	/	/	PUNCT	_	_	1	punct	_	_
+3	/	/	SYM	_	_	1	punct	_	_
 4	bt.no	bt.no	PROPN	_	_	1	parataxis	_	_
 5	|	$|	PUNCT	_	_	1	punct	_	_
 
@@ -10479,7 +10479,7 @@
 65	nå	nå	ADV	_	_	59	advmod	_	_
 66	.	$.	PUNCT	_	_	6	punct	_	_
 
-1	*	*	PUNCT	_	_	2	punct	_	_
+1	*	*	SYM	_	_	2	punct	_	_
 2	Hold	holde	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	_
 3	hodet	hode	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	dobj	_	_
 4	kaldt	kald	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	advmod	_	_
@@ -10495,7 +10495,7 @@
 14	vonde	vond	ADJ	_	Degree=Pos|Number=Plur	15	amod	_	_
 15	opplevelsene	opplevelse	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	11	nmod	_	_
 16	dine	din	DET	_	Number=Plur|Poss=Yes|PronType=Prs	15	nmod	_	_
-17	*	*	PUNCT	_	_	2	punct	_	_
+17	*	*	SYM	_	_	2	punct	_	_
 18	|	$|	PUNCT	_	_	2	punct	_	_
 
 1	Jo	jo	INTJ	_	_	3	discourse	_	_
@@ -10767,7 +10767,7 @@
 11	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	_
 12	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	aux	_	_
 13	steket	steke	VERB	_	VerbForm=Part	7	advcl	_	_
-14	/	$/	PUNCT	_	_	13	punct	_	_
+14	/	$/	SYM	_	_	13	punct	_	_
 15	hitlerhilset	hitlerhilse	VERB	_	VerbForm=Part	13	conj	_	_
 16	hverandre	hverandre	PRON	_	Animacy=Anim|Number=Plur|PronType=Rcp	15	dobj	_	_
 17	i	i	ADP	_	_	18	case	_	_
@@ -11205,7 +11205,7 @@
 27	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	24	advcl	_	_
 28	stor	stor	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	27	xcomp	_	_
 29	(	$(	PUNCT	_	_	32	punct	_	_
-30	>	>	PUNCT	_	_	32	punct	_	_
+30	>	>	SYM	_	_	32	punct	_	_
 31	olympisk	olympisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	32	amod	_	_
 32	mester	mester	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	parataxis	_	_
 33	.	$.	PUNCT	_	_	2	punct	_	_
@@ -24165,7 +24165,7 @@
 13	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	_
 14	.	$.	PUNCT	_	_	5	punct	_	_
 
-1	*	*	PUNCT	_	_	11	punct	_	_
+1	*	*	SYM	_	_	11	punct	_	_
 2	Debatten	debatt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	nsubj	_	_
 3	om	om	ADP	_	_	4	case	_	_
 4	flyene	fly	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	2	nmod	_	_
@@ -24343,7 +24343,7 @@
 17	fly	fly	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	16	nmod	_	_
 18	.	$.	PUNCT	_	_	2	punct	_	_
 
-1	*	*	PUNCT	_	_	8	punct	_	_
+1	*	*	SYM	_	_	8	punct	_	_
 2	I	i	ADP	_	_	3	case	_	_
 3	lys	lys	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	nmod	_	_
 4	av	av	ADP	_	_	5	case	_	_
@@ -24851,7 +24851,7 @@
 2	Boudlal	Boudlal	PROPN	_	_	1	name	_	_
 3	,	$,	PUNCT	_	_	1	punct	_	_
 4	Reuters	Reuters	PROPN	_	_	1	nmod	_	_
-5	/	$/	PUNCT	_	_	4	punct	_	_
+5	/	$/	SYM	_	_	4	punct	_	_
 6	Scanpix	Scanpix	PROPN	_	_	4	conj	_	_
 7	|	$|	PUNCT	_	_	1	punct	_	_
 
@@ -26857,7 +26857,7 @@
 32	konkurransevridende	konkurransevridende	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	26	advcl	_	_
 33	til	til	ADP	_	_	37	case	_	_
 34	SAS	SAS	PROPN	_	_	37	det	_	_
-35	/	$/	PUNCT	_	_	34	punct	_	_
+35	/	$/	SYM	_	_	34	punct	_	_
 36	Braathens	Braathens	PROPN	_	_	34	conj	_	_
 37	fordel	fordel	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	32	nmod	_	_
 38	.	$.	PUNCT	_	_	14	punct	_	_
@@ -26912,7 +26912,7 @@
 11	aktører	aktør	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	7	nmod	_	_
 12	utenom	utenom	ADP	_	_	13	case	_	_
 13	SAS	SAS	PROPN	_	_	11	nmod	_	_
-14	/	$/	PUNCT	_	_	13	punct	_	_
+14	/	$/	SYM	_	_	13	punct	_	_
 15	Brathens	Brathens	PROPN	_	_	13	conj	_	_
 16	,	$,	PUNCT	_	_	7	punct	_	_
 17	så	så	ADV	_	_	20	advmod	_	_
@@ -26969,7 +26969,7 @@
 6	så	så	ADV	_	_	7	advmod	_	_
 7	søkte	søke	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 8	Norwegian	Norwegian	PROPN	_	_	7	nsubj	_	_
-9	/	$/	PUNCT	_	_	8	punct	_	_
+9	/	$/	SYM	_	_	8	punct	_	_
 10	sterling	sterling	PROPN	_	_	8	conj	_	_
 11	om	om	ADP	_	_	13	mark	_	_
 12	å	å	PART	_	_	13	mark	_	_
@@ -27018,7 +27018,7 @@
 5	resultatet	resultat	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	0	root	_	_
 6	til	til	ADP	_	_	7	case	_	_
 7	SAS	SAS	PROPN	_	_	5	nmod	_	_
-8	/	$/	PUNCT	_	_	7	punct	_	_
+8	/	$/	SYM	_	_	7	punct	_	_
 9	Braathens	Braathens	PROPN	_	_	7	conj	_	_
 10	som	som	PRON	_	PronType=Rel	12	nsubjpass	_	_
 11	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	auxpass	_	_
@@ -27783,7 +27783,7 @@
 20	ungdomsskolen	ungdomsskole	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	16	conj	_	_
 21	,	$,	PUNCT	_	_	20	punct	_	_
 22	biblioteket	bibliotek	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	16	conj	_	_
-23	/	$/	PUNCT	_	_	22	punct	_	_
+23	/	$/	SYM	_	_	22	punct	_	_
 24	servicebygget	servicebygg	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	22	conj	_	_
 25	m.fl	mfl.	ADV	_	_	24	nmod	_	_
 26	.	$.	PUNCT	_	_	4	punct	_	_
@@ -28955,7 +28955,7 @@
 10	å	å	PART	_	_	11	mark	_	_
 11	kjøpe	kjøpe	VERB	_	VerbForm=Inf	9	xcomp	_	_
 12	båter	båt	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	11	dobj	_	_
-13	/	$/	PUNCT	_	_	12	punct	_	_
+13	/	$/	SYM	_	_	12	punct	_	_
 14	kvoter	kvote	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	conj	_	_
 15	i	i	ADP	_	_	16	case	_	_
 16	Nord	Nord	PROPN	_	_	11	nmod	_	_

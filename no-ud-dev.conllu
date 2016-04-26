@@ -3072,7 +3072,7 @@
 26	at	at	SCONJ	_	_	32	mark	_	_
 27	SV	Sv	PROPN	_	_	32	nsubj	_	_
 28	og	og	CONJ	_	_	27	cc	_	_
-29	/	$/	PUNCT	_	_	28	punct	_	_
+29	/	$/	SYM	_	_	28	punct	_	_
 30	eller	eller	CONJ	_	_	28	conj	_	_
 31	Sp	Sp	PROPN	_	_	27	conj	_	_
 32	forsvinner	forsvinne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	25	ccomp	_	_
@@ -4813,7 +4813,7 @@
 15	i	i	ADP	_	_	19	case	_	_
 16	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 17	høyre	høyre	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	19	compound	_	_
-18	/	$/	PUNCT	_	_	19	punct	_	_
+18	/	$/	SYM	_	_	19	compound	_	_
 19	sentrumskoalisjon	sentrumskoalisjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	nmod	_	_
 20	.	$.	PUNCT	_	_	10	punct	_	_
 
@@ -16828,7 +16828,7 @@
 13	.	$.	PUNCT	_	_	6	punct	_	_
 
 1	kilder	kilde	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	_
-2	/	$/	PUNCT	_	_	1	punct	_	_
+2	/	$/	SYM	_	_	1	punct	_	_
 3	metode	metode	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	conj	_	_
 4	:	$:	PUNCT	_	_	1	punct	_	_
 
@@ -16868,7 +16868,7 @@
 34	.	$.	PUNCT	_	_	1	punct	_	_
 
 1	fakta	faktum	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	0	root	_	_
-2	/	$/	PUNCT	_	_	1	punct	_	_
+2	/	$/	SYM	_	_	1	punct	_	_
 3	tall-kilder	tall-kilde	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	1	conj	_	_
 4	:	$:	PUNCT	_	_	1	punct	_	_
 
@@ -17766,7 +17766,7 @@
 7	at	at	SCONJ	_	_	19	mark	_	_
 8	hans	hans	DET	_	Number=Plur|Poss=Yes|PronType=Prs	12	nmod	_	_
 9	fastlåste	fastlåst	ADJ	_	Degree=Pos|Number=Plur	12	amod	_	_
-10	/	$/	PUNCT	_	_	9	punct	_	_
+10	/	$/	SYM	_	_	9	punct	_	_
 11	rigide	rigid	ADJ	_	Degree=Pos|Number=Plur	9	conj	_	_
 12	holdninger	holdning	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	19	nsubj	_	_
 13	,	$,	PUNCT	_	_	12	punct	_	_
@@ -28023,7 +28023,7 @@
 2	Alvarado	Alvarado	PROPN	_	_	1	name	_	_
 3	,	$,	PUNCT	_	_	1	punct	_	_
 4	Reuters	Reuters	PROPN	_	_	1	nmod	_	_
-5	/	$/	PUNCT	_	_	4	punct	_	_
+5	/	$/	SYM	_	_	4	punct	_	_
 6	Scanpix	Scanpix	PROPN	_	_	4	conj	_	_
 7	|	$|	PUNCT	_	_	1	punct	_	_
 
@@ -36804,7 +36804,7 @@
 14	arbeidet	arbeid	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	12	nmod	_	_
 15	mot	mot	ADP	_	_	16	case	_	_
 16	hiv	hiv	NOUN	_	_	14	nmod	_	_
-17	/	$/	PUNCT	_	_	16	punct	_	_
+17	/	$/	SYM	_	_	16	punct	_	_
 18	aids	aids	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	conj	_	_
 19	.	$.	PUNCT	_	_	3	punct	_	_
 
