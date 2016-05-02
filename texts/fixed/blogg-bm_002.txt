@@ -1,0 +1,241 @@
+Apple og kart, en tragedie?
+Dette innlegget er også publisert på Masterbloggen, men jeg legger det her for å ha full historikk over innlegg skrevet av meg.
+
+IT-verdenen er full av merkelige situasjoner, for eksempel hvor et selskap har erklært "thermonuclear war" mot et annet, men likefullt er avhengig av tjenester fra dem. Vi snakker da selvfølgelig om Apple og Google, tjenesten er kart.
+
+For å endre denne situasjonen lanserte Apple sin egen karttjeneste i iOS6 og iPhone 5. Det er kanskje ikke det smarteste de har gjort. Ord som "Horror show", "Reality distortion", "maps problem" og " kartfiasko " har blitt flittig brukt av kommentatorer de siste ukene. Det har til og med dukket opp en blogg som presenterer " høydepunkter " fra de nye kartene.
+
+Kartene til Apple er altså ikke bra, adresser mangler, ting er feilklassifisert, 3d-visningene ser ikke ut. Lista er lang. Det er bare ikke så fint som det er i Google Maps. Til og med Apple selv innrømmer at kartene er langt fra optimale.
+
+Men, hvordan kunne det gå så galt? Apple har de siste årene kjøpt opp flere kartselskaper, de kan IT og de er kjent for å være perfeksjonistiske. Det er sjelden det kommer noe halvveis fra den kanten. Og kartdataene er hentet fra store aktører som TomTom, OpenStreetMap og Waze.
+
+Dermed er det ikke kartgrunnlaget i seg selv det er noe galt med, men hvordan det er satt sammen. Her håper jeg å kunne peke på en del av utfordringene som kommer med kartdata  hvor de kommer fra, hva som er " riktig " og hvordan slike data skiller seg fra andre data.
+
+Hvor kommer kartdata fra?
+Grovt sett kan vi si at kartdata kommer fra tre kilder: det offentlige, kommersielle selskaper og fra privatpersoner. Offentlige kartdata er det vi kaller "Kartverkets data" her i Norge (selv om det er en sannhet med visse modifikasjoner). Disse er som regel offisielle, pleier å være rimelig komplette og " korrekte ", men de kan være dyre eller umulige å ta i bruk.
+
+Data fra kommersielle selskaper var tradisjonelt data fra de to selskapene NavTeq og TeleAtlas . Dette er i hovedsak data som brukes i bil-GPSer, med fokus på vegdata etc. Tenk Cappelens veikart i digital utgave. Disse dataene kan være samlet inn av selskapene selv, eller kan være bearbeidede offentlige data. Google startet med å kjøpe data fra slike leverandører, men har begynt å samle inn data selv, og dermed blitt et kommersielt kartselskap de også.
+
+Data fra privatpersoner er det man kaller " crowdsourcede " data. De er samlet inn på dugnadsbasis av folk som bidrar uten betaling. De gjør dette fordi de vil at det skal finnes fritt tilgjengelige kartdata som kan brukes uten restriksjoner. Det beste eksempelet på dette er OpenStreetMap. Man kan si mye om dataene her, men i mange områder er dette " gode " data, fullt på høyde med kommersielle og offentlige data. Andre områder står det dårligere til med.
+
+Hva er kvalitet når vi snakker om kart?
+Kart (og dermed kartdata) er "en generalisert avbildning av geografiske objekter med deres romlige relasjoner" [wikipedia]. Nøkkelordet her er " generalisert ". Vi kan ikke ha med alle detaljene fra naturen i et kart, det vil gjøre det ubrukelig. Dermed må noen bestemme seg for hva som er en god generalisering. Skal vi ta med omriss på alle husene i Oslo, eller holder det å merke av hvor Slottet, Stortinget og Oslo S er? Skal vi ta med alle små stier i en kommune, eller holder det å vite hvor riks- og fylkesveiene går? Trenger vi å ha med alle svingene i en bekk, eller holder det med en linje som viser hvor den sånn ca går?
+
+Det riktige svaret her er "det kommer an på". Hva kommer det an på? Jo, hva du skal bruke kartet til. Det er forskjell på et kart for en reguleringsplan, NAFs veibok og et orienteringskart. Kartene generalene i en krig sitter med skiller seg også fra kartene den enkelte soldat har med seg i felten. Vi må generalisere bort noe, men ikke mer enn at kartet fungerer i den konteksten vi er i.
+
+Digitale kart gir oss her en stor fordel: Kartet er ikke skrevet i stein i det kartografen sier seg ferdig med det. Vi tenker ikke over at når vi zoomer inn på et digitalt kart dukker det opp mer informasjon, vi ser småveier, stier og husomriss. Byer går fra å være en prikk på kartet til detaljerte oversikter. Vi kan også legge over kartlag som viser andre ting. Digitale kart er mye mer dynamiske enn papirkart. Dette setter imidlertid strengere krav til dataene. Vi må ha alle mulige data tilgjengelig, slik at de kan automatisk dukke opp når vi zoomer inn.
+
+I tillegg må disse dataene være kodet riktig. Hva som vises når og og på hvilken måte, styres av regler av typen: "Tegn alle skogsbilveier med denne fargen, men kun ved målestokk 1:50000". Dermed er det viktig at dataene har denne informasjonen. Hvis noe som egentlig er en riksveg har data som sier " sti ", kan ting bli veldig feil. Når det sitter mennesker og tegner et kart, vil de stusse dersom det går en riksveg over Besseggen, mens software som tegner etter gitte regler ikke tenker slik.
+
+I en ideell verden er ikke dette noe problem. Der er alle data korrekt markert, med riktig informasjon, slik at datamaskinen klarer å tegne dem riktig. Slik er ikke den virkelige verden. Problemet er todelt:
+Enten er det mennesker som har samlet inn denne informasjonen, og vi gjør feil. Kanskje stien over Besseggen ble " digitalisert " fredag etter en noe fuktig lønningspils, og klassifiseringen ble satt feil.
+
+Datamaskiner er det andre problemet her. Vi liker å sette bort repetitivt, kjedelig arbeid til maskiner. Derfor har vi naturligvis prøvd å få datamaskiner til å se på flybilder og lage kartdata fra disse. Men, når stien over Besseggen kan se ut som en motorvei for oss mennesker er det ikke så rart at datamaskinen tar feil. Dermed må maskinene holdes i hånden for å forsikre seg om at ting blir riktig. Kartdata er vanskelig, og vi som brukere har vanskelig for å tilgi.
+
+Hvordan sjekker du om et kart er " godt " ? Sannsynligvis finner du nærområdet ditt, du sjekker om huset ditt har riktig adresse, om veien går der den skal og om gangstien ligger riktig. Vi er alle eksperter på vårt nærområde, mens kartprodusentene ikke er det. De må hele tiden gjøre antakelser, vurderinger og avveiinger; "Er dette en vei eller sti?" "Er det viktig å ta med denne lekeplassen".
+
+Et større problem blir det når man skal kombinere data fra flere kilder. Disse kan kode dataene sine forskjellige, og skal man sammenstille disse dataene kan mye informasjon gå tapt. Hvis du får dataene fra kilde A og B kan det godt være slik at kilde A klassifiserer veier etter et generalisert system som skal fungere i alle land, mens Statens Vegvesen klassifiserer vegene etter de norske veitypene. Her kan man fort bomme. Feil klassifisering og problemer med å sammenstille dem er et problem. Et annet problem er nøyaktigheten. Hvis du har data fra 2 land, der land A har målt inn vegene sine med millimeterpresisjon, mens land B har digitalisert sine gamle papirkart, er sjansen stor for at ikke europavegen vil treffe korrekt på grensen.
+
+Konklusjon
+Kartdata er altså spesielle, siden de er generaliseringer. Dermed vil det alltid være et spørsmål om hvordan man skal generalisere data for å få dem til å fungere på skjermen. Dette er noe man må lære ved prøving og feiling, og Nokia (som har holdt på med digitale kart lenge) mener at det å lage kart på nett er noe som ikke kan hverken læres eller gjøres over natta. Man trenger folk som kan noe om kart, som kan jobbe med data fra ulike kilder og man må for all del sjekke manuelt hva kartsystemet produserer.
+
+Dermed får vi bare håpe at Apple klarer å sette inn et ekstra gir, jobbe hardt og gi iOS en kartapplikasjon de kan være stolte av. Så kan vi som jobber i kartbransjen atter en gang konstatere at kart ikke er noe man tar lett på! På tampen kan vi jo også notere oss at selv ikke Google Maps er skrevet i stein, de utvikler seg stadig. Et interessant spørsmål er hvorvidt første versjon av Google Maps hadde blitt tatt imot bedre enn Apple Maps dersom den hadde blitt lansert i dag?
+
+Giddalaushet
+Planen for lørdag (dvs gårsdagen) var ganske ambisiøs: På tross av sommerfest med jobb på fredagen hadde jeg et mål for dagen: Fullføre oppgraderinga av mineturer.org. Alt lå jo til rette for det. Samboer borte fra lørdag morgen til søndag ettermiddag, ingen planer på agendaen og egg og bacon i kjøleskapet. Været var vel meldt av type sommer, men når man har bestemt seg for å skrive kode er ikke det noe problem.
+
+Så. Fredagen ble fuktig, det ble sent, men jeg kom meg da hjem til slutt. Så, lørdag morgen, våkner, fyllesjuk i 11-tida.. Snur meg rundt, sover videre. Våkner i tolv-ett-tida. Tar frem telefonen, leser gjennom twitterfeeden. Klokka blir tre før jeg kommer meg opp fra senga. Så blir jeg sittende å lese gjennom twitterfeeden på nytt, finleser alle lenker denne gangen. Frokost blir laga i 4-tida. Etter en dose egg, bacon og appelsinjuice er ikke bakfylla nevneverdig plagsom mer. Skal jeg sette meg ned og kode litt da? Neh. Setter på tv. 5 episoder Storage Wars senere føler jeg meg som en vegeterende idiot forran tven. Klokka nærmer seg 6-7. NÅ! Nå kan jeg kode litt? Åpner pc'en igjen, sjekker twitter og facebook. Konkluderer med at det er for kjipt. Så henter jeg frem boka jeg leste på. Leser en god stund. Ganske god stund. Klokka blir visst 02.00. Trøtt. Litt twitter igjen. Så ny bok. Sovner med boka i hendene, og våkner 02.30 for å skru av lyset.
+
+Ok, det ble ikke noe koding på lørdag, men jeg har jo det meste av søndagen på meg! Tja, våkner i ett-tida, twitter-sjekk igjen før dusj og frokost (før to denne gang!). Så vasker jeg kjøkkenbenken og mopper gulvet. Må jo gjøre noe fornuftig i løpet av helga også. Men, klokka er halv tre, det er mange timer til jeg ser folk igjen. Nå kan jeg da kode litt? Nei, jeg setter meg ned for å skrive ett blogginnlegg om hvorfor jeg ikke skriver kode. Snakk om prokrastinering!
+
+Så, jeg begynner å lure: Liker jeg egentlig å skrive kode? Synes jeg det er så slitsomt at jeg prøver å unngå det? Det er jo aldri noe problem på jobb, da møter jeg opp hver mårra og setter i gang. Jeg synes det er gøy. Hvorfor klarer jeg ikke da å motivere meg selv til å jobbe på et prosjekt der jeg selv bestemmer hva som skal gjøres, hvordan det skal gjøres og når det skal gjøres?
+
+Jeg har en teori. Eller, det er ikke min teori, men det var en teori jeg (ironisk nok) leste via twitter; Kort fortalt, vi har aldri tid til å kjede oss mer. Dermed forsvinner kreativiteten. Tenk over det: er du som meg sitter du nok ikke å kjeder deg mer enn 4-5 minutter før du drar opp telefonen, sjekker hva som skjer på twitter, så facebook (og tenker at: hvorfor i helvette gidder jeg å sjekke facebook), før du spiller en runde Bejeweled eller et annet, intetsigende spill. Tiden til å kjede seg, tenke over hva man skal gjør, for så å gå i gang er eliminert. Og fordi det " skjer " så mye "hele tiden", blir den tiden du har avsatt til å gjøre " ingenting " så forbanna viktig.
+
+Jeg kunne ikke begynne å skive kode lørdag formiddag, for først måtte jeg sove, så måtte jeg prøve å kjede meg litt. Problemet er at jeg ikke klarer å kjede meg skikkelig, fordi jeg blir sittende å glane på kjedelig tv. Før i tiden hadde jeg skrudd av det kjedelige tv-programmet, nå kommenterer jeg dårlige reklamer på twitter mens jeg blir sittende å se på kjedelig tv. Det har altså blitt sånn at selv om man har satt av en hel helg til å jobbe med noe blir det ikke mer enn et par timer igjen til å gjøre det, fordi man " bare " skal gjøre ikkenoe først.
+
+Jeg vet ikke helt hvor jeg vil hen, kanskje jeg vil utsette å skrive kode, kanskje jeg bare vil prøve å fortelle meg selv at jeg er en latsabb? Det jeg mest av alt lurer på er om det kun er jeg som er sånn? Er det bare jeg som kan ha mentalt satt av en hel helg til en ting, og ender opp med å ikke ha gjort en drit fornuftig hele helga? Og hva kan man gjøre med det? (Nei: "ta seg sammen" er ikke et godt svar!).
+
+Innspill?
+
+Valentines Day
+
+I mitt 24 år lange liv har jeg blitt introdusert for et årsløp fullt av dager. 365 for å være nøyaktig. Da jeg var liten var få av disse dagene viktige merkedager bortsett fra bursdagen min, bursdagen til Norge, og en del helligdager - noe jeg på den tiden satte pris på fordi jeg hatet å dra på skolen. I voksen alder avskyr jeg helligdagene. De dukker opp i fleng hele året - som hindringer på veien for oss som ikke har tid til å vente på at a4-folk også skal få lov til å drikke seg dritings på en tirsdag. Dette er dager som har klamret seg til oss i hundrevis av år, og vi slipper nok dessverre ikke unna med det første. Det er likevel ikke helligdagene jeg skal skrive om i dag.
+
+I løpet av barndommen dukket stadig flere nye merkedager opp i Fatterns utslitte almanakk. Dager som er laget for å tvinge enkle mennesker til å huske å gjøre ting. Huske mor. Huske far. Huske å kjøpe blomst til kjæresten de egentlig er dritt lei av. Huske å kle ut ungen som en heks og tigge godteri av naboen. For meg betyr dette kun én ting; å huske at du er en kjedelig og trist person, med en kjedelig jobb, null integritet, ingen ekte venner og en iPhone full av apper du bruker for å imponere kollegene dine. Du trenger disse dagene for å minne deg selv, og de rundt deg, på at du faktisk har de rundt deg. 
+
+I tillegg til dette skal du selvsagt bruke masse penger på utvalgte produkter som til slutt gjør de kreative utviklerne bak alle disse nye merkedagene søkkrike - og alle blir glade. Og du. Du slapp å huske på alle disse tingene selv, fordi Facebook, avisa, reklameplakatene, kalenderen din og alle på den gørrkjedelige jobben din minner deg på det i god tid. Du rekker å kjøpe blomster til dama du egentlig er dritt lei av. Du rekker å kjøpe inn masse godteri som du skal dele ut til barn du ikke kjenner. Du rekker å ringe til moren din og ønske henne til lykke med morsdagen. En markering som strengt talt burde gjelde hver eneste dag i livet ditt ettersom mora di faktisk ga deg dette livet.
+
+La meg påpeke allerede nå. Jeg snakker ikke til hver enkelt av dere. Dette er et inntrykk jeg automatisk blir sittende med under "alle i verden skal vise oppmerksomhet til hverandre"-dager som denne.
+
+Og i dag er virkelig den verste dagen av dem alle. Samtlige av de største restaurantkjedene i landet er overfylte av par som har klart å dra hverandre ut av sofaen for å bevise for seg selv, hverandre, og alle deres bekjente, at det fortsatt er gnister i det tørre forholdet som egentlig burde vært avsluttet for lengst. Enkelte frir til hverandre også - kun fordi det passer så ypperlig fint å gjøre det på Valentines Day! Det er jo virkelig en historie å fortelle barna om når de selv vokser opp og skal dra på sin første date - 14. februar, selvsagt, med en kvisete fjortis som har turt å manne seg opp til å spørre. Det er jo tross alt ganske kjipt å være singel på Valentines Day - og ikke ha en date engang.
+
+Alternativet til alt dette er å klage og syte over hvor teit denne dagen er - og jeg havner nok i denne klubben selv om jeg hater å bli satt i bås. Ikke fordi jeg ikke kan være romantisk. Ikke fordi jeg ikke klarer å møte jenter. Men fordi jeg synes denne dagen, og andre slike "minne på"-dager er kvalme, motsigende og en av de viktigste påminnerne vi har om at vår generasjon er avdankede egoister som trenger en ferdigskrevet kalender til å fortelle hva vi skal gjøre mot våre nærmeste - når vi skal gjøre det - og hva vi må kjøpe for å gjennomføre det.
+
+Nei! Jeg kjøper ikke en blomst og et sjokoladehjerte som det står «Jeg elsker deg!» på. Da kunne jeg like gjerne ha skrevet et brev med teksten: «Jeg har vendt meg til at du er en del av livet mitt nå. Jeg vil aller helst spille Playstation i kveld, men tar gjerne imot en blowjob i bytte mot denne tørre tulipanbuketten som kostet 79 kroner på Kiwi. Penger jeg egentlig kunne brukt på en sixpack øl - men i dag føltes det mer riktig med blomst.»
+
+Jeg tror på mennesker. Jeg tror på folk som ringer faren sin selv om det ikke er farsdag, og jeg tror på gode kjærlighetsforhold som kjøper billige tulipaner selv om det ikke er Valentines Day. Jeg er vel bare en sterk motstander av kollektiv opphausing rundt ting som burde ligget i oss - naturlig - fra før av. Også hater jeg å føle skyld når jeg ikke gjør slik reklameplakatene på trikken ber meg om.
+
+Halvor lufter litt uinteressant hjernemasse. pt. 11
+
+Det er lang tid siden sist gang jeg samlet sammen skrot til spalten min om uinteressant hjernemasse, og jeg anbefaler som alltid å styre unna. Den kommende informasjonen er på ingen måte nyttig for noe som helst - det er kun fordi jeg får vondt i hodet av å ikke publisere alt jeg tenker, og alle bildene jeg tar her og der, at jeg skriver disse innleggene. Etterpå føler jeg meg alltid litt skitten. Horeskitten.
+
+Her er et bilde av meg. Jeg må være den eneste personen i verden som ser tynnere ut av å bli avfotografert med et vidvinkelobjektiv. 
+
+Til informasjon, så veier jeg omtrent 65 kilo - 63 kilo dersom jeg vasker meg. Normalt sett strammer jeg musklene alt jeg kan og vinkler armene slik at man ser dem fra siden, og ikke forfra, for å se bittelitt større ut. Her ser jeg ut som en edderkopp på fire bein. Jeg håper jeg aldri trenger å havne i et glassmonter fordi noen har funnet meg døddrukken langs rennesteinen og trodd at jeg er en skadet edderkopp.
+
+Har dere sett denne reklamen som oppfordrer til å holde seg våken på energidrikk i 48 timer?
+
+Jeg har holdt meg våken på kaffe, energidrikk og koffeinpiller over tre netter før, og det er ikke noe jeg anbefaler noen som helst. Det er faktisk livsfarlig. Derfor spør jeg meg selv; hvis det er lov å betale Ruter penger for å oppfordre offentligheten til å dø av hjerteinfarkt - er det da også OK og dra hjem til de ansatte i Ruter og skyte amfetamin inn å øya på familiene deres? Fint om dere i Ruter kan svare meg her, for jeg har til stadighet problemer med å tolke personlighetsforstyrrelsene deres! PS: Jeg har ingen respekt for dere.
+
+Her er forresten meg og Paradise Hotel-Are og Cult-promotør / gatebil-Iselin. Vi møtte hverandre inne på et rom på TV2 (ikke glattcelle) og kom raskt på ideen om å ta et bilde av hverandre.
+
+Are og Iselin er ålreite folk, og er for tiden opptatte med å turnere rundt med sine nye sanger. Sangene handler om tyggegummi og savn. Jeg vet forresten ikke sikkert om de turnerer, men de var opptatte da jeg spurte dem om å møte meg i Trondheim i går. Jeg har nemlig vært i Trondheim i noen dager nå - uten å ha noen som helst plan om hvorfor. Jeg benyttet mesteparten av tiden alene på pub og latet som jeg leste Natt & Dag, men egentlig satt jeg bare å så på en dritkul gjeng og håpet at de skulle spørre meg om å være med dem. Det gjorde de ikke. De var dritstygge og jeg hater dem. Stygge tatoveringer og stygge skjegg. Og stygge klær. Jeg tror de var dendrofile også.
+
+På dassene i Trondheim henger det forresten do-eposer på veggene.
+
+Jeg sitter i skrivende stund på bussen fra Trondheim til Molde for å møte noen av mine yndlingsmennesker. Det er ganske kjedelig her, så jeg har gått gjennom alle bildene jeg har klart å finne av meg selv rundt internett. Denne vitsen er fra artige.no. Jeg skjønner den ikke, men antar at den er kjempemorsom (ironi).
+
+Her er et annet bilde jeg har funnet. Skulle gjerne ha kreditert det, men husker ikke hvem som har laget denne kunsten. Til deg som har laget dette: Jeg vurderer å tatovere den på rumpa. Vennligst gi meg tillatelse til dette.
+
+I går skrev jeg jo om Posemannen, og hvordan den har blitt første film i rekken med 100 000 visninger, og jeg blir veldig glad for flere kommentarer og mimringer (norskt ord?). Her er forøvrig et meta-bilde av en annen film jeg har laget. På storskjerm i et klasserom der ute et sted.
+
+Om dette virkelig er det dem lærer på skolen nå om dagen, så kan jeg med sikkerhet si at landet vårt er dømt. Både fordi jeg kun lærer bort ting som fordummer mennesker ytterligere - og fordi jeg antageligvis kan (og vil) prøve å bli president i Norge i løpet av ti års tid. 
+
+Her er et bilde av meg og enda flere Paradise-folk. Jeg vet ikke hvorfor jeg har en slik tiltrekningskraft mot dem. Antageligvis er det fordi jeg har et stort behov for å bæsje foran et overvåkningskamera i Mexico, og prøver å menge meg i de rette miljøene.
+
+På dette bildet sitter vi på godspotten ved Aker Brygge. Der kan man se på alle taperne på Lektern, mens man slapper av, ser på fuglene, og ler av alle taperne på Lektern.
+
+Her om dagen gjorde min venn, Bøffert Fusk, meg oppmerksom på at moskeen ved Grønland ikke har tatt ned rasfare.no-skiltene sine enda. Vi fant begge dette svært interessant, men i det jeg nå skulle skrive noen tanker rundt denne glippen, så kom jeg på noe som er enda morsommere. Bruker du mac? I så fall; prøv å få pila til å bli en sånn fargerik runding som kommer når macen overarbeider. Legg så denne over felgene på en av bilene. Ser du hva du har laget? Du har laget en bil med homofelger.
+
+For dere som ikke har mac, eller ikke klarte å få maskinen til å overarbeide, så ber jeg dere lukke øynene selv og se for dere hvor urkomisk det var for meg da jeg satt i photoshop for å fikse bildet - og dette skjedde uten av jeg tenkte over det selv. Fint om dere som klarte å lage homofelger sier i fra til meg, slik at vi kan dele denne latteren. Dere andre kan gjerne fortelle meg en vits eller en historie som inneholder MINST en hund og en høne (hane er godkjent). Historien kan være fiksjonell.
+
+Noen ganger, men ikke ofte, så barberer jeg meg på gamlemåten. Det vil si at jeg ikke bruker den elektriske barbermaskinen som jeg stusser ballene med, men en god, gammeldags høvel.
+
+Jeg barberer meg oftest de gangene jeg skal hjem til Asker for å møte Fattern og resten av gjengen. Det er litt fordi jeg ikke skal se så bomsete ut, og litt fordi all aftershaven fjerner en del av fernet-lukta. Her er jeg og søsteren min. Hun er nesten like koko som meg.
+
+Snakk om fernet, forresten. Her er et bilde av meg fra årets Tom Waits-løp. Jeg orket bare 3 puber i år - skjønner ikke hvorfor (jeg skjønner egentlig hvorfor).
+
+Det blir generelt mye fest og moro når vintern har gått i sommerdvale og nordmenn tør å bevege seg utendørs igjen. Her feirer vi bursdagen til Runar med noen av de sprøeste folka jeg kjenner.
+
+Jeg antar at dere kjenner til Simen fra før av. Jeg og han vurderer å melde oss på Paradise Hotel for å vinne hele dritten ved å lage oss en allianse. Begge kommer til å slippe kula, og etterpå skal vi lage sanger om tyggegummi og savn. Og pizza.
+
+Foreløpig er Simen på bartenderkurs for å lære seg å " flaire " før vi skal inn på hotellet. Det blir garantert bonuspoeng for alliansen vår dersom Simen kan vise frem noen hardbarka flaire-triks. Etter det skal jeg bæsje foran videoovervåkningskameraene - det trekker visst sjukt mye damer i Østfold og Nord-Norge.
+
+Snakk om sprøe folk. Fulvio ser vel egentlig ut som om han er den sprøeste jeg kjenner, men han er kanskje den mest harmløse. Han har tatoveringer av vikinger over hele kroppen, og flyttet til Norge for å lære seg å lage helleristninger.
+
+Nå begynner dette innlegget å falle av sitt eget lass. Jeg sparker liv i det igjen ved å legge ut to nydelige bilder Pål har tatt av Rambo.
+
+Fine? Selvfølgelig. Det er umulig å ta stygge bilder av pusen min.
+
+Ja, ja. Klokken er for øyeblikket 21:21 og om 14 minutter ankommer jeg Molde. Hva jeg skal der aner jeg ikke, men det innebærer nok en hel del taco-spising. Jeg lurer på hva jeg skal fylle opp de siste minuttene med. Jeg har drukket opp farrisen min, skrevet ferdig innlegget om ingenting og tatt bilder av meg selv på en ferge. Jeg kommer tilbake til alt det der senere. Kjeder meg. Må ikke på do engang. Jeg lukter vondt, men det er ikke dusj på denna drittbussen! Nå fikk jeg dårlig samvittighet om bussen - den er egentlig ganske fin. Den er lilla, og det er i følge skiltet foran meg plass til 56 sittende og 3 stående. Jeg er en av de 56 sittende. Jeg er en del av majoriteten. Jeg liker meg ikke som en del av majoriteten. Jeg vil stå oppreist, bæsje foran kamera i Mexico og lage sanger om pizza og tyggegummi. Jeg vil bygge en ubåt av bambus. Jeg vil ta på alle hestene jeg har kjørt forbi med bussen. JEG VIL HA EN ... Frosk?
+
+De fine froskene. Aldri forlat meg.
+
+Her er et bilde av meg selv på bussen, forresten. Jeg har aldri hjalmaret fra en buss før.
+
+NÅ er jeg fremme! Hallo Molde.
+
+SPAM
+
+Med en offentlig epost-adresse på en hjemmeside som tidvis klatrer nogenlunde høyt opp bland rosabloggerne på blogg.no, så sikrer man seg også en epost-konto full av dritt. Det er mange typer epost som går under kallenavnet dritt, men verst av dem alle; " nisje " -bransjene som består av svensker og nyutdanna sveklinger fra BI (største samlingen av tapere i hele Norge på en gang) som tror de er salgsgenier fordi de har oppfunnet en eller annen app, eller startet import av telefondeksler, lommebøker, hestebæsj og andre unødvendigheter, og tror de får solgt det - da gjerne via sosiale medier, og da gjerne via bloggere. Jeg har blitt plaget av mange av disse fjolsene og har tidligere sagt i fra om hva jeg synes om den slags " salgstriks ".
+
+Den virkelig store verstingen er en nettbutikk som kaller seg Handelsportal.no. Handelsportal.no selger stygge mobildeksler og masse annet dritt som ingen egentlig liker. Det finnes mange tullinger der ute som selger dritt ingen vil ha, men problemet med disse idiotene er at de plager folk med dritten sin. Det kan sammenlignes med å bo i en blokk der Norge bor i etasjen under deg, også skjærer man ut litt av gulvet og bæsjer ned på Norge. Det er nettopp det Handelsportal.no driver med. De bæsjer på landet vårt med dritt. Etikken deres lukter spy, og jeg er sikker på at alle som jobber hos Handelsportal.no er tilbakestående. Hjelpesentralen gone lose. Jeg har lenge lurt på om det faktisk sitter ekte mennesker i andre enden. Etter å ha sett meg lei av alt maset deres på epost, så tenkte jeg en ettermiddag i mars at det var på tide å si ifra.
+
+Det hjalp selvsagt ikke, for ingen i Handelsportal.no klarer å lese. Jeg får dating-spam på translate-norsk fra Afrika som er bedre skrevet enn mailene jeg får fra Handelportal.no minst to ganger i uka. Så; når det ikke er mulig å stanse dette, og jeg ikke vet hvor denne hyperaktive hjelpesentralen for vanskeligstilte drittsekker holder til slik at jeg kan sende dem miltbrann i posten ... Hva gjør man egentlig da?
+
+Det finnes flere utveier i situasjoner der man står fast i dritten. Den enkle løsningen er selvsagt å drikke bort problemene.
+
+Men jeg har faktisk lært at det ikke hjelper for noe som helst. Ved en real fyllekule kan man også komme til skade for å blogge om mobildeksler fra Handelsportal.no og da har man jo driti ganske greit på draget (og kanskje helt ned til underetasjen).
+
+Den andre løsningen er å gjemme seg fra omverdenen. Forsvinne. Bli en taper som bor i skogen, sånn som Tore Tvedt.
+
+Den siste løsningen innebærer hverken drikking eller rømming. Den innebærer kun ett badekar eller en middels stor dusj, og det er noe nesten alle nordmenn gjør ved jevne mellomrom. Jeg snakker selvsagt om den gode, gamle fosterstillingen.
+
+Slik sitter jeg. Noen ganger i flere dager i strekk. Det er derfor jeg er så tynn! Fordi jeg ikke spiser. Jeg bare ligger der i badekaret. Gråter litt. Nynner litt på en fin sang. Dere vet.
+
+Men faktum er at ingen av disse tingene kan fjerne problemene. De er der fortsatt. Handelsportal.no er der fortsatt. Det er bare én ting man kan gjøre for å ta rotta på disse rottene. Man spammer Handelsportal.no tilbake. Dette kan man jo ikke gjøre alene uten å være autist eller speedfreaker. Da hjelper det å ha en twitter-konto med mer makt enn Evenes, Sørrelsa, Lavangen OG Flakstad Kommune + hele Island tilsammen. Jeg spurte mine disipler på Twitter om hjelp og la samtidig med et eksempel på hvordan man burde gjøre det.
+
+Her har også Kim-Eirik satt skapet på plass for nissene i handelsportal.no
+
+Og etter mange uker på spam-offensiven, så skulle det endelig vise seg å gi resultater. Handelsportal.no viste for første gang tegn til selvinnsikt og forståelse for at ingen i verden liker dem.
+
+Men det er klart. Selvfølgelig trykker jeg ikke på den linken - da får jeg sikkert masse rosa iphone-deksler i posten med en faktura. Derfor håper jeg alle mine lesere og disipler og slaver fortsetter å sende mail til disse tullingene, helt til de innser hvor forferdelige mennesker de er, tar en scientology-test og begår kollektivt selvmord.
+
+IKKE SEND MEG MER DRITT I POSTEN, RUMPEVORTER!
+
+Forresten handelsportal.no! Jeg har nevnt dere 11 ganger i dette innlegget. Jeg forventer å få et eller annet fett av dere nå. Kanskje en navelpiercing laget av led-lamper eller noe sånt. Takk på forhånd.
+
+PS: Det sendes stadig inn nye mailer til denne bedriften. Hah! Bedriften. Høres nesten ut som bedriten! Klikk på bildene for å se dem større.
+
+PS 2: " Pavel " har nå avregistrert min mail for meg. Vi takker ham for hans engasjement og stå på-holdning. Vi trenger flere som deg, Pavel!
+
+PS 3: Grand Theft Auto 5
+
+Mas mas mas
+
+Jo da, vi er heldige som bor i nytt hus med alskens moderne duppeditter og hjelpemidler, men jeg lurer på en ting...
+
+HVORFOR MÅ HUSET MITT MASE SÅNN HELE TIDA???
+
+Nå vaskemaskina er ferdig så sukker den ikke fornøyd og avslutter med et lite klikk som den gjorde før. Nei, da. Den nye vaskemaskina piper så jævlig stolt og utålmodig at det høres ut som om det står om liv: Piiiip -piiip  piiip  kom og heng opp vasken!!
+
+Og så er det stille et minutt før det durer på igjen.
+
+Piiip  piiip  piiip  hørte du meg ikke? Jeg sa, kom og heng opp vasken!!!
+
+Etter tredje runde med piping, reiser jeg meg i sinne og stormer svartbannende ned på vaskerommet  og henger opp den jævla vasken, mens jeg gir vaskemaskina "the silent treatment".
+
+Men hvis du trodde vaskemaskina mi var irriterende, så har du ikke møtt dens trassige storebror, stekeovnen. Da vi bygde huset fikk vi beskjed om at det nå var påbudt med komfyrvakt i alle nybygg ( noe som selvsagt kostet 5000,-ekstra).
+
+Nå er det selvsagt flott med en komfyr som vil deg vel, og som er intelligent nok til å slå seg av om den tror det er fare på ferde. Det er bare det at denne komfyren er omtrent like redd for brann som min mormor.
+
+Det vil si at den piper og slår seg av bare jeg tenker på å ta kjelen av plata uten å skru ned varmen. Og langtidssteking i ovnen er det bare å glemme. "Å nei, jeg har stått på i over en time, dette kan da ikke stemme", tenker ovnen, og skrur seg av midt i stekinga av juleribba for eksempel.
+
+Det ble litt dårlig stemning på kjøkkenet den julaften.
+
+Dårlig stemning blir det også når strømmen går midt på natta, og vi våkner av en trønderstemme som roper: "Systemfeil, systemfeil." Nei, det er ikke en ekstraservice fra E-verket at de kommer hjem til deg for å informere om at alt er i orden, det er bare vårt "state-of-the-art" brannvarslingsanlegg. Jeg lurer forøvrig på hva den sier om det begynner å brenne? «Det breinn! Det breinn! Itj bruk tid på å ha på dåkk klea, ell bærg brølløpsbildan. Kåm dåkk ut, og det litt breinnkvikt", kanskje?
+
+Uansett:
+
+Kjære produsenter av elektriske produkter og hvitevarer: For meg holder det lenge med en fem-åring som roper "kom og tørk", og en mann som konstant spør hvor: a) kortholderen b) lua  c) stoppeklokka d) beltet e) telefonen f) bilnøklene er.
+
+Mer mas enn det er stengt talt unødvendig.
+
+Takk.
+
+Den perfekte unnfangelse
+
+Noen ganger så blir jeg så jævlig provosert.
+
+For det meste så roer det seg etter en stund, men etter å ha lest  filmregissør Lars Daniel Krutzkoff Jacobsens kronikk i Aftenposten i forrige uke har jeg irritert meg over den hver eneste dag. Og jeg klarer ikke la den ligge.
+
+Han mener nemlig at enslige kvinner som må få hjelp til å bli gravide mer egoistiske enn andre, fordi de fratar barna retten til å kjenne sin egen historie.
+
+Han durer i vei om viktigheten av å kjenne sitt opphav, og kroner det hele med en følelsesladd illustrasjon med Toralv Maurstad som kikker på et bilde av sin elskede far og "speiler seg" og sin identitet i sitt genetiske opphav.
+
+Mange måter å bli til på
+
+Men det er så mange slags historier bak hvordan vi har blitt til. De aller fleste vet ikke akkurat hvordan, heldigvis.
+
+Mange av oss er selvsagt et resultat av den ideelle kjærlighetsakten mellom to som elsker hverandre, og som har en plan om å holde sammen livet ut. Andre er kanskje et resultat av kondomen som sprakk, en idiotisk one-night-stand eller å ha vært fryst ned som befruktet embryo et par år før du settes tilbake i mors liv.
+
+Ofte er kanskje historien om at man ble til på et sykehus, vel så romantisk som alternativet, og det kan også være et langt mer tilfredsstillende svar på hvor man kommer fra.
+
+For min egen del så kjenner jeg at jeg mye heller vil sette meg ned med en 5-åring og fortelle at han ble født fordi hans mor så dypt og inderlig ønsket at han skulle komme til verden, enn å fortelle at han er på jorda fordi pappaen hans voldtok mamma etter å ha slått henne helsesløs, eller etter et kjapt og heftig knull med den gifte naboen, eller etter at mor triksa med p-pillene.
+
+Forresten, det er sant... Slike historier får selvsagt barn ikke høre. Det sies at 10 % av oss har en annen biologisk far enn den vi tror. Jeg har ikke dokumentasjon på at tallet stemmer, men at ganske mange av oss lever på en løgn, eller har blitt skapt på en annen måte enn det som er betraktet som normalt og innafor, det er jeg sikker på.
+
+Krutzkoff Jacobsens kronikk kommer i forlengelsen av Tore Strømøys sosialpornografi og andre lignende program som setter biologiens uovertruffenhet som en absolutt sannhet. Det spiller ingen rolle hvilken tragedie som ligger bak, du er ikke " hel " om du ikke kjenner dine røtter, er omkvedet.
+
+Men faktum er at mennesket ikke har røtter. Vi har derimot føtter. Det betyr at vi kan bevege oss og tilpasse oss, skape både nye historier og trygge historier. Og burde få lov til det, uten å konstant bli fortalt at de ikke er " hele ", at de mangler noe. At deres historie ikke er god nok akkurat som den er.
+
+Hva er en forelder?
+
+For det er det livet vi har levd og de menneskene som har vært der for oss som til syvende og sist betyr noe.
+
+Jeg har for eksempel alltid vært pappas jente. Vi er så like. Og jeg lytter når pappa snakker om forfedre og slekters gang, og jeg kjenner at jeg hører til. Hva om jeg fant ut at min far ikke var min biologiske far? Ville historien min vært annerledes da? Bittelitt, ja. Men først og fremst ville han likevel vært pappa. Ikke den som ga meg livet, men like fullt han som skapte meg og gjorde meg til den jeg er i dag.
+
+For foreldre kan være så mangt, og de er definitivt mye mer enn en genetisk leverandør. En forelder er først og fremst den som er til stede. Den som kjører i barnehagen, den som trøster når man slår seg, den som skjenner når man har gjort noe man vet man ikke burde. Den som er der og elsker deg betingelsesløst, uavhengig av om du er ens egen kjøtt og blod.
+
+Det er ikke egoisme. Det er kjærlighet.
