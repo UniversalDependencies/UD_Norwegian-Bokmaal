@@ -86,13 +86,13 @@ White space always indicates a token boundary and punctuation constitute separat
 
 The treebank does not contain multiword tokens.
 
-### MORPHOLOGY 
+### MORPHOLOGY
 The PoS-tags follow the universal tag set and does not add any
 language-specific PoS-tags. The morphological features follow the
 Oslo-Bergen Tagger scheme (Hagen et. al., 2000). PoS-tags and
 morphological features were converted automatically to the UD scheme.
 
-### SYNTAX 
+### SYNTAX
 The syntactic annotation in the Norwegian UD treebank conforms to the
 UD guidelines, adding language-specific relations for relative clauses (`acl:relcl`)
 and verb particles (`compound:prt`). The annotation has been automatically converted to
@@ -121,9 +121,15 @@ Janne Bondi Johannessen. 2014."The Norwegian Dependency Treebank",
 Proceedings of LREC 2014, Reykjavik
 
 
+### CHANGELOG
+
+* UD 1.2 --> UD 1.3
+  * [list changes here]
+
+
 Documentation status: partial
 Data source: automatic
 Data available since: UD v1.2
 License: CC BY-NC-SA
-Genre: news blog nonfiction 
+Genre: news blog nonfiction
 Contributors: Øvrelid, Lilja
