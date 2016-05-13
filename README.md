@@ -124,8 +124,19 @@ Proceedings of LREC 2014, Reykjavik
 ### CHANGELOG
 
 * UD 1.2 --> UD 1.3
-  * [list changes here]
+From v1.2 to v1.3 several changes were implemented:
 
+* In order to improve consistency between the Germanic languages, a list of auxiliary verbs were agreed on. For Norwegian these are: *bli* 'become', *burde* 'should', *få* 'get', *ha* 'have', *kunne* 'can', *måtte* 'must', *skulle* 'should', *tørre* 'dare', *ville* 'will', *være* 'be'. Other 
+
+* Appositions (`appos`) now exclusively follow their head, in compliance with UD guidelines 
+
+* Earlier `nsubj` in cleft constructions are now `dislocated`
+
+* Adpositions marking a subordinate clause are now `mark` as opposed to earlier `case`
+
+* In v1.2 a right-headed analysis was used for combinations of proper and common nouns such as *Premier League-spillere* 'Premier League players'. In v1.3 a `compound` analysis was chosen for these.
+
+* PronType feature was added for all PRON or DET, and VerbType for all VERB and AUX
 
 Documentation status: partial
 Data source: automatic
