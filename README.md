@@ -123,9 +123,9 @@ Proceedings of LREC 2014, Reykjavik
 
 ### CHANGELOG
 
-* UD 1.2 --> UD 1.3
+UD 1.2 --> UD 1.3
 
-* In order to improve consistency between the Germanic languages, a list of auxiliary verbs were agreed on. For Norwegian these are: *bli* 'become', *burde* 'should', *få* 'get', *ha* 'have', *kunne* 'can', *måtte* 'must', *skulle* 'should', *tørre* 'dare', *ville* 'will', *være* 'be'. Other 
+* In order to improve consistency between the Germanic languages, a list of auxiliary verbs were agreed on. For Norwegian these are: *bli* 'become', *burde* 'should', *få* 'get', *ha* 'have', *kunne* 'can', *måtte* 'must', *skulle* 'should', *tørre* 'dare', *ville* 'will', *være* 'be'.
 * Appositions (`appos`) now exclusively follow their head, in compliance with UD guidelines 
 * Earlier `nsubj` in cleft constructions are now `dislocated`
 * Adpositions marking a subordinate clause are now `mark` as opposed to earlier `case`
