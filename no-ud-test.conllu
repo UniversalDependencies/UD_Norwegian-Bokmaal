@@ -1263,7 +1263,6 @@
 7	lille	liten	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	8	amod	_	_
 8	Johannes	Johannes	PROPN	_	Gender=Masc	4	nmod	_	_
 9	her	her	ADV	_	_	8	advmod	_	_
-10	|	$|	PUNCT	_	_	1	punct	_	_
 
 1	Kapillær	kapillær	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	amod	_	_
 2	hælprøve	hælprøve	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	12	nsubj	_	_
@@ -1827,7 +1826,6 @@
 
 1	Lykkelig	lykkelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	advmod	_	_
 2	uvitende	uvitende	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	_
-3	|	$|	PUNCT	_	_	2	punct	_	_
 
 1	Hukommelsestap	hukommelsestap	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
 2	.	$.	PUNCT	_	_	1	punct	_	_
@@ -2475,7 +2473,6 @@
 27	beveger	bevege	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	_
 28	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	27	dobj	_	_
 29	selv	selv	DET	_	PronType=Prs	28	det	_	_
-30	|	$|	PUNCT	_	_	3	punct	_	_
 
 1	For	for	ADP	_	_	4	case	_	_
 2	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -2521,7 +2518,6 @@
 21	tilknytning	tilknytning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	20	dobj	_	_
 22	til	til	ADP	_	_	23	case	_	_
 23	meg	meg	PRON	_	Animacy=Anim|Case=Acc|Number=Sing|Person=1|PronType=Prs	21	nmod	_	_
-24	|	$|	PUNCT	_	_	3	punct	_	_
 
 1	Mary	Mary	PROPN	_	_	2	nsubj	_	_
 2	sa	si	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -2616,7 +2612,6 @@
 19	jeg	jeg	PRON	_	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
 20	nyter	nyte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	conj	_	_
 21	overmåtelig	overmåtelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	20	advmod	_	_
-22	|	$|	PUNCT	_	_	8	punct	_	_
 
 1	Du	du	PRON	_	Animacy=Anim|Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
 2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -3964,7 +3959,6 @@
 3	i	i	ADP	_	_	5	case	_	_
 4	større	stor	ADJ	_	Degree=Cmp	5	amod	_	_
 5	format	format	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	1	nmod	_	_
-6	|	$|	PUNCT	_	_	1	punct	_	_
 
 1	Brodecks	Brodecks	PROPN	_	_	6	nsubj	_	_
 2	rapport	rapport	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	name	_	_
@@ -4258,7 +4252,6 @@
 9	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 10	historisk	historisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	11	amod	_	_
 11	roman	roman	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	_
-12	|	$|	PUNCT	_	_	7	punct	_	_
 
 1	Den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	rapporten	rapport	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	nsubj	_	_
@@ -4535,27 +4528,22 @@
 4	trusler	trussel	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	nmod	_	_
 5	på	på	ADP	_	_	6	case	_	_
 6	Internett	Internett	PROPN	_	Gender=Neut	4	nmod	_	_
-7	|	$|	PUNCT	_	_	2	punct	_	_
 
 1	Pågrepet	pågripe	VERB	_	VerbForm=Part	0	root	_	_
 2	av	av	ADP	_	_	4	case	_	_
 3	bevæpnet	bevæpne	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	4	amod	_	_
 4	politi	politi	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	1	nmod	_	_
-5	|	$|	PUNCT	_	_	1	punct	_	_
 
 1	-	$-	PUNCT	_	_	2	punct	_	_
 2	Bombetrussel	bombetrussel	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	_
-3	|	$|	PUNCT	_	_	2	punct	_	_
 
 1	Over	over	ADP	_	_	2	case	_	_
 2	1000	1000	NUM	_	Number=Plur|NumType=Card	3	nmod	_	_
 3	evakuert	evakuere	VERB	_	VerbForm=Part	0	root	_	_
-4	|	$|	PUNCT	_	_	3	punct	_	_
 
 1	-	$-	PUNCT	_	_	3	punct	_	_
 2	Lærerne	lærer	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	3	nsubj	_	_
 3	forduftet	fordufte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-4	|	$|	PUNCT	_	_	3	punct	_	_
 
 1	Politiet	politi	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	_
 2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -4756,7 +4744,6 @@
 16	Jansson	Jansson	PROPN	_	_	15	name	_	_
 17	til	til	ADP	_	_	18	case	_	_
 18	Aftenposten.no	Aftenposten.no	PROPN	_	_	14	nmod	_	_
-19	|	$|	PUNCT	_	_	5	punct	_	_
 
 1	Ifølge	ifølge	ADP	_	_	2	case	_	_
 2	Jansson	Jansson	PROPN	_	_	3	nmod	_	_
@@ -5086,7 +5073,6 @@
 15	hun	hun	PRON	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
 16	til	til	ADP	_	_	17	case	_	_
 17	Aftenposten.no	Aftenposten.no	PROPN	_	_	14	nmod	_	_
-18	|	$|	PUNCT	_	_	4	punct	_	_
 
 1	Elevrådsleder	elevrådsleder	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	_
 2	Christian	Christian	PROPN	_	Gender=Masc	5	nsubj	_	_
@@ -5136,7 +5122,6 @@
 16	han	han	PRON	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
 17	til	til	ADP	_	_	18	case	_	_
 18	Aftenposten.no	Aftenposten.no	PROPN	_	_	15	nmod	_	_
-19	|	$|	PUNCT	_	_	6	punct	_	_
 
 1	Elevrådslederen	elevrådsleder	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	forklarer	forklare	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5226,22 +5211,18 @@
 4	stoff	stoff	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	1	dobj	_	_
 5	av	av	ADP	_	_	6	case	_	_
 6	bilfelgrens	bilfelgrens	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	_
-7	|	$|	PUNCT	_	_	1	punct	_	_
 
 1	Bestiller	bestille	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	på	på	ADP	_	_	3	case	_	_
 3	nettet	nett	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	1	nmod	_	_
-4	|	$|	PUNCT	_	_	1	punct	_	_
 
 1	Kamufleres	kamuflere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 2	som	som	ADP	_	_	3	mark	_	_
 3	brus	brus	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	xcomp	_	_
-4	|	$|	PUNCT	_	_	1	punct	_	_
 
 1	-	$-	PUNCT	_	_	3	punct	_	_
 2	Billig	billig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
 3	rusmiddel	rusmiddel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	_
-4	|	$|	PUNCT	_	_	3	punct	_	_
 
 1	Mens	mens	SCONJ	_	_	6	mark	_	_
 2	heroin	heroin	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	nsubjpass	_	_
@@ -5288,7 +5269,6 @@
 2	Stølås	Stølås	PROPN	_	_	1	name	_	_
 3	/	/	SYM	_	_	1	compound	_	_
 4	bt.no	bt.no	PROPN	_	_	1	parataxis	_	_
-5	|	$|	PUNCT	_	_	1	punct	_	_
 
 1	-	$-	PUNCT	_	_	7	punct	_	_
 2	Omtrent	omtrent	ADV	_	_	3	advmod	_	_
@@ -5898,7 +5878,6 @@
 21	Stenersenmuseet	Stenersenmuseet	PROPN	_	_	19	nmod	_	_
 22	i	i	ADP	_	_	23	case	_	_
 23	Oslo	Oslo	PROPN	_	_	21	nmod	_	SpaceAfter=No
-24	|	$|	PUNCT	_	_	5	punct	_	_
 
 1	Døde	dø	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 2	av	av	ADP	_	_	3	case	_	_
@@ -10496,7 +10475,6 @@
 15	opplevelsene	opplevelse	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	11	nmod	_	_
 16	dine	din	DET	_	Number=Plur|Poss=Yes|PronType=Prs	15	nmod	_	SpaceAfter=No
 17	*	*	PUNCT	_	_	2	punct	_	_
-18	|	$|	PUNCT	_	_	2	punct	_	_
 
 1	Jo	jo	INTJ	_	_	3	discourse	_	SpaceAfter=No
 2	,	$,	PUNCT	_	_	1	punct	_	_
@@ -10990,7 +10968,6 @@
 2	snakke	snakke	VERB	_	VerbForm=Inf	0	root	_	_
 3	med	med	ADP	_	_	4	case	_	_
 4	småjenter	småjente	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	2	nmod	_	_
-5	|	$|	PUNCT	_	_	2	punct	_	_
 
 1	I	i	ADP	_	_	2	case	_	_
 2	sommer	sommer	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	_
@@ -11284,7 +11261,6 @@
 5	du	du	PRON	_	Animacy=Anim|Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	_
 6	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	advcl	_	_
 7	barn	barn	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	6	dobj	_	_
-8	|	$|	PUNCT	_	_	2	punct	_	_
 
 1	Norske	norsk	ADJ	_	Degree=Pos|Number=Plur	2	amod	_	_
 2	kvinner	kvinne	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	4	nsubj	_	_
@@ -11824,7 +11800,6 @@
 2	motarbeider	motarbeide	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	fedres	far	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Plur	4	det	_	_
 4	rettigheter	rettighet	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	2	dobj	_	_
-5	|	$|	PUNCT	_	_	2	punct	_	_
 
 1	Bedrifter	bedrift	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	nsubj	_	_
 2	betaler	betale	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -12884,7 +12859,6 @@
 15	i	i	ADP	_	_	17	case	_	_
 16	Barnelovens	Barneloven	PROPN	_	Case=Gen	17	det	_	_
 17	bestemmelser	bestemmelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	11	nmod	_	_
-18	|	$|	PUNCT	_	_	6	punct	_	_
 
 1	-	$-	PUNCT	_	_	3	punct	_	_
 2	Jeg	jeg	PRON	_	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -15159,7 +15133,6 @@
 1	Disse	disse	PRON	_	Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	ledet	lede	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	adopsjonsnettverket	adopsjonsnettverk	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	dobj	_	_
-4	|	$|	PUNCT	_	_	2	punct	_	_
 
 1	Fire	fire	NUM	_	Number=Plur|NumType=Card	2	nummod	_	_
 2	kvinner	kvinne	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	3	nsubj	_	_
@@ -20987,7 +20960,6 @@
 4	som	som	ADP	_	_	6	mark	_	_
 5	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	seier	seier	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	xcomp	_	_
-7	|	$|	PUNCT	_	_	3	punct	_	_
 
 1	Bjørndalen	Bjørndalen	PROPN	_	_	0	root	_	_
 2	på	på	ADP	_	_	3	case	_	_
@@ -21367,7 +21339,6 @@
 3	opp	opp	ADP	_	_	5	case	_	_
 4	22	22	NUM	_	Number=Plur|NumType=Card	5	nummod	_	_
 5	plasser	plass	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	nmod	_	_
-6	|	$|	PUNCT	_	_	2	punct	_	_
 
 1	Endte	ende	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 2	på	på	ADP	_	_	3	case	_	_
@@ -21547,7 +21518,6 @@
 3	skjøt	skyte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 4	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	3	dobj	_	_
 5	bort	bort	ADP	_	_	3	compound:prt	_	_
-6	|	$|	PUNCT	_	_	3	punct	_	_
 
 1	Endte	ende	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 2	på	på	ADP	_	_	3	case	_	_
@@ -21707,7 +21677,6 @@
 3	åttende	åttende	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	1	advmod	_	_
 4	i	i	ADP	_	_	5	case	_	_
 5	Granåsen	Granåsen	PROPN	_	_	1	nmod	_	_
-6	|	$|	PUNCT	_	_	1	punct	_	_
 
 1	-	$-	PUNCT	_	_	2	punct	_	_
 2	Mangler	mangle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -21940,7 +21909,6 @@
 3	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	bli	bli	VERB	_	VerbForm=Inf	0	root	_	_
 5	best	god	ADJ	_	Definite=Ind|Degree=Sup	4	xcomp	_	_
-6	|	$|	PUNCT	_	_	4	punct	_	_
 
 1	Bråthen	Bråthen	PROPN	_	_	2	nsubj	_	_
 2	roser	rose	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -22136,7 +22104,6 @@
 
 1	Justerer	justere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	målsettingen	målsetting	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	1	dobj	_	_
-3	|	$|	PUNCT	_	_	1	punct	_	_
 
 1	Nå	nå	ADV	_	_	2	advmod	_	_
 2	åpner	åpne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -22303,7 +22270,6 @@
 5	for	for	ADP	_	_	7	case	_	_
 6	270.000	270.000	NUM	_	Number=Plur|NumType=Card	7	nummod	_	_
 7	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	3	nmod	_	_
-8	|	$|	PUNCT	_	_	3	punct	_	_
 
 1	Og	og	CONJ	_	_	2	cc	_	_
 2	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -22591,7 +22557,6 @@
 3	unna	unna	ADP	_	_	5	case	_	_
 4	trippel	trippel	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	5	amod	_	_
 5	Aksel	Aksel	PROPN	_	Gender=Masc	0	root	_	_
-6	|	$|	PUNCT	_	_	5	punct	_	_
 
 1	Lund	Lund	PROPN	_	_	0	root	_	_
 2	Svindal	Svindal	PROPN	_	_	1	name	_	_
@@ -22730,7 +22695,6 @@
 2	bedre	god	ADJ	_	Degree=Cmp	1	xcomp	_	_
 3	enn	enn	ADP	_	_	4	case	_	_
 4	seirene	seier	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	nmod	_	_
-5	|	$|	PUNCT	_	_	1	punct	_	_
 
 1	-	$-	PUNCT	_	_	6	punct	_	_
 2	Sånn	sånn	ADV	_	_	5	advmod	_	_
@@ -22931,7 +22895,6 @@
 3	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
 4	roet	roe	VERB	_	VerbForm=Part	1	ccomp	_	_
 5	ned	ned	ADP	_	_	4	compound:prt	_	_
-6	|	$|	PUNCT	_	_	1	punct	_	_
 
 1	Jansruds	Jansrud	PROPN	_	Case=Gen	2	det	_	_
 2	tid	tid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	nsubj	_	_
@@ -23098,7 +23061,6 @@
 1	Storseier	storseier	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	_
 2	til	til	ADP	_	_	3	case	_	_
 3	Vålerenga	Vålerenga	PROPN	_	_	1	nmod	_	_
-4	|	$|	PUNCT	_	_	1	punct	_	_
 
 1	Scoret	score	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 2	ti	ti	NUM	_	Number=Plur|NumType=Card	3	nummod	_	_
@@ -23297,7 +23259,6 @@
 2	raknet	rakne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	mot	mot	ADP	_	_	4	case	_	_
 4	Sveits	Sveits	PROPN	_	_	2	nmod	_	_
-5	|	$|	PUNCT	_	_	2	punct	_	_
 
 1	Tapte	tape	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 2	kamp	kamp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	dobj	_	_
@@ -23591,7 +23552,6 @@
 16	.	$.	PUNCT	_	_	2	punct	_	_
 
 1	Øremerking	øremerking	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	_
-2	|	$|	PUNCT	_	_	1	punct	_	_
 
 1	Eldreomsorgen	eldreomsorg	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	seiler	seile	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -23803,7 +23763,6 @@
 
 1	En	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	hovedsak	hovedsak	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	_
-3	|	$|	PUNCT	_	_	2	punct	_	_
 
 1	Johansen	Johansen	PROPN	_	_	2	nsubj	_	_
 2	legger	legge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -23987,11 +23946,9 @@
 
 1	Ingen	ingen	DET	_	Number=Plur|PronType=Neg	2	neg	_	_
 2	grenser	grense	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	0	root	_	_
-3	|	$|	PUNCT	_	_	2	punct	_	_
 
 1	Dagens	dag	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	det	_	_
 2	leder	leder	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	_
-3	|	$|	PUNCT	_	_	2	punct	_	_
 
 1	Usikkerheten	usikkerhet	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	nsubj	_	_
 2	rundt	rundt	ADP	_	_	6	case	_	_
@@ -24391,11 +24348,9 @@
 
 1	Lav	lav	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	amod	_	_
 2	deltakelse	deltakelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	_
-3	|	$|	PUNCT	_	_	2	punct	_	_
 
 1	Dagens	dag	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	det	_	_
 2	leder	leder	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	_
-3	|	$|	PUNCT	_	_	2	punct	_	_
 
 1	Ved	ved	ADP	_	_	2	case	_	_
 2	kommune-	kommune-	NOUN	_	_	7	nmod	_	_
@@ -24777,7 +24732,6 @@
 1	-	$-	PUNCT	_	_	2	punct	_	_
 2	Krigsviljen	Krigsviljen	PROPN	_	_	0	root	_	_
 3	størst	stor	ADJ	_	Definite=Ind|Degree=Sup	2	xcomp	_	_
-4	|	$|	PUNCT	_	_	2	punct	_	_
 
 1	Ingen	ingen	DET	_	Gender=Masc|Number=Sing|PronType=Neg	2	neg	_	_
 2	dialog	dialog	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
@@ -24853,7 +24807,6 @@
 4	Reuters	Reuters	PROPN	_	_	1	nmod	_	SpaceAfter=No
 5	/	$/	SYM	_	_	4	compound	_	SpaceAfter=No
 6	Scanpix	Scanpix	PROPN	_	_	4	conj	_	_
-7	|	$|	PUNCT	_	_	1	punct	_	_
 
 1	-	$-	PUNCT	_	_	11	punct	_	_
 2	Både	både	CONJ	_	_	3	cc	_	_
@@ -24990,7 +24943,6 @@
 1	Skudd	skudd	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	_
 2	i	i	ADP	_	_	3	case	_	_
 3	mørket	mørke	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	1	nmod	_	_
-4	|	$|	PUNCT	_	_	1	punct	_	_
 
 1	Forhandlingsvegring	forhandlingsvegring	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	nsubj	_	_
 2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
@@ -25145,7 +25097,6 @@
 2	hevntokt	hevntokt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	1	dobj	_	_
 3	i	i	ADP	_	_	4	case	_	_
 4	Sirte	Sirte	PROPN	_	_	2	nmod	_	_
-5	|	$|	PUNCT	_	_	1	punct	_	_
 
 1	Søndag	søndag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	_
 2	bombet	bombe	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -25391,7 +25342,6 @@
 2	mangler	mangel	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	_
 3	i	i	ADP	_	_	4	case	_	_
 4	Tripoli	Tripoli	PROPN	_	_	2	nmod	_	_
-5	|	$|	PUNCT	_	_	2	punct	_	_
 
 1	I	i	ADP	_	_	2	case	_	_
 2	Tripoli	Tripoli	PROPN	_	_	3	nmod	_	_
@@ -25770,7 +25720,6 @@
 3	ved	ved	ADP	_	_	5	case	_	_
 4	gjeldende	gjeldende	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
 5	miljøregelverk	miljøregelverk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	nmod	_	_
-6	|	$|	PUNCT	_	_	2	punct	_	_
 
 1	Utvalget	utvalg	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	_
 2	ser	se	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -26081,7 +26030,6 @@
 6	for	for	ADP	_	_	7	case	_	_
 7	Jan	Jan	PROPN	_	Gender=Masc	5	nmod	_	_
 8	Mayen	Mayen	PROPN	_	_	7	name	_	_
-9	|	$|	PUNCT	_	_	2	punct	_	_
 
 1	Et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
 2	nytt	ny	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
@@ -26434,7 +26382,6 @@
 5	for	for	ADP	_	_	6	case	_	_
 6	Jan	Jan	PROPN	_	Gender=Masc	4	nmod	_	_
 7	Mayen	Mayen	PROPN	_	_	6	name	_	_
-8	|	$|	PUNCT	_	_	2	punct	_	_
 
 1	Utvalget	utvalg	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	_
 2	mener	mene	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -26697,10 +26644,8 @@
 1	Konkurranse	konkurranse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	_
 2	i	i	ADP	_	_	3	case	_	_
 3	lufta	luft	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	_
-4	|	$|	PUNCT	_	_	1	punct	_	_
 
 1	Bonuspoeng	bonuspoeng	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	0	root	_	_
-2	|	$|	PUNCT	_	_	1	punct	_	_
 
 1	Jeg	jeg	PRON	_	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -27125,8 +27070,7 @@
 23	USA	USA	PROPN	_	_	21	nmod	_	SpaceAfter=No
 24	,	$,	PUNCT	_	_	23	punct	_	_
 25	Østen	Østen	PROPN	_	Gender=Neut	23	conj	_	_
-26	etc	etc.	ADV	_	_	25	advmod	_	SpaceAfter=No
-27	.	$.	PUNCT	_	_	16	punct	_	_
+26	etc	etc.	ADV	_	_	25	advmod	_	_
 
 1	De	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
 2	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	_
@@ -27338,7 +27282,6 @@
 1	Tilsvar	tilsvar	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	_
 2	til	til	ADP	_	_	3	case	_	_
 3	Lien	Lien	PROPN	_	_	1	nmod	_	_
-4	|	$|	PUNCT	_	_	1	punct	_	_
 
 1	Kristian	Kristian	PROPN	_	Gender=Masc	4	nsubj	_	_
 2	M.	M.	PROPN	_	_	1	name	_	_
@@ -27785,8 +27728,7 @@
 22	biblioteket	bibliotek	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	16	conj	_	SpaceAfter=No
 23	/	$/	SYM	_	_	22	compound	_	SpaceAfter=No
 24	servicebygget	servicebygg	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	22	conj	_	_
-25	m.fl	mfl.	ADV	_	_	24	advmod	_	SpaceAfter=No
-26	.	$.	PUNCT	_	_	4	punct	_	_
+25	m.fl	mfl.	ADV	_	_	24	advmod	_	_
 
 1	Flere	flere	ADJ	_	Degree=Cmp	7	nsubj	_	_
 2	av	av	ADP	_	_	6	case	_	_
@@ -28062,7 +28004,6 @@
 3	verdighet	verdighet	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	dobj	_	_
 4	i	i	ADP	_	_	5	case	_	_
 5	abortdebatten	abortdebatt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	_
-6	|	$|	PUNCT	_	_	2	punct	_	_
 
 1	Ludvig	Ludvig	PROPN	_	Gender=Masc	10	nsubj	_	_
 2	Nessa	Nessa	PROPN	_	_	1	name	_	SpaceAfter=No
@@ -28308,7 +28249,6 @@
 3	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 4	stabil	stabil	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	5	amod	_	_
 5	fiskeripolitikk	fiskeripolitikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	_
-6	|	$|	PUNCT	_	_	1	punct	_	_
 
 1	«	$"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2	i	i	ADP	_	_	3	case	_	_
@@ -28377,7 +28317,6 @@
 5	svært	svær	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	_
 6	viktig	viktig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
 7	»	$"	PUNCT	_	_	6	punct	_	_
-8	|	$|	PUNCT	_	_	6	punct	_	_
 
 1	De	de	DET	_	Number=Plur|PronType=Dem	3	det	_	_
 2	siste	sist	ADJ	_	Degree=Pos|Number=Plur	3	amod	_	_
@@ -28589,7 +28528,6 @@
 
 1	Lønnsomt	lønnsom	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
 2	fiske	fiske	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	_
-3	|	$|	PUNCT	_	_	2	punct	_	_
 
 1	I	i	ADP	_	_	2	case	_	_
 2	begynnelsen	begynnelse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	_
@@ -28733,7 +28671,6 @@
 
 1	Rød-grønn	rød-grønn	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	amod	_	_
 2	protest	protest	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	_
-3	|	$|	PUNCT	_	_	2	punct	_	_
 
 1	Dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	xcomp	_	_
 2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	_
@@ -29015,7 +28952,6 @@
 
 1	Rekruttering	rekruttering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	nsubj	_	_
 2	bekymrer	bekymre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	|	$|	PUNCT	_	_	2	punct	_	_
 
 1	Fremtiden	fremtid	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	_
 2	til	til	ADP	_	_	5	case	_	_
@@ -29409,7 +29345,6 @@
 4	kollisjon	kollisjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	_
 5	med	med	ADP	_	_	6	case	_	_
 6	fiskebåt	fiskebåt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	_
-7	|	$|	PUNCT	_	_	2	punct	_	_
 
 1	Ingen	ingen	DET	_	Number=Plur|PronType=Neg	2	neg	_	_
 2	personer	person	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	nsubj	_	_
@@ -29592,14 +29527,12 @@
 1	(	$(	PUNCT	_	_	2	punct	_	_
 2	NTB	NTB	PROPN	_	_	0	root	_	_
 3	)	$)	PUNCT	_	_	2	punct	_	_
-4	|	$|	PUNCT	_	_	2	punct	_	_
 
 1	Frykter	frykte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	halvferdig	halvferdig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
 3	sykehus	sykehus	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	1	dobj	_	_
 4	i	i	ADP	_	_	5	case	_	_
 5	Trondheim	Trondheim	PROPN	_	_	3	nmod	_	_
-6	|	$|	PUNCT	_	_	1	punct	_	_
 
 1	Helse-	Helse-	PROPN	_	_	5	nsubj	_	_
 2	og	og	CONJ	_	_	1	cc	_	_
@@ -29843,7 +29776,6 @@
 1	(	$(	PUNCT	_	_	2	punct	_	_
 2	©NTB	©NTB	PROPN	_	_	0	root	_	_
 3	)	$)	PUNCT	_	_	2	punct	_	SpaceAfter=No
-4	|	$|	PUNCT	_	_	2	punct	_	_
 
 1	Denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	regjeringen	regjering	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	_
