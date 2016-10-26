@@ -123,6 +123,11 @@ Proceedings of LREC 2014, Reykjavik
 
 ### CHANGELOG
 
+UD 1.3 --> UD 1.4
+
+* Added SpaceAfter annotation describing tokenization
+* Removed tokens that were introduced during treebanking but are not present in original texts: 1) tokens introduced for paragraph boundaries (|), and 2) extra punctuation introduced following sentence-final abbreviations.
+
 UD 1.2 --> UD 1.3
 
 * In order to improve consistency between the Germanic languages, a list of auxiliary verbs were agreed on. For Norwegian these are: *bli* 'become', *burde* 'should', *få* 'get', *ha* 'have', *kunne* 'can', *måtte* 'must', *skulle* 'should', *tørre* 'dare', *ville* 'will', *være* 'be'.
