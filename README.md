@@ -125,10 +125,15 @@ Lilja Øvrelid & Petter Hohle (2016). "[Universal Dependencies for Norwegian](ht
 
 ### CHANGELOG
 
+UD 1.3 --> UD 1.4
+
+* Added SpaceAfter annotation describing tokenization
+* Removed tokens that were introduced during treebanking but are not present in original texts: 1) tokens introduced for paragraph boundaries (|), and 2) extra punctuation introduced following sentence-final abbreviations.
+
 UD 1.2 --> UD 1.3
 
 * In order to improve consistency between the Germanic languages, a list of auxiliary verbs were agreed on. For Norwegian these are: *bli* 'become', *burde* 'should', *få* 'get', *ha* 'have', *kunne* 'can', *måtte* 'must', *skulle* 'should', *tørre* 'dare', *ville* 'will', *være* 'be'.
-* Appositions (`appos`) now exclusively follow their head, in compliance with UD guidelines 
+* Appositions (`appos`) now exclusively follow their head, in compliance with UD guidelines
 * Earlier `nsubj` in cleft constructions are now `dislocated`
 * Adpositions marking a subordinate clause are now `mark` as opposed to earlier `case`
 * In v1.2 a right-headed analysis was used for combinations of proper and common nouns such as *Premier League-spillere* 'Premier League players'. In v1.3 a `compound` analysis was chosen for these.
@@ -140,4 +145,5 @@ Data source: automatic
 Data available since: UD v1.2
 License: CC BY-NC-SA
 Genre: news blog nonfiction
-Contributors: Øvrelid, Lilja
+Contributors: Øvrelid, Lilja; Jørgensen, Fredrik
+Contact:

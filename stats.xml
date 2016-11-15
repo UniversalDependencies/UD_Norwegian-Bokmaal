@@ -5,9 +5,9 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>20045</sentences><tokens>311277</tokens><words>311277</words><fused>0</fused></total>
+    <total><sentences>20045</sentences><tokens>310222</tokens><words>310222</words><fused>0</fused></total>
   </size>
-  <lemmas unique="23205" /><!-- $., $,, være, i, og, det, en, som, ha, på, å, til, for, at, av -->
+  <lemmas unique="23204" /><!-- $., $,, være, i, og, det, en, som, ha, på, å, til, for, at, av -->
   <forms unique="32387" /><!-- ., ,, i, og, det, er, som, på, å, en, til, for, at, av, har -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
@@ -24,7 +24,7 @@
     <tag name="PART">4310</tag><!-- å, og -->
     <tag name="PRON">23860</tag><!-- det, som, jeg, han, vi, de, seg, hun, du, dette -->
     <tag name="PROPN">18260</tag><!-- Norge, Regjeringen, Obama, USA, Oslo, Jan, Cathrine, Stortinget, Svalbard, Den -->
-    <tag name="PUNCT">38037</tag><!-- $., $,, $-, $", $|, $:, $?, $), $(, $! -->
+    <tag name="PUNCT">36982</tag><!-- $., $,, $-, $", $:, $?, $), $(, $!, $; -->
     <tag name="SCONJ">6549</tag><!-- at, når, om, da, fordi, der, hvis, mens, før, dersom -->
     <tag name="SYM">81</tag><!-- $/, /, ©, +, +5°C, -6°C, 70°, 72°N, 8°, 9°V -->
     <tag name="VERB">40568</tag><!-- være, ha, si, bli, få, komme, ta, gjøre, gå, se -->
@@ -114,7 +114,7 @@
     <dep name="nsubjpass">1853</dep>
     <dep name="nummod">2450</dep>
     <dep name="parataxis">1478</dep>
-    <dep name="punct">38036</dep>
+    <dep name="punct">36981</dep>
     <dep name="remnant">287</dep>
     <dep name="root">20045</dep>
     <dep name="xcomp">4015</dep>
