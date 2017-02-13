@@ -4931,7 +4931,7 @@
 14	NRK-monopolet	NRK-monopol	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	15	nsubj	_	_
 15	ble	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	acl	_	_
 16	opphevet	oppheve	VERB	_	VerbForm=Part	15	conj	_	SpaceAfter=No
-17	,	$,	PUNCT	_	_	16	orphan	_	_
+17	,	$,	PUNCT	_	_	16	punct	_	_
 18	butikkenes	butikk	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	19	nmod	_	_
 19	åpningstider	åpningstid	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	20	nsubj	_	_
 20	utvidet	utvide	VERB	_	VerbForm=Part	15	conj	_	_
@@ -21734,7 +21734,7 @@
 3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	root	_	_
 5	må	måtte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	goeswith	_	_
-6	selv	selv	ADV	_	_	4	det	_	_
+6	selv	selv	DET	_	PronType=Prs	4	det	_	_
 7	som	som	PRON	_	PronType=Rel	9	nsubj	_	_
 8	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	_
 9	ta	ta	VERB	_	VerbForm=Inf	4	acl:relcl	_	_
