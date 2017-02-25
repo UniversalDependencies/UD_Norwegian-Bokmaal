@@ -1,4 +1,4 @@
-# UD_Norwegian Bokmål
+# UD_Norwegian
 
 The Norwegian UD treebank is based on the Bokmål section of the Norwegian
 Dependency Treebank (NDT), which is a syntactic treebank of Norwegian.
@@ -145,5 +145,5 @@ Data source: automatic
 Data available since: UD v1.2
 License: CC BY-NC-SA
 Genre: news blog nonfiction
-Contributors: Øvrelid, Lilja; Jørgensen, Fredrik; Hohle, Petter
-Contact:
+Contributors: Øvrelid, Lilja; Jørgensen, Fredrik
+Contact: liljao@ifi.uio.no
