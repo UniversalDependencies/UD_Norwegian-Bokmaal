@@ -1409,7 +1409,7 @@
 33	sammenlignet	sammenligne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	24	advcl	_	_
 34	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	33	obj	_	_
 35	å	å	PART	_	_	36	mark	_	_
-36	lede	lede	VERB	_	VerbForm=Inf	34	appos	_	_
+36	lede	lede	VERB	_	VerbForm=Inf	34	acl	_	_
 37	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
 38	koalisjonsregjering	koalisjonsregjering	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	36	obj	_	_
 39	med	med	ADP	_	_	41	mark	_	_
@@ -1938,7 +1938,7 @@
 8	grad	grad	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	_
 9	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	_
 10	måttet	måtte	AUX	_	VerbForm=Part	11	aux	_	_
-11	begynne	begynne	VERB	_	VerbForm=Inf	2	appos	_	_
+11	begynne	begynne	VERB	_	VerbForm=Inf	2	acl	_	_
 12	på	på	ADP	_	_	14	case	_	_
 13	bar	bar	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	14	amod	_	_
 14	bakke	bakke	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
@@ -2865,7 +2865,7 @@
 33	hvorfor	hvorfor	ADV	_	_	36	advmod	_	_
 34	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	36	aux	_	_
 35	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	36	nsubj	_	_
-36	ha	ha	VERB	_	VerbForm=Inf	31	appos	_	_
+36	ha	ha	VERB	_	VerbForm=Inf	31	acl	_	_
 37	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
 38	plan	plan	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	36	obj	_	_
 39	B	b	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	38	nmod	_	_
@@ -3101,7 +3101,7 @@
 21	landsmøter	landsmøte	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	18	obl	_	_
 22	-	$-	PUNCT	_	_	13	punct	_	_
 23	å	å	PART	_	_	24	mark	_	_
-24	gå	gå	VERB	_	VerbForm=Inf	13	appos	_	_
+24	gå	gå	VERB	_	VerbForm=Inf	13	acl	_	_
 25	til	til	ADP	_	_	26	case	_	_
 26	valg	valg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	24	obl	_	_
 27	for	for	ADP	_	_	30	case	_	_
@@ -4997,7 +4997,7 @@
 33	altfor	altfor	ADV	_	_	34	advmod	_	_
 34	ofte	ofte	ADJ	_	Degree=Pos	36	advmod	_	_
 35	måtte	måtte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	36	aux	_	_
-36	betale	betale	VERB	_	VerbForm=Inf	30	appos	_	_
+36	betale	betale	VERB	_	VerbForm=Inf	30	acl	_	_
 37	penger	penge	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	36	obj	_	_
 38	under	under	ADP	_	_	39	case	_	_
 39	bordet	bord	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	36	obl	_	_
@@ -13231,7 +13231,7 @@
 6	og	og	CCONJ	_	_	7	cc	_	_
 7	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	conj	_	_
 8	å	å	PART	_	_	9	mark	_	_
-9	betrakte	betrakte	VERB	_	VerbForm=Inf	7	appos	_	SpaceAfter=No
+9	betrakte	betrakte	VERB	_	VerbForm=Inf	7	acl	_	SpaceAfter=No
 10	.	$.	PUNCT	_	_	2	punct	_	_
 
 # sent_id =  016377
@@ -17576,7 +17576,7 @@
 7	,	$,	PUNCT	_	_	5	punct	_	_
 8	som	som	PRON	_	PronType=Rel	10	obj	_	_
 9	assistentene	assistent	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	10	nsubj	_	_
-10	kjører	kjøre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	appos	_	_
+10	kjører	kjøre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl	_	_
 11	for	for	ADP	_	_	12	case	_	_
 12	ham	han	PRON	_	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obl	_	SpaceAfter=No
 13	.	$.	PUNCT	_	_	3	punct	_	_
@@ -31452,7 +31452,7 @@
 17	aldri	aldri	ADV	_	_	20	advmod	_	_
 18	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	aux	_	_
 19	blitt	bli	AUX	_	VerbForm=Part	20	aux:pass	_	_
-20	forklart	forklare	VERB	_	VerbForm=Part	5	appos	_	SpaceAfter=No
+20	forklart	forklare	VERB	_	VerbForm=Part	5	acl	_	SpaceAfter=No
 21	.	$.	PUNCT	_	_	3	punct	_	_
 
 # sent_id =  017467
