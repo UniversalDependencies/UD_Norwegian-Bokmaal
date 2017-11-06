@@ -141,7 +141,9 @@ UD 1.2 --> UD 1.3
 
 # Acknowledgements
 
+NDT has been automatically converted to the UD scheme by Lilja Øvrelid at the University of Oslo. Petter Hohle created the data splits and Fredrik Jørgensen aligned the treebank to the original texts.
 We thank the annotators of the original NDT: Pål Kristian Eriksen, Kari Kinn and Per Erik Solberg.
+
 
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v1.2
