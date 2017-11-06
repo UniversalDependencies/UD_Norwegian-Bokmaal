@@ -1,5 +1,3 @@
-# UD_Norwegian
-
 # Summary
 
 The Norwegian UD treebank is based on the Bokmål section of the Norwegian
