@@ -139,6 +139,10 @@ UD 1.2 --> UD 1.3
 * PronType feature was added for all PRON or DET, and VerbType for all VERB and AUX
 * General bug fixing
 
+# Acknowledgements
+
+We thank the annotators of the original NDT: Pål Kristian Eriksen, Kari Kinn and Per Erik Solberg.
+
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v1.2
 License: CC BY-SA
