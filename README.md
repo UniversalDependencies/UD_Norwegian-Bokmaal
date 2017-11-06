@@ -105,8 +105,7 @@ The conversion has not been manually checked. There are a few known discrepancie
 
 * no mwe analysis in the treebank. This is also information that is not present in the original data.
 
-
-### REFERENCES
+# References
 
 Kristin Hagen, Janne Bondi Johannessen and Anders Nøklestad: "A
 Constraint-based Tagger for Norwegian". 2000. Proceedings of the 17th
@@ -121,8 +120,12 @@ Proceedings of LREC 2014, Reykjavik
 
 Lilja Øvrelid & Petter Hohle (2016). "[Universal Dependencies for Norwegian](http://www.lrec-conf.org/proceedings/lrec2016/pdf/462_Paper.pdf)", In Proceedings of the Ninth International Conference on Language Resources and Evaluation (LREC'16)
 
+# Acknowledgements
 
-### CHANGELOG
+NDT has been automatically converted to the UD scheme by Lilja Øvrelid at the University of Oslo. Petter Hohle created the data splits and Fredrik Jørgensen aligned the treebank to the original texts.
+We thank the annotators of the original NDT: Pål Kristian Eriksen, Kari Kinn and Per Erik Solberg.
+
+# Changelog
 
 UD 1.3 --> UD 1.4
 
@@ -138,11 +141,6 @@ UD 1.2 --> UD 1.3
 * In v1.2 a right-headed analysis was used for combinations of proper and common nouns such as *Premier League-spillere* 'Premier League players'. In v1.3 a `compound` analysis was chosen for these.
 * PronType feature was added for all PRON or DET, and VerbType for all VERB and AUX
 * General bug fixing
-
-# Acknowledgements
-
-NDT has been automatically converted to the UD scheme by Lilja Øvrelid at the University of Oslo. Petter Hohle created the data splits and Fredrik Jørgensen aligned the treebank to the original texts.
-We thank the annotators of the original NDT: Pål Kristian Eriksen, Kari Kinn and Per Erik Solberg.
 
 
 === Machine-readable metadata (DO NOT REMOVE!) ================================
