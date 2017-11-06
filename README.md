@@ -1,11 +1,15 @@
 # UD_Norwegian
 
+# Summary
+
 The Norwegian UD treebank is based on the Bokmål section of the Norwegian
 Dependency Treebank (NDT), which is a syntactic treebank of Norwegian.
 NDT was developed 2011-2014 at the National Library of Norway in collaboration
 with the Text Laboratory and the Department of Informatics at the
 University of Oslo. NDT has been automatically converted to the UD
 scheme by Lilja Øvrelid at the University of Oslo.
+
+# Introduction
 
 NDT contains around 300,000 tokens taken from a variety of genres.
 The treebank texts have been manually annotated for morphosyntactic
@@ -101,9 +105,6 @@ et. al. (2014) and further described in the NDT guidelines (Kinn
 et. al.).
 The conversion has not been manually checked. There are a few known discrepancies from UD:
 
-* `remnant` elements in ellipsis are not attached to their correlate
-  but rather to the main verb, since information about correct
-  correlate is not present in the original annotation
 * no mwe analysis in the treebank. This is also information that is not present in the original data.
 
 
@@ -140,10 +141,17 @@ UD 1.2 --> UD 1.3
 * PronType feature was added for all PRON or DET, and VerbType for all VERB and AUX
 * General bug fixing
 
-Documentation status: partial
-Data source: automatic
+=== Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v1.2
-License: CC BY-NC-SA
+License: CC BY-SA
+Includes text: yes
 Genre: news blog nonfiction
-Contributors: Øvrelid, Lilja; Jørgensen, Fredrik
-Contact:
+Lemmas: converted from manual
+UPOS: converted from manual
+XPOS: not available
+Features: converted from manual
+Relations: converted from manual
+Contributors: Øvrelid, Lilja; Jørgensen, Fredrik; Hohle, Petter
+Contributing: elsewhere
+Contact: liljao@ifi.uio.no
+===============================================================================
