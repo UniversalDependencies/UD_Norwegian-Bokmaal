@@ -1,15 +1,14 @@
 # Summary
 
 The Norwegian UD treebank is based on the Bokmål section of the Norwegian
-Dependency Treebank (NDT), which is a syntactic treebank of Norwegian.
-NDT was developed 2011-2014 at the National Library of Norway in collaboration
-with the Text Laboratory and the Department of Informatics at the
-University of Oslo. NDT has been automatically converted to the UD
+Dependency Treebank (NDT), which is a syntactic treebank of Norwegian. NDT has been automatically converted to the UD
 scheme by Lilja Øvrelid at the University of Oslo.
 
 # Introduction
 
-NDT contains around 300,000 tokens taken from a variety of genres.
+NDT was developed 2011-2014 at the National Library of Norway in collaboration
+with the Text Laboratory and the Department of Informatics at the
+University of Oslo. NDT contains around 300,000 tokens taken from a variety of genres.
 The treebank texts have been manually annotated for morphosyntactic
 information. The morphological annotation mainly follows mainly
 the [Oslo-Bergen Tagger](http://tekstlab.uio.no/obt-ny/).  The syntactic
