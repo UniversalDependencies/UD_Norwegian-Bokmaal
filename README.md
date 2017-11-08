@@ -1,13 +1,14 @@
-# UD_Norwegian
+# Summary
 
 The Norwegian UD treebank is based on the Bokmål section of the Norwegian
-Dependency Treebank (NDT), which is a syntactic treebank of Norwegian.
-NDT was developed 2011-2014 at the National Library of Norway in collaboration
-with the Text Laboratory and the Department of Informatics at the
-University of Oslo. NDT has been automatically converted to the UD
+Dependency Treebank (NDT), which is a syntactic treebank of Norwegian. NDT has been automatically converted to the UD
 scheme by Lilja Øvrelid at the University of Oslo.
 
-NDT contains around 300,000 tokens taken from a variety of genres.
+# Introduction
+
+NDT was developed 2011-2014 at the National Library of Norway in collaboration
+with the Text Laboratory and the Department of Informatics at the
+University of Oslo. NDT contains around 300,000 tokens taken from a variety of genres.
 The treebank texts have been manually annotated for morphosyntactic
 information. The morphological annotation mainly follows mainly
 the [Oslo-Bergen Tagger](http://tekstlab.uio.no/obt-ny/).  The syntactic
@@ -101,13 +102,9 @@ et. al. (2014) and further described in the NDT guidelines (Kinn
 et. al.).
 The conversion has not been manually checked. There are a few known discrepancies from UD:
 
-* `remnant` elements in ellipsis are not attached to their correlate
-  but rather to the main verb, since information about correct
-  correlate is not present in the original annotation
 * no mwe analysis in the treebank. This is also information that is not present in the original data.
 
-
-### REFERENCES
+# References
 
 Kristin Hagen, Janne Bondi Johannessen and Anders Nøklestad: "A
 Constraint-based Tagger for Norwegian". 2000. Proceedings of the 17th
@@ -122,8 +119,12 @@ Proceedings of LREC 2014, Reykjavik
 
 Lilja Øvrelid & Petter Hohle (2016). "[Universal Dependencies for Norwegian](http://www.lrec-conf.org/proceedings/lrec2016/pdf/462_Paper.pdf)", In Proceedings of the Ninth International Conference on Language Resources and Evaluation (LREC'16)
 
+# Acknowledgements
 
-### CHANGELOG
+NDT has been automatically converted to the UD scheme by Lilja Øvrelid at the University of Oslo. Petter Hohle created the data splits and Fredrik Jørgensen aligned the treebank to the original texts.
+We thank the annotators of the original NDT: Pål Kristian Eriksen, Kari Kinn and Per Erik Solberg.
+
+# Changelog
 
 UD 1.3 --> UD 1.4
 
@@ -140,10 +141,18 @@ UD 1.2 --> UD 1.3
 * PronType feature was added for all PRON or DET, and VerbType for all VERB and AUX
 * General bug fixing
 
-Documentation status: partial
-Data source: automatic
+
+=== Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v1.2
-License: CC BY-NC-SA
+License: CC BY-SA
+Includes text: yes
 Genre: news blog nonfiction
-Contributors: Øvrelid, Lilja; Jørgensen, Fredrik
+Lemmas: converted from manual
+UPOS: converted from manual
+XPOS: not available
+Features: converted from manual
+Relations: converted from manual
+Contributors: Øvrelid, Lilja; Jørgensen, Fredrik; Hohle, Petter
+Contributing: elsewhere
 Contact: liljao@ifi.uio.no
+===============================================================================
