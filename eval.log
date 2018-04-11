@@ -1,15 +1,11 @@
-Sun Feb 11 20:47:08 CET 2018
-perl -I perllib/lib/perl5 -I tools tools/evaluate_treebank.pl --verbose UD_Norwegian-Bokmaal
 Running the following version of tools/evaluate_treebank.pl:
-commit c1cb17aec6a5505b56b885f578dc6b1093bb4b30
+commit 87d374bbd458d29331d76014d05c52eaac32518d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Feb 11 20:27:50 2018 +0100
-Switched to branch 'master'
-Your branch is up-to-date with 'origin/master'.
+Date:   Wed Apr 11 09:21:53 2018 +0200
 Evaluating the following revision of UD_Norwegian-Bokmaal:
-commit c5ba2981325b067453ccb3a137a8e9c766cd312d
+commit 19c8e515c98059bd7039dfd0db9416577834ba44
+Merge: 7339d30 a2350f2
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 11 14:04:29 2017 +0100
 Size: counted 310222 of 310222 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.4745763404268.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -21,21 +17,26 @@ Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
 Features: 185265 out of 310222 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
-Universal relations: 31 out of 37 found in the corpus.
+Universal relations: 30 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi: found 465 bugs.
+Udapi: found 466 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 310222 words.
 Genres: found 3 out of 14 known.
+validate.py --lang no --max-err=10 UD_Norwegian-Bokmaal/no_bokmaal-ud-dev.conllu
+*** PASSED ***
+validate.py --lang no --max-err=10 UD_Norwegian-Bokmaal/no_bokmaal-ud-test.conllu
+*** PASSED ***
+validate.py --lang no --max-err=10 UD_Norwegian-Bokmaal/no_bokmaal-ud-train.conllu
+*** PASSED ***
+Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.214285714285714) = 0.0164835164835165
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
 (weight=0.256410256410256) * (score{size}=0.830557531137496) = 0.212963469522435
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.985010734248377) = 0.303080225922578
-(weight=0.0769230769230769) * (score{udeprels}=0.67027027027027) = 0.0515592515592516
-(TOTAL score=0.819983899385216) * (availability=1) * (validity=1) = 0.819983899385216
+(weight=0.307692307692308) * (score{udapi}=0.984978499268266) = 0.303070307467159
+(weight=0.0769230769230769) * (score{udeprels}=0.648648648648649) = 0.0498960498960499
+(TOTAL score=0.818310779266596) * (availability=1) * (validity=1) = 0.818310779266596
 STARS = 4
-UD_Norwegian-Bokmaal	0.819983899385216	4
-Switched to branch 'dev'
-Your branch is up-to-date with 'origin/dev'.
+UD_Norwegian-Bokmaal	0.818310779266596	4
