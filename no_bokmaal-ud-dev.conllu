@@ -517,7 +517,7 @@
 4	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	ikke	ikke	PART	_	Polarity=Neg	4	advmod	_	_
 6	mildere	mild	ADJ	_	Degree=Cmp	4	xcomp	_	_
-7	selv	selv	ADV	_	_	8	fixed	_	_
+7	selv	selv	ADV	_	_	8	advmod	_	_
 8	om	om	SCONJ	_	_	12	mark	_	_
 9	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 10	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	_
@@ -3497,7 +3497,7 @@
 4	KrF-leder	KrF-leder	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	_
 5	Dagfinn	Dagfinn	PROPN	_	Gender=Masc	2	nsubj	_	_
 6	Høybråten	Høybråten	PROPN	_	_	5	flat:name	_	_
-7	selv	selv	ADV	_	_	8	fixed	_	_
+7	selv	selv	ADV	_	_	8	advmod	_	_
 8	om	om	SCONJ	_	_	11	mark	_	_
 9	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 10	ikke	ikke	PART	_	Polarity=Neg	11	advmod	_	_
@@ -4212,7 +4212,7 @@
 25	i	i	ADP	_	_	26	case	_	_
 26	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	24	nmod	_	SpaceAfter=No
 27	,	$,	PUNCT	_	_	26	punct	_	_
-28	angivelig	angivelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	29	fixed	_	_
+28	angivelig	angivelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	29	advmod	_	_
 29	fordi	fordi	SCONJ	_	_	31	mark	_	_
 30	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	31	nsubj	_	_
 31	arbeidet	arbeide	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	18	advcl	_	_
@@ -4792,7 +4792,7 @@
 29	Los	Los	PROPN	_	_	27	nmod	_	_
 30	Angeles	Angeles	PROPN	_	_	29	flat:name	_	SpaceAfter=No
 31	,	$,	PUNCT	_	_	27	punct	_	_
-32	slik	slik	ADV	_	_	33	fixed	_	_
+32	slik	slik	ADV	_	_	33	advmod	_	_
 33	at	at	SCONJ	_	_	39	mark	_	_
 34	de	de	DET	_	Number=Plur|PronType=Dem	36	det	_	_
 35	to	to	NUM	_	Number=Plur|NumType=Card	36	nummod	_	_
@@ -5504,7 +5504,7 @@
 # sent_id =  015938
 # text = Og selv om Høyre under Willoch var langt sterkere enn under Lyng, var det ikke Høyre, men KrF, som var årsaken til at Høyre satt i regjering alene de to første årene etter den ikke-sosialistiske valgseieren i 1981.
 1	Og	og	CCONJ	_	_	17	cc	_	_
-2	selv	selv	ADV	_	_	3	fixed	_	_
+2	selv	selv	ADV	_	_	3	advmod	_	_
 3	om	om	SCONJ	_	_	9	mark	_	_
 4	Høyre	Høyre	PROPN	_	_	9	nsubj	_	_
 5	under	under	ADP	_	_	6	case	_	_
@@ -6718,7 +6718,7 @@
 7	satse	satse	VERB	_	VerbForm=Inf	5	csubj	_	_
 8	på	på	ADP	_	_	9	case	_	_
 9	kjernevelgerne	kjernevelger	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	7	obl	_	_
-10	selv	selv	ADV	_	_	11	fixed	_	_
+10	selv	selv	ADV	_	_	11	advmod	_	_
 11	om	om	SCONJ	_	_	14	mark	_	_
 12	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
 13	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	14	aux	_	_
@@ -9723,7 +9723,7 @@
 8	om	om	ADP	_	_	9	case	_	_
 9	igjen	igjen	ADV	_	_	6	advmod	_	SpaceAfter=No
 10	,	$,	PUNCT	_	_	3	punct	_	_
-11	ikke	ikke	PART	_	Polarity=Neg	12	fixed	_	_
+11	ikke	ikke	PART	_	Polarity=Neg	12	advmod	_	_
 12	fordi	fordi	SCONJ	_	_	16	mark	_	_
 13	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj:pass	_	_
 14	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	16	aux	_	_
@@ -9733,7 +9733,7 @@
 18	sist	sist	ADV	_	_	16	orphan	_	SpaceAfter=No
 19	,	$,	PUNCT	_	_	16	punct	_	_
 20	og	og	CCONJ	_	_	29	cc	_	_
-21	ikke	ikke	PART	_	Polarity=Neg	22	fixed	_	_
+21	ikke	ikke	PART	_	Polarity=Neg	22	advmod	_	_
 22	fordi	fordi	SCONJ	_	_	29	mark	_	_
 23	noen	noen	DET	_	Gender=Masc|Number=Sing|PronType=Ind	24	det	_	_
 24	røverroman	røverroman	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	29	nsubj	_	_
@@ -10615,7 +10615,7 @@
 5	oppgitt	oppgi	VERB	_	VerbForm=Part	0	root	_	_
 6	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
 7	,	$,	PUNCT	_	_	6	punct	_	_
-8	også	også	ADV	_	_	9	fixed	_	_
+8	også	også	ADV	_	_	9	advmod	_	_
 9	dersom	dersom	SCONJ	_	_	12	mark	_	_
 10	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 11	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	aux	_	_
@@ -12423,7 +12423,7 @@
 34	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	35	det	_	_
 35	Bjørvika	Bjørvika	PROPN	_	_	7	conj	_	_
 36	planlagt	planlegge	VERB	_	VerbForm=Part	35	orphan	_	_
-37	slik	slik	ADV	_	_	38	fixed	_	_
+37	slik	slik	ADV	_	_	38	advmod	_	_
 38	at	at	SCONJ	_	_	41	mark	_	_
 39	brukerne	bruker	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	41	nsubj	_	_
 40	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	41	aux	_	_
@@ -14000,7 +14000,7 @@
 
 # sent_id =  016459
 # text = Selv om det sikkert er mer.
-1	Selv	selv	ADV	_	_	2	fixed	_	_
+1	Selv	selv	ADV	_	_	2	advmod	_	_
 2	om	om	SCONJ	_	_	6	mark	_	_
 3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 4	sikkert	sikker	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	_
@@ -14100,7 +14100,7 @@
 
 # sent_id =  016471
 # text = Muligens fordi jeg synes jeg får nok kaffe.
-1	Muligens	muligens	ADV	_	_	2	fixed	_	_
+1	Muligens	muligens	ADV	_	_	2	advmod	_	_
 2	fordi	fordi	SCONJ	_	_	4	mark	_	_
 3	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 4	synes	synes	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -14551,7 +14551,7 @@
 # sent_id =  016510
 # text = Og selv om sola stekte så vi måtte finne solbriller, kaffen var god og mannen var kjekk.
 1	Og	og	CCONJ	_	_	5	cc	_	_
-2	selv	selv	ADV	_	_	3	fixed	_	_
+2	selv	selv	ADV	_	_	3	advmod	_	_
 3	om	om	SCONJ	_	_	5	mark	_	_
 4	sola	sol	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	_
 5	stekte	steke	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -14572,7 +14572,7 @@
 
 # sent_id =  016511
 # text = Selv om vi sa obligatoriske ting som - skulle nesten tro det var påske.
-1	Selv	selv	ADV	_	_	2	fixed	_	_
+1	Selv	selv	ADV	_	_	2	advmod	_	_
 2	om	om	SCONJ	_	_	4	mark	_	_
 3	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
 4	sa	si	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -14617,7 +14617,7 @@
 1	I	i	ADP	_	_	3	case	_	_
 2	hvert	hver	DET	_	Gender=Neut|Number=Sing|PronType=Tot	3	det	_	_
 3	fall	fall	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obl	_	_
-4	ikke	ikke	PART	_	Polarity=Neg	5	fixed	_	_
+4	ikke	ikke	PART	_	Polarity=Neg	5	advmod	_	_
 5	før	før	SCONJ	_	_	7	mark	_	_
 6	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
 7	kom	komme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -14703,7 +14703,7 @@
 
 # sent_id =  016520
 # text = Bare fordi de dro akkurat litt for sent fra det solrike fjellet til å rekke middagslaging hjemme.
-1	Bare	bare	ADV	_	_	2	fixed	_	_
+1	Bare	bare	ADV	_	_	2	advmod	_	_
 2	fordi	fordi	SCONJ	_	_	4	mark	_	_
 3	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
 4	dro	dra	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -16519,7 +16519,7 @@
 13	setninger	setning	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	14	nsubj:pass	_	_
 14	slukes	sluke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	10	conj	_	SpaceAfter=No
 15	,	$,	PUNCT	_	_	14	punct	_	_
-16	spesielt	spesiell	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	17	fixed	_	_
+16	spesielt	spesiell	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	17	advmod	_	_
 17	når	når	SCONJ	_	_	19	mark	_	_
 18	konsentrasjonen	konsentrasjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	19	nsubj	_	_
 19	svikter	svikte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	advcl	_	SpaceAfter=No
@@ -16994,7 +16994,7 @@
 
 # sent_id =  016684
 # text = Helt fra han var baby var han mer krevende, sier pappa.
-1	Helt	hel	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	fixed	_	_
+1	Helt	hel	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	advmod	_	_
 2	fra	fra	SCONJ	_	_	5	mark	_	_
 3	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 4	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	_	_
@@ -17508,7 +17508,7 @@
 7	Espens	Espen	PROPN	_	Case=Gen|Gender=Masc	8	nmod	_	_
 8	foreldre	forelder	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	1	appos	_	_
 9	-	$-	PUNCT	_	_	8	punct	_	_
-10	selv	selv	ADV	_	_	11	fixed	_	_
+10	selv	selv	ADV	_	_	11	advmod	_	_
 11	om	om	SCONJ	_	_	13	mark	_	_
 12	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	_
 13	klarer	klare	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	advcl	_	_
@@ -17922,7 +17922,7 @@
 4	på	på	ADP	_	_	5	case	_	_
 5	rommet	rom	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	obl	_	_
 6	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	5	nmod	_	_
-7	selv	selv	ADV	_	_	8	fixed	_	_
+7	selv	selv	ADV	_	_	8	advmod	_	_
 8	da	da	SCONJ	_	_	13	mark	_	_
 9	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 10	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	cop	_	_
@@ -17989,7 +17989,7 @@
 
 # sent_id =  016751
 # text = Selv om han ikke får hundre prosent kapasitet, er håpet at han blir i stand til å ha en jobb, sier pappa.
-1	Selv	selv	ADV	_	_	2	fixed	_	_
+1	Selv	selv	ADV	_	_	2	advmod	_	_
 2	om	om	SCONJ	_	_	5	mark	_	_
 3	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 4	ikke	ikke	PART	_	Polarity=Neg	5	advmod	_	_
@@ -20987,7 +20987,7 @@
 13	i	i	ADP	_	_	14	case	_	_
 14	saken	sak	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
 15	,	$,	PUNCT	_	_	9	punct	_	_
-16	selv	selv	ADV	_	_	17	fixed	_	_
+16	selv	selv	ADV	_	_	17	advmod	_	_
 17	om	om	SCONJ	_	_	20	mark	_	_
 18	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
 19	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	20	cop	_	_
@@ -21304,7 +21304,7 @@
 5	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	4	obj	_	_
 6	av	av	ADP	_	_	7	case	_	_
 7	ungene	unge	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	5	nmod	_	_
-8	slik	slik	ADV	_	_	9	fixed	_	_
+8	slik	slik	ADV	_	_	9	advmod	_	_
 9	at	at	SCONJ	_	_	11	mark	_	_
 10	barnet	barn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	nsubj	_	_
 11	tisset	tisse	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	advcl	_	_
@@ -23442,7 +23442,7 @@
 35	andre	annen	DET	_	Number=Plur|PronType=Dem	36	det	_	_
 36	spillerne	spiller	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	31	obl	_	SpaceAfter=No
 37	,	$,	PUNCT	_	_	31	punct	_	_
-38	slik	slik	ADV	_	_	39	fixed	_	_
+38	slik	slik	ADV	_	_	39	advmod	_	_
 39	at	at	SCONJ	_	_	42	mark	_	_
 40	man	man	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|PronType=Prs	42	nsubj	_	_
 41	får	få	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	42	aux	_	_
@@ -25498,7 +25498,7 @@
 
 # sent_id =  017138
 # text = Selv om Mike Poole og meg selv ble svært så gode venner og fikk et respektfullt vennskap, så kunne jeg greid meg uten alle disse møtene.
-1	Selv	selv	ADV	_	_	2	fixed	_	_
+1	Selv	selv	ADV	_	_	2	advmod	_	_
 2	om	om	SCONJ	_	_	8	mark	_	_
 3	Mike	Mike	PROPN	_	_	8	nsubj	_	_
 4	Poole	Poole	PROPN	_	_	3	flat:name	_	_
@@ -26688,7 +26688,7 @@
 2	ikke	ikke	PART	_	Polarity=Neg	3	advmod	_	_
 3	Hannah	Hannah	PROPN	_	_	0	root	_	SpaceAfter=No
 4	,	$,	PUNCT	_	_	3	punct	_	_
-5	selv	selv	ADV	_	_	6	fixed	_	_
+5	selv	selv	ADV	_	_	6	advmod	_	_
 6	om	om	SCONJ	_	_	8	mark	_	_
 7	familien	familie	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	_
 8	prøvde	prøve	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	_
@@ -26956,7 +26956,7 @@
 7	avgjørelsen	avgjørelse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	obj	_	_
 8	selv	selv	ADV	_	_	6	advmod	_	_
 9	blant	blant	ADP	_	_	10	case	_	_
-10	annet	annen	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Dem	11	fixed	_	_
+10	annet	annen	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Dem	11	obl	_	_
 11	fordi	fordi	SCONJ	_	_	13	mark	_	_
 12	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 13	overbeviste	overbevise	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	advcl	_	_
@@ -31229,7 +31229,7 @@
 
 # sent_id =  017458
 # text = Selv om han beskriver problemene og aggresjonen, er det som preger bøkene det kjedelige og grå hverdagslivet.
-1	Selv	selv	ADV	_	_	2	fixed	_	_
+1	Selv	selv	ADV	_	_	2	advmod	_	_
 2	om	om	SCONJ	_	_	4	mark	_	_
 3	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 4	beskriver	beskrive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	_
@@ -31342,7 +31342,7 @@
 10	politisk	politisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	advmod	_	_
 11	korrekte	korrekt	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	amod	_	SpaceAfter=No
 12	,	$,	PUNCT	_	_	2	punct	_	_
-13	selv	selv	ADV	_	_	14	fixed	_	_
+13	selv	selv	ADV	_	_	14	advmod	_	_
 14	om	om	SCONJ	_	_	19	mark	_	_
 15	den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
 16	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	cop	_	_
@@ -34487,7 +34487,7 @@
 11	og	og	CCONJ	_	_	12	cc	_	_
 12	hvalfangst	hvalfangst	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
 13	,	$,	PUNCT	_	_	7	punct	_	_
-14	slik	slik	ADV	_	_	15	fixed	_	_
+14	slik	slik	ADV	_	_	15	advmod	_	_
 15	at	at	SCONJ	_	_	18	mark	_	_
 16	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	expl	_	_
 17	her	her	ADV	_	_	18	advmod	_	_
@@ -38197,7 +38197,7 @@
 6	enighet	enighet	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	nsubj	_	_
 7	om	om	ADP	_	_	2	case	_	SpaceAfter=No
 8	,	$,	PUNCT	_	_	3	punct	_	_
-9	selv	selv	ADV	_	_	10	fixed	_	_
+9	selv	selv	ADV	_	_	10	advmod	_	_
 10	om	om	SCONJ	_	_	12	mark	_	_
 11	sosialistene	sosialist	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	12	nsubj	_	_
 12	lover	love	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	_
@@ -38440,7 +38440,7 @@
 5	godt	god	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	_
 6	bevart	bevart	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	_
 7	hemmelighet	hemmelighet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	xcomp	_	_
-8	helt	hel	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	fixed	_	_
+8	helt	hel	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	advmod	_	_
 9	til	til	SCONJ	_	_	15	mark	_	_
 10	Ap	Ap	PROPN	_	Abbr=Yes	15	nsubj	_	SpaceAfter=No
 11	,	$,	PUNCT	_	_	10	punct	_	_
@@ -43644,7 +43644,7 @@
 # sent_id =  018099
 # text = - Selv om våre folk bruker beskyttelse har vi opplevd bitt og infeksjoner.
 1	-	$-	PUNCT	_	_	10	punct	_	_
-2	Selv	selv	ADV	_	_	3	fixed	_	_
+2	Selv	selv	ADV	_	_	3	advmod	_	_
 3	om	om	SCONJ	_	_	6	mark	_	_
 4	våre	vår	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	5	nmod	_	_
 5	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	6	nsubj	_	_
