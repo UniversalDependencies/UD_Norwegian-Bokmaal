@@ -16555,13 +16555,13 @@
 4	understrekes	understreke	VERB	_	VerbForm=Inf|Voice=Pass	0	root	_	_
 5	at	at	SCONJ	_	_	16	mark	_	_
 6	gjenforeningen	gjenforening	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	16	nsubj:pass	_	_
-7	(	$(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+7	(	$(	PUNCT	_	_	9	punct	_	SpaceAfter=No
 8	av	av	ADP	_	_	9	case	_	_
 9	mor	mor	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	nmod	_	_
 10	og	og	CCONJ	_	_	11	cc	_	_
 11	barn	barn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	conj	_	SpaceAfter=No
-12	,	$,	PUNCT	_	_	6	punct	_	_
-13	red.anm.	red.anm.	NOUN	_	Abbr=Yes	4	parataxis	_	SpaceAfter=No
+12	,	$,	PUNCT	_	_	13	punct	_	_
+13	red.anm.	red.anm.	NOUN	_	Abbr=Yes	6	parataxis	_	SpaceAfter=No
 14	)	$)	PUNCT	_	_	13	punct	_	_
 15	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	16	aux:pass	_	_
 16	gjennomført	gjennomføre	VERB	_	VerbForm=Part	4	ccomp	_	_
@@ -19171,7 +19171,7 @@
 6	Garnæs	Garnæs	PROPN	_	_	4	nmod	_	_
 7	fikk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 8	små	liten	ADJ	_	Degree=Pos|Number=Plur	10	amod	_	_
-9	i	i	ADP	_	_	7	goeswith	_	_
+9	i	i	ADP	_	_	7	reparandum	_	_
 10	innblikk	innblikk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	7	obj	_	_
 11	i	i	ADP	_	_	13	case	_	_
 12	hennes	hennes	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	13	nmod	_	_

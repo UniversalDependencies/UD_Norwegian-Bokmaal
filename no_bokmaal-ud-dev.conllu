@@ -2268,7 +2268,7 @@
 6	hengt	henge	VERB	_	VerbForm=Part	0	root	_	_
 7	opp	opp	ADP	_	_	6	compound:prt	_	_
 8	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
-9	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	goeswith	_	_
+9	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	reparandum	_	_
 10	banner	banner	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	obj	_	_
 11	der	der	SCONJ	_	_	13	mark	_	_
 12	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	expl	_	_
@@ -2522,7 +2522,7 @@
 2	to	to	NUM	_	Number=Plur|NumType=Card	3	nummod	_	_
 3	landene	land	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	7	nsubj	_	_
 4	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	_
-5	bli	bli	VERB	_	VerbForm=Inf	7	goeswith	_	_
+5	bli	bli	VERB	_	VerbForm=Inf	7	reparandum	_	_
 6	nå	nå	ADV	_	_	7	advmod	_	_
 7	få	få	VERB	_	VerbForm=Inf	0	root	_	_
 8	hver	hver	DET	_	Gender=Masc|Number=Sing|PronType=Tot	11	det	_	_
@@ -10968,7 +10968,7 @@
 9	,	$,	PUNCT	_	_	5	punct	_	_
 10	satt	sitte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 11	kasakhstanerne	kasakhstaner	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	10	nsubj	_	_
-12	"	$"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+12	"	$"	PUNCT	_	_	17	punct	_	SpaceAfter=No
 13	rette	rett	ADJ	_	Degree=Pos|Number=Plur	10	xcomp	_	_
 14	i	i	ADP	_	_	15	case	_	_
 15	ryggen	rygg	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	obl	_	_
@@ -10984,7 +10984,7 @@
 25	i	i	ADP	_	_	26	case	_	_
 26	filler	fille	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	24	obl	_	SpaceAfter=No
 27	"	$"	PUNCT	_	_	17	punct	_	SpaceAfter=No
-28	.	$.	PUNCT	_	_	10	punct	_	_
+28	.	$.	PUNCT	_	_	17	punct	_	_
 
 # sent_id = 016242
 # text = Da Borat sa at alle kvinner i Kasakhstan er slaver, tenkte Perisat (24) et øyeblikk på å reise seg og si noe, men ble sittende.
@@ -13948,7 +13948,7 @@
 1	Får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	øye	øye	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	1	obj	_	_
 3	på	på	ADP	_	_	7	case	_	_
-4	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	1	goeswith	_	_
+4	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	1	reparandum	_	_
 5	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	gul	gul	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	_
 7	legoløve	legoløve	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	obl	_	_
@@ -18049,7 +18049,7 @@
 1	Espen	Espen	PROPN	_	Gender=Masc	7	nsubj	_	_
 2	og	og	CCONJ	_	_	3	cc	_	_
 3	medelevenepå	medelevenepå	NOUN	_	_	1	conj	_	_
-4	Steinerskolen	Steinerskolen	PROPN	_	_	7	goeswith	_	_
+4	Steinerskolen	Steinerskolen	PROPN	_	_	3	flat:name	_	_
 5	på	på	ADP	_	_	6	case	_	_
 6	Skjold	Skjold	PROPN	_	_	4	nmod	_	_
 7	lukker	lukke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -21871,7 +21871,7 @@
 2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
 3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	root	_	_
-5	må	måtte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	goeswith	_	_
+5	må	måtte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	reparandum	_	_
 6	selv	selv	DET	_	PronType=Prs	4	det	_	_
 7	som	som	PRON	_	PronType=Rel	9	nsubj	_	_
 8	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	_
@@ -22986,7 +22986,7 @@
 8	-spillet	-spill	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	12	obl	_	_
 9	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	aux	_	_
 10	låtene	låt	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	12	nsubj	_	_
-11	var	være	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	goeswith	_	_
+11	var	være	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	reparandum	_	_
 12	håndplukket	håndplukke	VERB	_	VerbForm=Part	0	root	_	_
 13	med	med	ADP	_	_	14	case	_	_
 14	kjærlighet	kjærlighet	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
@@ -24276,12 +24276,12 @@
 3	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
 4	ikke	ikke	PART	_	Polarity=Neg	5	advmod	_	_
 5	si	si	VERB	_	VerbForm=Inf	0	root	_	_
-6	at	at	SCONJ	_	_	5	goeswith	_	_
-7	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	goeswith	_	_
-8	ikke	ikke	PART	_	Polarity=Neg	5	goeswith	_	_
-9	mulig	mulig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	goeswith	_	_
+6	at	at	SCONJ	_	_	5	reparandum	_	_
+7	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	reparandum	_	_
+8	ikke	ikke	PART	_	Polarity=Neg	5	reparandum	_	_
+9	mulig	mulig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	reparandum	_	_
 10	å	å	PART	_	_	11	mark	_	_
-11	vinne	vinne	VERB	_	VerbForm=Inf	5	goeswith	_	_
+11	vinne	vinne	VERB	_	VerbForm=Inf	5	xcomp	_	_
 12	i	i	ADP	_	_	13	case	_	_
 13	morgen	morgen	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
 14	.	$.	PUNCT	_	_	5	punct	_	_
@@ -25064,7 +25064,7 @@
 33	,	$,	PUNCT	_	_	37	punct	_	_
 34	og	og	CCONJ	_	_	37	cc	_	_
 35	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	37	obl	_	_
-36	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	goeswith	_	_
+36	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	reparandum	_	_
 37	gjorde	gjøre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	22	conj	_	_
 38	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	37	nsubj	_	_
 39	lurt	lur	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	37	advmod	_	_
@@ -30723,7 +30723,7 @@
 4	alle	all	DET	_	Number=Plur|PronType=Tot	6	det	_	_
 5	mulige	mulig	ADJ	_	Degree=Pos|Number=Plur	6	amod	_	_
 6	synspunkter	synspunkt	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	9	nsubj	_	_
-7	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	goeswith	_	_
+7	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	reparandum	_	_
 8	kunnet	kunne	AUX	_	VerbForm=Part	9	aux	_	_
 9	komme	komme	VERB	_	VerbForm=Inf	0	root	_	_
 10	til	til	ADP	_	_	11	case	_	_
@@ -31878,8 +31878,8 @@
 # sent_id = 017497
 # text = Bevegelsen som drevet fram protestene har sin bakgrunn i studentforeninger, fagforeninger, offentlig ansatte og ulike sentrum-venstre opposisjonspartier.
 1	Bevegelsen	bevegelse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	_
-2	som	som	PRON	_	PronType=Rel	6	goeswith	_	_
-3	drevet	drive	VERB	_	VerbForm=Part	6	goeswith	_	_
+2	som	som	PRON	_	PronType=Rel	3	nsubj	_	_
+3	drevet	drive	VERB	_	VerbForm=Part	1	acl:relcl	_	_
 4	fram	fram	ADP	_	_	3	compound:prt	_	_
 5	protestene	protest	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	3	obj	_	_
 6	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
