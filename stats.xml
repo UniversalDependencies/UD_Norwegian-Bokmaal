@@ -5,7 +5,10 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>20045</sentences><tokens>310222</tokens><words>310222</words><fused>0</fused></total>
+    <total><sentences>20044</sentences><tokens>310221</tokens><words>310221</words><fused>0</fused></total>
+    <train><sentences>15696</sentences><tokens>243886</tokens><words>243886</words><fused>0</fused></train>
+    <dev><sentences>2409</sentences><tokens>36369</tokens><words>36369</words><fused>0</fused></dev>
+    <test><sentences>1939</sentences><tokens>29966</tokens><words>29966</words><fused>0</fused></test>
   </size>
   <lemmas unique="23204" /><!-- $., $,, være, i, og, det, en, som, ha, på, å, til, for, at, av -->
   <forms unique="32387" /><!-- ., ,, i, og, det, er, som, på, å, en, til, for, at, av, har -->
@@ -14,7 +17,7 @@
   <tags unique="17">
     <tag name="ADJ">26809</tag><!-- mye, mange, god, stor, ny, hel, norsk, liten, første, lang -->
     <tag name="ADP">36083</tag><!-- i, på, av, til, med, for, fra, om, som, etter -->
-    <tag name="ADV">9978</tag><!-- også, så, nå, bare, her, da, selv, hvor, nok, jo -->
+    <tag name="ADV">9971</tag><!-- også, så, nå, bare, her, da, selv, hvor, nok, jo -->
     <tag name="AUX">17181</tag><!-- være, ha, kunne, ville, skulle, bli, måtte, få, burde, tørre -->
     <tag name="CCONJ">10784</tag><!-- og, men, eller, både, for, så, enten, samt, hverken, verken -->
     <tag name="DET">14380</tag><!-- en, den, de, det, annen, noen, all, denne, egen, hver -->
@@ -22,9 +25,9 @@
     <tag name="NOUN">57252</tag><!-- år, dag, land, gang, tid, barn, verden, kirke, del, folk -->
     <tag name="NUM">3962</tag><!-- to, tre, én, fire, eneste, 2, fem, ti, 20, seks -->
     <tag name="PART">6998</tag><!-- å, ikke, ei, og -->
-    <tag name="PRON">25955</tag><!-- det, som, jeg, han, vi, de, seg, sin, hun, du -->
+    <tag name="PRON">25962</tag><!-- det, som, jeg, han, vi, de, seg, sin, hun, du -->
     <tag name="PROPN">18260</tag><!-- Norge, Regjeringen, Obama, USA, Oslo, Jan, Cathrine, Stortinget, Svalbard, Den -->
-    <tag name="PUNCT">36982</tag><!-- $., $,, $-, $", $:, $?, $), $(, $!, $; -->
+    <tag name="PUNCT">36981</tag><!-- $., $,, $-, $", $:, $?, $), $(, $!, $; -->
     <tag name="SCONJ">11216</tag><!-- at, for, til, om, som, når, på, da, fordi, der -->
     <tag name="SYM">81</tag><!-- $/, /, ©, +, +5°C, -6°C, 70°, 72°N, 8°, 9°V -->
     <tag name="VERB">33351</tag><!-- ha, si, bli, få, komme, ta, være, gjøre, gå, se -->
@@ -68,7 +71,7 @@
     <feat name="PronType" value="Int" upos="DET,PRON">591</feat><!-- hva, hvem, hvilke, hvilken, hvilket, hvis -->
     <feat name="PronType" value="Neg" upos="DET,PRON">244</feat><!-- ingen, ingenting, intet -->
     <feat name="PronType" value="Neg,Prs" upos="PRON">104</feat><!-- ingen -->
-    <feat name="PronType" value="Prs" upos="DET,PRON">21706</feat><!-- det, jeg, han, vi, de, seg, hun, du, dette, man -->
+    <feat name="PronType" value="Prs" upos="DET,PRON">21713</feat><!-- det, jeg, han, vi, de, seg, hun, du, dette, man -->
     <feat name="PronType" value="Prs,Tot" upos="PRON">203</feat><!-- alle, begge, enhver, samtlige, alles -->
     <feat name="PronType" value="Rcp" upos="PRON">73</feat><!-- hverandre, hverandres -->
     <feat name="PronType" value="Rel" upos="PRON">3317</feat><!-- som -->
@@ -85,7 +88,7 @@
   <deps unique="37">
     <dep name="acl">1952</dep>
     <dep name="acl:cleft">313</dep>
-    <dep name="acl:relcl">3940</dep>
+    <dep name="acl:relcl">3941</dep>
     <dep name="advcl">5269</dep>
     <dep name="advmod">18210</dep>
     <dep name="amod">13929</dep>
@@ -105,12 +108,11 @@
     <dep name="discourse">142</dep>
     <dep name="expl">3238</dep>
     <dep name="flat:foreign">481</dep>
-    <dep name="flat:name">5267</dep>
-    <dep name="goeswith">47</dep>
+    <dep name="flat:name">5268</dep>
     <dep name="iobj">695</dep>
     <dep name="mark">15486</dep>
     <dep name="nmod">19890</dep>
-    <dep name="nsubj">28454</dep>
+    <dep name="nsubj">28455</dep>
     <dep name="nsubj:pass">1853</dep>
     <dep name="nummod">2299</dep>
     <dep name="obj">13904</dep>
@@ -118,7 +120,8 @@
     <dep name="orphan">215</dep>
     <dep name="parataxis">1478</dep>
     <dep name="punct">36981</dep>
-    <dep name="root">20045</dep>
-    <dep name="xcomp">3987</dep>
+    <dep name="reparandum">43</dep>
+    <dep name="root">20044</dep>
+    <dep name="xcomp">3988</dep>
   </deps>
 </treebank>
