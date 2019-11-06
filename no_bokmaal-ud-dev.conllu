@@ -3405,8 +3405,8 @@
 26	at	at	SCONJ	_	_	32	mark	_	_
 27	SV	Sv	PROPN	_	Abbr=Yes	32	nsubj	_	_
 28	og	og	CCONJ	_	_	31	cc	_	_
-29	/	$/	SYM	_	_	31	compound	_	_
-30	eller	eller	CCONJ	_	_	31	cc	_	_
+29	/	$/	SYM	_	_	28	compound	_	_
+30	eller	eller	CCONJ	_	_	28	conj	_	_
 31	Sp	Sp	PROPN	_	Abbr=Yes	27	conj	_	_
 32	forsvinner	forsvinne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	25	ccomp	_	_
 33	ut	ut	ADP	_	_	35	case	_	_
