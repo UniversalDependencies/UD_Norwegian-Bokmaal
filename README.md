@@ -144,7 +144,7 @@ UD 1.2 --> UD 1.3
 
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v1.2
-License: CC BY-SA
+License: CC BY-SA 4.0
 Includes text: yes
 Genre: news blog nonfiction
 Lemmas: converted from manual
