@@ -191,8 +191,8 @@
 5	:	$:	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 015705
-# text = « Han var et notorisk rovdyr.
-1	«	$"	PUNCT	_	_	6	punct	_	_
+# text = «Han var et notorisk rovdyr.
+1	«	$"	PUNCT	_	_	6	punct	_	SpaceAfter=No
 2	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 3	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	cop	_	_
 4	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
@@ -201,14 +201,14 @@
 7	.	$.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 015706
-# text = Det var grusomt å høre på. »
+# text = Det var grusomt å høre på.»
 1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	cop	_	_
 3	grusomt	grusom	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
 4	å	å	PART	_	_	5	mark	_	_
 5	høre	høre	VERB	_	VerbForm=Inf	3	advcl	_	_
 6	på	på	ADP	_	_	5	compound:prt	_	SpaceAfter=No
-7	.	$.	PUNCT	_	_	3	punct	_	_
+7	.	$.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 8	»	$"	PUNCT	_	_	3	punct	_	_
 
 # newpar
@@ -415,7 +415,7 @@
 12	:	$:	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 015716
-# text = I en litt stakkato og hjerte-arytmisk tone beskrives Thomassen hvordan også han nærmest oppleves å være et offer (!).
+# text = I en litt stakkato og hjerte-arytmisk tone beskrives Thomassen hvordan også han nærmest oppleves å være et offer(!).
 1	I	i	ADP	_	_	7	case	_	_
 2	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 3	litt	litt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	_
@@ -433,7 +433,7 @@
 15	å	å	PART	_	_	18	mark	_	_
 16	være	være	AUX	_	VerbForm=Inf	18	cop	_	_
 17	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	18	det	_	_
-18	offer	offer	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	14	xcomp	_	_
+18	offer	offer	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	14	xcomp	_	SpaceAfter=No
 19	(	$(	PUNCT	_	_	20	punct	_	SpaceAfter=No
 20	!	$!	PUNCT	_	_	18	punct	_	SpaceAfter=No
 21	)	$)	PUNCT	_	_	20	punct	_	SpaceAfter=No
@@ -457,9 +457,9 @@
 14	:	$:	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 015718
-# text = «... han behandler menneskene som dyr».
+# text = «...han behandler menneskene som dyr».
 1	«	$"	PUNCT	_	_	4	punct	_	SpaceAfter=No
-2	...	$...	PUNCT	_	_	4	punct	_	_
+2	...	$...	PUNCT	_	_	4	punct	_	SpaceAfter=No
 3	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 4	behandler	behandle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	menneskene	menneske	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	4	obj	_	_
@@ -557,7 +557,7 @@
 17	.	$.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 015725
-# text = Det er et spark i strid med våre rettsprinsipper, det er statens myndighetsorgan som straffer, ikke den enkelte meddommer etter utført jobb i statens tjeneste, ikke meddommeren som: «... ønsket å tro på ofrene», ikke meddommeren som under sakens gang «leste... om saken i avisene», formentlig da mest Inge D. Hanssens kommentarspalte «i retten» i Aftenposten, en spalte der det almene fordømmelsesnivå sjelden er lavt.
+# text = Det er et spark i strid med våre rettsprinsipper, det er statens myndighetsorgan som straffer, ikke den enkelte meddommer etter utført jobb i statens tjeneste, ikke meddommeren som: «...ønsket å tro på ofrene», ikke meddommeren som under sakens gang «leste...om saken i avisene», formentlig da mest Inge D. Hanssens kommentarspalte «i retten» i Aftenposten, en spalte der det almene fordømmelsesnivå sjelden er lavt.
 1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
@@ -591,7 +591,7 @@
 31	som	som	PRON	_	PronType=Rel	35	nsubj	_	SpaceAfter=No
 32	:	$:	PUNCT	_	_	31	punct	_	_
 33	«	$"	PUNCT	_	_	35	punct	_	SpaceAfter=No
-34	...	$...	PUNCT	_	_	35	punct	_	_
+34	...	$...	PUNCT	_	_	35	punct	_	SpaceAfter=No
 35	ønsket	ønske	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	30	orphan	_	_
 36	å	å	PART	_	_	37	mark	_	_
 37	tro	tro	VERB	_	VerbForm=Inf	35	xcomp	_	_
@@ -607,7 +607,7 @@
 47	gang	gang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	49	obl	_	_
 48	«	$"	PUNCT	_	_	49	punct	_	SpaceAfter=No
 49	leste	lese	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	43	orphan	_	SpaceAfter=No
-50	...	$...	PUNCT	_	_	52	punct	_	_
+50	...	$...	PUNCT	_	_	52	punct	_	SpaceAfter=No
 51	om	om	ADP	_	_	52	case	_	_
 52	saken	sak	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	49	obl	_	_
 53	i	i	ADP	_	_	54	case	_	_
@@ -1026,8 +1026,8 @@
 10	:	$:	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 015747
-# text = « Jeg forstår lett at det gjør inntrykk og er utfordrende å sitte som meddommer i en slik sak.
-1	«	$"	PUNCT	_	_	3	punct	_	_
+# text = «Jeg forstår lett at det gjør inntrykk og er utfordrende å sitte som meddommer i en slik sak.
+1	«	$"	PUNCT	_	_	3	punct	_	SpaceAfter=No
 2	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 3	forstår	forstå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	lett	lett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	_
@@ -1075,7 +1075,7 @@
 23	.	$.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = 015749
-# text = Dette rører ved de dypeste verdiene og holdningene vi har. »
+# text = Dette rører ved de dypeste verdiene og holdningene vi har.»
 1	Dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	rører	røre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	ved	ved	ADP	_	_	6	case	_	_
@@ -1086,7 +1086,7 @@
 8	holdningene	holdning	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	6	conj	_	_
 9	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
 10	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	SpaceAfter=No
-11	.	$.	PUNCT	_	_	2	punct	_	_
+11	.	$.	PUNCT	_	_	2	punct	_	SpaceAfter=No
 12	»	$"	PUNCT	_	_	2	punct	_	_
 
 # newpar
@@ -1314,7 +1314,7 @@
 8	,	$,	PUNCT	_	_	10	punct	_	_
 9	som	som	SCONJ	_	_	10	mark	_	_
 10	menneske	menneske	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	1	acl	_	SpaceAfter=No
-11	.	$.	PUNCT	_	_	2	punct	_	_
+11	.	$.	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
 # sent_id = 015763
 # text = Tvisynt ombudsmann
@@ -1346,7 +1346,7 @@
 2	.	$.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = 015768
-# text = Det blir for snevert når Harald Berntsen bruker tittelen "Staurberaren" på den første store biografien om tidligere statsminister Per Borten.
+# text = Det blir for snevert når Harald Berntsen bruker tittelen " Staurberaren " på den første store biografien om tidligere statsminister Per Borten.
 1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	for	for	ADV	_	_	4	advmod	_	_
@@ -1356,8 +1356,8 @@
 7	Berntsen	Berntsen	PROPN	_	_	6	flat:name	_	_
 8	bruker	bruke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	advcl	_	_
 9	tittelen	tittel	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	_
-10	"	$"	PUNCT	_	_	11	punct	_	SpaceAfter=No
-11	Staurberaren	Staurberaren	PROPN	_	_	8	obj	_	SpaceAfter=No
+10	"	$"	PUNCT	_	_	11	punct	_	_
+11	Staurberaren	Staurberaren	PROPN	_	_	8	obj	_	_
 12	"	$"	PUNCT	_	_	11	punct	_	_
 13	på	på	ADP	_	_	17	case	_	_
 14	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
@@ -1755,7 +1755,7 @@
 8	.	$.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 015783
-# text = Statsministeren i Norges første brede og varige borgerlige koalisjonsregjering etterlot seg timelange radiointervjuer med tidligere Dagsnytt-redaktør Per Bøhn og 70 - 80 stappfulle esker med usorterte papirer på loft og i kjeller hjemme på gården i Flå.
+# text = Statsministeren i Norges første brede og varige borgerlige koalisjonsregjering etterlot seg timelange radiointervjuer med tidligere Dagsnytt-redaktør Per Bøhn og 70-80 stappfulle esker med usorterte papirer på loft og i kjeller hjemme på gården i Flå.
 1	Statsministeren	statsminister	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	_
 2	i	i	ADP	_	_	9	case	_	_
 3	Norges	Norge	PROPN	_	Case=Gen	9	nmod	_	_
@@ -1775,8 +1775,8 @@
 17	Per	Per	PROPN	_	Gender=Masc	13	nmod	_	_
 18	Bøhn	Bøhn	PROPN	_	_	17	flat:name	_	_
 19	og	og	CCONJ	_	_	24	cc	_	_
-20	70	70	NUM	_	Number=Plur|NumType=Card	24	nummod	_	_
-21	-	$-	PUNCT	_	_	22	punct	_	_
+20	70	70	NUM	_	Number=Plur|NumType=Card	24	nummod	_	SpaceAfter=No
+21	-	$-	PUNCT	_	_	22	punct	_	SpaceAfter=No
 22	80	80	NUM	_	Number=Plur|NumType=Card	20	conj	_	_
 23	stappfulle	stappfull	ADJ	_	Degree=Pos|Number=Plur	24	amod	_	_
 24	esker	eske	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	13	conj	_	_
@@ -3376,7 +3376,7 @@
 8	.	$.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 015851
-# text = Velgere som, i mangel av et bedre alternativ, kan tenke seg at Stoltenberg og Ap fortsetter å styre landet, men gjerne ser at SV og / eller Sp forsvinner ut av regjeringskontorene, kan vende Ap ryggen og sette seg i sofaen dersom de får inntrykk av at Ap satser alt på SV og Sp også i fremtiden.
+# text = Velgere som, i mangel av et bedre alternativ, kan tenke seg at Stoltenberg og Ap fortsetter å styre landet, men gjerne ser at SV og/eller Sp forsvinner ut av regjeringskontorene, kan vende Ap ryggen og sette seg i sofaen dersom de får inntrykk av at Ap satser alt på SV og Sp også i fremtiden.
 1	Velgere	velger	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	38	nsubj	_	_
 2	som	som	PRON	_	PronType=Rel	12	nsubj	_	SpaceAfter=No
 3	,	$,	PUNCT	_	_	2	punct	_	_
@@ -3404,8 +3404,8 @@
 25	ser	se	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	conj	_	_
 26	at	at	SCONJ	_	_	32	mark	_	_
 27	SV	Sv	PROPN	_	Abbr=Yes	32	nsubj	_	_
-28	og	og	CCONJ	_	_	31	cc	_	_
-29	/	$/	SYM	_	_	28	compound	_	_
+28	og	og	CCONJ	_	_	31	cc	_	SpaceAfter=No
+29	/	$/	SYM	_	_	28	compound	_	SpaceAfter=No
 30	eller	eller	CCONJ	_	_	28	conj	_	_
 31	Sp	Sp	PROPN	_	Abbr=Yes	27	conj	_	_
 32	forsvinner	forsvinne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	25	ccomp	_	_
@@ -5296,7 +5296,7 @@
 33	.	$.	PUNCT	_	_	22	punct	_	_
 
 # sent_id = 015932
-# text = Å være lillebror sammen med Frp er noe ganske annet enn å være storebror i en høyre / sentrumskoalisjon.
+# text = Å være lillebror sammen med Frp er noe ganske annet enn å være storebror i en høyre/sentrumskoalisjon.
 1	Å	å	PART	_	_	3	mark	_	_
 2	være	være	AUX	_	VerbForm=Inf	3	cop	_	_
 3	lillebror	lillebror	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	csubj	_	_
@@ -5313,8 +5313,8 @@
 14	storebror	storebror	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	advcl	_	_
 15	i	i	ADP	_	_	19	case	_	_
 16	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-17	høyre	høyre	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	19	compound	_	_
-18	/	$/	SYM	_	_	19	compound	_	_
+17	høyre	høyre	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	19	compound	_	SpaceAfter=No
+18	/	$/	SYM	_	_	19	compound	_	SpaceAfter=No
 19	sentrumskoalisjon	sentrumskoalisjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
 20	.	$.	PUNCT	_	_	10	punct	_	_
 
@@ -8131,7 +8131,7 @@
 5	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 6	ikke	ikke	PART	_	Polarity=Neg	7	advmod	_	_
 7	fortjener	fortjene	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl	_	SpaceAfter=No
-8	.	$.	PUNCT	_	_	4	punct	_	_
+8	.	$.	PUNCT	_	_	4	punct	_	SpaceAfter=No
 
 # sent_id = 016056
 # text = Pinefull død for den irske pub?
@@ -9684,12 +9684,12 @@
 45	.	$.	PUNCT	_	_	14	punct	_	_
 
 # sent_id = 016161
-# text = Det er slik "Nadverden" er tenkt, som en utvidelse av det lille rommet, som en utvidelse av dominikanernes daglige bordfellesskap.
+# text = Det er slik " Nadverden " er tenkt, som en utvidelse av det lille rommet, som en utvidelse av dominikanernes daglige bordfellesskap.
 1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
 2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	slik	slik	ADV	_	_	0	root	_	_
-4	"	$"	PUNCT	_	_	5	punct	_	SpaceAfter=No
-5	Nadverden	Nadverden	PROPN	_	_	8	nsubj	_	SpaceAfter=No
+4	"	$"	PUNCT	_	_	5	punct	_	_
+5	Nadverden	Nadverden	PROPN	_	_	8	nsubj	_	_
 6	"	$"	PUNCT	_	_	5	punct	_	_
 7	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	_
 8	tenkt	tenke	VERB	_	VerbForm=Part	3	advcl	_	SpaceAfter=No
@@ -9985,7 +9985,7 @@
 5	:	$:	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 016180
-# text = Masseturismen er også den eneste kraft på kloden som "naturlig" genererer penger til bevaring.
+# text = Masseturismen er også den eneste kraft på kloden som " naturlig " genererer penger til bevaring.
 1	Masseturismen	masseturisme	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	_
 2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
 3	også	også	ADV	_	_	6	advmod	_	_
@@ -9995,8 +9995,8 @@
 7	på	på	ADP	_	_	8	case	_	_
 8	kloden	klode	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	_
 9	som	som	PRON	_	PronType=Rel	13	nsubj	_	_
-10	"	$"	PUNCT	_	_	11	punct	_	SpaceAfter=No
-11	naturlig	naturlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	advmod	_	SpaceAfter=No
+10	"	$"	PUNCT	_	_	11	punct	_	_
+11	naturlig	naturlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	advmod	_	_
 12	"	$"	PUNCT	_	_	11	punct	_	_
 13	genererer	generere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
 14	penger	penge	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	13	obj	_	_
@@ -10471,12 +10471,12 @@
 2	.	$.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = 016210
-# text = Istedenfor å se "Nadverden" av Leonardo.
+# text = Istedenfor å se " Nadverden " av Leonardo.
 1	Istedenfor	istedenfor	ADP	_	_	3	case	_	_
 2	å	å	PART	_	_	3	mark	_	_
 3	se	se	VERB	_	VerbForm=Inf	0	root	_	_
-4	"	$"	PUNCT	_	_	5	punct	_	SpaceAfter=No
-5	Nadverden	Nadverden	PROPN	_	_	3	obj	_	SpaceAfter=No
+4	"	$"	PUNCT	_	_	5	punct	_	_
+5	Nadverden	Nadverden	PROPN	_	_	3	obj	_	_
 6	"	$"	PUNCT	_	_	5	punct	_	_
 7	av	av	ADP	_	_	8	case	_	_
 8	Leonardo	Leonardo	PROPN	_	_	5	nmod	_	SpaceAfter=No
@@ -10733,10 +10733,10 @@
 
 # newpar
 # sent_id = 016226
-# text = En "norsk" reaksjon.
+# text = En " norsk " reaksjon.
 1	En	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-2	"	$"	PUNCT	_	_	3	punct	_	SpaceAfter=No
-3	norsk	norsk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	5	amod	_	SpaceAfter=No
+2	"	$"	PUNCT	_	_	3	punct	_	_
+3	norsk	norsk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	5	amod	_	_
 4	"	$"	PUNCT	_	_	3	punct	_	_
 5	reaksjon	reaksjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 6	.	$.	PUNCT	_	_	5	punct	_	_
@@ -10883,7 +10883,7 @@
 19	.	$.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 016237
-# text = Denne mangelen på forståelse gjelder ikke bare kasakhstanere som aldri har satt sine ben utenfor det "primitive" Sentral-Asia.
+# text = Denne mangelen på forståelse gjelder ikke bare kasakhstanere som aldri har satt sine ben utenfor det " primitive " Sentral-Asia.
 1	Denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	mangelen	mangel	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	_
 3	på	på	ADP	_	_	4	case	_	_
@@ -10900,8 +10900,8 @@
 14	ben	ben	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	12	obj	_	_
 15	utenfor	utenfor	ADP	_	_	20	case	_	_
 16	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	20	det	_	_
-17	"	$"	PUNCT	_	_	18	punct	_	SpaceAfter=No
-18	primitive	primitiv	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	20	amod	_	SpaceAfter=No
+17	"	$"	PUNCT	_	_	18	punct	_	_
+18	primitive	primitiv	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	20	amod	_	_
 19	"	$"	PUNCT	_	_	18	punct	_	_
 20	Sentral-Asia	Sentral-Asia	PROPN	_	_	12	obl	_	SpaceAfter=No
 21	.	$.	PUNCT	_	_	5	punct	_	_
@@ -11351,7 +11351,7 @@
 6	.	$.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 016266
-# text = Men det gjør ingenting, sier teatersjefen fra "kulturhovedstaden" Almaty (bedre kjent under sitt gamle navn Alma-Ata).
+# text = Men det gjør ingenting, sier teatersjefen fra " kulturhovedstaden " Almaty (bedre kjent under sitt gamle navn Alma-Ata).
 1	Men	men	CCONJ	_	_	3	cc	_	_
 2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 3	gjør	gjøre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -11360,8 +11360,8 @@
 6	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
 7	teatersjefen	teatersjef	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	_
 8	fra	fra	ADP	_	_	12	case	_	_
-9	"	$"	PUNCT	_	_	10	punct	_	SpaceAfter=No
-10	kulturhovedstaden	kulturhovedstad	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+9	"	$"	PUNCT	_	_	10	punct	_	_
+10	kulturhovedstaden	kulturhovedstad	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	_
 11	"	$"	PUNCT	_	_	10	punct	_	_
 12	Almaty	Almaty	PROPN	_	_	7	nmod	_	_
 13	(	$(	PUNCT	_	_	15	punct	_	SpaceAfter=No
@@ -11960,8 +11960,8 @@
 27	.	$.	PUNCT	_	_	15	punct	_	_
 
 # sent_id = 016304
-# text = « Det er beklagelig, men det gir altså en meget klar beskjed om hva dette handler om.
-1	«	$"	PUNCT	_	_	4	punct	_	_
+# text = «Det er beklagelig, men det gir altså en meget klar beskjed om hva dette handler om.
+1	«	$"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	beklagelig	beklagelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
@@ -11982,14 +11982,14 @@
 19	.	$.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 016305
-# text = Det handler om makt i Kirken, " uttaler biskop Olav Skjevesland.
+# text = Det handler om makt i Kirken," uttaler biskop Olav Skjevesland.
 1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	handler	handle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	om	om	ADP	_	_	4	case	_	_
 4	makt	makt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	_
 5	i	i	ADP	_	_	6	case	_	_
 6	Kirken	Kirken	PROPN	_	_	4	nmod	_	SpaceAfter=No
-7	,	$,	PUNCT	_	_	9	punct	_	_
+7	,	$,	PUNCT	_	_	9	punct	_	SpaceAfter=No
 8	"	$"	PUNCT	_	_	9	punct	_	_
 9	uttaler	uttale	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
 10	biskop	biskop	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	nmod	_	_
@@ -13475,8 +13475,8 @@
 3	.	$.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 016406
-# text = - Det gikk, nikker vi lydløst til hverandre.
-1	-	$-	PUNCT	_	_	3	punct	_	_
+# text = -Det gikk, nikker vi lydløst til hverandre.
+1	-	$-	PUNCT	_	_	3	punct	_	SpaceAfter=No
 2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 3	gikk	gå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	,	$,	PUNCT	_	_	5	punct	_	_
@@ -15086,8 +15086,8 @@
 12	.	$.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 016553
-# text = - Sover du enda, lo han.
-1	-	$-	PUNCT	_	_	2	punct	_	_
+# text = -Sover du enda, lo han.
+1	-	$-	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	Sover	sove	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
 4	enda	enda	ADV	_	_	2	advmod	_	SpaceAfter=No
@@ -15114,8 +15114,8 @@
 14	.	$.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 016555
-# text = - Vekker deg da.
-1	-	$-	PUNCT	_	_	2	punct	_	_
+# text = -Vekker deg da.
+1	-	$-	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	Vekker	vekke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	deg	du	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=2|PronType=Prs	2	obj	_	_
 4	da	da	ADV	_	_	2	advmod	_	SpaceAfter=No
@@ -15404,8 +15404,8 @@
 6	:	$:	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 016578
-# text = « Klokken 01.41 fikk vi melding fra operasjonssentralen om at en person hadde falt i bakken fra 5. etasje på Thon Hotell Rosenkrantz (...) ambulansepersonalet jobbet med vedkommende på stedet.
-1	«	$"	PUNCT	_	_	4	punct	_	_
+# text = «Klokken 01.41 fikk vi melding fra operasjonssentralen om at en person hadde falt i bakken fra 5. etasje på Thon Hotell Rosenkrantz (...) ambulansepersonalet jobbet med vedkommende på stedet.
+1	«	$"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2	Klokken	klokke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	_
 3	01.41	01.41	NUM	_	NumType=Card	4	obl	_	_
 4	fikk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -15466,7 +15466,7 @@
 10	.	$.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 016581
-# text = Det snødde da vi ankom stedet, og det var ca. null grader. »
+# text = Det snødde da vi ankom stedet, og det var ca. null grader.»
 1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
 2	snødde	snøe	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	da	da	SCONJ	_	_	5	mark	_	_
@@ -15480,7 +15480,7 @@
 11	ca.	ca.	ADV	_	Abbr=Yes	12	advmod	_	_
 12	null	null	NUM	_	Number=Plur|NumType=Card	13	nummod	_	_
 13	grader	grad	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	conj	_	SpaceAfter=No
-14	.	$.	PUNCT	_	_	2	punct	_	_
+14	.	$.	PUNCT	_	_	2	punct	_	SpaceAfter=No
 15	»	$"	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 016582
@@ -16068,8 +16068,8 @@
 11	:	$:	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 016622
-# text = « Hei, legene har vært her.
-1	«	$"	PUNCT	_	_	7	punct	_	_
+# text = «Hei, legene har vært her.
+1	«	$"	PUNCT	_	_	7	punct	_	SpaceAfter=No
 2	Hei	hei	INTJ	_	_	7	discourse	_	SpaceAfter=No
 3	,	$,	PUNCT	_	_	2	punct	_	_
 4	legene	lege	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	7	nsubj	_	_
@@ -16140,7 +16140,7 @@
 8	.	$.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 016628
-# text = Og takk for at det finnes gode hjernekirurger, tror også at det finnes engler, de må ha vært med han under fallet. »
+# text = Og takk for at det finnes gode hjernekirurger, tror også at det finnes engler, de må ha vært med han under fallet.»
 1	Og	og	CCONJ	_	_	2	cc	_	_
 2	takk	takk	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	_
 3	for	for	SCONJ	_	_	6	mark	_	_
@@ -16165,7 +16165,7 @@
 22	han	han	PRON	_	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	conj	_	_
 23	under	under	ADP	_	_	24	case	_	_
 24	fallet	fall	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	22	obl	_	SpaceAfter=No
-25	.	$.	PUNCT	_	_	2	punct	_	_
+25	.	$.	PUNCT	_	_	2	punct	_	SpaceAfter=No
 26	»	$"	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 016629
@@ -16292,10 +16292,10 @@
 21	.	$.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 016635
-# text = «Nei!» skriver Espen på et ark 33 dager etter fallet, som svar på et spørsmål om han har det vondt.
-1	«	$"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+# text = « Nei! » skriver Espen på et ark 33 dager etter fallet, som svar på et spørsmål om han har det vondt.
+1	«	$"	PUNCT	_	_	2	punct	_	_
 2	Nei	nei	INTJ	_	_	0	root	_	SpaceAfter=No
-3	!	$!	PUNCT	_	_	2	punct	_	SpaceAfter=No
+3	!	$!	PUNCT	_	_	2	punct	_	_
 4	»	$"	PUNCT	_	_	2	punct	_	_
 5	skriver	skrive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
 6	Espen	Espen	PROPN	_	Gender=Masc	5	nsubj	_	_
@@ -16629,14 +16629,14 @@
 8	.	$.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 016656
-# text = Selv kaller Espen seg «Ironman».
+# text = Selv kaller Espen seg « Ironman » .
 1	Selv	selv	ADV	_	_	2	advmod	_	_
 2	kaller	kalle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	Espen	Espen	PROPN	_	Gender=Masc	2	nsubj	_	_
 4	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	2	obj	_	_
-5	«	$"	PUNCT	_	_	6	punct	_	SpaceAfter=No
-6	Ironman	Ironman	PROPN	_	_	2	xcomp	_	SpaceAfter=No
-7	»	$"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+5	«	$"	PUNCT	_	_	6	punct	_	_
+6	Ironman	Ironman	PROPN	_	_	2	xcomp	_	_
+7	»	$"	PUNCT	_	_	6	punct	_	_
 8	.	$.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 016657
@@ -16734,8 +16734,8 @@
 9	:	$:	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 016663
-# text = «... where do we go when we die?
-1	«	$"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+# text = « ... where do we go when we die?
+1	«	$"	PUNCT	_	_	3	punct	_	_
 2	...	$...	PUNCT	_	_	3	punct	_	_
 3	where	where	X	_	_	0	root	_	_
 4	do	do	X	_	_	3	flat:foreign	_	_
@@ -16759,13 +16759,13 @@
 9	?	$?	PUNCT	_	_	1	punct	_	_
 
 # sent_id = 016665
-# text = Is anything certain in life? »
+# text = Is anything certain in life?»
 1	Is	Is	X	_	_	0	root	_	_
 2	anything	anything	X	_	_	1	flat:foreign	_	_
 3	certain	certain	X	_	_	1	flat:foreign	_	_
 4	in	in	X	_	_	1	flat:foreign	_	_
 5	life	life	X	_	_	1	flat:foreign	_	SpaceAfter=No
-6	?	$?	PUNCT	_	_	1	punct	_	_
+6	?	$?	PUNCT	_	_	1	punct	_	SpaceAfter=No
 7	»	$"	PUNCT	_	_	1	punct	_	_
 
 # sent_id = 016666
@@ -17172,7 +17172,7 @@
 12	.	$.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = 016695
-# text = - Jeg tenker ennå på om jeg skulle hentet ham i byen, men han var jo i 20-årsdag... og du får litt dårlig samvittighet når du kjefter litt.
+# text = - Jeg tenker ennå på om jeg skulle hentet ham i byen, men han var jo i 20-årsdag ... og du får litt dårlig samvittighet når du kjefter litt.
 1	-	$-	PUNCT	_	_	3	punct	_	_
 2	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 3	tenker	tenke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -17191,7 +17191,7 @@
 16	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	19	cop	_	_
 17	jo	jo	ADV	_	_	19	advmod	_	_
 18	i	i	ADP	_	_	19	case	_	_
-19	20-årsdag	20-årsdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+19	20-årsdag	20-årsdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	conj	_	_
 20	...	$...	PUNCT	_	_	19	punct	_	_
 21	og	og	CCONJ	_	_	23	cc	_	_
 22	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	23	nsubj	_	_
@@ -17246,7 +17246,7 @@
 5	.	$.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 016699
-# text = I meldingen takket han for maten og sa han ville komme hjem, som de andre...
+# text = I meldingen takket han for maten og sa han ville komme hjem, som de andre ...
 1	I	i	ADP	_	_	2	case	_	_
 2	meldingen	melding	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	_
 3	takket	takke	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -17262,7 +17262,7 @@
 13	,	$,	PUNCT	_	_	16	punct	_	_
 14	som	som	ADP	_	_	16	case	_	_
 15	de	de	DET	_	Number=Plur|PronType=Dem	16	det	_	_
-16	andre	annen	DET	_	Number=Plur|PronType=Dem	11	obl	_	SpaceAfter=No
+16	andre	annen	DET	_	Number=Plur|PronType=Dem	11	obl	_	_
 17	...	$...	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 016700
@@ -17670,11 +17670,11 @@
 10	.	$.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 016727
-# text = Lite kan stoppe deg... når vi spør hvem som vil et eller annet, er du ofte den første som melder deg.
+# text = Lite kan stoppe deg ... når vi spør hvem som vil et eller annet, er du ofte den første som melder deg.
 1	Lite	lite	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	nsubj	_	_
 2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	stoppe	stoppe	VERB	_	VerbForm=Inf	0	root	_	_
-4	deg	du	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=2|PronType=Prs	3	obj	_	SpaceAfter=No
+4	deg	du	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=2|PronType=Prs	3	obj	_	_
 5	...	$...	PUNCT	_	_	20	punct	_	_
 6	når	når	SCONJ	_	_	8	mark	_	_
 7	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
@@ -18059,8 +18059,8 @@
 11	:	$:	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 016755
-# text = «... born again, born again, one day I know I'll feel strong again...»
-1	«	$"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+# text = « ... born again, born again, one day I know I'll feel strong again ...»
+1	«	$"	PUNCT	_	_	3	punct	_	_
 2	...	$...	PUNCT	_	_	3	punct	_	_
 3	born	born	X	_	_	0	root	_	_
 4	again	again	X	_	_	3	flat:foreign	_	SpaceAfter=No
@@ -18075,7 +18075,7 @@
 13	I'll	I'll	X	_	_	3	flat:foreign	_	_
 14	feel	feel	X	_	_	3	flat:foreign	_	_
 15	strong	strong	X	_	_	3	flat:foreign	_	_
-16	again	again	X	_	_	3	flat:foreign	_	SpaceAfter=No
+16	again	again	X	_	_	3	flat:foreign	_	_
 17	...	$...	PUNCT	_	_	3	punct	_	SpaceAfter=No
 18	»	$"	PUNCT	_	_	3	punct	_	_
 
@@ -18249,8 +18249,8 @@
 16	:	$:	PUNCT	_	_	10	punct	_	_
 
 # sent_id = 016765
-# text = « Du er kanskje det modigste mennesket vi har møtt.
-1	«	$"	PUNCT	_	_	7	punct	_	_
+# text = «Du er kanskje det modigste mennesket vi har møtt.
+1	«	$"	PUNCT	_	_	7	punct	_	SpaceAfter=No
 2	Du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	_	_
 3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	_
 4	kanskje	kanskje	ADV	_	_	7	advmod	_	_
@@ -18263,11 +18263,11 @@
 11	.	$.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 016766
-# text = Lite kan stoppe deg... når vi spør hvem som vil et eller annet, er du ofte den første som melder deg.
+# text = Lite kan stoppe deg ... når vi spør hvem som vil et eller annet, er du ofte den første som melder deg.
 1	Lite	lite	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	nsubj	_	_
 2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	stoppe	stoppe	VERB	_	VerbForm=Inf	0	root	_	_
-4	deg	du	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=2|PronType=Prs	3	obj	_	SpaceAfter=No
+4	deg	du	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=2|PronType=Prs	3	obj	_	_
 5	...	$...	PUNCT	_	_	20	punct	_	_
 6	når	når	SCONJ	_	_	8	mark	_	_
 7	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
@@ -18305,7 +18305,7 @@
 4	.	$.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 016769
-# text = Vi har så mye å lære av deg. »
+# text = Vi har så mye å lære av deg.»
 1	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 2	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	så	så	ADV	_	_	4	advmod	_	_
@@ -18314,7 +18314,7 @@
 6	lære	lære	VERB	_	VerbForm=Inf	4	acl	_	_
 7	av	av	ADP	_	_	8	case	_	_
 8	deg	du	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=2|PronType=Prs	6	obl	_	SpaceAfter=No
-9	.	$.	PUNCT	_	_	2	punct	_	_
+9	.	$.	PUNCT	_	_	2	punct	_	SpaceAfter=No
 10	»	$.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 016770
@@ -18401,8 +18401,8 @@
 4	.	$.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = 016775
-# text = « Går du gjennom en krise?
-1	«	$"	PUNCT	_	_	2	punct	_	_
+# text = «Går du gjennom en krise?
+1	«	$"	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	Går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
 4	gjennom	gjennom	ADP	_	_	6	case	_	_
@@ -18411,11 +18411,11 @@
 7	?	$?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 016776
-# text = Ta kontakt med sykehusprestene », forteller brosjyren på bordet.
+# text = Ta kontakt med sykehusprestene», forteller brosjyren på bordet.
 1	Ta	ta	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	_
 2	kontakt	kontakt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	obj	_	_
 3	med	med	ADP	_	_	4	case	_	_
-4	sykehusprestene	sykehusprest	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	nmod	_	_
+4	sykehusprestene	sykehusprest	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
 5	»	$"	PUNCT	_	_	7	punct	_	SpaceAfter=No
 6	,	$,	PUNCT	_	_	7	punct	_	_
 7	forteller	fortelle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
@@ -18568,14 +18568,14 @@
 12	!	$!	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 016789
-# text = Når får jeg den nye «hjelmen» min? spør Espen.
+# text = Når får jeg den nye « hjelmen » min? spør Espen.
 1	Når	når	ADV	_	_	2	advmod	_	_
 2	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 4	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
 5	nye	ny	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	amod	_	_
-6	«	$"	PUNCT	_	_	7	punct	_	SpaceAfter=No
-7	hjelmen	hjelm	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+6	«	$"	PUNCT	_	_	7	punct	_	_
+7	hjelmen	hjelm	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obj	_	_
 8	»	$"	PUNCT	_	_	7	punct	_	_
 9	min	min	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	nmod	_	SpaceAfter=No
 10	?	$?	PUNCT	_	_	2	punct	_	_
@@ -18605,9 +18605,9 @@
 8	Tore	Tore	PROPN	_	_	6	nsubj	_	_
 
 # sent_id = 016792
-# text = "Hjelmen" er den nye skallen Espen skal få.
-1	"	$"	PUNCT	_	_	2	punct	_	SpaceAfter=No
-2	Hjelmen	hjelm	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+# text = " Hjelmen " er den nye skallen Espen skal få.
+1	"	$"	PUNCT	_	_	2	punct	_	_
+2	Hjelmen	hjelm	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	_
 3	"	$"	PUNCT	_	_	2	punct	_	_
 4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	_
 5	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
@@ -19196,9 +19196,9 @@
 13	.	$.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 016830
-# text = kilder / metode:
-1	kilder	kilde	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	_
-2	/	$/	SYM	_	_	1	compound	_	_
+# text = kilder/metode:
+1	kilder	kilde	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+2	/	$/	SYM	_	_	1	compound	_	SpaceAfter=No
 3	metode	metode	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
 4	:	$:	PUNCT	_	_	1	punct	_	_
 
@@ -19240,9 +19240,9 @@
 34	.	$.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = 016832
-# text = fakta / tall-kilder:
-1	fakta	faktum	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	0	root	_	_
-2	/	$/	SYM	_	_	1	compound	_	_
+# text = fakta/tall-kilder:
+1	fakta	faktum	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	0	root	_	SpaceAfter=No
+2	/	$/	SYM	_	_	1	compound	_	SpaceAfter=No
 3	tall-kilder	tall-kilde	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
 4	:	$:	PUNCT	_	_	1	punct	_	_
 
@@ -20191,8 +20191,8 @@
 10	:	$:	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 016886
-# text = « Tor Holger Bertelsen fremviser ved gjentatte anledninger avvikende virkelighetsoppfatning, sviktende vurderingsevne, rigide holdninger og ustabilitet i jobbutførelsen.
-1	«	$"	PUNCT	_	_	5	punct	_	_
+# text = «Tor Holger Bertelsen fremviser ved gjentatte anledninger avvikende virkelighetsoppfatning, sviktende vurderingsevne, rigide holdninger og ustabilitet i jobbutførelsen.
+1	«	$"	PUNCT	_	_	5	punct	_	SpaceAfter=No
 2	Tor	Tor	PROPN	_	Gender=Masc	5	nsubj	_	_
 3	Holger	Holger	PROPN	_	_	2	flat:name	_	_
 4	Bertelsen	Bertelsen	PROPN	_	_	2	flat:name	_	_
@@ -20242,7 +20242,7 @@
 24	.	$.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 016888
-# text = Det er grunn til å tro at hans fastlåste / rigide holdninger, blant annet til kvinner, påvirker hans behandling av enkeltpersoner i retten, samt hans vurderingsevne i avgjørelser.
+# text = Det er grunn til å tro at hans fastlåste/rigide holdninger, blant annet til kvinner, påvirker hans behandling av enkeltpersoner i retten, samt hans vurderingsevne i avgjørelser.
 1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
 2	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	grunn	grunn	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nsubj	_	_
@@ -20251,8 +20251,8 @@
 6	tro	tro	VERB	_	VerbForm=Inf	3	acl	_	_
 7	at	at	SCONJ	_	_	19	mark	_	_
 8	hans	hans	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	12	nmod	_	_
-9	fastlåste	fastlåst	ADJ	_	Degree=Pos|Number=Plur	12	amod	_	_
-10	/	$/	SYM	_	_	9	compound	_	_
+9	fastlåste	fastlåst	ADJ	_	Degree=Pos|Number=Plur	12	amod	_	SpaceAfter=No
+10	/	$/	SYM	_	_	9	compound	_	SpaceAfter=No
 11	rigide	rigid	ADJ	_	Degree=Pos|Number=Plur	9	conj	_	_
 12	holdninger	holdning	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	19	nsubj	_	SpaceAfter=No
 13	,	$,	PUNCT	_	_	17	punct	_	_
@@ -20277,7 +20277,7 @@
 32	.	$.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 016889
-# text = Det er således grunn til å stille spørsmål ved rettssikkerheten til partene under hans administrering av sakene », står det blant annet i notatet fra DA.
+# text = Det er således grunn til å stille spørsmål ved rettssikkerheten til partene under hans administrering av sakene», står det blant annet i notatet fra DA.
 1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
 2	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	således	således	ADV	_	_	2	advmod	_	_
@@ -20294,7 +20294,7 @@
 14	hans	hans	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	nmod	_	_
 15	administrering	administrering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	obl	_	_
 16	av	av	ADP	_	_	17	case	_	_
-17	sakene	sak	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	15	nmod	_	_
+17	sakene	sak	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	15	nmod	_	SpaceAfter=No
 18	»	$"	PUNCT	_	_	20	punct	_	SpaceAfter=No
 19	,	$,	PUNCT	_	_	20	punct	_	_
 20	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
@@ -20762,8 +20762,8 @@
 5	.	$.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 016917
-# text = « Han presenterte seg som byrettsdommer, men sa at han ringte som privatperson.
-1	«	$"	PUNCT	_	_	3	punct	_	_
+# text = «Han presenterte seg som byrettsdommer, men sa at han ringte som privatperson.
+1	«	$"	PUNCT	_	_	3	punct	_	SpaceAfter=No
 2	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 3	presenterte	presentere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 4	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	3	obj	_	_
@@ -20798,7 +20798,7 @@
 15	.	$.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 016919
-# text = Jeg oppfattet at han brukte sin posisjon som dommer til å prøve å påvirke meg », sa Monica Mæland til BT den gang.
+# text = Jeg oppfattet at han brukte sin posisjon som dommer til å prøve å påvirke meg», sa Monica Mæland til BT den gang.
 1	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	oppfattet	oppfatte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	at	at	SCONJ	_	_	5	mark	_	_
@@ -20813,7 +20813,7 @@
 12	prøve	prøve	VERB	_	VerbForm=Inf	5	advcl	_	_
 13	å	å	PART	_	_	14	mark	_	_
 14	påvirke	påvirke	VERB	_	VerbForm=Inf	12	xcomp	_	_
-15	meg	jeg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	14	obj	_	_
+15	meg	jeg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	14	obj	_	SpaceAfter=No
 16	»	$"	PUNCT	_	_	18	punct	_	SpaceAfter=No
 17	,	$,	PUNCT	_	_	18	punct	_	_
 18	sa	si	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
@@ -21192,8 +21192,8 @@
 8	.	$.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 016941
-# text = « Jeg vil klage på at han i skjul tok seg inn i huset, hvor jeg bodde sammen med mine barn.
-1	«	$"	PUNCT	_	_	4	punct	_	_
+# text = «Jeg vil klage på at han i skjul tok seg inn i huset, hvor jeg bodde sammen med mine barn.
+1	«	$"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 3	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	klage	klage	VERB	_	VerbForm=Inf	0	root	_	_
@@ -21237,7 +21237,7 @@
 16	.	$.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 016943
-# text = Jeg vil klage på grove beskyldninger overfor meg om å være en dårlig mor. »
+# text = Jeg vil klage på grove beskyldninger overfor meg om å være en dårlig mor.»
 1	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	klage	klage	VERB	_	VerbForm=Inf	0	root	_	_
@@ -21252,7 +21252,7 @@
 12	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 13	dårlig	dårlig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	14	amod	_	_
 14	mor	mor	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	acl	_	SpaceAfter=No
-15	.	$.	PUNCT	_	_	3	punct	_	_
+15	.	$.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 16	»	$"	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 016944
@@ -21469,8 +21469,8 @@
 14	.	$.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 016956
-# text = « Jeg har hatt spillere oppigjennom åra som var single og leste bøker.
-1	«	$"	PUNCT	_	_	4	punct	_	_
+# text = «Jeg har hatt spillere oppigjennom åra som var single og leste bøker.
+1	«	$"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	hatt	ha	VERB	_	VerbForm=Part	0	root	_	_
@@ -21534,10 +21534,10 @@
 17	.	$.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = 016960
-# text = Det er latterlig ».
+# text = Det er latterlig».
 1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	_
-3	latterlig	latterlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
+3	latterlig	latterlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
 4	»	$"	PUNCT	_	_	3	punct	_	SpaceAfter=No
 5	.	$.	PUNCT	_	_	3	punct	_	_
 
@@ -21553,8 +21553,8 @@
 8	:	$:	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 016962
-# text = « Om én av ti er homofile, hvor er alle de homofile Premier League-spillerne?
-1	«	$"	PUNCT	_	_	7	punct	_	_
+# text = «Om én av ti er homofile, hvor er alle de homofile Premier League-spillerne?
+1	«	$"	PUNCT	_	_	7	punct	_	SpaceAfter=No
 2	Om	om	SCONJ	_	_	7	mark	_	_
 3	én	én	NUM	_	Gender=Masc|Number=Sing|NumType=Card	7	nsubj	_	_
 4	av	av	ADP	_	_	5	case	_	_
@@ -21649,7 +21649,7 @@
 7	.	$.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 016967
-# text = Familiene deres har også opplevd å bli hetset på gata. »
+# text = Familiene deres har også opplevd å bli hetset på gata.»
 1	Familiene	familie	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	5	nsubj	_	_
 2	deres	deres	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	1	nmod	_	_
 3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
@@ -21660,7 +21660,7 @@
 8	hetset	hetse	VERB	_	VerbForm=Part	5	xcomp	_	_
 9	på	på	ADP	_	_	10	case	_	_
 10	gata	gate	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
-11	.	$.	PUNCT	_	_	5	punct	_	_
+11	.	$.	PUNCT	_	_	5	punct	_	SpaceAfter=No
 12	»	$"	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 016968
@@ -21817,7 +21817,7 @@
 3	.	$.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 016977
-# text = En av dem har benektet, med unnskyldninger som "jeg har bare vært sjenert med jenter"og"det er lys i enden av tunnelen".
+# text = En av dem har benektet, med unnskyldninger som "jeg har bare vært sjenert med jenter" og "det er lys i enden av tunnelen".
 1	En	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	nsubj	_	_
 2	av	av	ADP	_	_	3	case	_	_
 3	dem	de	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	nmod	_	_
@@ -21835,8 +21835,8 @@
 15	sjenert	sjenert	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	acl:relcl	_	_
 16	med	med	ADP	_	_	17	case	_	_
 17	jenter	jente	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	15	obl	_	SpaceAfter=No
-18	"	$"	PUNCT	_	_	15	punct	_	SpaceAfter=No
-19	og	og	CCONJ	_	_	22	cc	_	SpaceAfter=No
+18	"	$"	PUNCT	_	_	15	punct	_	_
+19	og	og	CCONJ	_	_	22	cc	_	_
 20	"	$"	PUNCT	_	_	22	punct	_	SpaceAfter=No
 21	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	expl	_	_
 22	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	conj	_	_
@@ -21965,21 +21965,21 @@
 6	:	$:	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 016987
-# text = « Mamma elsker deg.
-1	«	$"	PUNCT	_	_	3	punct	_	_
+# text = «Mamma elsker deg.
+1	«	$"	PUNCT	_	_	3	punct	_	SpaceAfter=No
 2	Mamma	mamma	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	_
 3	elsker	elske	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	deg	du	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=2|PronType=Prs	3	obj	_	SpaceAfter=No
 5	.	$.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 016988
-# text = Hun spør alltid etter deg. »
+# text = Hun spør alltid etter deg.»
 1	Hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	spør	spørre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	alltid	alltid	ADV	_	_	2	advmod	_	_
 4	etter	etter	ADP	_	_	5	case	_	_
 5	deg	du	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=2|PronType=Prs	2	obl	_	SpaceAfter=No
-6	.	$.	PUNCT	_	_	2	punct	_	_
+6	.	$.	PUNCT	_	_	2	punct	_	SpaceAfter=No
 7	»	$"	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 016989
@@ -22008,10 +22008,10 @@
 7	.	$.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 016991
-# text = Rest in peace » står det å lese på en minneside.
+# text = Rest in peace» står det å lese på en minneside.
 1	Rest	Rest	X	_	_	0	root	_	_
 2	in	in	X	_	_	1	flat:foreign	_	_
-3	peace	peace	X	_	_	1	flat:foreign	_	_
+3	peace	peace	X	_	_	1	flat:foreign	_	SpaceAfter=No
 4	»	$"	PUNCT	_	_	5	punct	_	_
 5	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
 6	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
@@ -22492,7 +22492,7 @@
 53	.	$.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = 017012
-# text = Med et utvidet «Gjærbägst and the Homöcidal Sirupsnipps» -konsept og et trailerlass med plast ble stua raskt forvandlet til et improvisert øvingslokale med høy jallafaktor og lyden skrudd opp til 11.
+# text = Med et utvidet «Gjærbägst and the Homöcidal Sirupsnipps»-konsept og et trailerlass med plast ble stua raskt forvandlet til et improvisert øvingslokale med høy jallafaktor og lyden skrudd opp til 11.
 1	Med	med	ADP	_	_	11	case	_	_
 2	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
 3	utvidet	utvide	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	11	amod	_	_
@@ -22502,7 +22502,7 @@
 7	the	the	X	_	_	11	compound	_	_
 8	Homöcidal	Homöcidal	PROPN	_	_	11	compound	_	_
 9	Sirupsnipps	Sirupsnipps	PROPN	_	_	11	compound	_	SpaceAfter=No
-10	»	$"	PUNCT	_	_	9	punct	_	_
+10	»	$"	PUNCT	_	_	9	punct	_	SpaceAfter=No
 11	-konsept	-konsept	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	20	obl	_	_
 12	og	og	CCONJ	_	_	14	cc	_	_
 13	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	14	det	_	_
@@ -22728,7 +22728,7 @@
 13	.	$.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 017022
-# text = I testen er det imidlertid «Guitar Hero» -trommene som er den nye stjernen.
+# text = I testen er det imidlertid «Guitar Hero»-trommene som er den nye stjernen.
 1	I	i	ADP	_	_	2	case	_	_
 2	testen	test	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	obl	_	_
 3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	_
@@ -22737,7 +22737,7 @@
 6	«	$"	PUNCT	_	_	7	punct	_	SpaceAfter=No
 7	Guitar	Guitar	PROPN	_	_	10	compound	_	_
 8	Hero	Hero	PROPN	_	_	10	compound	_	SpaceAfter=No
-9	»	$"	PUNCT	_	_	8	punct	_	_
+9	»	$"	PUNCT	_	_	8	punct	_	SpaceAfter=No
 10	-trommene	-tromme	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	0	root	_	_
 11	som	som	PRON	_	PronType=Rel	15	nsubj	_	_
 12	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	cop	_	_
@@ -22850,7 +22850,7 @@
 12	.	$.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 017027
-# text = Etter å ha utsatt en betydelig del av vennekretsen for slike musikkspill er det bare å konstantere at den har et betydelig manko på «Singstar» -fantaster og Primus-fans.
+# text = Etter å ha utsatt en betydelig del av vennekretsen for slike musikkspill er det bare å konstantere at den har et betydelig manko på «Singstar»-fantaster og Primus-fans.
 1	Etter	etter	SCONJ	_	_	4	mark	_	_
 2	å	å	PART	_	_	4	mark	_	_
 3	ha	ha	AUX	_	VerbForm=Inf	4	aux	_	_
@@ -22877,7 +22877,7 @@
 24	på	på	ADP	_	_	28	case	_	_
 25	«	$"	PUNCT	_	_	26	punct	_	SpaceAfter=No
 26	Singstar	Singstar	PROPN	_	_	28	compound	_	SpaceAfter=No
-27	»	$"	PUNCT	_	_	26	punct	_	_
+27	»	$"	PUNCT	_	_	26	punct	_	SpaceAfter=No
 28	-fantaster	-fantast	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	23	nmod	_	_
 29	og	og	CCONJ	_	_	30	cc	_	_
 30	Primus-fans	Primus-fan	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	28	conj	_	SpaceAfter=No
@@ -22972,14 +22972,14 @@
 20	.	$.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 017032
-# text = I det første «Guitar Hero» -spillet var låtene var håndplukket med kjærlighet, og fete riff og kongelige solopartier var skreddersydd plastgitaren.
+# text = I det første «Guitar Hero»-spillet var låtene var håndplukket med kjærlighet, og fete riff og kongelige solopartier var skreddersydd plastgitaren.
 1	I	i	ADP	_	_	8	case	_	_
 2	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	8	det	_	_
 3	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	8	amod	_	_
 4	«	$"	PUNCT	_	_	5	punct	_	SpaceAfter=No
 5	Guitar	Guitar	PROPN	_	_	8	compound	_	_
 6	Hero	Hero	PROPN	_	_	8	compound	_	SpaceAfter=No
-7	»	$"	PUNCT	_	_	6	punct	_	_
+7	»	$"	PUNCT	_	_	6	punct	_	SpaceAfter=No
 8	-spillet	-spill	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	12	obl	_	_
 9	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	aux	_	_
 10	låtene	låt	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	12	nsubj	_	_
@@ -23061,7 +23061,7 @@
 3	.	$.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 017036
-# text = Ikke på noe plan i universet har den inntørka, støvete, musikalske fossilen fra kambrium silur-tiden noe som helst i et «Guitar Hero» -spill å gjøre (akkurat på dette punktet er det ikke helt samsvar mellom musikkpreferansene våre, Snorre anm.).
+# text = Ikke på noe plan i universet har den inntørka, støvete, musikalske fossilen fra kambrium silur-tiden noe som helst i et «Guitar Hero»-spill å gjøre (akkurat på dette punktet er det ikke helt samsvar mellom musikkpreferansene våre, Snorre anm.).
 1	Ikke	ikke	PART	_	Polarity=Neg	4	advmod	_	_
 2	på	på	ADP	_	_	4	case	_	_
 3	noe	noen	DET	_	Gender=Neut|Number=Sing|PronType=Ind	4	det	_	_
@@ -23087,7 +23087,7 @@
 23	«	$"	PUNCT	_	_	24	punct	_	SpaceAfter=No
 24	Guitar	Guitar	PROPN	_	_	27	compound	_	_
 25	Hero	Hero	PROPN	_	_	27	compound	_	SpaceAfter=No
-26	»	$"	PUNCT	_	_	25	punct	_	_
+26	»	$"	PUNCT	_	_	25	punct	_	SpaceAfter=No
 27	-spill	-spill	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	29	obl	_	_
 28	å	å	PART	_	_	29	mark	_	_
 29	gjøre	gjøre	VERB	_	VerbForm=Inf	18	acl	_	_
@@ -23226,7 +23226,7 @@
 19	.	$.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 017042
-# text = Hadde de enda valgt «Blue Eyes Crying in the Rain»...
+# text = Hadde de enda valgt «Blue Eyes Crying in the Rain» ...
 1	Hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
 2	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
 3	enda	enda	ADV	_	_	4	advmod	_	_
@@ -23238,7 +23238,7 @@
 9	in	in	X	_	_	6	flat:name	_	_
 10	the	the	X	_	_	6	flat:name	_	_
 11	Rain	Rain	PROPN	_	_	6	flat:name	_	SpaceAfter=No
-12	»	$"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+12	»	$"	PUNCT	_	_	6	punct	_	_
 13	...	$...	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 017043
@@ -24446,7 +24446,7 @@
 8	.	$.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 017091
-# text = Dit dro jeg ikke, fordi jeg var sikker på at han var sjanseløs i sammendraget (mot Benjamin Raich journ. anm.) etter rennene på Kvitfjell.
+# text = Dit dro jeg ikke, fordi jeg var sikker på at han var sjanseløs i sammendraget (mot Benjamin Raich journ.anm.) etter rennene på Kvitfjell.
 1	Dit	dit	ADV	_	_	2	advmod	_	_
 2	dro	dra	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
@@ -24467,7 +24467,7 @@
 18	mot	mot	ADP	_	_	19	case	_	_
 19	Benjamin	Benjamin	PROPN	_	Gender=Masc	14	obl	_	_
 20	Raich	Raich	PROPN	_	_	19	flat:name	_	_
-21	journ.	journ	NOUN	_	Abbr=Yes	22	nmod	_	_
+21	journ.	journ	NOUN	_	Abbr=Yes	22	nmod	_	SpaceAfter=No
 22	anm.	anm.	NOUN	_	Abbr=Yes	2	parataxis	_	SpaceAfter=No
 23	)	$)	PUNCT	_	_	19	punct	_	_
 24	etter	etter	ADP	_	_	25	case	_	_
@@ -24517,7 +24517,7 @@
 6	:	$:	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 017094
-# text = To legender (Hermann Maier og Michael Walchhofer journ. anm.) og Aksel er foran dem.
+# text = To legender (Hermann Maier og Michael Walchhofer journ.anm.) og Aksel er foran dem.
 1	To	to	NUM	_	Number=Plur|NumType=Card	2	nummod	_	_
 2	legender	legende	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	_
 3	(	$(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -24526,7 +24526,7 @@
 6	og	og	CCONJ	_	_	7	cc	_	_
 7	Michael	Michael	PROPN	_	Gender=Masc	4	conj	_	_
 8	Walchhofer	Walchhofer	PROPN	_	_	7	flat:name	_	_
-9	journ.	journ.	NOUN	_	Abbr=Yes	10	nmod	_	_
+9	journ.	journ.	NOUN	_	Abbr=Yes	10	nmod	_	SpaceAfter=No
 10	anm.	anm.	NOUN	_	Abbr=Yes	2	parataxis	_	SpaceAfter=No
 11	)	$)	PUNCT	_	_	4	punct	_	_
 12	og	og	CCONJ	_	_	16	cc	_	_
@@ -24653,7 +24653,7 @@
 2	!	$!	PUNCT	_	_	1	punct	_	_
 
 # sent_id = 017101
-# text = Kjetil Jansrud kjørte inn til en meget sterk 19. plass fra høyt startnummer.
+# text = Kjetil Jansrud kjørte inn til en meget sterk 19.plass fra høyt startnummer.
 1	Kjetil	Kjetil	PROPN	_	Gender=Masc	3	nsubj	_	_
 2	Jansrud	Jansrud	PROPN	_	_	1	flat:name	_	_
 3	kjørte	kjøre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -24662,7 +24662,7 @@
 6	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 7	meget	meget	ADV	_	_	8	advmod	_	_
 8	sterk	sterk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	10	amod	_	_
-9	19.	19.	ADJ	_	Number=Plur	10	amod	_	_
+9	19.	19.	ADJ	_	Number=Plur	10	amod	_	SpaceAfter=No
 10	plass	plass	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	_
 11	fra	fra	ADP	_	_	13	case	_	_
 12	høyt	høy	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
@@ -24670,7 +24670,7 @@
 14	.	$.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 017102
-# text = Lars Elton Myhre tok verdenscuppoeng fredag, men var akkurat for seint ute til å kopiere det samme lørdag med en 32. plass.
+# text = Lars Elton Myhre tok verdenscuppoeng fredag, men var akkurat for seint ute til å kopiere det samme lørdag med en 32.plass.
 1	Lars	Lars	PROPN	_	Gender=Masc	4	nsubj	_	_
 2	Elton	Elton	PROPN	_	_	1	flat:name	_	_
 3	Myhre	Myhre	PROPN	_	_	1	flat:name	_	_
@@ -24692,9 +24692,9 @@
 19	lørdag	lørdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	obl	_	_
 20	med	med	ADP	_	_	23	case	_	_
 21	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-22	32.	32.	ADJ	_	Number=Plur	23	amod	_	_
+22	32.	32.	ADJ	_	Number=Plur	23	amod	_	SpaceAfter=No
 23	plass	plass	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
-24	.	$.	PUNCT	_	_	4	punct	_	_
+24	.	$.	PUNCT	_	_	4	punct	_	SpaceAfter=No
 
 # sent_id = 017103
 # text = Verdens beste jobb
@@ -25586,11 +25586,11 @@
 20	.	$.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 017141
-# text = «Storm ut» -funksjonen på pressekonferansen er en farlig morsom metode for å avslutte en pressekonferanse, spesielt gøy er tilleggskommentaren du selv kan forfatte.
+# text = «Storm ut»-funksjonen på pressekonferansen er en farlig morsom metode for å avslutte en pressekonferanse, spesielt gøy er tilleggskommentaren du selv kan forfatte.
 1	«	$"	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	Storm	storme	VERB	_	Mood=Imp|VerbForm=Fin	5	compound	_	_
 3	ut	ut	ADP	_	_	5	compound	_	SpaceAfter=No
-4	»	$"	PUNCT	_	_	3	punct	_	_
+4	»	$"	PUNCT	_	_	3	punct	_	SpaceAfter=No
 5	-funksjonen	-funksjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	nsubj	_	_
 6	på	på	ADP	_	_	7	case	_	_
 7	pressekonferansen	pressekonferanse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	_
@@ -25652,13 +25652,13 @@
 2	fallhøyde	fallhøyde	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	_
 
 # sent_id = 017144
-# text = Som i tidligere «FM» -spill er det stor fallhøyde i de store klubbene, kanskje enda mer denne gang.
+# text = Som i tidligere «FM»-spill er det stor fallhøyde i de store klubbene, kanskje enda mer denne gang.
 1	Som	som	ADP	_	_	7	case	_	_
 2	i	i	ADP	_	_	7	case	_	_
 3	tidligere	tidlig	ADJ	_	Degree=Cmp	7	amod	_	_
 4	«	$"	PUNCT	_	_	5	punct	_	SpaceAfter=No
 5	FM	FM	PROPN	_	_	7	compound	_	SpaceAfter=No
-6	»	$"	PUNCT	_	_	5	punct	_	_
+6	»	$"	PUNCT	_	_	5	punct	_	SpaceAfter=No
 7	-spill	-spill	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	8	obl	_	_
 8	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	_
@@ -27516,8 +27516,8 @@
 6	:	$:	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 017251
-# text = « Mote er jo så forgjengelig.
-1	«	$"	PUNCT	_	_	6	punct	_	_
+# text = «Mote er jo så forgjengelig.
+1	«	$"	PUNCT	_	_	6	punct	_	SpaceAfter=No
 2	Mote	mote	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nsubj	_	_
 3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
 4	jo	jo	ADV	_	_	6	advmod	_	_
@@ -27538,7 +27538,7 @@
 9	.	$.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 017253
-# text = Hva i all verden skal jeg skrive om i ei slik bok? ».
+# text = Hva i all verden skal jeg skrive om i ei slik bok?».
 1	Hva	hva	PRON	_	PronType=Int	7	obl	_	_
 2	i	i	ADP	_	_	4	case	_	_
 3	all	all	DET	_	Gender=Masc|Number=Sing|PronType=Tot	4	det	_	_
@@ -27551,7 +27551,7 @@
 10	ei	en	DET	_	Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 11	slik	slik	DET	_	Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
 12	bok	bok	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
-13	?	$?	PUNCT	_	_	7	punct	_	_
+13	?	$?	PUNCT	_	_	7	punct	_	SpaceAfter=No
 14	»	$"	PUNCT	_	_	7	punct	_	SpaceAfter=No
 15	.	$.	PUNCT	_	_	7	punct	_	_
 
@@ -28816,14 +28816,14 @@
 12	.	$.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 017333
-# text = Jeg kan bli helt sånn... gurimalla... jeg er så privilegert som sitter her, fra lille Norge, og får se dette.
+# text = Jeg kan bli helt sånn ... gurimalla ... jeg er så privilegert som sitter her, fra lille Norge, og får se dette.
 1	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	bli	bli	VERB	_	VerbForm=Inf	0	root	_	_
 4	helt	hel	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	_
-5	sånn	sånn	ADV	_	_	3	xcomp	_	SpaceAfter=No
+5	sånn	sånn	ADV	_	_	3	xcomp	_	_
 6	...	$...	PUNCT	_	_	12	punct	_	_
-7	gurimalla	gurimalla	INTJ	_	_	12	discourse	_	SpaceAfter=No
+7	gurimalla	gurimalla	INTJ	_	_	12	discourse	_	_
 8	...	$...	PUNCT	_	_	7	punct	_	_
 9	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
 10	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	_
@@ -28892,8 +28892,8 @@
 7	:	$:	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 017339
-# text = « Dette her er jo helt sykt.
-1	«	$"	PUNCT	_	_	7	punct	_	_
+# text = «Dette her er jo helt sykt.
+1	«	$"	PUNCT	_	_	7	punct	_	SpaceAfter=No
 2	Dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 3	her	her	ADV	_	_	2	advmod	_	_
 4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	_
@@ -28932,11 +28932,11 @@
 15	.	$.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 017342
-# text = For en syk bransje ».
+# text = For en syk bransje».
 1	For	for	ADV	_	_	4	advmod	_	_
 2	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 3	syk	syk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	4	amod	_	_
-4	bransje	bransje	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	_
+4	bransje	bransje	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 5	»	$"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 6	.	$.	PUNCT	_	_	4	punct	_	_
 
@@ -29385,7 +29385,7 @@
 16	.	$.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 017369
-# text = Jeg er jo ikke noen liten... og nå skal jeg ikke si som Valla...
+# text = Jeg er jo ikke noen liten... og nå skal jeg ikke si som Valla ...
 1	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
 3	jo	jo	ADV	_	_	6	advmod	_	_
@@ -29400,7 +29400,7 @@
 12	ikke	ikke	PART	_	Polarity=Neg	13	advmod	_	_
 13	si	si	VERB	_	VerbForm=Inf	6	conj	_	_
 14	som	som	ADP	_	_	15	case	_	_
-15	Valla	Valla	PROPN	_	_	13	obl	_	SpaceAfter=No
+15	Valla	Valla	PROPN	_	_	13	obl	_	_
 16	...	$...	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 017370
@@ -29548,8 +29548,8 @@
 21	...	$...	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 017380
-# text = -... for meg har det vært en utfordring å skille mellom det å være sjef og være venninne.
-1	-	$-	PUNCT	_	_	9	punct	_	SpaceAfter=No
+# text = - ... for meg har det vært en utfordring å skille mellom det å være sjef og være venninne.
+1	-	$-	PUNCT	_	_	9	punct	_	_
 2	...	$...	PUNCT	_	_	9	punct	_	_
 3	for	for	ADP	_	_	4	case	_	_
 4	meg	jeg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obl	_	_
@@ -30293,7 +30293,7 @@
 13	,	$,	PUNCT	_	_	14	punct	_	_
 14	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
 15	Strømmen	Strømmen	PROPN	_	_	14	nsubj	_	SpaceAfter=No
-16	.	$.	PUNCT	_	_	6	punct	_	_
+16	.	$.	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
 # sent_id = 017422
 # text = Hitlers kamp i Min kamp
@@ -30746,13 +30746,13 @@
 12	.	$.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 017441
-# text = «Om jeg skulle beskrive « Mein Kampf» i en setning, ville det være at det er en bok uten et 'du'.
+# text = «Om jeg skulle beskrive «Mein Kampf» i en setning, ville det være at det er en bok uten et 'du'.
 1	«	$"	PUNCT	_	_	5	punct	_	SpaceAfter=No
 2	Om	om	SCONJ	_	_	5	mark	_	_
 3	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 4	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
 5	beskrive	beskrive	VERB	_	VerbForm=Inf	21	advcl	_	_
-6	«	$"	PUNCT	_	_	7	punct	_	_
+6	«	$"	PUNCT	_	_	7	punct	_	SpaceAfter=No
 7	Mein	Mein	PROPN	_	_	5	obj	_	_
 8	Kampf	Kampf	PROPN	_	_	7	flat:name	_	SpaceAfter=No
 9	»	$"	PUNCT	_	_	7	punct	_	_
@@ -30776,26 +30776,26 @@
 27	.	$.	PUNCT	_	_	21	punct	_	_
 
 # sent_id = 017442
-# text = Det er et 'jeg'der, det er et'vi'der og det er et'de' der.
+# text = Det er et 'jeg' der, det er et 'vi' der og det er et 'de' der.
 1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
 2	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
 4	'	$"	PUNCT	_	_	5	punct	_	SpaceAfter=No
 5	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	SpaceAfter=No
-6	'	$"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+6	'	$"	PUNCT	_	_	5	punct	_	_
 7	der	der	ADV	_	_	2	advmod	_	SpaceAfter=No
 8	,	$,	PUNCT	_	_	10	punct	_	_
 9	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	expl	_	_
 10	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
-11	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+11	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
 12	'	$"	PUNCT	_	_	13	punct	_	SpaceAfter=No
 13	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	SpaceAfter=No
-14	'	$"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+14	'	$"	PUNCT	_	_	13	punct	_	_
 15	der	der	ADV	_	_	10	advmod	_	_
 16	og	og	CCONJ	_	_	18	cc	_	_
 17	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	expl	_	_
 18	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
-19	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+19	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	21	det	_	_
 20	'	$"	PUNCT	_	_	21	punct	_	SpaceAfter=No
 21	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	SpaceAfter=No
 22	'	$"	PUNCT	_	_	21	punct	_	_
@@ -31089,7 +31089,7 @@
 26	.	$.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 017452
-# text = - En del av «min kamp» -bøkenes provokasjonsverdi ligger i det kulturkonservative spranget bøkene gjør.
+# text = - En del av «min kamp»-bøkenes provokasjonsverdi ligger i det kulturkonservative spranget bøkene gjør.
 1	-	$-	PUNCT	_	_	11	punct	_	_
 2	En	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	del	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	nsubj	_	_
@@ -31097,7 +31097,7 @@
 5	«	$"	PUNCT	_	_	6	punct	_	SpaceAfter=No
 6	min	min	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	compound	_	_
 7	kamp	kamp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	compound	_	SpaceAfter=No
-8	»	$"	PUNCT	_	_	7	punct	_	_
+8	»	$"	PUNCT	_	_	7	punct	_	SpaceAfter=No
 9	-bøkenes	-bok	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	10	nmod	_	_
 10	provokasjonsverdi	provokasjonsverdi	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	_
 11	ligger	ligge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -31353,14 +31353,14 @@
 24	.	$.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 017462
-# text = - Hvordan vil du forklare tittelen « Min kamp?
+# text = - Hvordan vil du forklare tittelen «Min kamp?
 1	-	$-	PUNCT	_	_	5	punct	_	_
 2	Hvordan	hvordan	ADV	_	_	5	advmod	_	_
 3	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
 4	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
 5	forklare	forklare	VERB	_	VerbForm=Inf	0	root	_	_
 6	tittelen	tittel	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	obj	_	_
-7	«	$"	PUNCT	_	_	8	punct	_	_
+7	«	$"	PUNCT	_	_	8	punct	_	SpaceAfter=No
 8	Min	Min	NOUN	_	_	6	appos	_	_
 9	kamp	kamp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
 10	?	$?	PUNCT	_	_	5	punct	_	_
@@ -31699,12 +31699,12 @@
 2	:	$:	PUNCT	_	_	1	punct	_	_
 
 # sent_id = 017486
-# text = Ivan Alvarado, Reuters / Scanpix
+# text = Ivan Alvarado, Reuters/Scanpix
 1	Ivan	Ivan	PROPN	_	Gender=Masc	0	root	_	_
 2	Alvarado	Alvarado	PROPN	_	_	1	flat:name	_	SpaceAfter=No
 3	,	$,	PUNCT	_	_	4	punct	_	_
-4	Reuters	Reuters	PROPN	_	_	1	nmod	_	_
-5	/	$/	SYM	_	_	4	compound	_	_
+4	Reuters	Reuters	PROPN	_	_	1	nmod	_	SpaceAfter=No
+5	/	$/	SYM	_	_	4	compound	_	SpaceAfter=No
 6	Scanpix	Scanpix	PROPN	_	_	4	conj	_	_
 
 # sent_id = 017487
@@ -32493,7 +32493,7 @@
 31	.	$.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 017526
-# text = Gjelder det kontinentalsokkelen, er hjemmelen for regulerende bestemmelser lov 21 juni 1963 nr 12 om vitenskapelig utforsking og undersøkelse etter og utnyttelse av andre undersjøiske naturforekomster enn petroleumsforekomster, eller med sikte på petroleumsvirksomhet lov 29 november 1996 nr 72 om petroleumsvirksomhet, jf lovens § 1 - 4.
+# text = Gjelder det kontinentalsokkelen, er hjemmelen for regulerende bestemmelser lov 21 juni 1963 nr 12 om vitenskapelig utforsking og undersøkelse etter og utnyttelse av andre undersjøiske naturforekomster enn petroleumsforekomster, eller med sikte på petroleumsvirksomhet lov 29 november 1996 nr 72 om petroleumsvirksomhet, jf lovens § 1-4.
 1	Gjelder	gjelde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	_
 2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	expl	_	_
 3	kontinentalsokkelen	kontinentalsokkel	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
@@ -32541,8 +32541,8 @@
 45	jf	jf.	VERB	_	Abbr=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	10	parataxis	_	_
 46	lovens	lov	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	47	nmod	_	_
 47	§	§	NOUN	_	_	45	obj	_	_
-48	1	1	NUM	_	Number=Plur|NumType=Card	47	nmod	_	_
-49	-	$-	PUNCT	_	_	50	punct	_	_
+48	1	1	NUM	_	Number=Plur|NumType=Card	47	nmod	_	SpaceAfter=No
+49	-	$-	PUNCT	_	_	50	punct	_	SpaceAfter=No
 50	4	4	NUM	_	Number=Plur|NumType=Card	48	conj	_	SpaceAfter=No
 51	.	$.	PUNCT	_	_	10	punct	_	_
 
@@ -33756,7 +33756,7 @@
 26	.	$.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 017577
-# text = Det er nærmere bestemmelser om jakt- og fangstmetoder (§§ 7 - 8).
+# text = Det er nærmere bestemmelser om jakt- og fangstmetoder (§§ 7-8).
 1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
 2	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	nærmere	nær	ADJ	_	Degree=Cmp	4	amod	_	_
@@ -33767,14 +33767,14 @@
 8	fangstmetoder	fangstmetode	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	conj	_	_
 9	(	$(	PUNCT	_	_	10	punct	_	SpaceAfter=No
 10	§§	§§	NOUN	_	_	2	parataxis	_	_
-11	7	7	NUM	_	Number=Plur|NumType=Card	10	nmod	_	_
-12	-	$-	PUNCT	_	_	13	punct	_	_
+11	7	7	NUM	_	Number=Plur|NumType=Card	10	nmod	_	SpaceAfter=No
+12	-	$-	PUNCT	_	_	13	punct	_	SpaceAfter=No
 13	8	8	NUM	_	Number=Plur|NumType=Card	11	conj	_	SpaceAfter=No
 14	)	$)	PUNCT	_	_	10	punct	_	SpaceAfter=No
 15	.	$.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 017578
-# text = Ferskvannsfiske dvs røyefisket i Nordlaguna er forbudt i tiden 26 juli - 10 august, og det er nærmere regler om fiskemetoder mv (§§ 9 - 10).
+# text = Ferskvannsfiske dvs røyefisket i Nordlaguna er forbudt i tiden 26 juli-10 august, og det er nærmere regler om fiskemetoder mv (§§ 9-10).
 1	Ferskvannsfiske	ferskvannsfiske	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	nsubj	_	_
 2	dvs	dvs.	ADV	_	Abbr=Yes	3	advmod	_	_
 3	røyefisket	røyefiske	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	1	appos	_	_
@@ -33785,8 +33785,8 @@
 8	i	i	ADP	_	_	9	case	_	_
 9	tiden	tid	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	obl	_	_
 10	26	26	NUM	_	Number=Plur|NumType=Card	11	nummod	_	_
-11	juli	juli	NOUN	_	Gender=Masc	9	appos	_	_
-12	-	$-	PUNCT	_	_	14	punct	_	_
+11	juli	juli	NOUN	_	Gender=Masc	9	appos	_	SpaceAfter=No
+12	-	$-	PUNCT	_	_	14	punct	_	SpaceAfter=No
 13	10	10	NUM	_	Number=Plur|NumType=Card	14	nummod	_	_
 14	august	august	NOUN	_	Gender=Masc	11	conj	_	SpaceAfter=No
 15	,	$,	PUNCT	_	_	18	punct	_	_
@@ -33800,14 +33800,14 @@
 23	mv	mv.	ADV	_	Abbr=Yes	25	advmod	_	_
 24	(	$(	PUNCT	_	_	25	punct	_	SpaceAfter=No
 25	§§	§§	NOUN	_	_	7	parataxis	_	_
-26	9	9	NUM	_	Number=Plur|NumType=Card	25	nmod	_	_
-27	-	$-	PUNCT	_	_	28	punct	_	_
+26	9	9	NUM	_	Number=Plur|NumType=Card	25	nmod	_	SpaceAfter=No
+27	-	$-	PUNCT	_	_	28	punct	_	SpaceAfter=No
 28	10	10	NUM	_	Number=Plur|NumType=Card	26	conj	_	SpaceAfter=No
 29	)	$)	PUNCT	_	_	25	punct	_	SpaceAfter=No
 30	.	$.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 017579
-# text = Departementet har omfattende hjemler til å utvide eller innskrenke adgangen til jakt og fiske (§§ 11 - 13).
+# text = Departementet har omfattende hjemler til å utvide eller innskrenke adgangen til jakt og fiske (§§ 11-13).
 1	Departementet	departement	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	_
 2	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	omfattende	omfattende	ADJ	_	Degree=Pos|Number=Plur	4	amod	_	_
@@ -33824,8 +33824,8 @@
 14	fiske	fiske	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	12	conj	_	_
 15	(	$(	PUNCT	_	_	16	punct	_	SpaceAfter=No
 16	§§	§§	NOUN	_	_	2	parataxis	_	_
-17	11	11	NUM	_	Number=Plur|NumType=Card	16	nmod	_	_
-18	-	$-	PUNCT	_	_	19	punct	_	_
+17	11	11	NUM	_	Number=Plur|NumType=Card	16	nmod	_	SpaceAfter=No
+18	-	$-	PUNCT	_	_	19	punct	_	SpaceAfter=No
 19	13	13	NUM	_	Number=Plur|NumType=Card	17	conj	_	SpaceAfter=No
 20	)	$)	PUNCT	_	_	16	punct	_	SpaceAfter=No
 21	.	$.	PUNCT	_	_	2	punct	_	_
@@ -34732,7 +34732,7 @@
 32	.	$.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = 017613
-# text = Ilandstigning fra båt må skje ved hjelp av småbåter og kan ofte være meget farefull (jf saksforholdet i høyesterettsdommen i Rt 1989 side 715 ( Botten-saken) ).
+# text = Ilandstigning fra båt må skje ved hjelp av småbåter og kan ofte være meget farefull (jf saksforholdet i høyesterettsdommen i Rt 1989 side 715 (Botten-saken)).
 1	Ilandstigning	ilandstigning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	nsubj	_	_
 2	fra	fra	ADP	_	_	3	case	_	_
 3	båt	båt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	_
@@ -34758,9 +34758,9 @@
 23	1989	1989	NUM	_	Number=Plur|NumType=Card	22	nmod	_	_
 24	side	side	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	25	obl	_	_
 25	715	715	NUM	_	Number=Plur|NumType=Card	22	nmod	_	_
-26	(	$(	PUNCT	_	_	27	punct	_	_
+26	(	$(	PUNCT	_	_	27	punct	_	SpaceAfter=No
 27	Botten-saken	Botten-saken	PROPN	_	_	18	nmod	_	SpaceAfter=No
-28	)	$)	PUNCT	_	_	27	punct	_	_
+28	)	$)	PUNCT	_	_	27	punct	_	SpaceAfter=No
 29	)	$)	PUNCT	_	_	17	punct	_	SpaceAfter=No
 30	.	$.	PUNCT	_	_	5	punct	_	_
 
@@ -34918,7 +34918,7 @@
 27	.	$.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = 017620
-# text = På denne bakgrunn kan det hevdes at Jan Mayen langt på vei freder seg selv, og at nødvendig styring med den eksisterende statlig virksomhet kan skje gjennom instrukser uten bruk av lov eller forskrift.
+# text = På denne bakgrunn kan det hevdes at Jan Mayen langt på vei freder seg selv , og at nødvendig styring med den eksisterende statlig virksomhet kan skje gjennom instrukser uten bruk av lov eller forskrift.
 1	På	på	ADP	_	_	3	case	_	_
 2	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	bakgrunn	bakgrunn	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	_
@@ -34933,7 +34933,7 @@
 12	vei	vei	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	obl	_	_
 13	freder	frede	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
 14	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	13	obj	_	_
-15	selv	selv	DET	_	PronType=Prs	14	det	_	SpaceAfter=No
+15	selv	selv	DET	_	PronType=Prs	14	det	_	_
 16	,	$,	PUNCT	_	_	27	punct	_	_
 17	og	og	CCONJ	_	_	27	cc	_	_
 18	at	at	SCONJ	_	_	27	mark	_	_
@@ -36328,7 +36328,7 @@
 8	!	$!	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 017692
-# text = Og løsningen går helt klart mellom Tafjord og Grotli.
+# text = Og løsningen går helt klart mellom Tafjord og Grotli .
 1	Og	og	CCONJ	_	_	3	cc	_	_
 2	løsningen	løsning	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	_
 3	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -36337,7 +36337,7 @@
 6	mellom	mellom	ADP	_	_	7	case	_	_
 7	Tafjord	Tafjord	PROPN	_	_	3	obl	_	_
 8	og	og	CCONJ	_	_	9	cc	_	_
-9	Grotli	Grotli	PROPN	_	_	7	conj	_	SpaceAfter=No
+9	Grotli	Grotli	PROPN	_	_	7	conj	_	_
 10	.	$.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 017693
@@ -37612,7 +37612,7 @@
 28	.	$.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 017763
-# text = I tillegg er han «fordømmende» og spiller «kynisk « med fordommer».
+# text = I tillegg er han «fordømmende» og spiller «kynisk «med fordommer».
 1	I	i	ADP	_	_	2	case	_	_
 2	tillegg	tillegg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	obl	_	_
 3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
@@ -37624,7 +37624,7 @@
 9	spiller	spille	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	conj	_	_
 10	«	$"	PUNCT	_	_	11	punct	_	SpaceAfter=No
 11	kynisk	kynisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	advmod	_	_
-12	«	$"	PUNCT	_	_	14	punct	_	_
+12	«	$"	PUNCT	_	_	14	punct	_	SpaceAfter=No
 13	med	med	ADP	_	_	14	case	_	_
 14	fordommer	fordom	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
 15	»	$"	PUNCT	_	_	14	punct	_	SpaceAfter=No
@@ -38456,7 +38456,7 @@
 5	ennå	ennå	ADV	_	_	7	advmod	_	_
 6	ikke	ikke	PART	_	Polarity=Neg	7	advmod	_	_
 7	gjort	gjøre	VERB	_	VerbForm=Part	0	root	_	SpaceAfter=No
-8	.	$.	PUNCT	_	_	7	punct	_	_
+8	.	$.	PUNCT	_	_	7	punct	_	SpaceAfter=No
 
 # sent_id = 017808
 # text = Regjeringen vil styrke kommunesektorens rammer i perioden, øke det kommunale selvstyret og legge til rette for effektivisering.
@@ -40310,7 +40310,7 @@
 14	deler	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	11	nmod	_	_
 15	av	av	ADP	_	_	16	case	_	_
 16	befolkningen	befolkning	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
-17	.	$.	PUNCT	_	_	5	punct	_	_
+17	.	$.	PUNCT	_	_	5	punct	_	SpaceAfter=No
 
 # sent_id = 017915
 # text = Solidaritet i praksis og en sterk rettferdighetssans var Hanna Kvanmos drivkraft.
@@ -41445,7 +41445,7 @@
 19	.	$.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 017978
-# text = Vi vil bidra betydelig til FNs nødhjelpsfond og ha et sterkt engasjement i arbeidet mot hiv / aids.
+# text = Vi vil bidra betydelig til FNs nødhjelpsfond og ha et sterkt engasjement i arbeidet mot hiv/aids.
 1	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
 2	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	bidra	bidra	VERB	_	VerbForm=Inf	0	root	_	_
@@ -41461,8 +41461,8 @@
 13	i	i	ADP	_	_	14	case	_	_
 14	arbeidet	arbeid	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	12	nmod	_	_
 15	mot	mot	ADP	_	_	16	case	_	_
-16	hiv	hiv	NOUN	_	_	14	nmod	_	_
-17	/	$/	SYM	_	_	16	compound	_	_
+16	hiv	hiv	NOUN	_	_	14	nmod	_	SpaceAfter=No
+17	/	$/	SYM	_	_	16	compound	_	SpaceAfter=No
 18	aids	aids	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
 19	.	$.	PUNCT	_	_	3	punct	_	_
 
@@ -42039,11 +42039,11 @@
 7	.	$.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 018009
-# text = I høst ca. 1000 - 1500 kr. per natt for rommet inkl. frokost.
+# text = I høst ca. 1000- 1500 kr. per natt for rommet inkl. frokost.
 1	I	i	ADP	_	_	2	case	_	_
 2	høst	høst	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	_
 3	ca.	ca.	ADV	_	Abbr=Yes	4	advmod	_	_
-4	1000	1000	NUM	_	Number=Plur|NumType=Card	7	nummod	_	_
+4	1000	1000	NUM	_	Number=Plur|NumType=Card	7	nummod	_	SpaceAfter=No
 5	-	$-	PUNCT	_	_	6	punct	_	_
 6	1500	1500	NUM	_	Number=Plur|NumType=Card	4	conj	_	_
 7	kr.	kr	NOUN	_	Abbr=Yes	0	root	_	_
@@ -42397,7 +42397,7 @@
 14	.	$.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 018035
-# text = "Jeg vil sprenge Kreml i lufta den 22. klokka tre om morgenen", står det i brevet, som er skrevet i tallkode og signert "Nap".
+# text = "Jeg vil sprenge Kreml i lufta den 22. klokka tre om morgenen", står det i brevet, som er skrevet i tallkode og signert " Nap ".
 1	"	$"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 3	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -42425,8 +42425,8 @@
 25	tallkode	tallkode	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	23	obl	_	_
 26	og	og	CCONJ	_	_	27	cc	_	_
 27	signert	signere	VERB	_	VerbForm=Part	23	conj	_	_
-28	"	$"	PUNCT	_	_	29	punct	_	SpaceAfter=No
-29	Nap	Nap	PROPN	_	_	27	xcomp	_	SpaceAfter=No
+28	"	$"	PUNCT	_	_	29	punct	_	_
+29	Nap	Nap	PROPN	_	_	27	xcomp	_	_
 30	"	$"	PUNCT	_	_	29	punct	_	SpaceAfter=No
 31	.	$.	PUNCT	_	_	4	punct	_	_
 
@@ -43411,10 +43411,10 @@
 9	:	$:	PUNCT	_	_	1	punct	_	_
 
 # sent_id = 018086
-# text = I 2007 - 2008 satte forsker Martin Biuw og kollegene satellittsendere på elefantsel på Bouvetøya.
+# text = I 2007-2008 satte forsker Martin Biuw og kollegene satellittsendere på elefantsel på Bouvetøya.
 1	I	i	ADP	_	_	2	case	_	_
-2	2007	2007	NUM	_	Number=Plur|NumType=Card	5	obl	_	_
-3	-	$-	PUNCT	_	_	4	punct	_	_
+2	2007	2007	NUM	_	Number=Plur|NumType=Card	5	obl	_	SpaceAfter=No
+3	-	$-	PUNCT	_	_	4	punct	_	SpaceAfter=No
 4	2008	2008	NUM	_	Number=Plur|NumType=Card	2	conj	_	_
 5	satte	sette	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 6	forsker	forsker	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	_
