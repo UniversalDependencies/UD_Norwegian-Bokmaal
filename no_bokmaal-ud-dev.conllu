@@ -14,7 +14,7 @@
 12	sette	sette	VERB	_	VerbForm=Inf	4	advcl	_	_
 13	ord	ord	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	12	obj	_	_
 14	på	på	ADP	_	_	17	case	_	SpaceAfter=No
-15	»	$"	PUNCT	_	_	12	punct	_	_
+15	»	$"	PUNCT	_	_	14	punct	_	_
 16	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	17	det	_	_
 17	inntrykk	inntrykk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	12	obl	_	_
 18	retten	rett	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	24	nsubj	_	_
@@ -612,7 +612,7 @@
 52	saken	sak	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	49	obl	_	_
 53	i	i	ADP	_	_	54	case	_	_
 54	avisene	avis	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	49	obl	_	SpaceAfter=No
-55	»	$"	PUNCT	_	_	49	punct	_	SpaceAfter=No
+55	»	$"	PUNCT	_	_	54	punct	_	SpaceAfter=No
 56	,	$,	PUNCT	_	_	63	punct	_	_
 57	formentlig	formentlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	58	advmod	_	_
 58	da	da	ADV	_	_	63	advmod	_	_
@@ -10984,7 +10984,7 @@
 25	i	i	ADP	_	_	26	case	_	_
 26	filler	fille	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	24	obl	_	SpaceAfter=No
 27	"	$"	PUNCT	_	_	17	punct	_	SpaceAfter=No
-28	.	$.	PUNCT	_	_	17	punct	_	_
+28	.	$.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = 016242
 # text = Da Borat sa at alle kvinner i Kasakhstan er slaver, tenkte Perisat (24) et øyeblikk på å reise seg og si noe, men ble sittende.
@@ -15429,7 +15429,7 @@
 22	Hotell	Hotell	PROPN	_	_	21	flat:name	_	_
 23	Rosenkrantz	Rosenkrantz	PROPN	_	_	21	flat:name	_	_
 24	(	$(	PUNCT	_	_	25	punct	_	SpaceAfter=No
-25	...	$...	PUNCT	_	_	4	punct	_	SpaceAfter=No
+25	...	$...	PUNCT	_	_	28	punct	_	SpaceAfter=No
 26	)	$)	PUNCT	_	_	25	punct	_	_
 27	ambulansepersonalet	ambulansepersonale	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	28	nsubj	_	_
 28	jobbet	jobbe	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
@@ -25058,7 +25058,7 @@
 30	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	31	nsubj	_	_
 31	valgte	velge	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	22	advcl	_	_
 32	lansering	lansering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	31	obj	_	SpaceAfter=No
-33	,	$,	PUNCT	_	_	37	punct	_	_
+33	,	$,	PUNCT	_	_	34	punct	_	_
 34	og	og	CCONJ	_	_	37	cc	_	_
 35	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	37	obl	_	_
 36	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	reparandum	_	_
@@ -39809,7 +39809,7 @@
 
 # sent_id = 017889
 # text = - Det anses vedtatt.
-1	-	$-	PUNCT	_	_	4	punct	_	_
+1	-	$-	PUNCT	_	_	3	punct	_	_
 2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 3	anses	anse	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 4	vedtatt	vedta	VERB	_	VerbForm=Part	3	ccomp	_	SpaceAfter=No
