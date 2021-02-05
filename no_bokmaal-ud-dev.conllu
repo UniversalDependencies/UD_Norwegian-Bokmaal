@@ -889,7 +889,7 @@
 2	lar	la	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	iobj	_	_
 4	ligge	ligge	VERB	_	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
-5	,	$,	PUNCT	_	_	8	punct	_	_
+5	,	$,	PUNCT	_	_	4	punct	_	_
 6	og	og	CCONJ	_	_	8	cc	_	_
 7	også	også	ADV	_	_	8	advmod	_	_
 8	spørsmål	spørsmål	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	conj	_	_
@@ -3405,7 +3405,7 @@
 26	at	at	SCONJ	_	_	32	mark	_	_
 27	SV	Sv	PROPN	_	Abbr=Yes	32	nsubj	_	_
 28	og	og	CCONJ	_	_	31	cc	_	SpaceAfter=No
-29	/	$/	SYM	_	_	28	compound	_	SpaceAfter=No
+29	/	$/	PUNCT	_	_	30	punct	_	SpaceAfter=No
 30	eller	eller	CCONJ	_	_	28	conj	_	_
 31	Sp	Sp	PROPN	_	Abbr=Yes	27	conj	_	_
 32	forsvinner	forsvinne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	25	ccomp	_	_
@@ -10108,11 +10108,11 @@
 9	sporvogner	sporvogn	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	6	conj	_	_
 10	på	på	ADP	_	_	11	case	_	_
 11	museene	museum	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	5	obl	_	SpaceAfter=No
-12	,	$,	PUNCT	_	_	13	punct	_	_
+12	,	$,	PUNCT	_	_	11	punct	_	_
 13	symaskiner	symaskin	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	9	conj	_	SpaceAfter=No
 14	,	$,	PUNCT	_	_	13	punct	_	_
 15	vaskemaskiner	vaskemaskin	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	9	conj	_	SpaceAfter=No
-16	,	$,	PUNCT	_	_	17	punct	_	_
+16	,	$,	PUNCT	_	_	15	punct	_	_
 17	månelandingsfartøyer	månelandingsfartøy	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	9	conj	_	SpaceAfter=No
 18	.	$.	PUNCT	_	_	5	punct	_	_
 
@@ -10135,7 +10135,7 @@
 6	vesker	veske	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	4	nsubj	_	_
 7	i	i	ADP	_	_	8	case	_	_
 8	utstillingsvinduene	utstillingsvindu	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	4	obl	_	SpaceAfter=No
-9	,	$,	PUNCT	_	_	11	punct	_	_
+9	,	$,	PUNCT	_	_	8	punct	_	_
 10	nye	ny	ADJ	_	Degree=Pos|Number=Plur	11	amod	_	_
 11	sko	sko	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No
 12	,	$,	PUNCT	_	_	11	punct	_	_
@@ -10267,7 +10267,7 @@
 10	bli	bli	VERB	_	VerbForm=Inf	8	xcomp	_	_
 11	ruiner	ruin	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	10	xcomp	_	_
 12	igjen	igjen	ADV	_	_	10	advmod	_	SpaceAfter=No
-13	,	$,	PUNCT	_	_	14	punct	_	_
+13	,	$,	PUNCT	_	_	12	punct	_	_
 14	rester	rest	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	11	appos	_	_
 15	av	av	ADP	_	_	16	case	_	_
 16	rester	rest	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	14	nmod	_	_
@@ -10292,7 +10292,7 @@
 35	gresk	gresk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	33	conj	_	SpaceAfter=No
 36	,	$,	PUNCT	_	_	35	punct	_	_
 37	romersk	romersk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	33	conj	_	SpaceAfter=No
-38	,	$,	PUNCT	_	_	40	punct	_	_
+38	,	$,	PUNCT	_	_	37	punct	_	_
 39	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	40	det	_	_
 40	museum	museum	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	appos	_	_
 41	utendørs	utendørs	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	40	amod	_	SpaceAfter=No
@@ -10421,7 +10421,7 @@
 5	meg	jeg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
 6	i	i	ADP	_	_	7	case	_	_
 7	møte	møte	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
-8	,	$,	PUNCT	_	_	10	punct	_	_
+8	,	$,	PUNCT	_	_	7	punct	_	_
 9	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
 10	opptog	opptog	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	appos	_	_
 11	av	av	ADP	_	_	12	case	_	_
@@ -11989,7 +11989,7 @@
 4	makt	makt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	_
 5	i	i	ADP	_	_	6	case	_	_
 6	Kirken	Kirken	PROPN	_	_	4	nmod	_	SpaceAfter=No
-7	,	$,	PUNCT	_	_	9	punct	_	SpaceAfter=No
+7	,	$,	PUNCT	_	_	2	punct	_	SpaceAfter=No
 8	"	$"	PUNCT	_	_	9	punct	_	_
 9	uttaler	uttale	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
 10	biskop	biskop	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	nmod	_	_
@@ -12290,7 +12290,7 @@
 2	dukket	dukke	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 4	opp	opp	ADP	_	_	2	compound:prt	_	SpaceAfter=No
-5	,	$,	PUNCT	_	_	9	punct	_	_
+5	,	$,	PUNCT	_	_	4	punct	_	_
 6	ut	ut	ADP	_	_	9	case	_	_
 7	av	av	ADP	_	_	9	case	_	_
 8	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	9	det	_	_
@@ -17473,7 +17473,7 @@
 4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
 5	til	til	ADP	_	_	6	case	_	_
 6	oss	vi	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=1|PronType=Prs	3	obl	_	SpaceAfter=No
-7	,	$,	PUNCT	_	_	17	punct	_	_
+7	,	$,	PUNCT	_	_	6	punct	_	_
 8	at	at	SCONJ	_	_	17	mark	_	_
 9	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
 10	som	som	PRON	_	PronType=Rel	11	nsubj	_	_
@@ -18416,7 +18416,7 @@
 2	kontakt	kontakt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	obj	_	_
 3	med	med	ADP	_	_	4	case	_	_
 4	sykehusprestene	sykehusprest	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
-5	»	$"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+5	»	$"	PUNCT	_	_	1	punct	_	SpaceAfter=No
 6	,	$,	PUNCT	_	_	7	punct	_	_
 7	forteller	fortelle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
 8	brosjyren	brosjyre	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	_
@@ -19198,7 +19198,7 @@
 # sent_id = 016830
 # text = kilder/metode:
 1	kilder	kilde	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
-2	/	$/	SYM	_	_	1	compound	_	SpaceAfter=No
+2	/	$/	PUNCT	_	_	3	punct	_	SpaceAfter=No
 3	metode	metode	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
 4	:	$:	PUNCT	_	_	1	punct	_	_
 
@@ -19242,7 +19242,7 @@
 # sent_id = 016832
 # text = fakta/tall-kilder:
 1	fakta	faktum	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	0	root	_	SpaceAfter=No
-2	/	$/	SYM	_	_	1	compound	_	SpaceAfter=No
+2	/	$/	PUNCT	_	_	3	punct	_	SpaceAfter=No
 3	tall-kilder	tall-kilde	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
 4	:	$:	PUNCT	_	_	1	punct	_	_
 
@@ -20252,7 +20252,7 @@
 7	at	at	SCONJ	_	_	19	mark	_	_
 8	hans	hans	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	12	nmod	_	_
 9	fastlåste	fastlåst	ADJ	_	Degree=Pos|Number=Plur	12	amod	_	SpaceAfter=No
-10	/	$/	SYM	_	_	9	compound	_	SpaceAfter=No
+10	/	$/	PUNCT	_	_	11	punct	_	SpaceAfter=No
 11	rigide	rigid	ADJ	_	Degree=Pos|Number=Plur	9	conj	_	_
 12	holdninger	holdning	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	19	nsubj	_	SpaceAfter=No
 13	,	$,	PUNCT	_	_	17	punct	_	_
@@ -20295,7 +20295,7 @@
 15	administrering	administrering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	obl	_	_
 16	av	av	ADP	_	_	17	case	_	_
 17	sakene	sak	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	15	nmod	_	SpaceAfter=No
-18	»	$"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+18	»	$"	PUNCT	_	_	2	punct	_	SpaceAfter=No
 19	,	$,	PUNCT	_	_	20	punct	_	_
 20	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
 21	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	expl	_	_
@@ -20814,7 +20814,7 @@
 13	å	å	PART	_	_	14	mark	_	_
 14	påvirke	påvirke	VERB	_	VerbForm=Inf	12	xcomp	_	_
 15	meg	jeg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	14	obj	_	SpaceAfter=No
-16	»	$"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+16	»	$"	PUNCT	_	_	2	punct	_	SpaceAfter=No
 17	,	$,	PUNCT	_	_	18	punct	_	_
 18	sa	si	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
 19	Monica	Monica	PROPN	_	Gender=Fem	18	nsubj	_	_
@@ -31704,7 +31704,7 @@
 2	Alvarado	Alvarado	PROPN	_	_	1	flat:name	_	SpaceAfter=No
 3	,	$,	PUNCT	_	_	4	punct	_	_
 4	Reuters	Reuters	PROPN	_	_	1	nmod	_	SpaceAfter=No
-5	/	$/	SYM	_	_	4	compound	_	SpaceAfter=No
+5	/	$/	PUNCT	_	_	6	punct	_	SpaceAfter=No
 6	Scanpix	Scanpix	PROPN	_	_	4	conj	_	_
 
 # sent_id = 017487
@@ -34998,7 +34998,7 @@
 4	mann	mann	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nsubj	_	_
 5	i	i	ADP	_	_	6	case	_	_
 6	retten	rett	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
-7	,	$,	PUNCT	_	_	8	punct	_	_
+7	,	$,	PUNCT	_	_	6	punct	_	_
 8	tiltalt	tiltale	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	4	acl	_	_
 9	for	for	SCONJ	_	_	12	mark	_	_
 10	å	å	PART	_	_	12	mark	_	_
@@ -41462,7 +41462,7 @@
 14	arbeidet	arbeid	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	12	nmod	_	_
 15	mot	mot	ADP	_	_	16	case	_	_
 16	hiv	hiv	NOUN	_	_	14	nmod	_	SpaceAfter=No
-17	/	$/	SYM	_	_	16	compound	_	SpaceAfter=No
+17	/	$/	PUNCT	_	_	18	punct	_	SpaceAfter=No
 18	aids	aids	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
 19	.	$.	PUNCT	_	_	3	punct	_	_
 
@@ -41593,7 +41593,7 @@
 10	FNs	FN	PROPN	_	Abbr=Yes|Case=Gen	12	nmod	_	_
 11	fredsbevarende	fredsbevarende	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	12	amod	_	_
 12	arbeid	arbeid	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No
-13	,	$,	PUNCT	_	_	15	punct	_	_
+13	,	$,	PUNCT	_	_	12	punct	_	_
 14	med	med	ADP	_	_	15	case	_	_
 15	hovedvekt	hovedvekt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	nmod	_	_
 16	på	på	ADP	_	_	17	case	_	_
