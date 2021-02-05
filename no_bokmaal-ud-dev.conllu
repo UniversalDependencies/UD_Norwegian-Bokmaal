@@ -10968,7 +10968,7 @@
 9	,	$,	PUNCT	_	_	5	punct	_	_
 10	satt	sitte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 11	kasakhstanerne	kasakhstaner	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	10	nsubj	_	_
-12	"	$"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+12	"	$"	PUNCT	_	_	13	punct	_	SpaceAfter=No
 13	rette	rett	ADJ	_	Degree=Pos|Number=Plur	10	xcomp	_	_
 14	i	i	ADP	_	_	15	case	_	_
 15	ryggen	rygg	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	obl	_	_
@@ -24469,7 +24469,7 @@
 20	Raich	Raich	PROPN	_	_	19	flat:name	_	_
 21	journ.	journ	NOUN	_	Abbr=Yes	22	nmod	_	SpaceAfter=No
 22	anm.	anm.	NOUN	_	Abbr=Yes	2	parataxis	_	SpaceAfter=No
-23	)	$)	PUNCT	_	_	19	punct	_	_
+23	)	$)	PUNCT	_	_	22	punct	_	_
 24	etter	etter	ADP	_	_	25	case	_	_
 25	rennene	renn	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	14	obl	_	_
 26	på	på	ADP	_	_	27	case	_	_
@@ -24528,7 +24528,7 @@
 8	Walchhofer	Walchhofer	PROPN	_	_	7	flat:name	_	_
 9	journ.	journ.	NOUN	_	Abbr=Yes	10	nmod	_	SpaceAfter=No
 10	anm.	anm.	NOUN	_	Abbr=Yes	2	parataxis	_	SpaceAfter=No
-11	)	$)	PUNCT	_	_	4	punct	_	_
+11	)	$)	PUNCT	_	_	10	punct	_	_
 12	og	og	CCONJ	_	_	16	cc	_	_
 13	Aksel	Aksel	PROPN	_	Gender=Masc	16	nsubj	_	_
 14	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	cop	_	_
