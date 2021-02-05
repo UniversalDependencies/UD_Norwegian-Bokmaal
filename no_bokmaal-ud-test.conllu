@@ -27437,8 +27437,8 @@
 15	allierte	alliert	ADJ	_	Degree=Pos|Number=Plur	11	advmod	_	_
 16	-	$-	PUNCT	_	_	18	punct	_	_
 17	blant	blant	ADP	_	_	18	case	_	_
-18	annet	annen	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Dem	15	nmod	_	_
-19	Norge	Norge	PROPN	_	_	17	nmod	_	SpaceAfter=No
+18	annet	annen	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Dem	19	nmod	_	_
+19	Norge	Norge	PROPN	_	_	15	appos	_	SpaceAfter=No
 20	.	$.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 019634
