@@ -24069,7 +24069,7 @@
 7	delen	del	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	_
 8	av	av	ADP	_	_	9	case	_	_
 9	løypa	løype	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	_
-10	og	og	CCONJ	_	_	16	cc	_	_
+10	og	og	CCONJ	_	_	11	cc	_	_
 11	så	se	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
 12	nærmeste	nær	ADJ	_	Definite=Def|Degree=Sup	13	amod	_	_
 13	konkurrent	konkurrent	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	nmod	_	_
