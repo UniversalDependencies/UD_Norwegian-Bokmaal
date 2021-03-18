@@ -10983,7 +10983,7 @@
 24	revet	rive	VERB	_	VerbForm=Part	17	advcl	_	_
 25	i	i	ADP	_	_	26	case	_	_
 26	filler	fille	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	24	obl	_	SpaceAfter=No
-27	"	$"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+27	"	$"	PUNCT	_	_	18	punct	_	SpaceAfter=No
 28	.	$.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = 016242
