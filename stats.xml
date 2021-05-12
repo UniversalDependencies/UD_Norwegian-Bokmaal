@@ -27,9 +27,9 @@
     <tag name="PART">6998</tag><!-- å, ikke, ei, og -->
     <tag name="PRON">25962</tag><!-- det, som, jeg, han, vi, de, seg, sin, hun, du -->
     <tag name="PROPN">18260</tag><!-- Norge, Regjeringen, Obama, USA, Oslo, Jan, Cathrine, Stortinget, Svalbard, Den -->
-    <tag name="PUNCT">36981</tag><!-- $., $,, $-, $", $:, $?, $), $(, $!, $; -->
+    <tag name="PUNCT">37041</tag><!-- $., $,, $-, $", $:, $?, $), $(, $!, $; -->
     <tag name="SCONJ">11216</tag><!-- at, for, til, om, som, når, på, da, fordi, der -->
-    <tag name="SYM">81</tag><!-- $/, /, ©, +, +5°C, -6°C, 70°, 72°N, 8°, 9°V -->
+    <tag name="SYM">21</tag><!-- $/, ©, +5°C, -6°C, 70°, 72°N, 8°, 9°V -->
     <tag name="VERB">33351</tag><!-- ha, si, bli, få, komme, ta, være, gjøre, gå, se -->
     <tag name="X">726</tag><!-- the, of, and, in, to, you, a, is, for, i -->
   </tags>
@@ -92,13 +92,13 @@
     <dep name="advcl">5269</dep>
     <dep name="advmod">18210</dep>
     <dep name="amod">13929</dep>
-    <dep name="appos">862</dep>
+    <dep name="appos">863</dep>
     <dep name="aux">8858</dep>
     <dep name="aux:pass">1106</dep>
     <dep name="case">32684</dep>
-    <dep name="cc">10715</dep>
-    <dep name="ccomp">2238</dep>
-    <dep name="compound">364</dep>
+    <dep name="cc">10714</dep>
+    <dep name="ccomp">2239</dep>
+    <dep name="compound">304</dep>
     <dep name="compound:prt">2537</dep>
     <dep name="conj">11954</dep>
     <dep name="cop">7217</dep>
@@ -111,17 +111,17 @@
     <dep name="flat:name">5268</dep>
     <dep name="iobj">695</dep>
     <dep name="mark">15486</dep>
-    <dep name="nmod">19890</dep>
-    <dep name="nsubj">28455</dep>
+    <dep name="nmod">19889</dep>
+    <dep name="nsubj">28452</dep>
     <dep name="nsubj:pass">1853</dep>
     <dep name="nummod">2299</dep>
-    <dep name="obj">13904</dep>
-    <dep name="obl">18999</dep>
+    <dep name="obj">13907</dep>
+    <dep name="obl">19000</dep>
     <dep name="orphan">215</dep>
     <dep name="parataxis">1478</dep>
-    <dep name="punct">36981</dep>
+    <dep name="punct">37041</dep>
     <dep name="reparandum">43</dep>
     <dep name="root">20044</dep>
-    <dep name="xcomp">3988</dep>
+    <dep name="xcomp">3987</dep>
   </deps>
 </treebank>
