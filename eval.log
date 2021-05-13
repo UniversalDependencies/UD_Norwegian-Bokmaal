@@ -1,10 +1,10 @@
-Running the following version of tools/evaluate_treebank.pl:
-commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
+Running the following version of UD tools:
+commit ca3b862e9e2871c76cd91bf78ffb089c0c60184d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Apr 21 19:02:58 2018 +0200
+Date:   Thu May 6 20:16:19 2021 +0200
 Evaluating the following revision of UD_Norwegian-Bokmaal:
-commit c15829f9bcb5e138d1e8d99e17e30e2dcdb8fc00
-Merge: 2de3cfc 4ea2c92
+commit ba6a936a85d3c8dfcc38bda85437594d876438fe
+Merge: e23c3a7 da878b5
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 310221 of 310221 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.4745698934204.
@@ -19,52 +19,26 @@ Features: 185272 out of 310221 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 30 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi: found 345 bugs.
+Udapi:
+               TOTAL        306
+Udapi: found 306 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 310221 words.
 Genres: found 3 out of 17 known.
 validate.py --lang no --max-err=10 UD_Norwegian-Bokmaal/no_bokmaal-ud-dev.conllu
-[Line 17 Sent 015697 Node 15]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [14]
-[Line 615 Sent 015725 Node 55]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [63]
-[Line 3408 Sent 015851 Node 28]: [L3 Syntax leaf-cc] 'cc' not expected to have children (28:og:cc --> 29:/:compound)
-[Line 10971 Sent 016241 Node 12]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [13, 14, 15]
-[Line 10986 Sent 016241 Node 27]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [18]
-[Line 10987 Sent 016241 Node 28]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [18]
-[Line 24472 Sent 017091 Node 23]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [21, 22]
-[Line 24531 Sent 017094 Node 11]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [9, 10]
-[Line 25061 Sent 017118 Node 33]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [36]
-...suppressing further errors regarding Syntax
-Syntax errors: 10
-*** FAILED *** with 10 errors
-Exit code: 1
+*** PASSED ***
 validate.py --lang no --max-err=10 UD_Norwegian-Bokmaal/no_bokmaal-ud-test.conllu
-[Line 27441 Sent 019633 Node 17]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (17:blant:case --> 19:Norge:nmod)
-[Line 35616 Sent 020029 Node 1]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [3]
-Syntax errors: 2
-*** FAILED *** with 2 errors
-Exit code: 1
+*** PASSED ***
 validate.py --lang no --max-err=10 UD_Norwegian-Bokmaal/no_bokmaal-ud-train.conllu
-[Line 28298 Sent 001492 Node 18]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [20]
-[Line 46305 Sent 002379 Node 16]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [21]
-[Line 51048 Sent 002628 Node 17]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [20, 25]
-[Line 51056 Sent 002628 Node 25]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [16, 17, 18]
-[Line 53378 Sent 002742 Node 19]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [22]
-[Line 56224 Sent 002904 Node 8]: [L3 Syntax leaf-cc] 'cc' not expected to have children (8:og:cc --> 9:/:compound)
-[Line 61929 Sent 003203 Node 32]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [28]
-[Line 62963 Sent 003256 Node 36]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [40]
-[Line 68681 Sent 003529 Node 4]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [5]
-...suppressing further errors regarding Syntax
-Syntax errors: 29
-*** FAILED *** with 29 errors
-Exit code: 1
-Validity: 0.01
+*** PASSED ***
+Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.176470588235294) = 0.0135746606334842
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
 (weight=0.256410256410256) * (score{size}=0.830557064487611) = 0.212963349868618
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.988878896012843) = 0.304270429542413
+(weight=0.307692307692308) * (score{udapi}=0.990136064289652) = 0.304657250550662
 (weight=0.0769230769230769) * (score{udeprels}=0.648648648648649) = 0.0498960498960499
-(TOTAL score=0.816601925838001) * (availability=1) * (validity=0.01) = 0.00816601925838001
-STARS = 0
-UD_Norwegian-Bokmaal	0.00816601925838001	0
+(TOTAL score=0.81698874684625) * (availability=1) * (validity=1) = 0.81698874684625
+STARS = 4
+UD_Norwegian-Bokmaal	0.81698874684625	4
