@@ -5211,7 +5211,7 @@
 3	også	også	ADV	_	_	4	advmod	_	_
 4	sende	sende	VERB	_	VerbForm=Inf	0	root	_	_
 5	SMS	SMS	PROPN	_	_	4	obj	_	SpaceAfter=No
-6	/	$/	SYM	_	_	5	compound	_	SpaceAfter=No
+6	/	$/	PUNCT	_	_	7	punct	_	SpaceAfter=No
 7	MMS	MMS	PROPN	_	_	5	conj	_	_
 8	til	til	ADP	_	_	9	case	_	_
 9	2286	2286	NUM	_	Number=Plur|NumType=Card	4	obl	_	SpaceAfter=No
@@ -5965,7 +5965,7 @@
 # text = Rune Stølås / bt.no
 1	Rune	Rune	PROPN	_	Gender=Masc	0	root	_	_
 2	Stølås	Stølås	PROPN	_	_	1	flat:name	_	_
-3	/	/	SYM	_	_	1	compound	_	_
+3	/	/	PUNCT	_	_	4	punct	_	_
 4	bt.no	bt.no	PROPN	_	_	1	parataxis	_	_
 
 # newpar
@@ -10407,17 +10407,17 @@
 16	(	$(	PUNCT	_	_	17	punct	_	SpaceAfter=No
 17	4	4	NUM	_	Number=Plur|NumType=Card	5	parataxis	_	SpaceAfter=No
 18	)	$)	PUNCT	_	_	17	punct	_	SpaceAfter=No
-19	,	$,	PUNCT	_	_	20	punct	_	_
+19	,	$,	PUNCT	_	_	17	punct	_	_
 20	sprøytemidler	sprøytemiddel	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	15	conj	_	_
 21	(	$(	PUNCT	_	_	22	punct	_	SpaceAfter=No
 22	2	2	NUM	_	Number=Plur|NumType=Card	5	parataxis	_	SpaceAfter=No
 23	)	$)	PUNCT	_	_	22	punct	_	SpaceAfter=No
-24	,	$,	PUNCT	_	_	25	punct	_	_
+24	,	$,	PUNCT	_	_	22	punct	_	_
 25	mikroorganismer	mikroorganisme	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	15	conj	_	_
 26	(	$(	PUNCT	_	_	27	punct	_	SpaceAfter=No
 27	1	1	NUM	_	Number=Sing|NumType=Card	5	parataxis	_	SpaceAfter=No
 28	)	$)	PUNCT	_	_	27	punct	_	SpaceAfter=No
-29	,	$,	PUNCT	_	_	31	punct	_	_
+29	,	$,	PUNCT	_	_	27	punct	_	_
 30	genmodifiserte	genmodifisert	ADJ	_	Degree=Pos|Number=Plur	31	amod	_	_
 31	stoffer	stoff	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	15	conj	_	_
 32	(	$(	PUNCT	_	_	33	punct	_	SpaceAfter=No
@@ -12099,7 +12099,7 @@
 11	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	_
 12	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	aux	_	_
 13	steket	steke	VERB	_	VerbForm=Part	7	advcl	_	SpaceAfter=No
-14	/	$/	SYM	_	_	13	compound	_	SpaceAfter=No
+14	/	$/	PUNCT	_	_	15	punct	_	SpaceAfter=No
 15	hitlerhilset	hitlerhilse	VERB	_	VerbForm=Part	13	conj	_	_
 16	hverandre	hverandre	PRON	_	Animacy=Hum|Number=Plur|PronType=Rcp	15	obj	_	_
 17	i	i	ADP	_	_	18	case	_	_
@@ -12588,7 +12588,7 @@
 27	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	24	advcl	_	_
 28	stor	stor	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	27	xcomp	_	_
 29	(	$(	PUNCT	_	_	32	punct	_	SpaceAfter=No
-30	>	>	SYM	_	_	32	compound	_	_
+30	>	>	PUNCT	_	_	32	punct	_	_
 31	olympisk	olympisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	32	amod	_	_
 32	mester	mester	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	parataxis	_	SpaceAfter=No
 33	.	$.	PUNCT	_	_	2	punct	_	_
@@ -14760,7 +14760,7 @@
 8	til	til	ADP	_	_	9	case	_	_
 9	Tor	Tor	PROPN	_	Gender=Masc	2	obl	_	_
 10	Bertelsen	Bertelsen	PROPN	_	_	9	flat:name	_	SpaceAfter=No
-11	,	$,	PUNCT	_	_	14	punct	_	_
+11	,	$,	PUNCT	_	_	9	punct	_	_
 12	der	der	SCONJ	_	_	14	mark	_	_
 13	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
 14	kom	komme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	acl	_	_
@@ -16791,7 +16791,7 @@
 45	bilde	bilde	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	42	obj	_	_
 46	av	av	ADP	_	_	47	case	_	_
 47	hendelsen	hendelse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	45	nmod	_	SpaceAfter=No
-48	»	$"	PUNCT	_	_	50	punct	_	SpaceAfter=No
+48	»	$"	PUNCT	_	_	19	punct	_	SpaceAfter=No
 49	,	$,	PUNCT	_	_	50	punct	_	_
 50	skriver	skrive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	parataxis	_	_
 51	departementet	departement	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	50	nsubj	_	SpaceAfter=No
@@ -20306,7 +20306,7 @@
 10	noe	noe	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Ind,Prs	8	obj	_	_
 11	hver	hver	DET	_	Gender=Masc|Number=Sing|PronType=Tot	12	det	_	_
 12	sesong	sesong	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
-13	,	$,	PUNCT	_	_	16	punct	_	_
+13	,	$,	PUNCT	_	_	12	punct	_	_
 14	som	som	PRON	_	PronType=Rel	16	iobj	_	_
 15	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
 16	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
@@ -22590,7 +22590,7 @@
 3	reiste	reise	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 4	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 5	rundt	rundt	ADP	_	_	3	compound:prt	_	SpaceAfter=No
-6	,	$,	PUNCT	_	_	8	punct	_	_
+6	,	$,	PUNCT	_	_	5	punct	_	_
 7	som	som	SCONJ	_	_	8	mark	_	_
 8	turist	turist	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	acl	_	SpaceAfter=No
 9	,	$,	PUNCT	_	_	10	punct	_	_
@@ -23606,7 +23606,7 @@
 3	opp	opp	ADP	_	_	5	case	_	_
 4	mot	mot	ADP	_	_	5	case	_	_
 5	mat	mat	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
-6	,	$,	PUNCT	_	_	8	punct	_	_
+6	,	$,	PUNCT	_	_	5	punct	_	_
 7	kanskje	kanskje	ADV	_	_	8	advmod	_	_
 8	einebærbrød	einebærbrød	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	appos	_	_
 9	eller	eller	CCONJ	_	_	10	cc	_	_
@@ -27437,8 +27437,8 @@
 15	allierte	alliert	ADJ	_	Degree=Pos|Number=Plur	11	advmod	_	_
 16	-	$-	PUNCT	_	_	18	punct	_	_
 17	blant	blant	ADP	_	_	18	case	_	_
-18	annet	annen	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Dem	15	nmod	_	_
-19	Norge	Norge	PROPN	_	_	17	nmod	_	SpaceAfter=No
+18	annet	annen	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Dem	19	nmod	_	_
+19	Norge	Norge	PROPN	_	_	15	appos	_	SpaceAfter=No
 20	.	$.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 019634
@@ -28074,7 +28074,7 @@
 2	Boudlal	Boudlal	PROPN	_	_	1	flat:name	_	SpaceAfter=No
 3	,	$,	PUNCT	_	_	4	punct	_	_
 4	Reuters	Reuters	PROPN	_	_	1	nmod	_	SpaceAfter=No
-5	/	$/	SYM	_	_	4	compound	_	SpaceAfter=No
+5	/	$/	PUNCT	_	_	6	punct	_	SpaceAfter=No
 6	Scanpix	Scanpix	PROPN	_	_	4	conj	_	_
 
 # newpar
@@ -30175,10 +30175,10 @@
 22	tilbake	tilbake	SCONJ	_	_	24	mark	_	_
 23	på	på	SCONJ	_	_	24	mark	_	_
 24	Vigra	Vigra	PROPN	_	_	19	xcomp	_	SpaceAfter=No
-25	,	$,	PUNCT	_	_	27	punct	_	_
+25	,	$,	PUNCT	_	_	24	punct	_	_
 26	nemlig	nemlig	ADV	_	_	27	advmod	_	_
 27	Norwegian	Norwegian	PROPN	_	_	21	appos	_	SpaceAfter=No
-28	,	$,	PUNCT	_	_	27	punct	_	_
+28	,	$,	PUNCT	_	_	31	punct	_	_
 29	uten	uten	SCONJ	_	_	31	mark	_	_
 30	å	å	PART	_	_	31	mark	_	_
 31	ta	ta	VERB	_	VerbForm=Inf	19	advcl	_	_
@@ -30261,7 +30261,7 @@
 32	konkurransevridende	konkurransevridende	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	26	advcl	_	_
 33	til	til	ADP	_	_	37	case	_	_
 34	SAS	SAS	PROPN	_	_	37	nmod	_	SpaceAfter=No
-35	/	$/	SYM	_	_	34	compound	_	SpaceAfter=No
+35	/	$/	PUNCT	_	_	36	punct	_	SpaceAfter=No
 36	Braathens	Braathens	PROPN	_	_	34	conj	_	_
 37	fordel	fordel	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	32	obl	_	SpaceAfter=No
 38	.	$.	PUNCT	_	_	14	punct	_	_
@@ -30320,7 +30320,7 @@
 11	aktører	aktør	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	7	obl	_	_
 12	utenom	utenom	ADP	_	_	13	case	_	_
 13	SAS	SAS	PROPN	_	_	11	nmod	_	SpaceAfter=No
-14	/	$/	SYM	_	_	13	compound	_	SpaceAfter=No
+14	/	$/	PUNCT	_	_	15	punct	_	SpaceAfter=No
 15	Brathens	Brathens	PROPN	_	_	13	conj	_	SpaceAfter=No
 16	,	$,	PUNCT	_	_	7	punct	_	_
 17	så	så	ADV	_	_	20	advmod	_	_
@@ -30381,7 +30381,7 @@
 6	så	så	ADV	_	_	7	advmod	_	_
 7	søkte	søke	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 8	Norwegian	Norwegian	PROPN	_	_	7	nsubj	_	SpaceAfter=No
-9	/	$/	SYM	_	_	8	compound	_	SpaceAfter=No
+9	/	$/	PUNCT	_	_	10	punct	_	SpaceAfter=No
 10	sterling	sterling	PROPN	_	_	8	conj	_	_
 11	om	om	SCONJ	_	_	13	mark	_	_
 12	å	å	PART	_	_	13	mark	_	_
@@ -30436,7 +30436,7 @@
 5	resultatet	resultat	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	0	root	_	_
 6	til	til	ADP	_	_	7	case	_	_
 7	SAS	SAS	PROPN	_	_	5	nmod	_	SpaceAfter=No
-8	/	$/	SYM	_	_	7	compound	_	SpaceAfter=No
+8	/	$/	PUNCT	_	_	9	punct	_	SpaceAfter=No
 9	Braathens	Braathens	PROPN	_	_	7	conj	_	_
 10	som	som	PRON	_	PronType=Rel	12	nsubj:pass	_	_
 11	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	aux:pass	_	_
@@ -31278,7 +31278,7 @@
 20	ungdomsskolen	ungdomsskole	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
 21	,	$,	PUNCT	_	_	20	punct	_	_
 22	biblioteket	bibliotek	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	16	conj	_	SpaceAfter=No
-23	/	$/	SYM	_	_	22	compound	_	SpaceAfter=No
+23	/	$/	PUNCT	_	_	24	punct	_	SpaceAfter=No
 24	servicebygget	servicebygg	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	22	conj	_	_
 25	m.fl	mfl.	ADV	_	Abbr=Yes	24	advmod	_	_
 
@@ -32571,7 +32571,7 @@
 10	å	å	PART	_	_	11	mark	_	_
 11	kjøpe	kjøpe	VERB	_	VerbForm=Inf	9	xcomp	_	_
 12	båter	båt	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	11	obj	_	SpaceAfter=No
-13	/	$/	SYM	_	_	12	compound	_	SpaceAfter=No
+13	/	$/	PUNCT	_	_	14	punct	_	SpaceAfter=No
 14	kvoter	kvote	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	conj	_	_
 15	i	i	ADP	_	_	16	case	_	_
 16	Nord	Nord	PROPN	_	_	11	obl	_	_
@@ -35613,7 +35613,7 @@
 
 # sent_id = 020029
 # text = - Det anses vedtatt.
-1	-	$-	PUNCT	_	_	4	punct	_	_
+1	-	$-	PUNCT	_	_	3	punct	_	_
 2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 3	anses	anse	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 4	vedtatt	vedta	VERB	_	VerbForm=Part	3	ccomp	_	SpaceAfter=No
