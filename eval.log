@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
-Author: www-data (nschneid) <nschneid@github.com>
-Date:   Wed May 11 05:10:30 2022 +0200
-Evaluating the following revision of UD_Norwegian-Bokmaal:
-commit f30b190d13d941cc10a512cbb2546fc76ed651ad
+commit 13e6b709a8bc643c3f902800321a7beda46feb8d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Wed Nov 3 16:46:32 2021 +0100
+Date:   Sun Nov 13 22:03:41 2022 +0100
+Evaluating the following revision of UD_Norwegian-Bokmaal:
+commit cb0269de09dc1e82f0353842ebec019191b60b5e
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sat May 14 15:00:34 2022 +0200
 Size: counted 310221 of 310221 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.4745698934204.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,12 +25,48 @@ Udapi: found 306 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 310221 words.
 Genres: found 3 out of 17 known.
 validate.py --lang no --max-err=10 UD_Norwegian-Bokmaal/no_bokmaal-ud-dev.conllu
-*** PASSED ***
+[Line 1531 Sent 015774 Node 18]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [3, 8]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 2772 Sent 015831 Node 8]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [3, 10]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 2896 Sent 015834 Node 10]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 6]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 2986 Sent 015836 Node 39]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [34, 37]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 3591 Sent 015857 Node 16]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [8, 11]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 3945 Sent 015877 Node 4]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 2]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 5285 Sent 015931 Node 22]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [3, 13]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 5366 Sent 015934 Node 5]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 7]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 5627 Sent 015940 Node 18]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [11, 17]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+...suppressing further errors regarding Syntax
+Syntax errors: 33
+*** FAILED *** with 33 errors
+Exit code: 1
 validate.py --lang no --max-err=10 UD_Norwegian-Bokmaal/no_bokmaal-ud-test.conllu
-*** PASSED ***
+[Line 875 Sent 018148 Node 21]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 20]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 1522 Sent 018180 Node 10]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 8]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 1966 Sent 018200 Node 12]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [6, 9]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 2265 Sent 018220 Node 8]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 7]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 3166 Sent 018271 Node 6]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 5]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 7529 Sent 018518 Node 30]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 24]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 11410 Sent 018717 Node 32]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [28, 31]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 11630 Sent 018725 Node 13]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 12]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 13388 Sent 018805 Node 14]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [8, 13]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+...suppressing further errors regarding Syntax
+Syntax errors: 21
+*** FAILED *** with 21 errors
+Exit code: 1
 validate.py --lang no --max-err=10 UD_Norwegian-Bokmaal/no_bokmaal-ud-train.conllu
-*** PASSED ***
-Validity: 1
+[Line 13262 Sent 000692 Node 9]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [3, 7]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 14085 Sent 000733 Node 23]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [14, 22]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 14501 Sent 000762 Node 23]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [21, 22]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 15186 Sent 000795 Node 9]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 6]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 15299 Sent 000800 Node 8]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 5]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 15890 Sent 000837 Node 5]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 4]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 16838 Sent 000890 Node 6]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 4]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 17476 Sent 000920 Node 6]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 9]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 19936 Sent 001053 Node 5]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 4]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+...suppressing further errors regarding Syntax
+Syntax errors: 208
+*** FAILED *** with 208 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.176470588235294) = 0.0135746606334842
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
@@ -39,6 +75,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
 (weight=0.307692307692308) * (score{udapi}=0.990136064289652) = 0.304657250550662
 (weight=0.0769230769230769) * (score{udeprels}=0.648648648648649) = 0.0498960498960499
-(TOTAL score=0.81698874684625) * (availability=1) * (validity=1) = 0.81698874684625
-STARS = 4
-UD_Norwegian-Bokmaal	0.81698874684625	4
+(TOTAL score=0.81698874684625) * (availability=1) * (validity=0.01) = 0.0081698874684625
+STARS = 0
+UD_Norwegian-Bokmaal	0.0081698874684625	0
