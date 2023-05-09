@@ -1,8 +1,9 @@
 # Summary
 
 The Norwegian UD treebank is based on the Bokmål section of the Norwegian
-Dependency Treebank (NDT), which is a syntactic treebank of Norwegian. NDT has been automatically converted to the UD
-scheme by Lilja Øvrelid at the University of Oslo.
+Dependency Treebank (NDT), which is a syntactic treebank of Norwegian. The current version of NDT has been automatically converted to the UD
+scheme by Ingerid Løyning Dale, Per Erik Solberg and Andre Kåsen at the Norwegian Language Bank at the National Library of Norway.
+This conversion builds to a large extent on previous conversions by Lilja Øvrelid at the University of Oslo.
 
 # Introduction
 
@@ -121,10 +122,19 @@ Lilja Øvrelid & Petter Hohle (2016). "[Universal Dependencies for Norwegian](ht
 
 # Acknowledgements
 
-NDT has been automatically converted to the UD scheme by Lilja Øvrelid at the University of Oslo. Petter Hohle created the data splits and Fredrik Jørgensen aligned the treebank to the original texts.
+NDT has been automatically converted to the UD scheme by Ingerid Løyning Dale, Per Erik Solberg and Andre Kåsen at the Norwegian Language Bank at the National Library of Norway.
+This conversion builds to a large extent on previous conversions by Lilja Øvrelid at the University of Oslo. Petter Hohle created the data splits and Fredrik Jørgensen aligned the treebank to the original texts.
 We thank the annotators of the original NDT: Pål Kristian Eriksen, Kari Kinn and Per Erik Solberg.
 
 # Changelog
+
+--> UD 2.12
+
+* The conversion is completely rewritten using [Grew](https://grew.fr/) by the Norwegian Language Bank at the National Library of Norway. The conversion is to a large
+extent based on the guidelines of the previous version.
+* *som* in relative clauses is not longer treated as pronouns, but complementizers with the postag SCONJ and the label mark.
+* There is no longer an explicit analysis of verbal particles. The postag has changed from ADP to ADV and the label is advmod.
+* [The changes in 2.10 and 2.12](https://universaldependencies.org/changes.html) are implemented.
 
 UD 1.3 --> UD 1.4
 
@@ -152,7 +162,7 @@ UPOS: converted from manual
 XPOS: not available
 Features: converted from manual
 Relations: converted from manual
-Contributors: Øvrelid, Lilja; Jørgensen, Fredrik; Hohle, Petter
+Contributors: Øvrelid, Lilja; Jørgensen, Fredrik; Hohle, Petter; Dale, Ingerid Løyning; Solberg, Per Erik; Kåsen, Andre
 Contributing: elsewhere
-Contact: liljao@ifi.uio.no
+Contact: per.solberg@nb.no
 ===============================================================================
