@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Norwegian-Bokmaal:
-commit 702312d7eb2f1fa478299abb56c0632648af3c14
-Merge: 30ac43f 178b733
+commit 3d00aad6e15326d7bed2d9cb80d6bf797ef3b4d6
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue May 9 11:35:28 2023 +0200
 Size: counted 310221 of 310221 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.4745698934204.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,8 +20,8 @@ Features: source of annotation (from README) factor is 0.8.
 Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL        592
-Udapi: found 592 bugs.
+               TOTAL        361
+Udapi: found 361 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 310221 words.
 Genres: found 3 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang no --max-err=10 UD_Norwegian-Bokmaal/no_bokmaal-ud-dev.conllu
@@ -37,8 +37,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.830557064487611) = 0.212963349868618
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.980916830259718) = 0.301820563156836
+(weight=0.307692307692308) * (score{udapi}=0.988363134668511) = 0.304111733744157
 (weight=0.0769230769230769) * (score{udeprels}=0.67027027027027) = 0.0515592515592516
-(TOTAL score=0.815815261115626) * (availability=1) * (validity=1) = 0.815815261115626
+(TOTAL score=0.818106431702947) * (availability=1) * (validity=1) = 0.818106431702947
 STARS = 4
-UD_Norwegian-Bokmaal	0.815815261115626	4
+UD_Norwegian-Bokmaal	0.818106431702947	4
