@@ -162,7 +162,7 @@ UPOS: converted from manual
 XPOS: not available
 Features: converted from manual
 Relations: converted from manual
-Contributors: Øvrelid, Lilja; Jørgensen, Fredrik; Hohle, Petter; Dale, Ingerid Løyning; Solberg, Per Erik; Kåsen, Andre
+Contributors: Øvrelid, Lilja; Jørgensen, Fredrik; Hohle, Petter; Tollersrud, Thea; Dale, Ingerid Løyning; Solberg, Per Erik; Kåsen, Andre
 Contributing: elsewhere
 Contact: sprakbanken@nb.no
 ===============================================================================
