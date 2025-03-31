@@ -5,7 +5,7 @@ Dependency Treebank (NDT), which is a syntactic treebank of Norwegian. The curre
 scheme by Ingerid Løyning Dale, Per Erik Solberg and Andre Kåsen at the Norwegian Language Bank at the National Library of Norway.
 This conversion builds to a large extent on previous conversions by Lilja Øvrelid at the University of Oslo.
 
-## Introduction
+# Introduction
 
 NDT was developed 2011-2014 at the National Library of Norway in collaboration
 with the Text Laboratory and the Department of Informatics at the
@@ -19,7 +19,7 @@ outset of the annotation project and iteratively refined throughout
 the construction of the treebank. For more information, see the
 references below.
 
-### DATA SPLITS
+## DATA SPLITS
 
 In creating the data splits, care has been taken to preserve
 contiguous texts in the different splits and also to keep a fair
@@ -64,7 +64,7 @@ Test data (1939 sentences, 26 individual files):
 - nou004\_0002 (1 file)
 - st005\_0003 -- st005\_0004 (2 files)
 
-### BASIC STATISTICS
+## BASIC STATISTICS
 
 Tree count:  20045
 
@@ -78,7 +78,7 @@ POS tags: 17
 
 Category=value feature pairs: 31
 
-### TOKENIZATION
+## TOKENIZATION
 
 White space always indicates a token boundary and punctuation constitute separate tokens, except:
 
@@ -88,14 +88,14 @@ White space always indicates a token boundary and punctuation constitute separat
 
 The treebank does not contain multiword tokens.
 
-### MORPHOLOGY
+## MORPHOLOGY
 
 The PoS-tags follow the universal tag set and does not add any
 language-specific PoS-tags. The morphological features follow the
 Oslo-Bergen Tagger scheme (Hagen et. al., 2000). PoS-tags and
 morphological features were converted automatically to the UD scheme.
 
-### SYNTAX
+## SYNTAX
 
 The syntactic annotation in the Norwegian UD treebank conforms to the
 UD guidelines, adding language-specific relations for relative clauses (`acl:relcl`)
@@ -122,13 +122,13 @@ Proceedings of LREC 2014, Reykjavik
 
 Lilja Øvrelid & Petter Hohle (2016). "[Universal Dependencies for Norwegian](http://www.lrec-conf.org/proceedings/lrec2016/pdf/462_Paper.pdf)", In Proceedings of the Ninth International Conference on Language Resources and Evaluation (LREC'16)
 
-## Acknowledgements
+# Acknowledgements
 
 NDT has been automatically converted to the UD scheme by Ingerid Løyning Dale, Per Erik Solberg and Andre Kåsen at the Norwegian Language Bank at the National Library of Norway.
 This conversion builds to a large extent on previous conversions by Lilja Øvrelid at the University of Oslo. Petter Hohle created the data splits and Fredrik Jørgensen aligned the treebank to the original texts.
 We thank the annotators of the original NDT: Pål Kristian Eriksen, Kari Kinn and Per Erik Solberg.
 
-## Changelog
+# Changelog
 
 --> UD 2.12
 
