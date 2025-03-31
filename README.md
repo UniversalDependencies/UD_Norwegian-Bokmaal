@@ -5,7 +5,7 @@ Dependency Treebank (NDT), which is a syntactic treebank of Norwegian. The curre
 scheme by Ingerid Løyning Dale, Per Erik Solberg and Andre Kåsen at the Norwegian Language Bank at the National Library of Norway.
 This conversion builds to a large extent on previous conversions by Lilja Øvrelid at the University of Oslo.
 
-# Introduction
+## Introduction
 
 NDT was developed 2011-2014 at the National Library of Norway in collaboration
 with the Text Laboratory and the Department of Informatics at the
@@ -64,7 +64,6 @@ Test data (1939 sentences, 26 individual files):
 - nou004\_0002 (1 file)
 - st005\_0003 -- st005\_0004 (2 files)
 
-
 ### BASIC STATISTICS
 
 Tree count:  20045
@@ -80,21 +79,24 @@ POS tags: 17
 Category=value feature pairs: 31
 
 ### TOKENIZATION
+
 White space always indicates a token boundary and punctuation constitute separate tokens, except:
 
-* numbers with periods, commas or colons, e.g. *1.3*, *0,6*, *10:13*
-* abbreviations, e.g. *f.eks.*, *Carl J. Hambro*
-* URLs, e.g. *http://www.ifi.uio.no*
+- numbers with periods, commas or colons, e.g. *1.3*, *0,6*, *10:13*
+- abbreviations, e.g. *f.eks.*, *Carl J. Hambro*
+- URLs, e.g. <http://www.ifi.uio.no>
 
 The treebank does not contain multiword tokens.
 
 ### MORPHOLOGY
+
 The PoS-tags follow the universal tag set and does not add any
 language-specific PoS-tags. The morphological features follow the
 Oslo-Bergen Tagger scheme (Hagen et. al., 2000). PoS-tags and
 morphological features were converted automatically to the UD scheme.
 
 ### SYNTAX
+
 The syntactic annotation in the Norwegian UD treebank conforms to the
 UD guidelines, adding language-specific relations for relative clauses (`acl:relcl`)
 and verb particles (`compound:prt`). The annotation has been automatically converted to
@@ -103,9 +105,9 @@ et. al. (2014) and further described in the NDT guidelines (Kinn
 et. al.).
 The conversion has not been manually checked. There are a few known discrepancies from UD:
 
-* no mwe analysis in the treebank. This is also information that is not present in the original data.
+- no mwe analysis in the treebank. This is also information that is not present in the original data.
 
-# References
+## References
 
 Kristin Hagen, Janne Bondi Johannessen and Anders Nøklestad: "A
 Constraint-based Tagger for Norwegian". 2000. Proceedings of the 17th
@@ -120,39 +122,39 @@ Proceedings of LREC 2014, Reykjavik
 
 Lilja Øvrelid & Petter Hohle (2016). "[Universal Dependencies for Norwegian](http://www.lrec-conf.org/proceedings/lrec2016/pdf/462_Paper.pdf)", In Proceedings of the Ninth International Conference on Language Resources and Evaluation (LREC'16)
 
-# Acknowledgements
+## Acknowledgements
 
 NDT has been automatically converted to the UD scheme by Ingerid Løyning Dale, Per Erik Solberg and Andre Kåsen at the Norwegian Language Bank at the National Library of Norway.
 This conversion builds to a large extent on previous conversions by Lilja Øvrelid at the University of Oslo. Petter Hohle created the data splits and Fredrik Jørgensen aligned the treebank to the original texts.
 We thank the annotators of the original NDT: Pål Kristian Eriksen, Kari Kinn and Per Erik Solberg.
 
-# Changelog
+## Changelog
 
 --> UD 2.12
 
-* The conversion is completely rewritten using [Grew](https://grew.fr/) by the Norwegian Language Bank at the National Library of Norway. The conversion is to a large
+- The conversion is completely rewritten using [Grew](https://grew.fr/) by the Norwegian Language Bank at the National Library of Norway. The conversion is to a large
 extent based on the guidelines of the previous version.
-* *som* in relative clauses is not longer treated as pronouns, but complementizers with the postag SCONJ and the label mark.
-* There is no longer an explicit analysis of verbal particles. The postag has changed from ADP to ADV and the label is advmod.
-* [The changes in 2.10 and 2.12](https://universaldependencies.org/changes.html) are implemented.
+- *som* in relative clauses is not longer treated as pronouns, but complementizers with the postag SCONJ and the label mark.
+- There is no longer an explicit analysis of verbal particles. The postag has changed from ADP to ADV and the label is advmod.
+- [The changes in 2.10 and 2.12](https://universaldependencies.org/changes.html) are implemented.
 
 UD 1.3 --> UD 1.4
 
-* Added SpaceAfter annotation describing tokenization
-* Removed tokens that were introduced during treebanking but are not present in original texts: 1) tokens introduced for paragraph boundaries (|), and 2) extra punctuation introduced following sentence-final abbreviations.
+- Added SpaceAfter annotation describing tokenization
+- Removed tokens that were introduced during treebanking but are not present in original texts: 1) tokens introduced for paragraph boundaries (|), and 2) extra punctuation introduced following sentence-final abbreviations.
 
 UD 1.2 --> UD 1.3
 
-* In order to improve consistency between the Germanic languages, a list of auxiliary verbs were agreed on. For Norwegian these are: *bli* 'become', *burde* 'should', *få* 'get', *ha* 'have', *kunne* 'can', *måtte* 'must', *skulle* 'should', *tørre* 'dare', *ville* 'will', *være* 'be'.
-* Appositions (`appos`) now exclusively follow their head, in compliance with UD guidelines
-* Earlier `nsubj` in cleft constructions are now `dislocated`
-* Adpositions marking a subordinate clause are now `mark` as opposed to earlier `case`
-* In v1.2 a right-headed analysis was used for combinations of proper and common nouns such as *Premier League-spillere* 'Premier League players'. In v1.3 a `compound` analysis was chosen for these.
-* PronType feature was added for all PRON or DET, and VerbType for all VERB and AUX
-* General bug fixing
-
+- In order to improve consistency between the Germanic languages, a list of auxiliary verbs were agreed on. For Norwegian these are: *bli* 'become', *burde* 'should', *få* 'get', *ha* 'have', *kunne* 'can', *måtte* 'must', *skulle* 'should', *tørre* 'dare', *ville* 'will', *være* 'be'.
+- Appositions (`appos`) now exclusively follow their head, in compliance with UD guidelines
+- Earlier `nsubj` in cleft constructions are now `dislocated`
+- Adpositions marking a subordinate clause are now `mark` as opposed to earlier `case`
+- In v1.2 a right-headed analysis was used for combinations of proper and common nouns such as *Premier League-spillere* 'Premier League players'. In v1.3 a `compound` analysis was chosen for these.
+- PronType feature was added for all PRON or DET, and VerbType for all VERB and AUX
+- General bug fixing
 
 === Machine-readable metadata (DO NOT REMOVE!) ================================
+
 Data available since: UD v1.2
 License: CC BY-SA 4.0
 Includes text: yes
@@ -164,5 +166,5 @@ Features: converted from manual
 Relations: converted from manual
 Contributors: Øvrelid, Lilja; Jørgensen, Fredrik; Hohle, Petter; Tollersrud, Thea; Dale, Ingerid Løyning; Solberg, Per Erik; Kåsen, Andre
 Contributing: elsewhere
-Contact: sprakbanken@nb.no
+Contact: <sprakbanken@nb.no>
 ===============================================================================
