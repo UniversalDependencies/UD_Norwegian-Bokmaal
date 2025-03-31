@@ -164,5 +164,5 @@ Features: converted from manual
 Relations: converted from manual
 Contributors: Øvrelid, Lilja; Jørgensen, Fredrik; Hohle, Petter; Dale, Ingerid Løyning; Solberg, Per Erik; Kåsen, Andre
 Contributing: elsewhere
-Contact: per.solberg@nb.no
+Contact: sprakbanken@nb.no
 ===============================================================================
