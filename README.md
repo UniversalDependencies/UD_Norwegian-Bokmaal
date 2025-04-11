@@ -130,10 +130,16 @@ We thank the annotators of the original NDT: Pål Kristian Eriksen, Kari Kinn an
 
 # Changelog
 
+--> UD 2.16
+
+- Determiners such as den/det/de all have lemma "den" and PronType=Art
+- Change Gender=Fem,Masc to Gender=Com
+- Change annotation of multiple subjects to have :pass or :outer
+- Change annotation of possessive pronouns to have relation nmod:poss instead of just nmod or det
+
 --> UD 2.12
 
-- The conversion is completely rewritten using [Grew](https://grew.fr/) by the Norwegian Language Bank at the National Library of Norway. The conversion is to a large
-extent based on the guidelines of the previous version.
+- The conversion is completely rewritten using [Grew](https://grew.fr/) by the Norwegian Language Bank at the National Library of Norway. The conversion is to a large extent based on the guidelines of the previous version.
 - *som* in relative clauses is not longer treated as pronouns, but complementizers with the postag SCONJ and the label mark.
 - There is no longer an explicit analysis of verbal particles. The postag has changed from ADP to ADV and the label is advmod.
 - [The changes in 2.10 and 2.12](https://universaldependencies.org/changes.html) are implemented.
