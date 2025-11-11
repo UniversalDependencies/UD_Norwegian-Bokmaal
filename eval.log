@@ -1,11 +1,15 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Norwegian-Bokmaal:
-commit 9656751807f2d00bf3b6e2a1ca3a45e01b3fdad7
-Merge: 3fff39a 9cac023
+commit 9f25f84e3999a1a83ba766880dfbf85ad6419f78
+Merge: e83586f b8618a2
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'no_bokmaal'
+Language code (from CoNLL-U file name) = 'no'
+Found the following data files: no_bokmaal-ud-dev.conllu, no_bokmaal-ud-test.conllu, no_bokmaal-ud-train.conllu
 Size: counted 310221 of 310221 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.4745698934204.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,26 +23,57 @@ Features: 182670 out of 310221 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi:
-               TOTAL        252
-Udapi: found 252 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 310221 words.
 Genres: found 3 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang no --max-err=10 UD_Norwegian-Bokmaal/no_bokmaal-ud-dev.conllu
+[Line 1381 Sent 015769]: [L3 Warning obl-should-be-nmod] The parent (node [1] 'Ingen') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1835 Sent 015785]: [L3 Warning pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1847 Sent 015786]: [L3 Warning pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 3472 Sent 015853]: [L3 Warning pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 3999 Sent 015878]: [L3 Warning obl-should-be-nmod] The parent (node [11] 'Kim') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 4173 Sent 015884]: [L3 Warning pron-det-without-prontype] The word 'ingenting' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 5028 Sent 015922]: [L3 Warning obl-should-be-nmod] The parent (node [4] 'stortingsvalget') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 5709 Sent 015943]: [L3 Warning pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 5975 Sent 015956]: [L3 Warning obl-should-be-nmod] The parent (node [28] 'Erna') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 6079 Sent 015961]: [L3 Warning pron-det-without-prontype] The word 'Ingenting' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further errors regarding Warning
+Warnings: 67
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang no --max-err=10 UD_Norwegian-Bokmaal/no_bokmaal-ud-test.conllu
+[Line 588 Sent 018135]: [L3 Warning obl-should-be-nmod] The parent (node [7] 'Kull-') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1603 Sent 018183]: [L3 Warning obl-should-be-nmod] The parent (node [9] 'avdeling') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2006 Sent 018202]: [L3 Warning obl-should-be-nmod] The parent (node [4] 'barn') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2365 Sent 018225]: [L3 Warning pron-det-without-prontype] The word 'ingenting' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 2853 Sent 018252]: [L3 Warning pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2860 Sent 018253]: [L3 Warning pron-det-without-prontype] The word 'Ingenting' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 3971 Sent 018319]: [L3 Warning pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 4526 Sent 018353]: [L3 Warning obl-should-be-nmod] The parent (node [31] 'filmskaper') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 5277 Sent 018391]: [L3 Warning pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 6539 Sent 018457]: [L3 Warning pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further errors regarding Warning
+Warnings: 57
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang no --max-err=10 UD_Norwegian-Bokmaal/no_bokmaal-ud-train.conllu
+[Line 965 Sent 000049]: [L3 Warning obl-should-be-nmod] The parent (node [17] 'medlem') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1661 Sent 000083]: [L3 Warning pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1831 Sent 000089]: [L3 Warning pron-det-without-prontype] The word 'Ingen' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2236 Sent 000103]: [L3 Warning obl-should-be-nmod] The parent (node [14] 'fødselshjelper') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 4948 Sent 000231]: [L3 Warning pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 5202 Sent 000242]: [L3 Warning obl-should-be-nmod] The parent (node [25] 'måte') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 5312 Sent 000247]: [L3 Warning obl-should-be-nmod] The parent (node [9] 'Færder') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 6661 Sent 000329]: [L3 Warning pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 6968 Sent 000349]: [L3 Warning pron-det-without-prontype] The word 'Ingen' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 7067 Sent 000353]: [L3 Warning pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further errors regarding Warning
+Warnings: 412
 *** PASSED ***
 Validity: 1
-(weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.166666666666667) = 0.0128205128205128
-(weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.830557064487611) = 0.212963349868618
-(weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
-(weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.991876758826772) = 0.305192848869776
-(weight=0.0769230769230769) * (score{udeprels}=0.67027027027027) = 0.0515592515592516
-(TOTAL score=0.818433399015595) * (availability=1) * (validity=1) = 0.818433399015595
-STARS = 4
-UD_Norwegian-Bokmaal	0.818433399015595	4
+(weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
+(weight=0.111111111111111) * (score{genres}=0.166666666666667) = 0.0185185185185185
+(weight=0.111111111111111) * (score{lemmas}=0.8) = 0.0888888888888889
+(weight=0.37037037037037) * (score{size}=0.830557064487611) = 0.307613727588004
+(weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
+(weight=0.111111111111111) * (score{tags}=0.8) = 0.0888888888888889
+(weight=0.111111111111111) * (score{udeprels}=0.67027027027027) = 0.0744744744744745
+(TOTAL score=0.741347461321738) * (availability=1) * (validity=1) = 0.741347461321738
+STARS = 3.5
+UD_Norwegian-Bokmaal	0.741347461321738	3.5
