@@ -164,6 +164,7 @@ UD 1.2 --> UD 1.3
 Data available since: UD v1.2
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: news blog nonfiction
 Lemmas: converted from manual
 UPOS: converted from manual
