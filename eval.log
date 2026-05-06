@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Norwegian-Bokmaal:
-commit 9f25f84e3999a1a83ba766880dfbf85ad6419f78
-Merge: e83586f b8618a2
+commit 1417e73921fdac9616db9878e27a6dda6a851ef7
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 20:19:41 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'no_bokmaal'
 Language code (from CoNLL-U file name) = 'no'
@@ -25,48 +25,87 @@ Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Genres: found 3 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang no --max-err=10 UD_Norwegian-Bokmaal/no_bokmaal-ud-dev.conllu
-[Line 1381 Sent 015769]: [L3 Warning obl-should-be-nmod] The parent (node [1] 'Ingen') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 1835 Sent 015785]: [L3 Warning pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 1847 Sent 015786]: [L3 Warning pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 3472 Sent 015853]: [L3 Warning pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 3999 Sent 015878]: [L3 Warning obl-should-be-nmod] The parent (node [11] 'Kim') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 4173 Sent 015884]: [L3 Warning pron-det-without-prontype] The word 'ingenting' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 5028 Sent 015922]: [L3 Warning obl-should-be-nmod] The parent (node [4] 'stortingsvalget') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 5709 Sent 015943]: [L3 Warning pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 5975 Sent 015956]: [L3 Warning obl-should-be-nmod] The parent (node [28] 'Erna') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 6079 Sent 015961]: [L3 Warning pron-det-without-prontype] The word 'Ingenting' is tagged 'PRON' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-Warnings: 67
-*** PASSED ***
+[Line 1381 Sent 015769]: [L3 SYNTAX obl-should-be-nmod] The parent (node [1] 'Ingen') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1835 Sent 015785]: [L3 WARNING pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1847 Sent 015786]: [L3 WARNING pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 3472 Sent 015853]: [L3 WARNING pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 3999 Sent 015878]: [L3 SYNTAX obl-should-be-nmod] The parent (node [11] 'Kim') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 4173 Sent 015884]: [L3 WARNING pron-det-without-prontype] The word 'ingenting' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 5028 Sent 015922]: [L3 SYNTAX obl-should-be-nmod] The parent (node [4] 'stortingsvalget') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 5709 Sent 015943]: [L3 WARNING pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 5975 Sent 015956]: [L3 SYNTAX obl-should-be-nmod] The parent (node [28] 'Erna') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 6079 Sent 015961]: [L3 WARNING pron-det-without-prontype] The word 'Ingenting' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 6478 Sent 015981]: [L3 SYNTAX obl-should-be-nmod] The parent (node [16] 'valg') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 7422 Sent 016026]: [L3 SYNTAX obl-should-be-nmod] The parent (node [11] 'besøk') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 8476 Sent 016083]: [L3 WARNING pron-det-without-prontype] The word 'ingenting' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 8979 Sent 016114]: [L3 WARNING pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 9770 Sent 016165]: [L3 SYNTAX obl-should-be-nmod] The parent (node [8] 'forveien') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 10176 Sent 016191]: [L3 WARNING pron-det-without-prontype] The word 'ingenting' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 10214 Sent 016193]: [L3 WARNING pron-det-without-prontype] The word 'ingenting' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 14812 Sent 016527]: [L3 SYNTAX obl-should-be-nmod] The parent (node [9] 'oss') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 14829 Sent 016528]: [L3 SYNTAX obl-should-be-nmod] The parent (node [13] 'tiden') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 15248 Sent 016565]: [L3 SYNTAX obl-should-be-nmod] The parent (node [9] 'Askøy') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+...suppressing further messages regarding ERROR/SYNTAX
+Warnings: 29
+SYNTAX errors: 32
+*** FAILED *** with 32 errors
+Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang no --max-err=10 UD_Norwegian-Bokmaal/no_bokmaal-ud-test.conllu
-[Line 588 Sent 018135]: [L3 Warning obl-should-be-nmod] The parent (node [7] 'Kull-') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 1603 Sent 018183]: [L3 Warning obl-should-be-nmod] The parent (node [9] 'avdeling') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 2006 Sent 018202]: [L3 Warning obl-should-be-nmod] The parent (node [4] 'barn') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 2365 Sent 018225]: [L3 Warning pron-det-without-prontype] The word 'ingenting' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 2853 Sent 018252]: [L3 Warning pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 2860 Sent 018253]: [L3 Warning pron-det-without-prontype] The word 'Ingenting' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 3971 Sent 018319]: [L3 Warning pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 4526 Sent 018353]: [L3 Warning obl-should-be-nmod] The parent (node [31] 'filmskaper') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 5277 Sent 018391]: [L3 Warning pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 6539 Sent 018457]: [L3 Warning pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-Warnings: 57
-*** PASSED ***
+[Line 588 Sent 018135]: [L3 SYNTAX obl-should-be-nmod] The parent (node [7] 'Kull-') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2006 Sent 018202]: [L3 SYNTAX obl-should-be-nmod] The parent (node [4] 'barn') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2365 Sent 018225]: [L3 WARNING pron-det-without-prontype] The word 'ingenting' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 2853 Sent 018252]: [L3 WARNING pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2860 Sent 018253]: [L3 WARNING pron-det-without-prontype] The word 'Ingenting' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 3971 Sent 018319]: [L3 WARNING pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 5277 Sent 018391]: [L3 WARNING pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 6539 Sent 018457]: [L3 WARNING pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 6761 Sent 018475]: [L3 WARNING pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 7175 Sent 018495]: [L3 SYNTAX obl-should-be-nmod] The parent (node [6] 'helsekostprodukter') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 7918 Sent 018537]: [L3 WARNING pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 8045 Sent 018542]: [L3 WARNING pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 10522 Sent 018664]: [L3 SYNTAX obl-should-be-nmod] The parent (node [19] 'kvalitetskravene') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 11139 Sent 018702]: [L3 WARNING pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 17135 Sent 019018]: [L3 SYNTAX obl-should-be-nmod] The parent (node [7] 'jordmor') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 18586 Sent 019087]: [L3 SYNTAX obl-should-be-nmod] The parent (node [13] 'sin') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 18605 Sent 019088]: [L3 SYNTAX obl-should-be-nmod] The parent (node [10] 'fåtall') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 18904 Sent 019103]: [L3 SYNTAX obl-should-be-nmod] The parent (node [16] 'kanalene') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 19025 Sent 019111]: [L3 SYNTAX obl-should-be-nmod] The parent (node [12] 'rollen') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 19190 Sent 019120]: [L3 SYNTAX obl-should-be-nmod] The parent (node [10] 'sine') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+...suppressing further messages regarding ERROR/SYNTAX
+Warnings: 25
+SYNTAX errors: 24
+*** FAILED *** with 24 errors
+Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang no --max-err=10 UD_Norwegian-Bokmaal/no_bokmaal-ud-train.conllu
-[Line 965 Sent 000049]: [L3 Warning obl-should-be-nmod] The parent (node [17] 'medlem') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 1661 Sent 000083]: [L3 Warning pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 1831 Sent 000089]: [L3 Warning pron-det-without-prontype] The word 'Ingen' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 2236 Sent 000103]: [L3 Warning obl-should-be-nmod] The parent (node [14] 'fødselshjelper') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 4948 Sent 000231]: [L3 Warning pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 5202 Sent 000242]: [L3 Warning obl-should-be-nmod] The parent (node [25] 'måte') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 5312 Sent 000247]: [L3 Warning obl-should-be-nmod] The parent (node [9] 'Færder') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 6661 Sent 000329]: [L3 Warning pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 6968 Sent 000349]: [L3 Warning pron-det-without-prontype] The word 'Ingen' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 7067 Sent 000353]: [L3 Warning pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-Warnings: 412
-*** PASSED ***
-Validity: 1
+[Line 1661 Sent 000083]: [L3 WARNING pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1831 Sent 000089]: [L3 WARNING pron-det-without-prontype] The word 'Ingen' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 4948 Sent 000231]: [L3 WARNING pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 5202 Sent 000242]: [L3 SYNTAX obl-should-be-nmod] The parent (node [25] 'måte') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 5312 Sent 000247]: [L3 SYNTAX obl-should-be-nmod] The parent (node [9] 'Færder') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 6661 Sent 000329]: [L3 WARNING pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 6968 Sent 000349]: [L3 WARNING pron-det-without-prontype] The word 'Ingen' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 7067 Sent 000353]: [L3 WARNING pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 7818 Sent 000391]: [L3 SYNTAX obl-should-be-nmod] The parent (node [14] 'utfordringene') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 8482 Sent 000429]: [L3 WARNING pron-det-without-prontype] The word 'ingenting' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 8732 Sent 000441]: [L3 WARNING pron-det-without-prontype] The word 'Ingen' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 8788 Sent 000446]: [L3 SYNTAX obl-should-be-nmod] The parent (node [5] 'sin') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 10845 Sent 000548]: [L3 WARNING pron-det-without-prontype] The word 'ingen' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 11480 Sent 000582]: [L3 WARNING pron-det-without-prontype] The word 'Ingen' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 13454 Sent 000701]: [L3 SYNTAX obl-should-be-nmod] The parent (node [11] 'fødselen') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 17216 Sent 000910]: [L3 SYNTAX obl-should-be-nmod] The parent (node [19] 'Venezuela') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 19345 Sent 001020]: [L3 SYNTAX obl-should-be-nmod] The parent (node [7] 'problemer') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 19460 Sent 001028]: [L3 SYNTAX obl-should-be-nmod] The parent (node [8] 'verdiene') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 20759 Sent 001104]: [L3 SYNTAX obl-should-be-nmod] The parent (node [21] 'aspekter') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 22241 Sent 001185]: [L3 SYNTAX obl-should-be-nmod] The parent (node [10] 'krav') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+...suppressing further messages regarding ERROR/SYNTAX
+Warnings: 190
+SYNTAX errors: 172
+*** FAILED *** with 172 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
 (weight=0.111111111111111) * (score{genres}=0.166666666666667) = 0.0185185185185185
 (weight=0.111111111111111) * (score{lemmas}=0.8) = 0.0888888888888889
@@ -74,6 +113,6 @@ Validity: 1
 (weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
 (weight=0.111111111111111) * (score{tags}=0.8) = 0.0888888888888889
 (weight=0.111111111111111) * (score{udeprels}=0.67027027027027) = 0.0744744744744745
-(TOTAL score=0.741347461321738) * (availability=1) * (validity=1) = 0.741347461321738
-STARS = 3.5
-UD_Norwegian-Bokmaal	0.741347461321738	3.5
+(TOTAL score=0.741347461321738) * (availability=1) * (validity=0.01) = 0.00741347461321738
+STARS = 0
+UD_Norwegian-Bokmaal	0.00741347461321738	0
